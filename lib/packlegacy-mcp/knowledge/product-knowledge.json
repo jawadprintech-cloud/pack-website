@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-11-17",
+  "source_origin": "https://packlegacy-website.vercel.app",
+  "evidence_status": "reviewed_public_description",
+  "scope_note": "Reviewed public descriptions provide context, not approved configuration rules or proof of suitability. Materials, finishes, insert fit, certifications and performance for a specific order require product-specific confirmation. The review date is a snapshot date, not a fresh page check on every request.",
+  "records": [
+    {
+      "product_id": "/product/magnetic-closure-boxes/",
+      "title": "Magnetic Closure Boxes",
+      "result_type": "product",
+      "description": "Rigid boxes with a hinged lid and a concealed magnetic closure, described for presentation packaging.",
+      "descriptive_features": [
+        "Hinged lid with concealed magnets",
+        "Rigid board structure"
+      ],
+      "use_cases": [
+        "Gift sets",
+        "Cosmetics and perfume",
+        "Jewelry",
+        "PR and brand launch kits"
+      ],
+      "category": "Rigid Boxes",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/magnetic-closure-boxes/",
+      "source_sections": [
+        "At a glance",
+        "A thoughtful box. From the inside out.",
+        "Frequently Asked Questions"
+      ]
+    },
+    {
+      "product_id": "/product/two-piece-rigid-boxes/",
+      "title": "Two Piece Rigid Boxes",
+      "result_type": "product",
+      "description": "Presentation boxes made with a separate lid and base.",
+      "descriptive_features": [
+        "Separate removable lid",
+        "Rigid base supporting the packaged items"
+      ],
+      "use_cases": [
+        "Gifts",
+        "Cosmetics",
+        "Jewelry",
+        "Electronics"
+      ],
+      "category": "Rigid Boxes",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/two-piece-rigid-boxes/",
+      "source_sections": [
+        "What are Two Piece Rigid Boxes?",
+        "Combining High-Grade Materials and Intricate Layout"
+      ]
+    },
+    {
+      "product_id": "/product/rigid-drawer-boxes/",
+      "title": "Rigid Drawer Boxes",
+      "result_type": "product",
+      "description": "Rigid presentation boxes with an outer sleeve and a pull-out tray, also described as slide or matchbox-style boxes.",
+      "descriptive_features": [
+        "Outer sleeve",
+        "Sliding inner tray"
+      ],
+      "use_cases": [
+        "Jewelry",
+        "Beauty products",
+        "Apparel",
+        "Corporate gifts"
+      ],
+      "category": "Rigid Boxes",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/rigid-drawer-boxes/",
+      "source_sections": [
+        "Product introduction",
+        "Stylish & Unique Rigid Drawer Boxes For Maximum Impact"
+      ]
+    },
+    {
+      "product_id": "/product/corrugated-mailer-boxes/",
+      "title": "Corrugated Mailer Boxes",
+      "result_type": "product",
+      "description": "Corrugated mailing boxes described for ecommerce deliveries and subscription packaging.",
+      "descriptive_features": [
+        "Fold-flat box structure",
+        "Self-locking layout with closure flaps"
+      ],
+      "use_cases": [
+        "Ecommerce shipments",
+        "Subscription kits",
+        "Apparel",
+        "Electronics"
+      ],
+      "category": "Mailer Boxes",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/corrugated-mailer-boxes/",
+      "source_sections": [
+        "Product introduction",
+        "Corrugated Mailer Boxes Built with Clever Construction & Practical Design"
+      ]
+    },
+    {
+      "product_id": "/product/kraft-boxes/",
+      "title": "Kraft Boxes",
+      "result_type": "product",
+      "description": "Kraft packaging boxes described for retail product presentation and branded packaging.",
+      "descriptive_features": [
+        "Kraft surface with a natural brown appearance",
+        "Box structure can be discussed around the intended product"
+      ],
+      "use_cases": [
+        "Cosmetics",
+        "Jewelry",
+        "Apparel",
+        "Electronic accessories"
+      ],
+      "category": "Retail Boxes",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/kraft-boxes/",
+      "source_sections": [
+        "Custom Kraft Boxes: Where Functionality Meets Sustainability",
+        "Kraft Boxes with Logo That Present Your Brand Professionally and Sustainably"
+      ]
+    },
+    {
+      "product_id": "/product/pillow-boxes/",
+      "title": "Pillow Boxes",
+      "result_type": "product",
+      "description": "Compact packaging with a curved, pillow-like shape and folding end flaps.",
+      "descriptive_features": [
+        "Curved silhouette",
+        "Interlocking end flaps",
+        "Flat-pack structure"
+      ],
+      "use_cases": [
+        "Jewelry",
+        "Soaps",
+        "Gifts",
+        "Apparel accessories",
+        "Party favors"
+      ],
+      "category": "Folding Cartons",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/pillow-boxes/",
+      "source_sections": [
+        "What are Pillow Boxes and Why are They Popular?",
+        "Custom Pillow Boxes: Lightweight, Trendy Packaging for Various Products"
+      ]
+    },
+    {
+      "product_id": "/product/pizza-boxes/",
+      "title": "Pizza Boxes",
+      "result_type": "product",
+      "description": "Pizza packaging described for takeaway and delivery, including whole-pizza and single-slice formats.",
+      "descriptive_features": [
+        "Whole-pizza and slice-box formats are discussed on the public page",
+        "Logo and artwork presentation are described as design topics"
+      ],
+      "use_cases": [
+        "Pizza takeaway",
+        "Pizza delivery"
+      ],
+      "category": "Food Boxes",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/pizza-boxes/",
+      "source_sections": [
+        "Product introduction",
+        "Sizes, Shapes, and Structures",
+        "Pizza Boxes with Logo: Turn Every Delivery Into a Branding Opportunity"
+      ]
+    },
+    {
+      "product_id": "/product/eva-foam-inserts/",
+      "title": "EVA Foam Inserts",
+      "result_type": "product",
+      "description": "EVA foam inserts with product-shaped cavities intended to organize items within packaging.",
+      "descriptive_features": [
+        "Cut cavities shaped around the packaged items",
+        "Layout planned around product dimensions"
+      ],
+      "use_cases": [
+        "Organized presentation of multiple items",
+        "Protective packaging design discussions"
+      ],
+      "category": "Packaging Inserts",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/eva-foam-inserts/",
+      "source_sections": [
+        "Provide Your Products a Professional & Branded Look with Custom EVA Foam Inserts",
+        "Personalized To Fit Your Products"
+      ]
+    },
+    {
+      "product_id": "/product/cardboard-inserts/",
+      "title": "Cardboard Inserts",
+      "result_type": "product",
+      "description": "Cardboard packaging components designed to position and organize products inside a box.",
+      "descriptive_features": [
+        "Product-shaped cutouts or compartments",
+        "Layouts can describe a single item or several items"
+      ],
+      "use_cases": [
+        "Separating products within a package",
+        "Organized product presentation"
+      ],
+      "category": "Packaging Inserts",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/cardboard-inserts/",
+      "source_sections": [
+        "What Are Custom Cardboard Inserts?",
+        "Functional Layouts for Better Product Organization"
+      ]
+    },
+    {
+      "product_id": "/product/packaging-card-inserts/",
+      "title": "Packaging Card Inserts",
+      "result_type": "product",
+      "description": "Printed cards placed inside packaging to communicate a brand message or product information.",
+      "descriptive_features": [
+        "Printed message card",
+        "Brand artwork and text are content-design topics"
+      ],
+      "use_cases": [
+        "Thank-you messages",
+        "Product information and care instructions",
+        "Promotional messages"
+      ],
+      "category": "Packaging Inserts",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/packaging-card-inserts/",
+      "source_sections": [
+        "Product introduction",
+        "Say More in Every Delivery You Send Using Packaging Card Inserts"
+      ]
+    },
+    {
+      "product_id": "/product/die-cut-inserts/",
+      "title": "Die-Cut Inserts",
+      "result_type": "product",
+      "description": "Packaging inserts cut to product-shaped layouts for organizing items inside a box.",
+      "descriptive_features": [
+        "Cutouts planned around product shape",
+        "Custom compartment layouts are described"
+      ],
+      "use_cases": [
+        "Retail packaging presentation",
+        "Ecommerce product organization"
+      ],
+      "category": "Packaging Inserts",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/product/die-cut-inserts/",
+      "source_sections": [
+        "What Are Die-Cut Inserts?",
+        "Why Choose Our Die-Cut Inserts?"
+      ]
+    },
+    {
+      "product_id": "/candle-boxes/",
+      "title": "Candle Boxes",
+      "result_type": "category",
+      "description": "A packaging category for candle retail and gifting, covering several candle forms and box styles.",
+      "descriptive_features": [
+        "Category page covering multiple packaging styles",
+        "Jar, taper and votive candle packaging are discussed"
+      ],
+      "use_cases": [
+        "Retail candle presentation",
+        "Candle gift packaging"
+      ],
+      "category": "Custom Boxes",
+      "reviewed_at": "2026-11-17",
+      "source_url": "https://packlegacy-website.vercel.app/candle-boxes/",
+      "source_sections": [
+        "Category introduction",
+        "Explore Our Range of Custom Candle Boxes",
+        "Custom Branded Candle Boxes For Maximum Impact"
+      ]
+    }
+  ]
+}

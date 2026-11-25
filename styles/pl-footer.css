@@ -1,0 +1,409 @@
+﻿/* ============ PACKLEGACY FOOTER ============ */
+.pl-footer {
+  --pl-green: #2e8b43;
+  --pl-green-dark: #23662f;
+  --pl-cream: #f2ede0;
+  --pl-text: #1f1f1f;
+  --pl-white: #ffffff;
+  --pl-border: #e4dfd1;
+
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  color: var(--pl-text);
+  line-height: 1.6;
+
+  /* Background Elementor section se aa raha hai. Yahan lagana ho to uncomment:
+  background: var(--pl-cream) url("FOOTER_BG_IMAGE_URL_HERE") center/cover no-repeat; */
+}
+.pl-footer *,
+.pl-footer *::before,
+.pl-footer *::after { box-sizing: border-box; }
+
+.pl-footer img { max-width: 100%; height: auto; display: block; }
+.pl-footer ul { list-style: none; margin: 0; padding: 0; }
+.pl-footer a { color: var(--pl-text); text-decoration: none; transition: color .2s ease; }
+.pl-footer a:hover { color: var(--pl-green); }
+
+.pl-footer__inner {
+  margin: 0 auto;
+  padding: 21px 24px 34px;
+}
+
+/* ---------- TOP: logo | signup ---------- */
+.pl-footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 26px 30px;
+  padding-bottom: 34px;
+}
+.pl-footer__logo img { max-width: 240px; }
+
+.pl-footer__signup {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.pl-footer__signup-heading {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--pl-text);
+}
+.pl-footer__signup-heading span { color: var(--pl-green); }
+
+/* ---------- "What AI says about us" (replaces the signup) ---------- */
+.pl-footer__ai { gap: clamp(24px, 4.5vw, 58px); position: relative; }
+/* "Question copied" note under the AI icons (DeepSeek). Positioned so it never shifts the layout. */
+.pl-footer__ai-note { position: absolute; right: 0; top: calc(100% + 6px); margin: 0; max-width: 100%; font-size: 13px; color: var(--pl-green-dark); text-align: right; }
+.pl-footer__ai-note:empty { display: none; }
+.pl-footer__ai-heading { font-size: 16px; white-space: nowrap; }
+.pl-footer__ai-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: clamp(14px, 3vw, 38px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pl-footer__ai-list a {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #222;
+  transition: color .2s, background .2s, transform .2s;
+}
+.pl-footer__ai-list a:hover,
+.pl-footer__ai-list a:focus-visible { color: var(--pl-green); background: #fff; transform: translateY(-2px); }
+.pl-footer__ai-list svg { width: 24px; height: 24px; }
+
+/* form outer block = width control only (pill CF7 row par hai) */
+.pl-footer__form { width: 400px; max-width: 100%; }
+
+/* ---------- CF7 NEWSLETTER (inside .pl-footer__form) ---------- */
+.pl-footer__form .wpcf7,
+.pl-footer__form .wpcf7-form { margin: 0; width: 100%; }
+.pl-footer__form .wpcf7-form p { margin: 0; }
+
+.pl-footer .pl-cf7-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: var(--pl-white);
+  border: 1px solid var(--pl-border);
+  border-radius: 8px;
+  padding: 5px 5px 5px 8px;
+  transition: border-color .2s ease;
+}
+.pl-footer .pl-cf7-row:focus-within { border-color: var(--pl-green); }
+
+.pl-footer .pl-cf7-row .wpcf7-form-control-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: block;
+}
+.pl-footer .pl-cf7-row input.wpcf7-email,
+.pl-footer .pl-cf7-row input[type="email"],
+.pl-footer .pl-cf7-row .pl-footer__input {
+  width: 100%;
+  min-width: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 10px 8px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--pl-text);
+}
+.pl-footer .pl-cf7-row input::placeholder { color: #9a9a9a; }
+
+.pl-footer .pl-cf7-row input.wpcf7-submit,
+.pl-footer .pl-cf7-row .pl-footer__btn {
+  flex: 0 0 auto;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  background: var(--pl-green);
+  color: var(--pl-white);
+  border-radius: 6px;
+  padding: 11px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: background .2s ease;
+}
+.pl-footer .pl-cf7-row input.wpcf7-submit:hover,
+.pl-footer .pl-cf7-row .pl-footer__btn:hover { background: var(--pl-green-dark); }
+
+.pl-footer .wpcf7-spinner { margin: 6px 0 0 8px; }
+.pl-footer .wpcf7-response-output {
+  margin: 10px 0 0 !important;
+  padding: 6px 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  border-radius: 6px;
+}
+.pl-footer .wpcf7-not-valid-tip { font-size: 12px; margin-top: 4px; }
+.pl-footer .pl-cf7-row p { display:flex; align-items:center; gap:6px; width:100%; margin:0; }
+.pl-footer .pl-cf7-row br { display:none; }
+
+/* ---------- COLUMNS ---------- */
+.pl-footer__cols {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding-top: 34px;
+  border-top: 1px solid var(--pl-border);
+}
+
+.pl-footer__contact { margin-bottom: 22px; }
+.pl-footer__contact li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  word-break: break-word;
+}
+.pl-footer__contact i {
+  color: var(--pl-green);
+  font-size: 16px;
+  margin-top: 3px;
+  flex: 0 0 auto;
+}
+
+.pl-footer__follow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.pl-footer__follow-label { display: block; font-weight: 700; font-size: 22px; }
+.pl-footer__social { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.pl-footer__social a {
+  color: var(--pl-text);
+  font-size: 20px !important;
+  line-height: 1;
+  transition: color .2s ease, transform .2s ease;
+}
+.pl-footer__social a:hover { color: var(--pl-green); transform: translateY(-2px); }
+
+.pl-footer__col-title { margin: 0 0 16px; font-size: 17px; font-weight: 700; color: var(--pl-text); }
+.pl-footer__col li { margin-bottom: 10px; font-weight: 600; }
+.pl-footer__col a { font-size: 15px; }
+
+/* ---------- BOTTOM WHITE BAR ---------- */
+.pl-footer__bar { width: 100%; background: var(--pl-white); border-radius: 20px; }
+.pl-footer__bar-inner {
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.pl-footer__copy { margin: 0; font-size: 14px; color: #333; }
+.pl-footer__copy strong { color: var(--pl-text); font-weight: 700; }
+.pl-footer__payment img { max-height: 30px; width: auto; }
+
+/* ============ DESKTOP: centred column, bar as a rounded card ============ */
+@media (min-width: 1025px) {
+  .pl-footer { width: var(--site-wrap); }
+  .pl-footer__inner { padding: 21px 0 34px; }
+  .pl-footer__bar-inner { padding: 16px 22px; }
+}
+
+/* ============ TABLET 768px – 1024px ============ */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pl-footer__inner { padding: 42px 22px 32px; }
+  .pl-footer__top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+  }
+  .pl-footer__signup {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 520px;
+    gap: 12px;
+  }
+  .pl-footer__form { width: 100%; }
+  .pl-footer__cols {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 30px;
+  }
+}
+
+/* ============ MOBILE 767px and below ============ */
+@media (max-width: 767px) {
+  .pl-footer__inner { padding: 38px 20px 30px; }
+
+  .pl-footer__top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 28px;
+  }
+  .pl-footer__logo img { margin: 0 auto; }
+
+  .pl-footer__signup {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+  }
+  .pl-footer__signup-heading { text-align: center; }
+  .pl-footer__ai { gap: 14px; }
+  .pl-footer__ai-list { justify-content: center; gap: 12px 18px; }
+  .pl-footer__form { width: 100%; max-width: 420px; }
+
+  .pl-footer__cols {
+    grid-template-columns: 1fr;
+    gap: 26px;
+    padding-top: 28px;
+    text-align: center;
+  }
+  .pl-footer__contact { margin-bottom: 20px; }
+  .pl-footer__contact li { justify-content: center; text-align: center; }
+  .pl-footer__follow { justify-content: center; }
+  .pl-footer__follow-label { text-align: center; }
+  .pl-footer__social { justify-content: center; }
+
+  .pl-footer__bar-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    padding: 16px 20px;
+  }
+  .pl-footer__copy { order: 1; }
+  .pl-footer__payment { order: 2; margin: 0 auto; }
+  .pl-footer__payment img { margin: 0 auto; }
+}
+
+/* ============ SMALL MOBILE 480px and below ============ */
+@media (max-width: 480px) {
+  .pl-footer__inner { padding: 32px 16px 26px; }
+  .pl-footer__logo img { max-width: 230px; }
+  .pl-footer__signup-heading { font-size: 17px; }
+  .pl-footer .pl-cf7-row { padding: 5px; gap: 5px; }
+  .pl-footer .pl-cf7-row input.wpcf7-email,
+  .pl-footer .pl-cf7-row .pl-footer__input { padding: 10px 6px; font-size: 14px; }
+  .pl-footer .pl-cf7-row input.wpcf7-submit,
+  .pl-footer .pl-cf7-row .pl-footer__btn { padding: 11px 14px; font-size: 14px; }
+  .pl-footer__contact li { font-size: 14.5px; }
+  .pl-footer__col a { font-size: 14.5px; }
+  .pl-footer__copy { font-size: 13.5px; }
+  .pl-footer__payment img { max-width: 100%; max-height: 28px; }
+}
+
+/* ---------- Phone-only pieces: hidden on tablet and desktop ---------- */
+.pl-footer__m-ico,
+.pl-footer__m-arrow,
+.pl-footer__acc,
+.pl-footer__follow-m,
+.pl-footer__pay-label { display: none; }
+.pl-footer__addr { width: 68%; }
+
+/* ============ PHONE LAYOUT (767px and below) ============
+   Logo, green "What AI says about us" card, contact rows with icons and arrows, Company / Help / Policies
+   as tap-to-open sections, round social buttons, then a payments band with the copyright line. */
+@media (max-width: 767px) {
+  .site-footer-wrap { padding-bottom: 0; }
+  .pl-footer__inner { padding: 30px 16px 0; }
+
+  .pl-footer__top { gap: 26px; padding-bottom: 14px; }
+  .pl-footer__logo img { max-width: 280px; width: 280px !important; }
+
+  /* Green AI card */
+  .pl-footer__ai {
+    width: 100%; gap: 16px; padding: 18px 18px 20px;
+    background: #185a3c; border-radius: 4px 4px 18px 18px;
+  }
+  .pl-footer__ai-heading, .pl-footer__ai-heading span { color: #fff; }
+  .pl-footer__ai-heading { font-size: 20px; }
+  .pl-footer__ai-list { width: 100%; flex-wrap: nowrap; justify-content: space-between; gap: 0; }
+  .pl-footer__ai-list a { width: 44px; height: 44px; color: #fff; }
+  .pl-footer__ai-list a:hover, .pl-footer__ai-list a:focus-visible { color: #fff; background: rgba(255, 255, 255, 0.14); }
+  .pl-footer__ai-list svg { width: 30px; height: 30px; }
+
+  /* One column; the contact column's pieces join it so they can be ordered around the link sections. */
+  .pl-footer__cols { display: flex; flex-direction: column; gap: 0; padding-top: 0; border-top: 0; text-align: left; }
+  .pl-footer__col--contact { display: contents; }
+  .pl-footer__col:not(.pl-footer__col--contact) { display: none; }
+
+  /* Contact rows */
+  .pl-footer__contact { order: 1; margin: 0; }
+  .pl-footer__contact li {
+    position: relative; display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; align-items: center; gap: 16px;
+    margin: 0; padding: 18px 6px; border-bottom: 1px solid #cfd8c4; font-size: 17px; text-align: left;
+  }
+  .pl-footer__contact li > i, .pl-footer__d-ico { display: none; }
+  .pl-footer__m-ico { display: block; color: #2e8b43; }
+  .pl-footer__m-arrow { display: block; color: #2e8b43; }
+  .pl-footer__contact a, .pl-footer__addr { color: #1f1f1f; font-size: 17px; font-weight: 500; }
+  .pl-footer__m-arrow { width: 22px; height: 22px; }
+  .pl-footer__contact a::after { content: ""; position: absolute; inset: 0; } /* whole row is the link */
+  .pl-footer__addr { width: auto; line-height: 1.45; }
+
+  /* Company / Help / Policies */
+  .pl-footer__acc { order: 2; display: block; }
+  .pl-footer__acc details { border-bottom: 1px solid #cfd8c4; }
+  .pl-footer__acc summary {
+    display: flex; align-items: center; justify-content: space-between; padding: 18px 6px;
+    font-size: 22px; font-weight: 800; color: #1a5a36; cursor: pointer; list-style: none;
+  }
+  .pl-footer__acc summary::-webkit-details-marker { display: none; }
+  .pl-footer__plus { color: #1a5a36; transition: transform 0.25s ease; }
+  .pl-footer__acc details[open] .pl-footer__plus { transform: rotate(45deg); }
+  .pl-footer__acc ul { padding: 0 6px 14px; }
+  .pl-footer__acc li { margin: 0; }
+  .pl-footer__acc a { display: block; padding: 9px 0; font-size: 16px; font-weight: 500; }
+
+  /* Let's stay connected */
+  .pl-footer__follow { order: 3; flex-direction: column; align-items: stretch; gap: 20px; padding: 30px 6px 34px; }
+  .pl-footer__follow-label { display: none; }
+  .pl-footer__follow-m { display: block; font-size: 20px; font-weight: 700; text-align: left; }
+  .pl-footer__social { justify-content: center; gap: 22px; flex-wrap: nowrap; }
+  .pl-footer__social a {
+    display: grid; place-items: center; width: 54px; height: 54px; border: 1.5px solid #a9c4a6; border-radius: 50%;
+    color: #1a5a36; font-size: 24px !important;
+  }
+
+  /* Payments band + copyright */
+  .pl-footer__bar { border-radius: 0; background: #f1ebe0; }
+  .pl-footer__bar-inner { gap: 0; padding: 18px 16px 20px; }
+  .pl-footer__payment {
+    order: 1; display: flex; flex-direction: column; align-items: center; gap: 12px;
+    width: 100%; padding-bottom: 16px; border-bottom: 1px solid #d9d2c4;
+  }
+  .pl-footer__pay-label { display: block; font-size: 17px; color: #1a5a36; }
+  .pl-footer__payment img { max-height: 30px; }
+  .pl-footer__copy { order: 2; padding-top: 14px; font-size: 15px; }
+  .pl-footer__copy strong { font-weight: 400; }
+}
+
+/* Elementor section wrapping the footer on packlegacy.com */
+.site-footer-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  background: #f8f7f3 url("/images/footer-bg.png") center / cover no-repeat;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.site-footer-wrap h3, .site-footer-wrap h4 { line-height: 1.3; }
+

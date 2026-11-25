@@ -1,0 +1,11 @@
+.env*
+.next
+node_modules
+.vercel
+tsconfig.tsbuildinfo
+/packlegacy-magnetic-boxes/
+/PackLegacy-A2A/
+/PackLegacy-Mcp/
+/.admin-backups/
+/.admin-auth.json*
+/content-migration-remaining.md

@@ -1,0 +1,33 @@
+/* Extra styles for the shared product template (components/product/ProductPage.tsx).
+   Everything else comes from magnetic-boxes.css. Scoped to .plmb .prod-* */
+.plmb .prod-copy h2 { font-size: clamp(1.35rem, 1.8vw, 1.9rem); line-height: 1.2; margin-top: 34px; }
+.plmb .prod-copy > .eyebrow + h2 { margin-top: 0; font-size: clamp(1.75rem, 2.4vw, 2.65rem); }
+.plmb .prod-copy h3 { font-size: 1.08rem; margin-top: 22px; }
+/* Body copy uses a near-black so long descriptions stay easy to read. */
+.plmb .prod-copy p:not(.eyebrow) { max-width: 70ch; margin-top: 10px; color: #26302a; }
+.plmb .prod-copy ul { max-width: 70ch; margin: 12px 0 0; padding-left: 0; list-style: none; }
+.plmb .prod-copy li { position: relative; padding-left: 20px; margin-top: 7px; color: #26302a; }
+.plmb .prod-copy li::before { content: ""; position: absolute; left: 4px; top: 0.68em; width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+.plmb .prod-copy li strong, .plmb .prod-copy p strong { color: var(--ink, #1d1d1b); }
+.plmb .prod-copy a:not(.text-link) { color: var(--green); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+.plmb .prod-copy .feature-photo { margin-top: 20px; }
+/* Comparison tables ("t": "table" blocks); scroll sideways inside their frame if too narrow. */
+.plmb .prod-table-wrap { margin: 16px 0 18px; overflow-x: auto; }
+.plmb .prod-table { width: 100%; border-collapse: collapse; line-height: 1.4; color: #26302a; }
+.plmb .prod-table th, .plmb .prod-table td { padding: 13px 15px; border: 1px solid #bfc6bc; text-align: left; font-weight: 400; }
+.plmb .prod-table thead th { text-align: center; font-weight: 700; background: #f5f6f4; }
+.plmb .prod-table tbody tr:nth-child(even) > * { background: #f5f6f4; }
+@media (max-width: 600px) {
+  .plmb .prod-table th, .plmb .prod-table td { padding: 10px; }
+}
+.plmb .prod-copy > .text-link { margin-top: 24px; }
+.plmb .prod-get { margin-top: 30px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: #fafbf8; }
+.plmb .prod-get h3 { margin-top: 0; }
+.plmb .prod-ticks { margin: 10px 0 0; padding: 0; list-style: none; }
+.plmb .prod-ticks li { position: relative; padding-left: 22px; margin-top: 7px; font-size: 0.86rem; color: #26302a; }
+.plmb .prod-ticks li::before {
+  content: ""; position: absolute; left: 2px; top: 0.35em; width: 11px; height: 6px;
+  border-left: 2px solid var(--green); border-bottom: 2px solid var(--green); transform: rotate(-45deg);
+}
+.plmb .prod-copy .prod-ticks li::before { border-radius: 0; background: none; width: 11px; height: 6px; top: 0.35em; left: 2px; }
+.plmb .faq-grid details p a { color: var(--green); text-decoration: underline; }

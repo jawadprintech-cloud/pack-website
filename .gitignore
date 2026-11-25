@@ -1,0 +1,16 @@
+.vercel
+.env*
+.admin-backups
+.admin-auth.json*
+
+# Build output and dependencies
+node_modules
+.next
+tsconfig.tsbuildinfo
+*.tmp
+
+# Separate projects and notes that are not part of the website (also excluded in .vercelignore)
+/packlegacy-magnetic-boxes/
+/PackLegacy-A2A/
+/PackLegacy-Mcp/
+/content-migration-remaining.md

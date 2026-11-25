@@ -1,0 +1,251 @@
+/* "For AI Agents" page (app/for-ai-agents/page.tsx). Scoped to .plai inside .plip (styles/info-pages.css).
+   Uses the site-wide Poppins type instead of the info pages' Inter. */
+.plip:has(.plai) { font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif; }
+.plai { --afa-quote-w: max(340px, calc((100% - 2 * var(--afa-gap)) / 3.4)); --afa-gap: clamp(20px, 2.4vw, 36px); font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; }
+.plai :where(button, input, select, textarea) { font-family: inherit; }
+.plai h1 { font-size: clamp(2rem, 3.4vw, 3rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.02em; }
+.plai h2 { font-size: clamp(1.4rem, 2.1vw, 1.85rem); font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; }
+.plai h3 { font-size: 1.02rem; font-weight: 600; line-height: 1.35; letter-spacing: 0; }
+.plai .ip-btn { font-weight: 600; }
+.plai code { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: 0.84em; }
+
+/* ---------- Hero ---------- */
+.plai .afa-hero {
+  position: relative; overflow: hidden; padding-block: clamp(36px, 5vw, 64px) clamp(28px, 3.5vw, 44px);
+  background: radial-gradient(900px 420px at 82% 30%, var(--ip-green-soft), transparent 70%), linear-gradient(180deg, #fff, var(--ip-cream));
+}
+.plai .afa-hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: 40px; align-items: center; }
+.plai .afa-hero-copy > * { animation: ip-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.plai .afa-hero-copy > *:nth-child(2) { animation-delay: 0.06s; }
+.plai .afa-hero-copy > *:nth-child(3) { animation-delay: 0.12s; }
+.plai .afa-hero-copy > *:nth-child(4) { animation-delay: 0.18s; }
+.plai .afa-hero-copy > *:nth-child(5) { animation-delay: 0.24s; }
+.plai .afa-lead { margin-top: 18px; max-width: 640px; font-size: 1.08rem; font-weight: 500; color: var(--ip-ink); }
+.plai .afa-sub { margin-top: 12px; max-width: 640px; color: var(--ip-muted); }
+.plai .afa-hero .ip-actions { margin-top: 26px; }
+.plai .afa-hero .ip-perks { margin-top: 22px; }
+
+/* Mascot with AI assistant badges */
+.plai .afa-visual { position: relative; aspect-ratio: 1 / 0.86; max-width: 500px; width: 100%; margin-inline: auto; display: grid; place-items: center; }
+.plai .afa-visual-ring { position: absolute; inset: 12% 14%; border: 1.5px dashed #b7dcc4; border-radius: 50%; animation: afa-spin 40s linear infinite; }
+.plai .afa-visual-ring-2 { inset: 24% 26%; border-style: solid; border-color: #d7ebde; background: radial-gradient(circle, #fff 30%, var(--ip-green-soft)); animation: none; }
+.plai .afa-visual-bot { position: relative; width: 52%; filter: drop-shadow(0 18px 30px rgba(11, 135, 67, 0.22)); animation: afa-float 5s ease-in-out infinite; }
+.plai .afa-badge {
+  position: absolute; display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px 7px 7px;
+  border: 1px solid var(--ip-line); border-radius: 999px; background: #fff; box-shadow: 0 10px 26px rgba(13, 15, 14, 0.08);
+  font-size: 0.82rem; font-weight: 600; color: var(--ip-ink); white-space: nowrap; animation: afa-float 6s ease-in-out infinite;
+}
+.plai .afa-badge-ico { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; color: var(--c); background: color-mix(in srgb, var(--c) 12%, #fff); transition: background-color 0.25s, color 0.25s, rotate 0.35s; }
+/* Clickable badges: lift, tint with the brand color and reveal an arrow. `scale`/`rotate` don't clash with the float animation's transform. */
+.plai a.afa-badge { z-index: 1; text-decoration: none; cursor: pointer; transition: scale 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, color 0.25s ease, padding 0.25s ease; }
+.plai .afa-badge-arrow { width: 0; opacity: 0; margin-left: -8px; color: var(--c); transition: width 0.25s ease, opacity 0.25s ease, margin 0.25s ease; }
+.plai a.afa-badge:hover, .plai a.afa-badge:focus-visible {
+  z-index: 2; scale: 1.07; animation-play-state: paused; color: var(--c);
+  border-color: color-mix(in srgb, var(--c) 45%, #fff); box-shadow: 0 14px 32px color-mix(in srgb, var(--c) 28%, transparent);
+}
+.plai a.afa-badge:hover .afa-badge-ico, .plai a.afa-badge:focus-visible .afa-badge-ico { background: var(--c); color: #fff; rotate: -10deg; }
+.plai a.afa-badge:hover .afa-badge-arrow, .plai a.afa-badge:focus-visible .afa-badge-arrow { width: 14px; opacity: 1; margin-left: 0; }
+.plai a.afa-badge:focus-visible { outline: 2px solid var(--c); outline-offset: 3px; }
+.plai a.afa-badge:active { scale: 1.02; }
+.plai .afa-badge-1 { top: 6%; left: 4%; }
+.plai .afa-badge-2 { top: 4%; right: 2%; animation-delay: -1s; }
+.plai .afa-badge-3 { top: 42%; left: -2%; animation-delay: -2s; }
+.plai .afa-badge-4 { top: 40%; right: -3%; animation-delay: -3s; }
+.plai .afa-badge-5 { bottom: 5%; left: 10%; animation-delay: -4s; }
+.plai .afa-badge-6 { bottom: 3%; right: 8%; animation-delay: -5s; }
+@keyframes afa-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes afa-spin { to { transform: rotate(360deg); } }
+
+/* Stats */
+.plai .afa-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: clamp(28px, 3.5vw, 44px); }
+.plai .afa-stats li { display: flex; align-items: center; gap: 14px; padding: 18px 20px; border: 1px solid var(--ip-line); border-radius: 14px; background: #fff; }
+.plai .afa-stat-ico { display: grid; place-items: center; width: 46px; height: 46px; flex: none; border-radius: 12px; background: var(--ip-green-soft); color: var(--ip-green); }
+.plai .afa-stats strong { display: block; font-size: 1.55rem; font-weight: 700; line-height: 1.1; color: var(--ip-ink); }
+.plai .afa-stats small { display: block; margin-top: 2px; font-size: 0.82rem; color: var(--ip-muted); }
+
+/* ---------- Three-column layout (runs to the CTA) ---------- */
+.plai .afa-layout {
+  display: grid; grid-template-columns: 210px minmax(0, 1fr) var(--afa-quote-w); gap: var(--afa-gap);
+  align-items: start; padding-block: clamp(32px, 4vw, 56px) 0;
+}
+.plai .afa-left, .plai .afa-quote { align-self: stretch; }
+.plai .afa-sticky { position: sticky; top: 20px; display: grid; gap: 24px; }
+.plai .afa-side-links ul { display: grid; gap: 2px; }
+.plai .afa-side-links a { display: block; padding: 4px 0; font-size: 0.84rem; color: var(--ip-text); transition: color 0.2s; }
+.plai .afa-side-links a::before { content: "•"; margin-right: 8px; color: var(--ip-green); }
+.plai .afa-side-links a:hover { color: var(--ip-green); }
+
+/* Quote form column: the shared form sticks while the page scrolls */
+.plai .afa-quote { min-width: 0; background: transparent; outline: none; scroll-margin-top: 16px; }
+.plai .afa-quote .quote-panel { position: sticky; top: 12px; max-height: calc(100dvh - 24px); overflow-y: auto; scrollbar-width: thin; }
+.plai .afa-quote .quote-simple .form-grid { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.plai .afa-quote .quote-simple .submit { width: 100%; margin-top: 20px; }
+
+/* ---------- Content ---------- */
+.plai .afa-main { min-width: 0; }
+.plai .afa-sec { scroll-margin-top: 20px; padding-bottom: clamp(36px, 4vw, 52px); }
+.plai .afa-sec > h2 { margin-bottom: 14px; }
+.plai .afa-intro { margin-bottom: 14px; color: var(--ip-text); }
+.plai .afa-small { margin-top: 16px; font-size: 0.86rem; color: var(--ip-muted); }
+
+.plai .afa-takeaway { padding: clamp(22px, 3vw, 34px); border: 1px solid #cfe5d7; border-left: 4px solid var(--ip-green); border-radius: 16px; background: linear-gradient(180deg, #f6fbf7, #fff); }
+.plai .afa-takeaway h2 { margin-bottom: 14px; }
+.plai .afa-takeaway p + p { margin-top: 12px; }
+.plai .afa-takeaway-foot { margin-top: 16px; font-weight: 500; color: var(--ip-ink); }
+
+.plai .afa-note {
+  display: flex; gap: 10px; align-items: flex-start; margin-top: 16px; padding: 14px 16px;
+  border: 1px solid #f3dca5; border-radius: 12px; background: #fff9ea; font-size: 0.88rem; color: #6b5313;
+}
+.plai .afa-note svg { flex: none; margin-top: 2px; color: #c48a00; }
+
+/* Capability cards */
+.plai .afa-cap-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 6px; }
+.plai .afa-cap { padding: 20px; border: 1px solid var(--ip-line); border-radius: 14px; background: #fff; transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }
+.plai .afa-cap:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(13, 15, 14, 0.07); border-color: #cfd8cd; }
+.plai .afa-cap h3 { margin: 14px 0 6px; }
+.plai .afa-cap p { font-size: 0.9rem; color: var(--ip-muted); }
+
+/* Tables */
+.plai .afa-table-wrap { overflow-x: auto; border: 1px solid var(--ip-line); border-radius: 14px; background: #fff; }
+.plai .afa-table { width: 100%; min-width: 520px; border-collapse: collapse; font-size: 0.88rem; }
+.plai .afa-table th, .plai .afa-table td { padding: 12px 16px; text-align: left; vertical-align: top; border-top: 1px solid var(--ip-line); }
+.plai .afa-table thead th { border-top: 0; background: var(--ip-band); font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ip-muted); }
+.plai .afa-table tr > * + * { border-left: 1px solid var(--ip-line); }
+.plai .afa-table tbody th { font-weight: 600; color: var(--ip-ink); white-space: nowrap; }
+.plai .afa-table tbody tr:hover { background: #fafcf9; }
+.plai .afa-table code { padding: 3px 7px; border-radius: 6px; background: var(--ip-green-soft); color: var(--ip-green-dark); white-space: nowrap; }
+.plai .afa-empty { text-align: center; color: var(--ip-muted); }
+
+/* Tool filter */
+.plai .afa-tools { margin-bottom: 16px; }
+.plai .afa-filter { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.plai .afa-filter-field {
+  display: flex; align-items: center; gap: 10px; flex: 1; max-width: 420px; padding: 0 14px;
+  border: 1px solid var(--ip-line); border-radius: 10px; background: #fff; color: var(--ip-muted); transition: border-color 0.2s, box-shadow 0.2s;
+}
+.plai .afa-filter-field:focus-within { border-color: var(--ip-green); box-shadow: 0 0 0 3px var(--ip-green-soft); }
+.plai .afa-filter-field input { flex: 1; min-width: 0; height: 44px; border: 0; outline: 0; background: transparent; font-size: 0.9rem; color: var(--ip-ink); }
+.plai .afa-filter-count { flex: none; padding: 6px 12px; border-radius: 999px; background: var(--ip-green-soft); font-size: 0.8rem; font-weight: 600; color: var(--ip-green-dark); }
+
+/* A2A skills */
+.plai .afa-skills { display: grid; gap: 12px; margin-top: 6px; }
+.plai .afa-skills li { display: flex; gap: 16px; padding: 18px 20px; border: 1px solid var(--ip-line); border-radius: 14px; background: #fff; }
+.plai .afa-skill-n { display: grid; place-items: center; width: 42px; height: 42px; flex: none; border-radius: 50%; background: var(--ip-green); color: #fff; font-size: 0.85rem; font-weight: 700; }
+.plai .afa-skills h3 { margin-bottom: 4px; }
+.plai .afa-skills p { font-size: 0.9rem; color: var(--ip-muted); }
+
+/* Business facts accordion */
+.plai .ip-faq-list { gap: 10px; }
+.plai .ip-faq h3 { font-size: 0.98rem; }
+
+/* Packaging tool cards */
+.plai .afa-tool-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 6px; }
+.plai .afa-tool-card { padding: 22px; border: 1px solid var(--ip-line); border-radius: 14px; background: linear-gradient(180deg, #fff, var(--ip-band)); }
+.plai .afa-pill { display: inline-block; margin-bottom: 12px; padding: 4px 10px; border-radius: 999px; background: #fff3d6; font-size: 0.72rem; font-weight: 600; color: #8a6200; }
+.plai .afa-tool-sub { margin: 6px 0 10px; font-weight: 500; color: var(--ip-ink); }
+.plai .afa-tool-card p:last-child { font-size: 0.9rem; color: var(--ip-muted); }
+
+/* Getting started panel */
+/* Light copy on the left, dark green prompt card on the right. */
+.plai .afa-start { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 4vw, 56px); align-items: center; }
+.plai .afa-start h2 { color: var(--ip-ink); margin-bottom: 16px; }
+.plai .afa-start-copy > p { color: var(--ip-muted); font-size: 0.92rem; line-height: 1.75; }
+.plai .afa-start-steps { display: grid; gap: 16px; margin: 22px 0 26px; }
+.plai .afa-start-steps li { display: flex; gap: 12px; align-items: flex-start; }
+.plai .afa-start-steps strong { display: block; margin-bottom: 2px; color: var(--ip-ink); font-weight: 600; }
+.plai .afa-start-steps li > span:last-child { font-size: 0.86rem; color: var(--ip-text); }
+.plai .afa-check { display: grid; place-items: center; width: 18px; height: 22px; flex: none; color: var(--ip-green); }
+.plai .afa-start-btn {
+  display: inline-flex; align-items: center; gap: 12px; padding: 14px 22px; border-radius: 8px; background: #1a7f4b; color: #fff;
+  font-size: 0.88rem; font-weight: 600; text-decoration: none; box-shadow: 0 10px 22px rgba(11, 135, 67, 0.22);
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.plai .afa-start-btn svg { transition: transform 0.2s; }
+.plai .afa-start-btn:hover { background: #136a3c; transform: translateY(-2px); box-shadow: 0 14px 28px rgba(11, 135, 67, 0.3); }
+.plai .afa-start-btn:hover svg { transform: translate(2px, -2px); }
+.plai .afa-start-btn:focus-visible { outline: 2px solid var(--ip-green); outline-offset: 3px; }
+.plai .afa-start-card { padding: clamp(20px, 2.4vw, 26px); border-radius: 18px; background: #0f3b29; color: #fff; box-shadow: 0 24px 48px rgba(6, 40, 24, 0.22); }
+.plai .afa-start-label {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 18px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: #5fd88a;
+}
+.plai .afa-start-label::before { content: ""; width: 7px; height: 7px; flex: none; border-radius: 50%; background: #5fd88a; box-shadow: 0 0 0 3px rgba(95, 216, 138, 0.18); }
+.plai .afa-prompts { display: grid; gap: 10px; }
+.plai .afa-prompts li {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 52px; padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 10px; background: rgba(255, 255, 255, 0.05); color: #fff; font-size: 0.86rem;
+  transition: background 0.2s, border-color 0.2s;
+}
+.plai .afa-prompts li:hover { background: rgba(255, 255, 255, 0.09); border-color: rgba(255, 255, 255, 0.24); }
+.plai .afa-copy {
+  flex: none; padding: 6px 10px; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 6px; background: rgba(255, 255, 255, 0.08);
+  font-size: 0.7rem; font-weight: 500; color: rgba(255, 255, 255, 0.85); cursor: pointer; transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.plai .afa-copy:hover, .plai .afa-copy.is-copied { background: #5fd88a; border-color: #5fd88a; color: #0f3b29; }
+.plai .afa-start-note { margin-top: 16px; font-size: 0.74rem; line-height: 1.6; color: rgba(255, 255, 255, 0.6); }
+
+/* Full-width sections after the three columns (getting started, FAQs) */
+.plai .afa-after { padding-top: clamp(8px, 1.5vw, 16px); }
+.plai .afa-faqs { text-align: center; }
+.plai .afa-faqs .afa-intro { max-width: 640px; margin-inline: auto; color: var(--ip-muted); }
+.plai .afa-faqs h2 em { font-style: normal; font-weight: 600; color: var(--ip-green); }
+.plai .afa-faqs .faqc-grid { margin-top: 24px; gap: 18px 20px; }
+
+/* ---------- Hover effects (mouse/trackpad only; touch screens skip them) ---------- */
+.plai .afa-stats li, .plai .afa-skills li, .plai .afa-tool-card, .plai .ip-faq { transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; }
+.plai .afa-stat-ico, .plai .afa-cap .ip-icon-badge, .plai .afa-skill-n { transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; }
+.plai .afa-side-links a { transition: color 0.2s, transform 0.2s; }
+.plai .afa-quote .quote-simple input { transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s; }
+@media (hover: hover) {
+  .plai .afa-stats li:hover { transform: translateY(-3px); border-color: #b7dcc4; box-shadow: 0 14px 30px rgba(11, 135, 67, 0.1); }
+  .plai .afa-stats li:hover .afa-stat-ico { background: var(--ip-green); color: #fff; transform: rotate(-6deg) scale(1.05); }
+  .plai .afa-cap:hover .ip-icon-badge { transform: rotate(-6deg) scale(1.08); }
+  .plai .afa-skills li:hover { transform: translateX(4px); border-color: #b7dcc4; box-shadow: 0 12px 28px rgba(11, 135, 67, 0.09); }
+  .plai .afa-skills li:hover .afa-skill-n { transform: scale(1.08); background: var(--ip-green-dark); }
+  .plai .afa-tool-card:hover { transform: translateY(-3px); border-color: #cfd8cd; box-shadow: 0 16px 34px rgba(13, 15, 14, 0.07); }
+  .plai .afa-side-links a:hover { transform: translateX(3px); }
+  .plai .afa-takeaway a:hover { color: var(--ip-green-dark); text-decoration: underline; }
+  .plai .afa-table tbody tr:hover code { background: var(--ip-green); color: #fff; }
+  .plai .afa-quote .quote-simple input:hover { border-color: #b7dcc4; }
+}
+.plai .afa-quote .quote-simple input:focus { border-color: var(--ip-green); box-shadow: 0 0 0 3px var(--ip-green-soft); outline: none; background: #fff; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1180px) {
+  .plai .afa-layout { grid-template-columns: minmax(0, 1fr) var(--afa-quote-w); grid-template-areas: "left quote" "main quote"; }
+  .plai .afa-left { grid-area: left; }
+  .plai .afa-main { grid-area: main; }
+  .plai .afa-quote { grid-area: quote; }
+  .plai .afa-left .afa-sticky { position: static; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 18px; border: 1px solid var(--ip-line); border-radius: 14px; background: #fff; }
+  .plai .afa-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 1024px) {
+  .plai .afa-cap-grid, .plai .afa-tool-cards, .plai .afa-start { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 920px) {
+  .plai .afa-hero-grid { grid-template-columns: minmax(0, 1fr); }
+  .plai .afa-visual { max-width: 420px; }
+  .plai .afa-layout { grid-template-columns: minmax(0, 1fr); grid-template-areas: "left" "main" "quote"; }
+  .plai .afa-left .afa-sticky { grid-template-columns: minmax(0, 1fr); }
+  .plai .afa-left .afa-side-links { display: none; }
+  .plai .afa-quote .quote-panel { position: static; max-height: none; }
+  .plai .afa-quote { max-width: 560px; width: 100%; margin-inline: auto; padding-bottom: 12px; }
+  .plai .afa-faqs .faqc-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .plai .afa-stats { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
+  .plai .afa-stats li { flex-direction: column; align-items: flex-start; gap: 10px; padding: 14px; }
+  .plai .afa-badge { font-size: 0.72rem; padding: 5px 10px 5px 5px; }
+  .plai .afa-badge-ico { width: 24px; height: 24px; }
+  .plai .afa-badge-3 { left: 0; }
+  .plai .afa-badge-4 { right: 0; }
+  .plai .afa-filter { flex-direction: column; align-items: stretch; }
+  .plai .afa-filter-field { max-width: none; }
+  .plai .afa-filter-count { align-self: flex-start; }
+  .plai .afa-prompts li { flex-direction: column; align-items: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plai .afa-hero-copy > *, .plai .afa-visual-ring, .plai .afa-visual-bot, .plai .afa-badge { animation: none; }
+  .plai .afa-stats li, .plai .afa-skills li, .plai .afa-tool-card, .plai .afa-cap, .plai .afa-start-btn, .plai .afa-side-links a { transform: none !important; }
+}

@@ -1,0 +1,154 @@
+/* Top bar + logo row, matching packlegacy.com (Elementor header #77). */
+.site-header { background: #fff; position: relative; z-index: 1000; }
+
+.plt-inner {
+  max-width: calc(var(--site-max) + 2 * var(--site-gutter));
+  margin: 0 auto;
+  padding-inline: var(--site-gutter);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ---- Row 1: rotating messages + contact ---- */
+.plt-topbar-left { width: 45%; display: flex; justify-content: center; align-items: center; padding: 10px 0; }
+.plt-topbar-right { flex: 1; display: flex; justify-content: flex-end; align-items: center; padding: 10px 0; }
+
+.plt-carousel { position: relative; display: flex; align-items: center; justify-content: center; gap: 10px; min-width: 300px; }
+.plt-slide {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+  min-width: 250px;
+  animation: plt-fade 0.5s ease;
+}
+@keyframes plt-fade { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: none; } }
+.plt-arrow { background: none; border: 0; padding: 0; cursor: pointer; display: inline-flex; color: #fe4040; }
+.plt-arrow svg { width: 16px; height: 16px; fill: #fe4040; }
+
+.plt-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.plt-email { border-right: 1px solid #fe4040; margin-right: 20px; }
+.plt-contact.plt-phone { padding-right: 0; }
+.plt-phone svg { width: 14px; height: 14px; fill: #000; }
+
+/* ---- Row 2: logo, search, socials ---- */
+.plt-logo-row .plt-inner { padding: 10px var(--site-gutter); }
+/* Logo sits on the page's left edge, in line with the menu and page content. */
+.plt-logo { flex: 40 1 0; display: flex; justify-content: flex-start; align-items: center; padding: 10px 0; }
+.plt-logo img { width: 260px; max-width: 100%; height: auto; display: block; }
+.plt-search { flex: 60 1 0; display: flex; justify-content: center; align-items: center; }
+.plt-search .sds-search-container { width: 100%; }
+.plt-socials { flex: 40 1 0; list-style: none; margin: 0; padding: 10px 0; display: flex; justify-content: flex-end; align-items: center; gap: 4px; }
+.plt-socials a {
+  width: 30px; height: 30px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: #222; transition: color .2s;
+}
+.plt-socials a:hover { color: #fe4040; }
+.plt-social-icon { width: 17px; height: 17px; fill: currentColor; }
+
+/* Search box (same as site) */
+/* z-index: above the nav bar (#plHeader, 1000) so suggestions overlap it; below the mobile menu (1101+). */
+.sds-search-container { position: relative; z-index: 1050; max-width: 100%; font-family: "Be Vietnam Pro", sans-serif; }
+.sds-productSearch {
+  width: 100%;
+  padding: 10px 38px 10px 40px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  outline: none;
+  font-family: inherit;
+  background: #fff;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+.sds-productSearch::-webkit-search-cancel-button { display: none; }
+.sds-productSearch:focus { border-color: #1f7a3d; box-shadow: 0 0 0 3px rgba(31, 122, 61, .14); }
+.sds-search-container form { position: relative; margin: 0; }
+.sds-search-icon { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #777; pointer-events: none; }
+.sds-search-clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  width: 26px; height: 26px; border: 0; border-radius: 50%; background: #f1f1ee; color: #555;
+  font-size: 18px; line-height: 1; cursor: pointer;
+}
+.sds-search-clear:hover { background: #e6e6e1; color: #111; }
+
+/* Autocomplete dropdown */
+.sds-suggestions {
+  position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 60;
+  list-style: none; margin: 0; padding: 6px;
+  background: #fff; border: 1px solid #e3e5df; border-radius: 14px;
+  box-shadow: 0 14px 34px rgba(20, 30, 20, .14);
+  max-height: min(420px, 70vh); overflow-y: auto;
+  animation: sds-drop .16s ease-out;
+}
+@keyframes sds-drop { from { opacity: 0; transform: translateY(-4px); } }
+.sds-suggestions li[role="option"] {
+  display: flex; align-items: center; gap: 12px; padding: 7px 10px; border-radius: 10px; cursor: pointer;
+}
+.sds-suggestions li.is-active { background: #f1f6ef; }
+.sds-suggestions img, .sds-thumb {
+  flex: none; width: 40px; height: 40px; border-radius: 8px; object-fit: cover; background: #f3f3f0;
+}
+.sds-thumb { display: grid; place-items: center; color: #1f7a3d; font-size: 16px; }
+.sds-text { display: flex; flex-direction: column; min-width: 0; }
+.sds-title { font-size: 14px; color: #1d1d1b; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sds-title mark { background: none; color: #1f7a3d; font-weight: 700; }
+.sds-kind { font-size: 11.5px; color: #8a8f86; }
+.sds-empty { padding: 12px 10px; font-size: 14px; color: #555; }
+.sds-empty a { color: #1f7a3d; font-weight: 600; text-decoration: underline; }
+@media (prefers-reduced-motion: reduce) { .sds-suggestions { animation: none; } }
+
+/* ---- Row 3: nav (desktop) / logo + hamburger + search (mobile) ---- */
+.plt-nav-row { display: flex; flex-direction: column; }
+
+.plt-mobile { display: none; }
+
+@media (max-width: 1366px) {
+  .plt-topbar .plt-inner, .plt-logo-row .plt-inner { padding-left: var(--site-gutter); padding-right: var(--site-gutter); }
+}
+
+@media (max-width: 1024px) {
+  .plt-desktop { display: none; }
+  .plt-mobile { display: flex; }
+  .plt-topbar .plt-inner { padding: 10px 30px; }
+  .plt-center { justify-content: center; }
+
+  .plt-nav-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  .plt-mobile-logo { order: 1; padding: 10px 0; }
+  .plt-mobile-logo img { width: 220px; height: auto; display: block; }
+  /* ID selector so it beats #plHeader { width: 100% }; keeps the menu button on the logo's row, at the right. */
+  .plt-nav-row > #plHeader { order: 2; width: auto; margin-left: auto; }
+  .plt-nav-row > #plHeader .pl-header-inner { height: auto; padding: 0; }
+  .plt-mobile-search { order: 3; width: 100%; padding-bottom: 10px; }
+  .plt-mobile-search .sds-search-container { width: 100%; }
+}
+
+@media (max-width: 767px) {
+  .plt-topbar .plt-inner { padding: 10px 20px; }
+  .plt-nav-row { padding: 0 20px; gap: 13px; }
+  .plt-mobile-logo { max-width: 60%; }
+  .plt-mobile-logo img { width: 100%; max-width: 256px; }
+  .plt-carousel { min-width: 0; }
+  .plt-slide { min-width: 0; font-size: 14px; }
+}

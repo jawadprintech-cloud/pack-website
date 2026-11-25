@@ -1,0 +1,143 @@
+/* Track Your Order page (app/track-your-order). Builds on styles/info-pages.css; scoped to .plip */
+
+/* Hero */
+.plip .trk-hero {
+  position: relative; overflow: hidden; padding-block: calc(var(--section-y) * 1.3);
+  background:
+    radial-gradient(600px 340px at 85% 20%, rgba(255, 67, 67, 0.08), transparent 70%),
+    radial-gradient(700px 400px at 70% 90%, rgba(11, 135, 67, 0.12), transparent 70%),
+    linear-gradient(180deg, #fff, var(--ip-cream));
+}
+.plip .trk-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 4vw, 64px); align-items: center; }
+.plip .trk-hero-copy > * { animation: ip-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.plip .trk-hero-copy > *:nth-child(3) { animation-delay: 0.06s; }
+.plip .trk-hero-copy > *:nth-child(4) { animation-delay: 0.12s; }
+.plip .trk-hero-copy > *:nth-child(5) { animation-delay: 0.18s; }
+.plip .trk-hero h1 { font-size: clamp(2.4rem, 5.4vw, 4.6rem); }
+
+.plip .trk-hero-art { position: relative; animation: ip-rise 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both; }
+.plip .trk-hero-art img { width: 100%; animation: trk-float 6s ease-in-out infinite; }
+.plip .trk-pill {
+  position: absolute; display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 999px;
+  background: #fff; color: var(--ip-ink); font-size: 0.88rem; font-weight: 700; box-shadow: 0 14px 34px rgba(13, 15, 14, 0.14);
+}
+.plip .trk-pill svg { color: var(--ip-green); }
+.plip .trk-pill-a { top: 4%; left: 2%; animation: trk-float 5s ease-in-out 0.5s infinite; }
+.plip .trk-pill-b { bottom: 2%; right: 4%; animation: trk-float 5.5s ease-in-out 1s infinite; }
+.plip .trk-live { width: 10px; height: 10px; border-radius: 50%; background: var(--ip-green); animation: trk-ping 1.8s ease-out infinite; }
+@keyframes trk-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes trk-ping { 0% { box-shadow: 0 0 0 0 rgba(11, 135, 67, 0.5); } 80%, 100% { box-shadow: 0 0 0 10px rgba(11, 135, 67, 0); } }
+
+/* Tracking search */
+.plip .trk-tool { margin-top: 28px; max-width: 620px; }
+.plip .trk-field {
+  display: flex; align-items: center; gap: 10px; padding: 8px 8px 8px 18px; border-radius: 14px; background: #fff;
+  border: 2px solid var(--ip-line); box-shadow: 0 18px 44px rgba(13, 15, 14, 0.08); transition: border-color 0.2s, box-shadow 0.2s;
+}
+.plip .trk-field:focus-within { border-color: var(--ip-green); box-shadow: 0 0 0 4px rgba(11, 135, 67, 0.12), 0 18px 44px rgba(13, 15, 14, 0.08); }
+.plip .trk-field-icon { flex: none; color: var(--ip-green); }
+.plip .trk-field input { flex: 1; min-width: 0; min-height: 50px; border: 0; outline: none; background: transparent; font: inherit; font-size: 1.05rem; letter-spacing: 0.02em; color: var(--ip-ink); }
+.plip .trk-field input::placeholder { color: #9aa09c; letter-spacing: 0; }
+.plip .trk-field .ip-btn { flex: none; border-radius: 10px; }
+.plip .trk-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; }
+.plip .trk-chips-label { font-size: 0.85rem; font-weight: 600; color: var(--ip-muted); margin-right: 2px; }
+.plip .trk-chip {
+  padding: 7px 16px; border-radius: 999px; border: 1.5px solid var(--ip-line); background: #fff; font: inherit; font-size: 0.88rem; font-weight: 700;
+  color: var(--ip-text); cursor: pointer; transition: background-color 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
+}
+.plip .trk-chip:hover { border-color: var(--ip-ink); transform: translateY(-1px); }
+.plip .trk-chip-ups.is-on { background: #351c15; border-color: #351c15; color: #ffb500; }
+.plip .trk-chip-fedex.is-on { background: #4d148c; border-color: #4d148c; color: #fff; }
+.plip .trk-chip-dhl.is-on { background: #ffcc00; border-color: #ffcc00; color: #d40511; }
+.plip .trk-hint { margin-top: 10px; font-size: 0.88rem; color: var(--ip-muted); }
+.plip .trk-hint.is-error { color: #b3191d; font-weight: 600; }
+
+/* Journey */
+.plip .trk-journey { position: relative; }
+.plip .trk-road {
+  position: absolute; left: calc(100% / 12); right: calc(100% / 12); top: 27px; height: 4px; border-radius: 4px;
+  /* Green up to "Shipped" (stop 4 of 6 = 60% along the road); the truck then drives the rest. */
+  background: linear-gradient(90deg, var(--ip-green) 0 60%, #d9e6dc 60% 100%);
+}
+.plip .trk-truck {
+  position: absolute; top: 50%; left: 60%; display: grid; place-items: center; width: 40px; height: 40px; margin: -20px 0 0 -20px;
+  border-radius: 50%; background: var(--ip-red); color: #fff; box-shadow: 0 8px 18px rgba(255, 67, 67, 0.35);
+  animation: trk-drive 9s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+@keyframes trk-drive { 0% { left: 60%; } 45%, 55% { left: 100%; } 100% { left: 60%; } }
+.plip .trk-journey ol { position: relative; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; }
+.plip .trk-journey li { text-align: center; padding: 0 4px; }
+.plip .trk-stop {
+  position: relative; display: grid; place-items: center; width: 58px; height: 58px; margin: 0 auto 14px; border-radius: 50%;
+  background: #fff; border: 2px solid #d9e6dc; color: var(--ip-muted); box-shadow: 0 0 0 6px #fff;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.plip .trk-journey li:nth-child(-n + 3) .trk-stop { background: var(--ip-green); border-color: var(--ip-green); color: #fff; }
+.plip .trk-journey li.is-mail .trk-stop { background: var(--ip-red); border-color: var(--ip-red); color: #fff; }
+.plip .trk-journey li:hover .trk-stop { transform: translateY(-4px) scale(1.05); }
+.plip .trk-step-n { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.14em; color: var(--ip-muted); }
+.plip .trk-journey h3 { margin-top: 4px; font-size: 1.02rem; }
+.plip .trk-journey p { margin-top: 6px; font-size: 0.88rem; color: var(--ip-muted); line-height: 1.5; }
+.plip .trk-mail-tag { display: inline-block; margin-top: 10px; padding: 4px 10px; border-radius: 999px; background: #ffe9e9; color: #b3191d; font-size: 0.75rem; font-weight: 800; }
+
+/* Carriers */
+.plip .trk-carriers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.plip .trk-carrier {
+  position: relative; overflow: hidden; display: flex; flex-direction: column; border-radius: 18px; background: #fff; border: 1px solid var(--ip-line);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.plip .trk-carrier::before { content: ""; position: absolute; inset: 0 0 auto; height: 5px; }
+.plip .trk-carrier-ups::before { background: #ffb500; }
+.plip .trk-carrier-fedex::before { background: linear-gradient(90deg, #4d148c 60%, #ff6200 60%); }
+.plip .trk-carrier-dhl::before { background: linear-gradient(90deg, #ffcc00 70%, #d40511 70%); }
+.plip .trk-carrier:hover { transform: translateY(-5px); box-shadow: 0 20px 44px rgba(13, 15, 14, 0.1); }
+.plip .trk-carrier img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: center top; background: #eef4ef; } /* keeps the carrier logo in view */
+.plip .trk-carrier-body { display: grid; gap: 12px; padding: 20px 22px 24px; flex: 1; align-content: start; }
+.plip .trk-carrier dl { display: grid; gap: 2px; margin: 0; }
+.plip .trk-carrier dt { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ip-muted); }
+.plip .trk-carrier dd { margin: 0 0 8px; color: var(--ip-ink); font-weight: 600; }
+.plip .trk-carrier code { padding: 3px 8px; border-radius: 6px; background: var(--ip-band); font-size: 0.85rem; letter-spacing: 0.04em; word-break: break-all; }
+.plip .trk-carrier .ip-btn { justify-self: start; }
+
+/* Troubleshooting + contact */
+.plip .trk-help { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr); gap: clamp(28px, 4vw, 56px); align-items: center; }
+.plip .trk-tips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 24px; }
+.plip .trk-tips li { display: flex; gap: 14px; padding: 18px; border-radius: 14px; border: 1px solid var(--ip-line); background: #fff; transition: border-color 0.2s, transform 0.2s; }
+.plip .trk-tips li:hover { border-color: var(--ip-green); transform: translateY(-2px); }
+.plip .trk-tips li > span:last-child { display: flex; flex-direction: column; gap: 4px; font-size: 0.92rem; color: var(--ip-muted); }
+.plip .trk-tips strong { color: var(--ip-ink); font-size: 1rem; }
+.plip .trk-tip-n { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--ip-green-soft); color: var(--ip-green); font-weight: 800; font-size: 0.85rem; }
+.plip .trk-contact { display: grid; gap: 12px; padding: clamp(22px, 3vw, 32px); border-radius: 20px; background: var(--ip-ink); color: rgba(255, 255, 255, 0.78); }
+.plip .trk-contact h3 { color: #fff; font-size: 1.35rem; }
+.plip .trk-contact-badge { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: rgba(143, 224, 169, 0.15); color: #8fe0a9; }
+.plip .trk-contact-row { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 600; word-break: break-word; }
+.plip .trk-contact-row:hover { color: #8fe0a9; }
+.plip .trk-contact .ip-btn { margin-top: 6px; }
+.plip .trk-more { margin-top: 22px; text-align: center; }
+.plip .trk-more a { color: var(--ip-green); font-weight: 700; }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .plip .trk-journey ol { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 30px; }
+  .plip .trk-road { display: none; }
+}
+@media (max-width: 900px) {
+  .plip .trk-hero-grid, .plip .trk-help { grid-template-columns: minmax(0, 1fr); }
+  .plip .trk-hero-art { max-width: 560px; }
+  .plip .trk-carriers { grid-template-columns: minmax(0, 1fr); }
+  .plip .trk-carrier { flex-direction: row; }
+  .plip .trk-carrier img { width: 38%; aspect-ratio: auto; object-fit: cover; }
+}
+@media (max-width: 600px) {
+  .plip .trk-journey ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .plip .trk-tips { grid-template-columns: minmax(0, 1fr); }
+  .plip .trk-carrier { flex-direction: column; }
+  .plip .trk-carrier img { width: 100%; aspect-ratio: 16 / 10; }
+  .plip .trk-field { flex-wrap: wrap; padding: 8px; }
+  .plip .trk-field input { min-height: 44px; }
+  .plip .trk-field .ip-btn { width: 100%; }
+  .plip .trk-pill { font-size: 0.78rem; padding: 8px 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plip .trk-hero-art img, .plip .trk-pill, .plip .trk-truck, .plip .trk-live { animation: none !important; }
+}

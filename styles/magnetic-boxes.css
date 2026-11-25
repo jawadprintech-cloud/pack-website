@@ -1,0 +1,705 @@
+/* Product page styles from packlegacy-magnetic-boxes/assets/product.css, scoped to .plmb.
+   The plugin's own header and footer rules are removed. */
+.plmb{--ink:#14201a;--muted:#3a443e;--green:#14743c;--sage:#edf2e8;--stone:#f4f2ec;--line:#dce3d9;--red:#d92c37;--white:#fff;--body:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.plmb,.plmb *{box-sizing:border-box}
+.plmb{margin:0;color:var(--ink);background:#fff;font:15px/1.6 var(--body)}
+.plmb a{color:inherit;text-decoration:none}
+.plmb a:hover{color:var(--green)}
+.plmb button,.plmb input,.plmb select,.plmb textarea{font:inherit}
+.plmb button{cursor:pointer}
+.plmb img{display:block;max-width:100%;height:auto}
+.plmb p,.plmb h1,.plmb h2,.plmb h3,.plmb blockquote,.plmb dl,.plmb dd{margin:0}
+.plmb h1,.plmb h2,.plmb h3{line-height:1.12;letter-spacing:-.04em}
+.plmb h1{font-size:clamp(2.5rem,4.35vw,4.65rem);font-weight:750}
+.plmb h2{font-size:clamp(2rem,3.4vw,3.35rem);font-weight:690}
+.plmb h3{font-size:1.18rem;letter-spacing:-.025em}
+.plmb :focus-visible{outline:3px solid #24844c;outline-offset:3px}
+.plmb section[id]{scroll-margin-top:76px}
+.plmb .wrap{width:min(1260px,calc(100% - 88px));margin-inline:auto}
+.plmb .section{padding-block:78px}
+.plmb .sage{background:var(--sage)}
+.plmb .stone{background:var(--stone)}
+.plmb .muted,.plmb .section-intro p,.plmb .feature-text p,.plmb .options p,.plmb .quote-aside>p:not(.eyebrow),.plmb .details-grid article>p:not(.eyebrow){color:var(--muted)}
+.plmb .consent a{color:var(--green)}
+.plmb .button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 19px;border-radius:7px;border:1px solid transparent;font-weight:730;line-height:1.35;text-align:center;transition:background .15s,color .15s}
+.plmb .red{color:white;background:var(--red);box-shadow:0 4px 12px #c3253020}
+.plmb .red:hover{background:#b91f2b;color:white}
+.plmb .outline{background:white;border-color:var(--line);color:var(--green)}
+.plmb .text-link{display:inline-flex;gap:7px;align-items:center;color:var(--green);font-weight:750;font-size:.88rem}
+.plmb .text-link:hover{text-decoration:underline}
+.plmb .breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:.8rem;color:var(--muted);padding-block:19px}
+.plmb .breadcrumb span{font-weight:700;color:var(--ink)}
+.plmb .hero{display:grid;grid-template-columns:1.19fr 1fr;gap:clamp(28px,4vw,64px);align-items:start}
+.plmb .gallery{display:grid;grid-template-columns:76px minmax(0,1fr);gap:12px}
+.plmb .thumbs{display:flex;flex-direction:column;gap:10px}
+.plmb .thumbs button{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:transparent;padding:2px}
+.plmb .thumbs button[aria-pressed=true]{border:2px solid var(--green);padding:1px}
+.plmb .thumbs img{width:100%;aspect-ratio:1;object-fit:contain;border-radius:5px}
+.plmb .gallery-main{position:relative;overflow:hidden;border-radius:15px;background:transparent}
+.plmb .gallery-main>img{width:100%;aspect-ratio:1;object-fit:contain}
+/* Blurred copy of the photo fills the frame behind the uncropped image (--bg set by ProductPage / MagneticBoxesScript) */
+.plmb .gallery-main,.plmb .thumbs button{position:relative;isolation:isolate}
+.plmb .gallery-main::before,.plmb .thumbs button::before{content:"";position:absolute;inset:-12%;z-index:-1;background:var(--bg) center/cover no-repeat;filter:blur(26px) saturate(1.15);transition:background-image .3s}
+.plmb .thumbs button::before{filter:blur(8px) saturate(1.15)}
+.plmb .gallery-main>img,.plmb .thumbs img{position:relative}
+.plmb .icon-button{display:grid;place-items:center;border:0;background:#fffffff0;color:var(--ink);border-radius:50%;width:33px;height:33px;padding:0}
+.plmb .icon-button:hover{background:#e5eee2}
+.plmb .expand{position:absolute;top:12px;right:12px}
+.plmb .gallery-nav{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:10px;border-radius:32px;background:#fffffff0;padding:3px 5px;white-space:nowrap;font-size:.75rem;font-weight:750;box-shadow:0 1px 12px #0001}
+.plmb .gallery-nav button{background:none}
+.plmb .lightbox{background:transparent;overflow:visible;border:0;padding:0;max-width:92vw;max-height:90dvh}
+.plmb .lightbox::backdrop{background:#0d1c14d9}
+.plmb .lightbox>div{position:relative}
+.plmb .lightbox img{width:min(720px,88vw,86dvh);border-radius:12px}
+.plmb .hero-copy{padding-top:4px}
+.plmb .eyebrow{margin-bottom:9px;color:var(--green);font-size:.7rem;letter-spacing:.19em;font-weight:800;line-height:1.35}
+.plmb .rating{display:flex;align-items:center;gap:8px;margin:12px 0 17px;font-size:.86rem;font-weight:700}
+.plmb .rating span,.plmb .review-top>span:last-child{color:#f5b301;letter-spacing:.1em}
+.plmb .review-more{color:var(--green);font-size:.72em;font-weight:700;text-decoration:underline;white-space:nowrap;background:none;border:0;padding:0;cursor:pointer;font-family:inherit}
+.plmb .review-more:hover{color:var(--red)}
+.plmb .review-rest{display:none}
+/* "Happy customers" carousel: two identical sets slide right-to-left in a loop, pausing on hover. */
+.plmb .review-marquee{overflow:hidden;margin-top:23px;padding-block:6px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.plmb .review-track{display:flex;width:max-content;animation:plmb-review-loop 38s linear infinite}
+.plmb .review-set{display:flex;gap:13px;padding-right:13px}
+.plmb .review-set .quote-card{flex:none;width:clamp(250px,26vw,360px)}
+.plmb .review-marquee:hover .review-track,.plmb .review-marquee:focus-within .review-track{animation-play-state:paused}
+@keyframes plmb-review-loop{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.plmb .review-track{animation:none}.plmb .review-marquee{overflow-x:auto}}
+.plmb .review-slide.is-expanded .review-rest{display:inline}
+.plmb .rating small{font-weight:500;color:var(--muted);margin-left:4px}
+.plmb .intro{font-size:1.15rem;font-weight:730;margin-bottom:6px}
+.plmb .hero-description{max-width:49ch}
+.plmb .offer{display:flex;align-items:center;flex-wrap:wrap;gap:7px 13px;margin-block:16px 18px;font-size:.79rem;color:var(--muted)}
+.plmb .offer>span:first-child{display:inline-flex;align-items:center;gap:6px;background:var(--sage);color:#235b36;padding:4px 9px;border-radius:30px;font-weight:760}
+.plmb .dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+.plmb .hero-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.plmb .quote-card{border:1px solid var(--line);background:#fff;border-radius:11px;padding:17px 21px;display:flex;flex-direction:column}
+.plmb .hero-copy .quote-card{margin-top:24px;padding-block:11px 14px;max-width:490px}
+.plmb .quote-mark{display:block;height:22px;color:var(--green);font:700 37px/1 Georgia,serif}
+.plmb .quote-card blockquote{font-size:.88rem;flex:1}
+.plmb .review-name{font-size:.77rem;font-weight:750;margin-top:10px}
+.plmb .takeaway{border:1px solid var(--line);border-radius:11px;margin-block:25px 13px;padding:19px 24px 20px;background:#fafbf8}
+.plmb .takeaway .eyebrow{margin-bottom:6px}
+.plmb .takeaway>div{display:flex;align-items:baseline;gap:20px;margin-bottom:8px}
+.plmb .takeaway h2{font-size:1.15rem;white-space:nowrap}
+.plmb .takeaway p:not(.eyebrow){font-size:.88rem;color:var(--muted)}
+.plmb .benefits{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:10px;margin-bottom:28px;padding:16px 0}
+.plmb .benefits>div{display:flex;align-items:center;gap:11px;padding-inline:15px}
+.plmb .benefits>div+div{border-left:1px solid var(--line)}
+.plmb .benefits img{object-fit:contain;flex:0 0 34px;width:34px;height:34px}
+.plmb .benefits strong,.plmb .benefits small{display:block}
+.plmb .benefits strong{font-size:.86rem}
+.plmb .benefits small{font-size:.74rem;color:var(--muted)}
+.plmb .section-bar{position:sticky;top:0;z-index:3;border-block:1px solid var(--line);background:#fffffff5;backdrop-filter:blur(10px)}
+.plmb .section-bar nav{display:flex;align-items:center;justify-content:center;gap:clamp(10px,3vw,38px);min-height:51px;overflow:auto;scrollbar-width:thin}
+.plmb .section-bar a{white-space:nowrap;font-weight:730;font-size:.79rem;padding-block:9px}
+.plmb .section-bar a[href="#quote"]{color:var(--green)}
+.plmb .section-intro{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center;margin-bottom:25px}
+.plmb .section-intro p{max-width:49ch}
+.plmb .specs{max-width:none;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.plmb .specs>div,.plmb .specs dl>div{display:grid;grid-template-columns:1fr 2.2fr;gap:15px;padding:11px 19px}
+.plmb .specs>div{background:var(--sage);align-items:center}
+.plmb .specs>div span{font-size:.65rem;letter-spacing:.15em;color:var(--green);font-weight:800}
+.plmb .specs dl>div+div{border-top:1px solid var(--line)}
+.plmb .specs dt{font-weight:700}
+.plmb .specs dd{color:var(--muted)}
+.plmb .options{margin-top:10px}
+.plmb .options h3{margin:25px 0 12px}
+.plmb .options h3 span{color:var(--green);font-size:.73rem;margin-right:8px;letter-spacing:.05em}
+.plmb .options .text-link{margin-top:8px}
+.plmb .option-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.plmb .option-grid.boards{grid-template-columns:repeat(3,1fr);max-width:950px}
+.plmb .option-grid button{text-align:left;padding:0;overflow:hidden;border:1px solid #d1dbce;border-radius:9px;background:#fff;color:var(--ink);transition:border .15s,box-shadow .15s}
+.plmb .option-grid button:hover,.plmb .option-grid button[aria-pressed=true]{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.plmb .option-grid img{width:100%;height:clamp(64px,9vw,110px);object-fit:cover}
+.plmb .option-grid button>span{display:block;padding:10px 12px}
+.plmb .option-grid strong,.plmb .option-grid small{display:block}
+.plmb .option-grid strong{font-size:.87rem}
+.plmb .option-grid small{font-size:.76rem;color:var(--muted)}
+.plmb .details-grid{display:grid;grid-template-columns:minmax(190px,265px) minmax(0,1fr);gap:clamp(25px,5vw,76px);align-items:start}
+.plmb .detail-aside>div{border:1px solid var(--line);border-radius:10px;padding:19px;margin-bottom:12px}
+.plmb .detail-aside>div+div{background:var(--sage)}
+.plmb .detail-aside dl,.plmb .detail-aside h3+p{margin-top:12px;font-size:.85rem}
+.plmb .detail-aside dt{font-weight:750}
+.plmb .detail-aside dd{color:var(--muted);margin-bottom:9px}
+.plmb .detail-aside .text-link{margin-top:11px}
+.plmb .details-grid article>p:not(.eyebrow){max-width:70ch;margin-top:12px}
+.plmb .tags{display:flex;gap:6px;flex-wrap:wrap;margin:17px 0}
+.plmb .tags span{border:1px solid var(--line);border-radius:20px;font-size:.73rem;padding:4px 8px}
+.plmb .feature-photo{width:100%;aspect-ratio:1.65;object-fit:cover;border-radius:13px}
+.plmb .feature-text{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:23px}
+.plmb .feature-text p{font-size:.86rem;margin-top:7px}
+.plmb .process ol{display:grid;grid-template-columns:repeat(5,1fr);list-style:none;padding:0;margin:25px 0 0;gap:15px}
+.plmb .process li{position:relative;border-top:1px solid #bacab8;padding-top:15px}
+.plmb .process li span{display:inline-grid;place-items:center;width:33px;height:33px;border-radius:50%;border:1px solid #b9ccba;background:#fff;color:var(--green);font-weight:800;font-size:.76rem;margin-bottom:11px}
+.plmb .process li h3{font-size:1rem}
+.plmb .process li p{font-size:.81rem;margin-top:5px;color:var(--muted)}
+.plmb .quote-section{display:grid;grid-template-columns:minmax(220px,.7fr) minmax(0,1.3fr);gap:clamp(24px,5vw,75px);align-items:start}
+.plmb .quote-aside>p:not(.eyebrow){margin-top:12px;max-width:40ch}
+.plmb .quote-aside ul{list-style:none;padding:0;margin:20px 0}
+.plmb .quote-aside li{display:flex;gap:8px;align-items:center;margin-block:7px;font-size:.92rem}
+.plmb .quote-aside li svg{color:var(--green)}
+.plmb .quote-aside img{width:min(100%,345px);aspect-ratio:1.45;object-fit:cover;border-radius:11px;margin-bottom:15px}
+.plmb .quote-form{border:1px solid var(--line);border-radius:14px;padding:clamp(17px,3vw,35px);box-shadow:0 10px 30px #173c1710;background:#fff}
+.plmb .quote-form fieldset{margin:0;padding:0;min-width:0;border:0}
+.plmb .quote-form legend,.plmb .quote-form label{font-size:.8rem;font-weight:700}
+.plmb .quote-form legend{padding:0;margin-bottom:8px}
+.plmb .design-picker>div{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.plmb .design-picker label{position:relative;cursor:pointer;min-width:0}
+.plmb .design-picker input{position:absolute;opacity:0;left:10px;top:10px}
+.plmb .design-picker label>span{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;min-height:94px;height:100%;border:1px solid var(--line);border-radius:8px;text-align:center;padding:7px 4px;line-height:1.2}
+.plmb .design-picker label>span img{width:42px;height:38px;object-fit:contain}
+.plmb .design-picker input:checked+span{background:var(--sage);border-color:var(--green);color:#16572e}
+.plmb .design-picker input:focus-visible+span{outline:3px solid var(--green);outline-offset:2px}
+.plmb .design-hint{font-size:.79rem;color:var(--muted);margin:9px 0 17px}
+.plmb .design-hint a,.plmb .consent a{text-decoration:underline}
+.plmb .form-grid,.plmb .dimension-group>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px 12px}
+.plmb .form-grid label,.plmb .dimension-group label,.plmb .notes{display:grid;gap:5px}
+.plmb .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea){width:100%;min-width:0;border:1px solid #cdd8cc;border-radius:6px;background:#f8faf7;color:var(--ink);padding:8px 9px;font-size:.88rem;font-weight:450;min-height:41px}
+.plmb .quote-form .dimension-group,.plmb .quote-form .notes{margin-top:15px}
+.plmb .dimension-group>div{grid-template-columns:repeat(4,minmax(0,1fr))}
+.plmb .file-label{margin-top:12px;padding:11px;display:flex;position:relative;align-items:center;gap:9px;border:1px dashed #9cb89e;border-radius:7px;color:var(--green);cursor:pointer;overflow-wrap:anywhere}
+.plmb .file-label small{display:block;font-weight:450;color:var(--muted)}
+.plmb .file-label input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}
+.plmb .file-label:focus-within{outline:2px solid var(--green);outline-offset:2px}
+.plmb .remove-file{border:0;background:none;color:var(--green);padding:4px 0;font-size:.78rem;text-decoration:underline}
+.plmb .consent{display:flex;gap:8px;align-items:flex-start;margin-block:15px;font-weight:500!important}
+.plmb .consent input{accent-color:var(--green);margin-top:4px}
+.plmb .honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.plmb .form-error{color:#a61927;background:#fff0f0;padding:7px 10px;border-radius:5px;margin-bottom:11px;font-size:.85rem}
+.plmb .submit{width:100%}
+.plmb .submit:disabled{opacity:.65;cursor:wait}
+.plmb .form-footnote{display:block;margin-top:6px;text-align:center;color:var(--muted)}
+.plmb .success{min-height:325px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:12px}
+.plmb .success h3{font-size:1.7rem}
+.plmb .success-icon{display:grid;place-items:center;border-radius:50%;width:50px;height:50px;background:var(--sage);color:var(--green)}
+.plmb .faq{text-align:center;padding-top:35px}
+.plmb .faq h2 em{color:var(--green);font-style:normal}
+.plmb .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;text-align:left;margin-top:24px;align-items:start}
+.plmb .faq details{border:1px solid var(--line);background:#f9faf8;border-radius:9px;overflow:hidden}
+.plmb .faq summary{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 15px;cursor:pointer;list-style:none;font-weight:730}
+.plmb .faq summary::-webkit-details-marker{display:none}
+.plmb .faq summary::after{content:"+";color:var(--green);font-size:1.15rem}
+.plmb .faq details[open] summary::after{content:"−"}
+.plmb .faq details p{padding:0 15px 13px;font-size:.88rem;color:var(--muted)}
+.plmb .review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:23px}
+.plmb .review-top{display:flex;justify-content:space-between;margin-bottom:10px}
+.plmb .related-heading{display:flex;justify-content:space-between;gap:15px;align-items:end}
+.plmb .related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-top:23px}
+.plmb .related-card{border:1px solid var(--line);border-radius:11px;overflow:hidden;transition:box-shadow .15s}
+.plmb .related-card:hover{box-shadow:0 4px 15px #173c1720}
+.plmb .related-card img{width:100%;aspect-ratio:708/616;object-fit:cover;object-position:center top}
+.plmb .related-card>div{padding:12px}
+.plmb .related-card h3{font-size:1rem}
+.plmb .related-card p{margin-block:4px 7px;color:var(--muted);font-size:.8rem}
+@media(max-width:1000px){.plmb .wrap{width:calc(100% - 54px)}
+.plmb .gallery{grid-template-columns:55px minmax(0,1fr);gap:8px}
+.plmb .thumbs{gap:7px}
+.plmb .hero{gap:25px}
+.plmb .desktop-break{display:none}
+.plmb .section{padding-block:57px}
+.plmb .faq{padding-top:22px}
+}
+@media(max-width:760px){.plmb .wrap{width:calc(100% - 34px)}
+.plmb .hero{grid-template-columns:1fr;gap:19px}
+.plmb .gallery{grid-template-columns:1fr;gap:7px}
+.plmb .thumbs{flex-direction:row;grid-row:2}
+.plmb .thumbs button{width:49px}
+.plmb .gallery-main>img{aspect-ratio:1.16;object-fit:contain} /* show the whole photo, no crop */
+.plmb .hero-copy .quote-card{display:none}
+.plmb .takeaway>div{display:block}
+.plmb .takeaway h2{margin-bottom:4px}
+.plmb .benefits{grid-template-columns:1fr 1fr;padding:0}
+.plmb .benefits>div{padding:10px}
+.plmb .benefits>div:nth-child(3){border-left:0}
+.plmb .benefits>div:nth-child(n+3){border-top:1px solid var(--line)}
+.plmb .section-bar nav{justify-content:flex-start}
+.plmb .section-intro,.plmb .details-grid,.plmb .quote-section{grid-template-columns:1fr;gap:13px}
+.plmb .section-intro h2 br{display:none}
+.plmb .detail-aside{display:none}
+.plmb .options h3{margin-top:18px}
+.plmb .option-grid,.plmb .option-grid.boards{grid-template-columns:repeat(2,1fr)}
+.plmb .feature-text{grid-template-columns:1fr;gap:12px}
+.plmb .process ol{grid-template-columns:repeat(2,1fr)}
+.plmb .quote-aside img{display:none}
+.plmb .quote-aside .text-link{margin-bottom:6px}
+.plmb .faq-grid,.plmb .review-grid{grid-template-columns:1fr}
+.plmb .related-grid{grid-template-columns:repeat(2,1fr)}
+.plmb .related-heading{align-items:flex-start;flex-direction:column;gap:7px}
+}
+@media(max-width:390px){.plmb .wrap{width:calc(100% - 26px)}
+.plmb .dimension-group>div{grid-template-columns:repeat(2,minmax(0,1fr))}
+.plmb .hero-actions{gap:9px}
+.plmb .hero-actions .button{padding-inline:12px}
+}
+@media(prefers-reduced-motion:reduce){.plmb *,.plmb *::before,.plmb *::after{scroll-behavior:auto!important;transition:none!important}
+}
+.plmb{--red:#f13239;--line:#e1e4dc;--ink:#181d19;--sage:#edf1e7;--stone:#f1f0e9}
+.plmb{font-size:14px}
+/* Keep content clear of the fixed "quote" tab on the left edge (shown above 920px). */
+@media(min-width:921px){.plmb{--site-gutter:clamp(34px,2.5vw,40px);--site-wrap:min(var(--site-max),calc(100% - 2 * var(--site-gutter)))}}
+.plmb .wide-wrap,.plmb .wrap{width:var(--site-wrap);margin-inline:auto}
+.plmb .section{padding-block:var(--section-y)}
+.plmb section[id]{scroll-margin-top:20px}
+/* Side "Get a quote" tab: mobile only (shown in the max-width:920px block below). Text reads top to bottom. */
+.plmb .side-quote{display:none;position:fixed;left:0;top:30vh;z-index:40;writing-mode:vertical-rl;transform:none;padding:14px 7px;font-size:.73rem;border-radius:0 8px 8px 0}
+.plmb .breadcrumb{padding-block:16px 13px;font-size:.78rem}
+.plmb .product-grid{display:grid;grid-template-columns:minmax(0,2.23fr) minmax(315px,1fr);gap:clamp(15px,2vw,36px);align-items:start}
+.plmb .hero{grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(16px,2vw,36px)}
+.plmb .gallery{grid-template-columns:minmax(46px,19%) minmax(0,1fr);gap:clamp(5px,.75vw,14px)}
+.plmb .thumbs{gap:7px}
+.plmb .thumbs img{aspect-ratio:1}
+.plmb .gallery-main{border-radius:12px}
+.plmb .gallery-main>img{aspect-ratio:.96}
+.plmb .expand{width:27px;height:27px;top:9px;right:9px}
+.plmb .expand svg{width:14px;height:14px}
+.plmb .gallery-nav{left:auto;right:9px;transform:none;bottom:9px;gap:5px;padding:1px 3px;font-size:.66rem}
+.plmb .gallery-nav .icon-button{height:24px;width:24px}
+.plmb .gallery-nav svg{width:15px}
+.plmb .hero-copy{padding-top:3px}
+.plmb .hero-copy .eyebrow{font-size:clamp(.52rem,.55vw,.69rem);letter-spacing:.13em;margin-bottom:7px}
+.plmb .hero-copy h1{font-size:clamp(1.55rem,1.95vw,2.43rem);letter-spacing:-.055em;line-height:1.06;text-wrap:balance}
+.plmb .hero-copy>.review-platforms{display:block;width:min(100%,260px);margin:14px auto 0}
+.plmb .hero-copy>.review-platforms img{width:100%;height:auto}
+.plmb .rating{margin:7px 0 12px;gap:5px;font-size:.76rem}
+.plmb .hero-description{font-size:clamp(.73rem,.82vw,.94rem);line-height:1.54;max-width:none}
+.plmb .hero-description+.hero-description{margin-top:.78em}
+.plmb .hero-copy .hero-review{display:flex;margin-top:clamp(11px,1.7vw,26px);padding:clamp(10px,1.15vw,21px);min-height:clamp(110px,14vw,220px)}
+.plmb .hero-review .review-top{margin-bottom:5px}
+.plmb .hero-review blockquote{font-size:clamp(.73rem,.85vw,.95rem)}
+.plmb .hero-review .review-name{border-top:1px solid var(--line);padding-top:8px}
+.plmb .review-platforms{display:block;margin-top:13px}
+.plmb .review-platforms img{width:100%;height:auto}
+.plmb .takeaway{margin:12px 0 0;background:#fff;padding:clamp(11px,1.2vw,22px);text-align:center}
+.plmb .takeaway .eyebrow{font-size:clamp(.49rem,.55vw,.65rem);margin-bottom:4px}
+.plmb .takeaway h2{font-size:clamp(.84rem,1vw,1.1rem);text-transform:uppercase;letter-spacing:.03em}
+.plmb .takeaway p:not(.eyebrow){margin-top:7px;text-align:left;font-size:clamp(.69rem,.76vw,.86rem);line-height:1.45}
+.plmb .takeaway .text-link{display:flex;border-top:1px solid var(--line);padding-top:6px;margin-top:7px;font-size:.73rem}
+.plmb .benefits{margin:12px 0 0;padding:12px 0}
+.plmb .benefits>div{padding-inline:clamp(6px,1vw,16px);gap:clamp(5px,.7vw,12px)}
+.plmb .benefits img{flex-basis:clamp(22px,2.4vw,44px);width:clamp(22px,2.4vw,44px);height:clamp(22px,2.4vw,44px)}
+.plmb .benefits strong{font-size:clamp(.65rem,.72vw,.85rem)}
+.plmb .benefits small{font-size:clamp(.61rem,.66vw,.77rem);line-height:1.35}
+.plmb .quote-panel{padding:clamp(13px,1.5vw,30px);border:1px solid var(--line);border-radius:15px;background:#fff}
+.plmb .quote-panel h2{text-align:center;font-size:clamp(1.3rem,1.65vw,1.85rem);margin-bottom:11px}
+.plmb .quote-promises{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));justify-items:center;gap:2px 8px;list-style:none;background:#f0f4ed;padding:8px;margin:0 0 13px;border-radius:6px;color:var(--green);font-size:clamp(.62rem,.68vw,.78rem);font-weight:720}
+.plmb .quote-promises li{display:flex;align-items:center;gap:3px}
+.plmb .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.plmb .quote-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-bottom:9px}
+.plmb .quote-heading-text{min-width:0}
+.plmb .quote-heading h3{display:flex;align-items:center;gap:5px;font-size:clamp(.91rem,1.05vw,1.13rem)}
+.plmb .quote-info{display:inline-flex;color:var(--muted);cursor:help}
+.plmb .quote-heading-text p{margin:3px 0 0;font-size:clamp(.65rem,.69vw,.79rem);font-weight:700}
+.plmb .quote-heading-price{display:flex;align-items:flex-end;gap:10px;flex-shrink:0}
+.plmb .quote-stock{font-size:.9rem;font-weight:800;font-style:italic;color:var(--green);text-decoration:underline;text-underline-offset:2px;white-space:nowrap;margin-bottom:3px}
+.plmb .quote-panel .design-hint{display:none}
+.plmb .quote-panel .quote-form{border:0;box-shadow:none;padding:0}
+.plmb .quote-panel .quote-form :is(label,legend){font-size:clamp(.65rem,.69vw,.79rem)}
+.plmb .quote-panel .design-picker>div{gap:7px}
+.plmb .quote-panel .design-picker label>span{min-height:clamp(63px,5.7vw,100px);padding:5px 3px}
+.plmb .quote-panel .design-picker label>span img{width:clamp(32px,3.2vw,62px);height:clamp(29px,2.8vw,55px)}
+.plmb .quote-panel .design-picker{margin-bottom:12px}
+.plmb .quote-panel .form-grid,.plmb .quote-panel .dimension-group>div{gap:7px 9px}
+.plmb .quote-panel .quote-specs{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:8px}
+.plmb .quote-panel .quote-heading{margin-top:20px}
+.plmb .quote-panel .design-picker span span{line-height:1.25}
+.plmb .quote-moq{display:flex;align-items:center;justify-content:center;gap:8px;margin:18px 0 0;color:var(--green);font-weight:700;font-size:.92rem}
+.plmb .quote-moq svg{flex:none}
+.plmb .quote-panel .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea){min-height:31px;padding:5px 7px;font-size:clamp(.69rem,.73vw,.82rem);background:#fafbf8}
+.plmb .quote-panel .form-grid label,.plmb .quote-panel .dimension-group label,.plmb .quote-panel .notes{gap:3px}
+.plmb .quote-panel .dimension-group,.plmb .quote-panel .notes{margin-top:9px}
+.plmb .quote-panel .dimension-group legend{margin-bottom:4px}
+.plmb .quote-panel .dimension-group>div{grid-template-columns:repeat(4,minmax(0,1fr))}
+.plmb .quote-panel .notes textarea{min-height:52px}
+.plmb .print-options{margin-top:5px;font-size:.7rem;color:var(--muted)}
+.plmb .print-options summary{cursor:pointer}
+.plmb .print-options label{display:grid;gap:3px;margin-top:4px}
+.plmb .quote-total{display:block;margin:12px 0 10px}
+.plmb .quote-panel .consent{margin:0;font-size:.65rem!important;line-height:1.35;align-items:center}
+.plmb .quote-panel .consent input{margin:0}
+.plmb .starting-price{text-align:right;line-height:1.08}
+.plmb .starting-price span{display:block;font-size:.7rem;font-weight:750}
+.plmb .starting-price strong{color:var(--red);font-size:20px;letter-spacing:-.035em}
+.plmb .starting-price strong small{font-size:11px;letter-spacing:0;color:var(--muted);font-weight:600;margin-left:1px}
+.plmb .quote-panel .submit{width:100%;justify-content:center;padding:11px 12px;font-size:.88rem}
+.plmb .quote-panel .form-footnote{display:block;text-align:center;font-size:.64rem;margin-top:8px;color:var(--muted)}
+.plmb .section-bar{position:static;width:68.5%;margin-top:17px;border-inline:0}
+/* Sticky "On this page" bar: the wrapper sticks (the bar alone has no room to stick inside it) */
+.plmb .wide-wrap:has(>.section-bar){position:sticky;top:0;z-index:1;background:#fff;box-shadow:0 0 0 100vmax #fff;clip-path:inset(0 -100vmax)}
+.plmb .wide-wrap:has(>.section-bar) .section-bar{margin-top:0;background:#fff;backdrop-filter:none}
+.plmb section[id]{scroll-margin-top:64px}
+.plmb .section-bar nav{gap:clamp(10px,2vw,32px);min-height:45px}
+/* Every nav link looks and hovers the same; the highlighted pill follows the section in view */
+.plmb .section-bar a{padding:3px 10px;border:1px solid transparent;border-radius:16px;color:var(--ink);transition:background .25s var(--ease),color .25s var(--ease),border-color .25s var(--ease)}
+.plmb .section-bar a[aria-current="true"]{background:var(--sage);border-color:#99b59d;color:var(--green)}
+.plmb .section-bar a:hover,.plmb .section-bar a:focus-visible{background:var(--green);border-color:var(--green);color:#fff}
+.plmb .reading-width{width:min(100%,760px)}
+.plmb #glance,.plmb #materials,.plmb #details{padding-block:var(--section-y)}
+.plmb #glance .section-intro{grid-template-columns:1fr 1.2fr;gap:16px}
+.plmb #glance .section-intro h2,.plmb #materials h2,.plmb .details-grid h2,.plmb .partnership h2,.plmb .box-tools h2,.plmb .process h2{font-size:clamp(1.75rem,2.4vw,2.65rem)}
+.plmb .specs>div,.plmb .specs dl>div{padding:10px 15px;font-size:.85rem}
+.plmb .options-width{width:min(100%,900px)}
+.plmb .option-grid.boards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.plmb .option-grid img{height:clamp(61px,5.2vw,101px)}
+.plmb .option-grid button{border-color:#d8dfd2}
+.plmb .details-grid{max-width:1050px;grid-template-columns:minmax(150px,28%) minmax(0,1fr);gap:clamp(24px,3vw,57px)}
+.plmb .detail-aside>div+div{background:#fff}
+.plmb .detail-aside .help-aside{background:var(--sage)}
+.plmb .detail-aside h3{font-size:1rem}
+.plmb .detail-aside p{font-size:.84rem}
+.plmb .feature-lead{margin-top:20px}
+.plmb .feature-photo{aspect-ratio:1.62}
+.plmb .feature-text{grid-template-columns:1fr;gap:17px}
+.plmb .feature-text .text-link{margin-top:7px}
+.plmb .finish-table{width:100%;border-collapse:collapse;margin:12px 0 1px;font-size:.76rem;line-height:1.35}
+.plmb .finish-table th,.plmb .finish-table td{border:1px solid var(--line);padding:7px;text-align:left}
+.plmb .finish-table th{background:var(--sage)}
+.plmb .partnership .section-intro{justify-content:space-between;grid-template-columns:1.5fr 1fr}
+.plmb .partnership .section-intro p{justify-self:end}
+.plmb .partnership-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.plmb .partnership-grid article{border-top:1px solid #c4d0bd;padding-top:13px}
+.plmb .partnership-grid span{font-size:.73rem;color:var(--green);font-weight:750}
+.plmb .partnership-grid h3{margin:9px 0 6px;white-space:pre-line}
+.plmb .partnership-grid p,.plmb .tool-grid p{color:var(--muted);font-size:.85rem}
+.plmb .box-tools{padding-bottom:28px}
+.plmb .tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:21px}
+.plmb .tool-grid>a{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:19px;border:1px solid var(--line);border-radius:10px;box-shadow:0 3px 8px #1b2c1c13}
+.plmb .tool-grid>a:hover{border-color:var(--green)}
+.plmb .tool-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:8px;background:var(--sage);color:var(--green)}
+.plmb .tool-grid .text-link{margin-top:auto;width:100%;border-top:1px solid var(--line);padding-top:8px;justify-content:space-between}
+.plmb .process{padding-bottom:23px}
+.plmb .faq{max-width:1090px;padding-top:33px}
+.plmb .faq h2,.plmb .reviews-heading h2,.plmb #related h2{font-size:clamp(1.6rem,2.1vw,2.4rem)}
+.plmb .faq>p,.plmb .reviews-heading p:not(.eyebrow){color:var(--muted);margin-top:6px}
+.plmb .faq details[open] p{border-left:3px solid #459964;background:white;padding:9px 13px}
+.plmb .faq summary{font-size:.91rem}
+.plmb .reviews-heading{display:flex;gap:20px;align-items:center;justify-content:space-between}
+.plmb .reviews-heading img{width:min(31%,255px);height:auto}
+@media(max-width:1150px){
+.plmb .product-grid{gap:16px;grid-template-columns:minmax(0,1.9fr) minmax(300px,1fr)}
+.plmb .hero{gap:16px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.plmb .hero-copy h1{font-size:clamp(1.45rem,2.6vw,2rem);line-height:1.08;text-wrap:balance}
+.plmb .hero-description{line-height:1.55;text-wrap:pretty}
+.plmb .gallery{grid-template-columns:44px minmax(0,1fr)}
+.plmb .hero-copy .hero-review{min-height:100px}
+}
+@media(max-width:920px){
+.plmb .product-grid{grid-template-columns:1fr;gap:19px}
+.plmb .hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.plmb .gallery{grid-template-columns:52px minmax(0,1fr)}
+.plmb .hero-copy h1{font-size:clamp(1.55rem,3.4vw,2.1rem);line-height:1.08;text-wrap:balance}
+.plmb .hero-description{font-size:.88rem;line-height:1.55;text-wrap:pretty}
+.plmb .quote-panel{width:min(100%,620px);margin-inline:auto;padding:21px}
+.plmb .quote-panel .quote-form :is(label,legend){font-size:.77rem}
+.plmb .quote-panel .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea){font-size:.84rem;min-height:36px}
+.plmb .section-bar{width:100%}
+.plmb .side-quote{display:inline-flex;align-items:center;justify-content:center}
+}
+@media(max-width:640px){
+.plmb .hero{grid-template-columns:1fr;gap:16px}
+.plmb .hero-gallery{display:contents}
+.plmb .gallery{grid-template-columns:1fr}
+.plmb .thumbs{flex-direction:row;grid-row:2}
+.plmb .gallery-main>img{aspect-ratio:1.13}
+.plmb .takeaway{order:3;margin-top:0}
+.plmb .hero-copy h1{font-size:clamp(1.85rem,7.2vw,2.7rem)}
+.plmb .hero-copy .hero-review{min-height:0}
+.plmb .review-platforms img{max-width:230px}
+.plmb .benefits{padding:0}
+.plmb .quote-panel{padding:14px}
+.plmb .section-bar nav{justify-content:flex-start;padding-inline:2px;gap:13px}
+.plmb #glance .section-intro,.plmb .details-grid,.plmb .partnership .section-intro{grid-template-columns:1fr}
+.plmb .partnership .section-intro p{justify-self:start}
+.plmb .option-grid.boards{grid-template-columns:repeat(2,minmax(0,1fr))}
+.plmb .tool-grid,.plmb .partnership-grid{grid-template-columns:1fr 1fr;gap:9px}
+.plmb .tool-grid>a{padding:11px}
+.plmb .tool-grid h3,.plmb .partnership-grid h3{font-size:1rem}
+.plmb .reviews-heading{align-items:flex-start;flex-direction:column;gap:8px}
+.plmb .reviews-heading img{width:145px}
+}
+/* Bottom-left: the product photos carry their own code label (e.g. MCB-01) in the bottom-right corner. */
+.plmb .gallery-main>.gallery-nav{right:auto;left:12px;bottom:12px;gap:6px;padding:3px 6px;font-size:.72rem}
+.plmb .hero-review blockquote{line-height:1.5}
+.plmb .hero-review .review-name{margin-top:9px}
+.plmb .quote-panel .quote-specs label{grid-template-rows:auto 1fr}
+.plmb .quote-panel .quote-specs :is(input,select){align-self:end}
+@media(min-width:1151px){
+.plmb .reading-width{width:min(100%,39.6vw,760px)}
+.plmb .options-width{width:min(100%,47vw,900px)}
+.plmb .details-grid{max-width:min(100%,54.7vw,1050px)}
+.plmb .faq{max-width:1090px}
+}
+.plmb .quote-rail{min-width:0;scroll-margin-top:16px}@media(min-width:921px){.plmb .product-sticky-region{--product-width:var(--site-wrap);
+   --product-gap:clamp(15px,2vw,36px);
+   --quote-width:max(360px,calc((var(--product-width) - var(--product-gap)) / 2.7));
+   position:relative}
+.plmb .product-grid{grid-template-columns:minmax(0,1fr) max(360px,calc((100% - var(--product-gap)) / 2.7))}
+.plmb .quote-rail{position:absolute;inset:0 calc((100% - var(--product-width)) / 2) var(--rail-bottom,24px) auto;width:var(--quote-width);z-index:2;pointer-events:none}
+.plmb .quote-panel{position:sticky;top:12px;max-height:calc(100dvh - 24px);overflow-y:auto;scrollbar-width:thin;pointer-events:auto}
+.plmb #glance .reading-width,.plmb #materials .reading-width,.plmb #details .details-grid{max-width:calc(100% - max(360px,calc((100% - var(--product-gap)) / 2.7)) - var(--product-gap))}
+}
+@media(min-width:921px) and (max-width:1150px){.plmb .product-sticky-region{--product-width:var(--site-wrap);--product-gap:16px;--quote-width:max(320px,calc((var(--product-width) - 16px) / 2.55))}
+.plmb .product-grid{grid-template-columns:minmax(0,1fr) max(320px,calc((100% - 16px) / 2.55))}
+.plmb #glance .reading-width,.plmb #materials .reading-width,.plmb #details .details-grid{max-width:calc(100% - max(320px,calc((100% - 16px) / 2.55)) - 16px)}
+}
+
+/* ==========================================================================
+   Hover effects & smooth motion
+   ========================================================================== */
+.plmb{--ease:cubic-bezier(.22,.7,.25,1);--lift:0 10px 26px #173c1716,0 2px 6px #173c170d}
+
+/* Buttons */
+.plmb .button{transition:background .25s var(--ease),color .25s var(--ease),transform .25s var(--ease),box-shadow .25s var(--ease)}
+.plmb .button:hover{transform:translateY(-2px)}
+.plmb .button:active{transform:translateY(0);transition-duration:.08s}
+.plmb .red:hover{box-shadow:0 8px 20px #d92c3738}
+.plmb .outline:hover{border-color:var(--green);background:var(--sage)}
+.plmb .submit svg{transition:transform .3s var(--ease)}
+.plmb .submit:hover svg{transform:translateX(4px)}
+.plmb .side-quote{transition:background .25s var(--ease),padding .3s var(--ease),box-shadow .25s var(--ease)}
+.plmb .side-quote:hover{transform:none;padding-block:18px;box-shadow:4px 0 16px #d92c3730}
+
+/* Text links: animated arrow + underline */
+.plmb a{transition:color .2s var(--ease)}
+.plmb .text-link{position:relative}
+.plmb .text-link:hover{text-decoration:none}
+.plmb .text-link svg{transition:transform .3s var(--ease)}
+.plmb .text-link:hover svg,.plmb a:hover .text-link svg{transform:translateX(4px)}
+.plmb .text-link:hover svg.lucide-arrow-down{transform:translateY(3px)}
+.plmb .breadcrumb a,.plmb .consent a{background:linear-gradient(currentColor,currentColor) 0 100%/0 1.5px no-repeat;transition:background-size .3s var(--ease),color .2s var(--ease)}
+.plmb .breadcrumb a:hover{background-size:100% 1.5px}
+
+/* Gallery */
+.plmb .thumbs button{transition:border-color .2s var(--ease),transform .25s var(--ease),opacity .2s var(--ease)}
+.plmb .thumbs button[aria-pressed=false]{opacity:.72}
+.plmb .thumbs button:hover{opacity:1;border-color:#8fb89a;transform:translateY(-1px)}
+.plmb .gallery-main>img{transition:transform .7s var(--ease)}
+.plmb .gallery-main:hover>img{transform:scale(1.035)}
+.plmb .icon-button{transition:background .2s var(--ease),transform .2s var(--ease)}
+.plmb .icon-button:hover{transform:scale(1.08)}
+.plmb .lightbox[open]{animation:plmb-zoom-in .3s var(--ease)}
+.plmb .lightbox[open]::backdrop{animation:plmb-fade .3s ease}
+
+/* Cards */
+.plmb .quote-card,.plmb .tool-grid>a,.plmb .related-card,.plmb .option-grid button,.plmb .detail-aside>div,.plmb .takeaway{transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .25s var(--ease)}
+.plmb .quote-card:hover,.plmb .tool-grid>a:hover,.plmb .related-card:hover,.plmb .detail-aside>div:hover{transform:translateY(-4px);box-shadow:var(--lift)}
+.plmb .takeaway:hover{border-color:#bcd0bf;box-shadow:var(--lift)}
+.plmb .related-card img,.plmb .option-grid img,.plmb .feature-photo{transition:transform .6s var(--ease)}
+.plmb .related-card:hover img{transform:scale(1.06)}
+.plmb .related-card:hover h3{color:var(--green)}
+.plmb .related-card h3{transition:color .2s var(--ease)}
+.plmb .option-grid button:hover{transform:translateY(-3px);box-shadow:0 0 0 1px var(--green),var(--lift)}
+.plmb .option-grid button:hover img{transform:scale(1.07)}
+.plmb .option-grid button:active{transform:translateY(-1px)}
+.plmb .option-grid button[aria-pressed=true] strong{color:var(--green)}
+.plmb .feature-photo{transition:box-shadow .4s var(--ease)}
+.plmb .feature-photo:hover{box-shadow:var(--lift)}
+.plmb .tool-icon{transition:background .3s var(--ease),color .3s var(--ease),transform .35s var(--ease)}
+.plmb .tool-grid>a:hover .tool-icon{background:var(--green);color:#fff;transform:rotate(-6deg) scale(1.05)}
+
+/* Benefits strip */
+.plmb .benefits img{transition:transform .35s var(--ease)}
+.plmb .benefits>div:hover img{transform:translateY(-3px) scale(1.08)}
+
+/* Quote form */
+.plmb .design-picker label>span{transition:border-color .2s var(--ease),background .2s var(--ease),transform .25s var(--ease),box-shadow .25s var(--ease)}
+.plmb .design-picker label:hover>span{border-color:#9cc2a5;transform:translateY(-2px);box-shadow:0 6px 14px #173c1712}
+.plmb .design-picker label>span img{transition:transform .3s var(--ease)}
+.plmb .design-picker label:hover>span img{transform:scale(1.08)}
+.plmb .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea){transition:border-color .2s var(--ease),box-shadow .2s var(--ease),background .2s var(--ease)}
+.plmb .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea):hover{border-color:#a9bfac}
+.plmb .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea):focus{outline:none;border-color:var(--green);background:#fff;box-shadow:0 0 0 3px #14743c22}
+.plmb .file-label{transition:background .2s var(--ease),border-color .2s var(--ease)}
+.plmb .file-label:hover{background:var(--sage);border-color:var(--green)}
+.plmb .print-options summary{transition:color .2s var(--ease)}
+.plmb .print-options summary:hover{color:var(--green)}
+.plmb .form-error:not([hidden]),.plmb .success{animation:plmb-fade-up .35s var(--ease)}
+
+/* Tables, specs, tags */
+.plmb .specs dl>div,.plmb .finish-table tbody tr{transition:background .2s var(--ease)}
+.plmb .specs dl>div:hover,.plmb .finish-table tbody tr:hover{background:#f6f9f3}
+.plmb .tags span{transition:background .2s var(--ease),border-color .2s var(--ease),color .2s var(--ease)}
+.plmb .tags span:hover{background:var(--sage);border-color:#a9c6ae;color:var(--green)}
+
+/* Partnership & process */
+.plmb .partnership-grid article{transition:border-color .3s var(--ease)}
+.plmb .partnership-grid article:hover{border-top-color:var(--green)}
+.plmb .process li span{transition:background .3s var(--ease),color .3s var(--ease),transform .3s var(--ease)}
+.plmb .process li:hover span{background:var(--green);color:#fff;transform:scale(1.08)}
+
+/* FAQ: smooth open/close where supported */
+.plmb .faq details{transition:border-color .25s var(--ease),box-shadow .25s var(--ease)}
+.plmb .faq details:hover{border-color:#b9cfbd;box-shadow:0 4px 14px #173c170f}
+.plmb .faq summary{transition:color .2s var(--ease)}
+.plmb .faq summary:hover{color:var(--green)}
+.plmb .faq summary::after{transition:transform .3s var(--ease)}
+.plmb .faq details[open] summary::after{transform:rotate(180deg)}
+@supports (interpolate-size:allow-keywords){
+ .plmb .faq{interpolate-size:allow-keywords}
+ .plmb .faq details::details-content{height:0;overflow:clip;transition:height .35s var(--ease),content-visibility .35s allow-discrete}
+ .plmb .faq details[open]::details-content{height:auto}
+}
+
+/* Scroll reveal (only once JS has marked the page ready, so content is never hidden without JS) */
+.plmb.plmb-reveal .plmb-r{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.plmb.plmb-reveal .plmb-r.is-in{opacity:1;transform:none}
+
+@keyframes plmb-fade{from{opacity:0}to{opacity:1}}
+@keyframes plmb-fade-up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes plmb-zoom-in{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+
+/* No hover devices: skip lift effects. Reduced motion: no movement at all. */
+@media (hover:none){
+ .plmb .button:hover,.plmb .quote-card:hover,.plmb .tool-grid>a:hover,.plmb .related-card:hover,.plmb .option-grid button:hover,.plmb .detail-aside>div:hover,.plmb .design-picker label:hover>span{transform:none}
+ .plmb .gallery-main:hover>img,.plmb .related-card:hover img,.plmb .option-grid button:hover img{transform:none}
+}
+@media (prefers-reduced-motion:reduce){
+ .plmb *,.plmb *::before,.plmb *::after{animation:none!important}
+ .plmb *:hover,.plmb *:hover img,.plmb *:hover svg,.plmb *:hover>span{transform:none!important}
+ .plmb .side-quote:hover{transform:none!important}
+ .plmb.plmb-reveal .plmb-r{opacity:1;transform:none}
+}
+
+/* Heading type spec. Overrides the per-section sizes above.
+   The small "Key Takeaway" label and the quote panel title keep their own styles. */
+.plmb #product-title{font-family:"Libre Franklin",sans-serif;font-weight:700;font-style:normal;font-size:33px;line-height:38.61px;letter-spacing:-1.2px;vertical-align:middle}
+/* Keep the title on one line: shrink to fit the column (--chars = title length, set inline), never below 22px; very long titles still wrap */
+.plmb .hero-copy{container-type:inline-size}
+/* "Last updated September 1, 2026" above the product title */
+.plmb .last-updated{display:flex;align-items:center;gap:6px;margin:0 0 8px;font-size:.8rem;color:var(--muted)}
+.plmb .last-updated svg{flex:none;color:var(--green)}
+.plmb .last-updated time{font-weight:700;color:var(--ink)}
+.plmb #product-title{font-size:clamp(22px,calc(100cqi / (var(--chars,20) * .56)),33px);line-height:1.17}
+.plmb h2:not(#quote-title):not(.takeaway h2){font-family:"Libre Franklin",sans-serif;font-weight:500;font-style:normal;font-size:36px;line-height:43.2px;letter-spacing:-1.4px;vertical-align:middle}
+
+/* Materials & Options section background */
+.plmb #materials.sage{background:linear-gradient(90deg,#eff2e9 0% 38%,#fff 100%)}
+@media(min-width:921px){.plmb #materials.sage{background:linear-gradient(90deg,#eff2e9 0% min(46%,680px),#f7f8f4 min(57%,820px),#fff min(72%,1000px))}}
+/* ---- Layout updates to match the approved design ---- */
+/* Gallery controls stay out of the way until the image is hovered or focused */
+@media(hover:hover){
+ .plmb .gallery-main>.expand,.plmb .gallery-main>.gallery-nav{opacity:0;transition:opacity .25s var(--ease)}
+ .plmb .gallery-main:hover>.expand,.plmb .gallery-main:hover>.gallery-nav,.plmb .gallery-main:focus-within>.expand,.plmb .gallery-main:focus-within>.gallery-nav{opacity:1}
+}
+/* Hero review: name + "Customer review excerpt" on the left, Bark logo on the right */
+.plmb .hero-review .review-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding-top:8px;margin-top:9px}
+.plmb .hero-review .review-footer .review-name{display:block;border:0;padding:0;margin:0}
+.plmb .hero-review .review-footer small{display:block;font-size:.68rem;color:var(--muted)}
+.plmb .review-source{flex:none;display:block;width:auto;height:22px;max-width:96px;object-fit:contain}
+/* Hero review rotation: slides share one grid cell so the card keeps the tallest review's height */
+.plmb .review-slides{display:grid;flex:1}
+.plmb .review-slide{grid-area:1/1;margin:0;display:flex;flex-direction:column;opacity:0;visibility:hidden;transition:opacity .35s var(--ease),visibility 0s .35s}
+.plmb .review-slide.is-active{opacity:1;visibility:visible;transition:opacity .35s var(--ease)}
+.plmb .review-slide blockquote{flex:1}
+.plmb .review-dots{display:flex;justify-content:center;gap:6px;margin-top:9px}
+.plmb .review-dots button{width:7px;height:7px;padding:0;border:0;border-radius:4px;background:#c9d6c8;transition:width .3s var(--ease),background .3s var(--ease)}
+.plmb .review-dots button[aria-current=true]{width:18px;background:var(--green)}
+@media (prefers-reduced-motion:reduce){.plmb .review-slide,.plmb .review-slide.is-active{transition:none}}
+/* Key takeaway link: text left, chevron right */
+.plmb .takeaway .text-link{justify-content:space-between;align-items:center}
+/* At a glance: heading wide on the left, intro text on the right, table under the heading */
+.plmb #glance .reading-width{width:100%}
+.plmb #glance .section-intro{grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:24px}
+.plmb #glance .specs{max-width:none}
+.plmb .specs>div{background:var(--stone)}
+.plmb .specs>div strong{font-size:.95rem}
+@media(max-width:640px){
+ .plmb #glance .section-intro{grid-template-columns:1fr}
+ .plmb #glance .specs{max-width:none}
+}
+/* "Get to know your packaging": the left panel stays in view while the article scrolls,
+   and stops at the end of the article ("Talk through your project with our team") */
+@media(min-width:921px){
+ .plmb .detail-aside{position:sticky;top:72px;max-height:calc(100dvh - 84px);overflow-y:auto;scrollbar-width:none;padding:6px;margin:-6px}
+ .plmb .detail-aside::-webkit-scrollbar{display:none}
+}
+
+/* ==========================================================================
+   Quote form: match the approved design (light labels, no dropdown arrows,
+   unselected design cards, "$ 1.05 Est" price line)
+   ========================================================================== */
+.plmb .quote-panel{font-family:"Libre Franklin",system-ui,sans-serif;padding:clamp(16px,1.6vw,28px) clamp(18px,1.9vw,32px)}
+.plmb .quote-panel h2{font-weight:700!important}
+.plmb .quote-panel .quote-promises{padding:12px 10px;margin-bottom:16px;gap:6px 10px;font-weight:400;font-size:clamp(.62rem,.66vw,.74rem);border-radius:4px}
+.plmb .quote-panel .quote-heading{margin-bottom:14px}
+.plmb .quote-panel .quote-heading h3{font-weight:700;letter-spacing:-.02em}
+.plmb .quote-panel .quote-heading-text p{margin-top:7px;font-weight:500}
+.plmb .quote-panel .quote-info{color:#555}
+.plmb .quote-panel .quote-stock{font-size:.8rem;font-weight:700;margin-bottom:2px}
+.plmb .quote-panel .starting-price>span{font-size:.5rem;font-style:italic;font-weight:700;text-align:left}
+.plmb .quote-panel .price-line{display:flex;align-items:baseline;gap:2px}
+.plmb .quote-panel .price-line strong{color:#ff4343;font-size:clamp(1.1rem,1.3vw,1.45rem);font-weight:800;letter-spacing:-.02em}
+.plmb .quote-panel .price-line small{font-size:.55rem;font-style:italic;font-weight:700}
+.plmb .quote-panel .price-line .quote-info{align-self:center;margin-left:1px}
+/* Design cards: evenly spaced, white, no default selection */
+.plmb .quote-panel .design-picker{margin-bottom:20px}
+.plmb .quote-panel .design-picker>div{gap:clamp(8px,1vw,20px);padding-inline:clamp(0px,.8vw,20px)}
+@media(min-width:1400px){.plmb .quote-panel .design-picker label>span>span{white-space:nowrap}}
+.plmb .quote-panel .design-picker label>span{min-height:clamp(80px,6.3vw,120px);padding:8px 4px 10px;gap:8px;border-color:#d6d6d6;border-radius:6px;background:#fff;font-weight:400;font-size:clamp(.62rem,.68vw,.76rem);color:var(--ink)}
+.plmb .quote-panel .design-picker label>span img{width:clamp(44px,4.2vw,82px);height:clamp(36px,3.4vw,66px)}
+.plmb .quote-panel .design-picker input:checked+span{background:#fff;border-color:var(--green);box-shadow:0 0 0 1px var(--green);color:var(--ink)}
+/* Fields */
+.plmb .quote-panel .quote-form :is(label,legend){font-weight:400;font-size:clamp(.6rem,.62vw,.72rem)}
+.plmb .quote-panel .form-grid,.plmb .quote-panel .dimension-group>div{gap:13px 14px}
+.plmb .quote-panel .form-grid label,.plmb .quote-panel .dimension-group label,.plmb .quote-panel .notes{gap:7px}
+.plmb .quote-panel .quote-specs,.plmb .quote-panel .dimension-group,.plmb .quote-panel .notes{margin-top:13px}
+.plmb .quote-panel .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea){min-height:clamp(32px,2.4vw,40px);padding:6px 11px;background:#fafbf6;border:1px solid #e0e3d8;border-radius:4px;font-size:clamp(.64rem,.68vw,.78rem)}
+.plmb .quote-panel .quote-form select{-webkit-appearance:none;appearance:none;background-image:none;cursor:pointer;padding-inline:14px}
+.plmb .quote-panel .quote-form :is(input,textarea)::placeholder{color:#9a9e96}
+.plmb .quote-panel .quote-form select[name=material]:has(option[value=""]:checked){color:#9a9e96}
+.plmb .quote-panel .notes textarea{min-height:clamp(52px,4.4vw,72px);resize:vertical}
+/* Button */
+.plmb .quote-panel .submit{margin-top:22px;min-height:clamp(36px,2.6vw,44px);background:#ff4343;border-radius:5px;box-shadow:none;font-weight:600;font-size:clamp(.72rem,.78vw,.88rem)}
+.plmb .quote-panel .submit:hover{background:#ec3434}
+
+/* Review card fits the review on screen: inactive slides are taken out of the flow, so short reviews leave no gap. */
+.plmb .hero-copy .hero-review{min-height:0!important}
+.plmb .review-slides{position:relative;display:block}
+.plmb .review-slide{position:absolute;inset:0 0 auto 0}
+.plmb .review-slide.is-active{position:relative}
+.plmb .review-slide blockquote{flex:none}
+
+/* Review logos now sit under the Key Takeaway card (left hero column). */
+.plmb .hero-gallery>.review-platforms{display:block;width:min(100%,300px);margin:12px auto 0}
+@media(max-width:640px){.plmb .hero-gallery>.review-platforms{order:4;margin-top:0}}
+
+/* Most option photos have a thin white frame baked in; scale them up a little (anchored at the bottom) so the photo fills the card edge to edge. */
+.plmb .option-grid img{transform-origin:50% 100%;transform:scale(1.07)}
+.plmb .option-grid button:hover img{transform:scale(1.13)}
+@media (prefers-reduced-motion:reduce){.plmb .option-grid button:hover img{transform:scale(1.07)}}
+
+/* Materials & finishes cards, styled after the packlegacy.com option cards. */
+.plmb .options .option-grid{gap:14px}
+.plmb .options .option-grid.boards{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none}
+.plmb .options .option-grid button{border:0;border-radius:8px;background:#f8f9f4;box-shadow:0 1px 3px #0000000d}
+.plmb .options .option-grid button:hover,.plmb .options .option-grid button[aria-pressed=true]{box-shadow:0 0 0 1.5px var(--green),var(--lift)}
+.plmb .options .option-grid img{height:auto;aspect-ratio:2.25/1;object-position:72% 50%}
+.plmb .options .option-grid.boards img{aspect-ratio:3.1/1;object-position:70% 50%}
+.plmb .options .option-grid button>span{padding:12px 14px 15px}
+.plmb .options .option-grid strong{font-weight:500;font-size:.86rem;color:#1d1d1b}
+.plmb .options .option-grid small{margin-top:5px;font-size:.68rem;color:#7a7f76}
+.plmb .options-divider{border:0;border-top:1px solid #dde3d6;margin:28px 0 4px}
+@media(max-width:640px){.plmb .options .option-grid,.plmb .options .option-grid.boards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Section headings with nothing beside them: one full-width line. */
+.plmb #glance .section-intro,.plmb .partnership .section-intro{display:block}
+.plmb #glance .section-intro h2,.plmb .partnership .section-intro h2{max-width:none}
+
+/* Product hero gallery: large photo on top, thumbnail row underneath (all screen sizes, all product pages). */
+.plmb .gallery{grid-template-columns:minmax(0,1fr);gap:10px}
+.plmb .gallery-main{grid-row:1;border-radius:14px}
+.plmb .gallery-main>img{aspect-ratio:1.15}
+.plmb .thumbs{grid-row:2;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.plmb .thumbs button{width:auto}
+.plmb .thumbs img{aspect-ratio:1.15}
+@media(max-width:640px){.plmb .thumbs{gap:7px}}
+
+/* Review platform logos (one image): a link over each logo opens that profile. Clutch | Bark | Trustpilot. */
+.plmb .review-platforms{position:relative}
+.plmb .review-platforms .rp-link{position:absolute;top:0;bottom:0;border-radius:6px}
+.plmb .review-platforms .rp-clutch{left:0;width:35%}
+.plmb .review-platforms .rp-bark{left:35%;width:33%}
+.plmb .review-platforms .rp-trustpilot{left:68%;right:0}
+.plmb .review-platforms .rp-link:focus-visible{outline:2px solid #0b8743;outline-offset:2px}
+.plmb .review-platforms{width:fit-content;max-width:100%}

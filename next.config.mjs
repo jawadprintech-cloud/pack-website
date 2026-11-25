@@ -1,0 +1,42 @@
+import { readFileSync } from "node:fs";
+
+// Redirects added in the dashboard.
+const saved = JSON.parse(readFileSync(new URL("./data/redirects.json", import.meta.url), "utf8"));
+// The admin page is included when PL_ADMIN=1 (`npm run admin` locally) and in every Vercel production build,
+// because Vercel does not pass the PL_ADMIN variable to the build. The dashboard still needs a login, and
+// app/admin/api/route.ts answers 404 unless PL_ADMIN=1 is set when the site runs.
+const admin = process.env.PL_ADMIN === "1" || process.env.VERCEL_ENV === "production";
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  pageExtensions: ["tsx", "ts", "jsx", "js", ...(admin ? ["admin.tsx", "admin.ts"] : [])],
+  // Every page URL ends with "/" (e.g. /about-us/). Links without it redirect (308) to the "/" version.
+  // Files such as /robots.txt, /llms.txt and /sitemap_index.xml are served without a slash.
+  trailingSlash: true,
+  // MCP server (lib/packlegacy-mcp): the artwork checker loads sharp by path inside a worker thread,
+  // so make sure sharp and its native binaries ship with the routes that use it.
+  serverExternalPackages: ["sharp"],
+  outputFileTracingIncludes: {
+    "/mcp": ["./node_modules/sharp/**/*", "./node_modules/@img/**/*", "./node_modules/detect-libc/**/*", "./node_modules/semver/**/*"],
+    "/api/packaging-tools": ["./node_modules/sharp/**/*", "./node_modules/@img/**/*", "./node_modules/detect-libc/**/*", "./node_modules/semver/**/*"],
+  },
+  // The site lives at https://packlegacy.com (no www). Any www request is sent permanently (308) to the same page there.
+  async redirects() {
+    const www = [{ type: "host", value: "www.packlegacy.com" }];
+    return [
+      ...saved,
+      // Packaging Inserts is a category page now; its packlegacy.com address was under /product/.
+      { source: "/product/packaging-inserts/", destination: "/packaging-inserts/", permanent: true },
+      // Files (robots.txt, sitemap_index.xml, images…) keep their exact path; pages keep their trailing slash, so it's one hop.
+      { source: "/:path*.:ext(txt|xml|webp|png|jpe?g|svg|ico|pdf|js|css|json)", has: www, destination: "https://packlegacy.com/:path*.:ext", permanent: true },
+      { source: "/:path*", has: www, destination: "https://packlegacy.com/:path*/", permanent: true },
+    ];
+  },
+  // Until the live site sets ALLOW_INDEXING=true (see lib/site.ts), tell search engines not to index anything.
+  async headers() {
+    if (process.env.ALLOW_INDEXING === "true") return [];
+    return [{ source: "/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] }];
+  },
+};
+
+export default nextConfig;

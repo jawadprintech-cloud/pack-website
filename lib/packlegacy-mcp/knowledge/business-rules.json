@@ -1,0 +1,35 @@
+{
+  "business": "Pack Legacy",
+  "policy_revision": "owner-confirmation-2026-11-18",
+  "evidence": "Owner-confirmed requirements for this development integration; not a manufacturing test.",
+  "purchase_mode": "quote_required",
+  "custom_box_ordering": {
+    "minimum_quantity": 1,
+    "one_box_can_be_supplied_and_shipped": true,
+    "scope": "custom boxes",
+    "source": "owner_confirmed"
+  },
+  "enquiry": {
+    "required_contact_fields": ["name", "email", "phone"],
+    "packaging_details_required": false,
+    "artwork_required": false,
+    "design_support_uses_same_form": true,
+    "follow_up_handled_by": "sales_agent",
+    "quantity_required": false,
+    "unknown_quantity": null,
+    "final_offer_requires_exact_quantity": true
+  },
+  "pricing": {
+    "shared_starting_prices_are_allowed": true,
+    "starting_prices_are_indicative": true,
+    "final_price": null,
+    "approved_offer_required_before_purchase": true
+  },
+  "needs_owner_alignment": [
+    "Any non-box minimum, including the published paper-bag statement",
+    "Shipping charges, geography and any free-shipping threshold",
+    "Production and transit commitments for a specific order",
+    "Product-specific material and finish compatibility"
+  ],
+  "note": "One-box shipping availability does not establish a shipping price or delivery date."
+}
