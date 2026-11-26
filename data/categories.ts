@@ -2329,7 +2329,7 @@ export const categories: Record<string, CategoryData> = {
     ],
     strong: "Wholesale pricing, free design support, and free shipping—order custom mylar bags from us today!",
     takeaway:
-      "Mylar bags are flexible packaging solutions made from polyester film (BoPET) that help protect products against moisture, oxygen, and odors. These bags come in thicknesses from 2.5 mil to 7 mil and are ideal for snacks, coffee, tea, supplements, and pet food. Popular styles include stand-up pouches, flat pouches, gusseted bags, and spout pouches. At Pack Legacy, we offer custom printed mylar bags with an MOQ of 500 units and free shipping.",
+      "Mylar bags are flexible packaging solutions made from polyester film (BoPET) that help protect products against moisture, oxygen, and odors. These bags come in thicknesses from 2.5 mil to 7 mil and are ideal for snacks, coffee, tea, supplements, and pet food. Popular styles include stand-up pouches, flat pouches, gusseted bags, and spout pouches. At Pack Legacy, we offer custom printed mylar bags with an MOQ of 100 units and free shipping.",
     gridTitle: "Mylar Bags Built For Your Product",
     gridIntro: "Browse our full range of styles, sizes, and finishes—from stand-up pouches to child-resistant bags—and choose the option that best elevates your brand.",
     products: ["die-cut-mylar-bags", "coffee-packaging-bags"],
