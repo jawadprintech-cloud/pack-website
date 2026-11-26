@@ -124,7 +124,7 @@
 .plmb .details-grid{display:grid;grid-template-columns:minmax(190px,265px) minmax(0,1fr);gap:clamp(25px,5vw,76px);align-items:start}
 .plmb .detail-aside>div{border:1px solid var(--line);border-radius:10px;padding:19px;margin-bottom:12px}
 .plmb .detail-aside>div+div{background:var(--sage)}
-.plmb .detail-aside dl,.plmb .detail-aside h3+p{margin-top:12px;font-size:.85rem}
+.plmb .detail-aside dl,.plmb .detail-aside h3+p,.plmb .detail-aside .help-title+p{margin-top:12px;font-size:.85rem}
 .plmb .detail-aside dt{font-weight:750}
 .plmb .detail-aside dd{color:var(--muted);margin-bottom:9px}
 .plmb .detail-aside .text-link{margin-top:11px}
@@ -351,7 +351,9 @@
 .plmb .detail-aside>div+div{background:#fff}
 .plmb .detail-aside .help-aside{background:var(--sage)}
 .plmb .detail-aside h3{font-size:1rem}
-.plmb .detail-aside p{font-size:.84rem}
+.plmb .detail-aside p,.plmb .detail-aside .eyebrow{font-size:.84rem}
+/* "Need help choosing?" is a div, styled like the h3 it replaced. */
+.plmb .detail-aside .help-title{font-size:1rem;line-height:1.12;letter-spacing:-.025em;font-weight:700}
 .plmb .feature-lead{margin-top:20px}
 .plmb .feature-photo{aspect-ratio:1.62}
 .plmb .feature-text{grid-template-columns:1fr;gap:17px}

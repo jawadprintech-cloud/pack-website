@@ -360,7 +360,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
           <div className="details-grid">
             <aside className="detail-aside">
               <div>
-                <p className="eyebrow">BUILT AROUND YOUR PRODUCT</p>
+                <div className="eyebrow">BUILT AROUND YOUR PRODUCT</div>
                 <h3>Box details</h3>
                 <dl>
                   <dt>Size</dt><dd>{spec(p, /dimension/i) || "Custom dimensions"}</dd>
@@ -370,7 +370,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                 </dl>
               </div>
               <div className="help-aside">
-                <h3>Need help choosing?</h3>
+                <div className="help-title">Need help choosing?</div>
                 <p>Talk to a packaging specialist about your project.</p>
                 <a className="text-link" href="tel:+14243216460">+1 (424) 321-6460 <Arrow /></a>
               </div>
@@ -381,7 +381,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
               </div>
             </aside>
             <article className="prod-copy">
-              <p className="eyebrow">GET TO KNOW YOUR PACKAGING</p>
+              <div className="eyebrow">GET TO KNOW YOUR PACKAGING</div>
               {renderDescription(p.description)}
               {p.whatYouGet && p.whatYouGet.length > 0 && (
                 <div className="prod-get">
