@@ -332,20 +332,20 @@ export default function ProductPage({ product: p }: { product: Product }) {
                 <h3><span>01</span> Choose your material</h3>
                 <div className="option-grid boards">
                   {materialOptions.map(([img, t, d]) => (
-                    <button key={t} type="button" aria-pressed="false">
+                    <div key={t} className="option-card">
                       <img src={MB + img} alt="" loading="lazy" />
                       <span><strong>{t}</strong><small>{d}</small></span>
-                    </button>
+                    </div>
                   ))}
                 </div>
                 <hr className="options-divider" />
                 <h3><span>02</span> Select printing &amp; finishes</h3>
                 <div className="option-grid">
                   {finishOptions.map(([img, t, d]) => (
-                    <button key={t} type="button" aria-pressed="false">
+                    <div key={t} className="option-card">
                       <img src={MB + img} alt="" loading="lazy" />
                       <span><strong>{t}</strong><small>{d}</small></span>
-                    </button>
+                    </div>
                   ))}
                 </div>
                 <h3><span>03</span> Finalize your custom design</h3>

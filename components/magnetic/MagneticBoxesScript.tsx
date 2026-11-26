@@ -148,14 +148,7 @@ export default function MagneticBoxesScript() {
       form.insertBefore(help, submit);
       created.push(remove, help);
 
-      // Material & finish cards only highlight on the page; they don't change the quote form.
-      root.querySelectorAll<HTMLElement>(".options .option-grid").forEach((grid) => {
-        const cards = [...grid.querySelectorAll<HTMLButtonElement>("button")];
-        cards.forEach((b) => b.addEventListener("click", () => {
-          const on = b.getAttribute("aria-pressed") !== "true";
-          cards.forEach((c) => c.setAttribute("aria-pressed", String(c === b && on)));
-        }, opts));
-      });
+      // Material & finish cards are display only: hover effects in CSS, nothing happens on click.
 
       const showError = (message: string) => {
         help.textContent = message;
