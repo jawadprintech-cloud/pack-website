@@ -11,26 +11,24 @@ type P = { slug: string; title: string; category: string; gallery: string[] };
 const list = products as unknown as P[];
 const img = (slug: string) => list.find((p) => p.slug === slug)?.gallery[0];
 
+// Pages the search box may show. Company, help and policy pages are left out on purpose (they stay
+// reachable from the menus and footer): FAQs, About Us, Contact Us, Terms & Conditions, Returns & Refunds,
+// Privacy Policy, Shipping Policy, Sample Kits, Free Dieline Templates, How To Order, Track Your Order.
 const pages: [string, string][] = [
   ["All Products (Shop)", "/shop/"],
   ["Industries", "/industries/"],
   ["Box By Style", "/box-by-style/"],
   ["Custom Boxes", "/custom-boxes/"],
-  ["How To Order", "/how-to-order/"],
-  ["Sample Kits", "/sample-kits/"],
   ["Materials", "/materials/"],
-  ["Free Dieline Templates", "/free-dieline-templates/"],
-  ["Track Your Order", "/track-your-order/"],
-  ["FAQs", "/faqs/"],
   ["Reviews", "/reviews/"],
-  ["About Us", "/about-us/"],
-  ["Contact Us", "/contact-us/"],
   ["Blog", "/blog/"],
-  ["Shipping Policy", "/shipping-policy/"],
-  ["Refund and Return Policy", "/refund-and-return-policy/"],
-  ["Privacy Policy", "/privacy-policy/"],
-  ["Terms and Conditions", "/terms-and-conditions/"],
 ];
+
+// Never searchable, even if a category or other entry ever points at one of them.
+const EXCLUDED = new Set([
+  "/faqs/", "/about-us/", "/contact-us/", "/terms-and-conditions/", "/refund-and-return-policy/",
+  "/privacy-policy/", "/shipping-policy/", "/sample-kits/", "/free-dieline-templates/", "/how-to-order/", "/track-your-order/",
+]);
 
 export function GET() {
   const items: SearchItem[] = [
@@ -48,6 +46,6 @@ export function GET() {
       x: p.category.replace(/\s+Custom$/, ""), // extra words to match on, e.g. "Bakery Boxes"
     })),
     ...pages.map(([t, u]): SearchItem => ({ t, u, k: "Page" })),
-  ];
+  ].filter((item) => !EXCLUDED.has(item.u));
   return Response.json(items);
 }
