@@ -163,6 +163,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
   const cat = categoryOf(p);
   const name = p.title.replace(/^Custom\s+/, "");
   const bag = isBagHref(`/product/${p.slug}/`) || /\bbags?\b/i.test(p.category); // bags have a minimum order
+  const moqSpec = spec(p, /minimum order|\bmoqs?\b/i); // a "Minimum Order Quantity" row in the product's own table
   const gallery = p.gallery.length ? p.gallery : [MB + "hero.webp"];
   const related = relatedFor(p);
   const takeaway = p.takeaway || p.metaDescription || p.intro[0]?.replace(/<[^>]+>/g, "") || "";
@@ -316,7 +317,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                 {p.specs.map(([k, v]) => (
                   <div key={k}><dt>{k}</dt><dd>{v}</dd></div>
                 ))}
-                <div><dt>Order quantity</dt><dd>{bag ? "Low MOQ" : "No minimum order quantity"}</dd></div>
+                {!moqSpec && <div><dt>Order quantity</dt><dd>{bag ? "Low MOQ" : "No minimum order quantity"}</dd></div>}
               </dl>
             </div>
           </div>
@@ -365,7 +366,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                   <dt>Size</dt><dd>{spec(p, /dimension/i) || "Custom dimensions"}</dd>
                   <dt>Inserts</dt><dd>{spec(p, /insert/i) || "Available on request"}</dd>
                   <dt>Production</dt><dd>{spec(p, /production|turnaround/i) || "Confirm with your quote"}</dd>
-                  <dt>Minimum order</dt><dd>{bag ? "Low MOQ" : "None"}</dd>
+                  <dt>Minimum order</dt><dd>{moqSpec || (bag ? "Low MOQ" : "None")}</dd>
                 </dl>
               </div>
               <div className="help-aside">

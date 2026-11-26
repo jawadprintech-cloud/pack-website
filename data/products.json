@@ -4283,16 +4283,16 @@
     "Clear Windows, Valves, QR Codes, Die-Cut Shapes, Custom Labels"
    ],
    [
-    "MOQs",
-    "500 units"
-   ],
-   [
     "Production",
     "8 to 12 Business Days"
    ],
    [
     "Shipping",
-    "Standard, Rush"
+    "Standard (Free Shipping), Rush (Expedited Shipping)"
+   ],
+   [
+    "Minimum Order Quantity",
+    "Starting from 100 units"
    ]
   ],
   "faqs": [
@@ -31100,7 +31100,11 @@
   "specs": [
    [
     "Dimensions",
-    "All Custom Sizes & Shapes (Flat, Gusseted, Stand-Up, Child-Resistant, Spout)"
+    "All Custom Sizes & Shapes"
+   ],
+   [
+    "Styles",
+    "Flat, Gusseted, Stand-Up, Child-Resistant, Spout"
    ],
    [
     "Material",
@@ -31116,7 +31120,7 @@
    ],
    [
     "Printing Options",
-    "Digital Printing, Rotogravure Printing, Custom Labels"
+    "Digital Printing, Rotogravure Printing"
    ],
    [
     "Coating & Laminations",
@@ -31132,7 +31136,7 @@
    ],
    [
     "Add-ons",
-    "Clear Windows, Valves, QR Codes, Die-Cut Shapes"
+    "Clear Windows, Valves, QR Codes, Die-Cut Shapes, Custom Labels"
    ],
    [
     "Production",
@@ -31140,7 +31144,11 @@
    ],
    [
     "Shipping",
-    "Standard, Rush"
+    "Standard (Free Shipping), Rush (Expedited Shipping)"
+   ],
+   [
+    "Minimum Order Quantity",
+    "Starting from 100 units"
    ]
   ],
   "faqs": [
