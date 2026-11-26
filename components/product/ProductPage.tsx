@@ -42,7 +42,6 @@ export const formatUpdated = (iso: string) =>
 export const allProducts = products as unknown as Product[];
 export const getProduct = (slug: string) => allProducts.find((p) => p.slug === slug);
 
-const MB = "/magnetic-closure-boxes/images/";
 
 export const categoryOf = (p: Product) => p.category.replace(/\s+Custom$/, "").trim();
 
@@ -89,27 +88,27 @@ const spec = (p: Product, re: RegExp) => p.specs.find(([k]) => re.test(k))?.[1];
 // Labels and the shared subtitle follow the packlegacy.com option cards.
 const OPTION_NOTE = "A sturdy foundation for custom artwork";
 const materialOptions = [
-  ["Grey-Chipboard.webp", "Grey-Chipboard", OPTION_NOTE],
-  ["cardstock.webp", "Thick-Cardstock", OPTION_NOTE],
-  ["Duplex-Chipboard-Layers-with-Green-Checkmark.webp", "Duplex-Chipboard", OPTION_NOTE],
+  ["/grey-chipboard.webp", "Grey-Chipboard", OPTION_NOTE],
+  ["/cardstock.webp", "Thick-Cardstock", OPTION_NOTE],
+  ["/duplex-chipboard-layers-with-green-checkmark.webp", "Duplex-Chipboard", OPTION_NOTE],
 ];
 const finishOptions = [
-  ["Gloss-Lamination-Sample-Card.webp", "Gloss", OPTION_NOTE],
-  ["Matte-Lamination-Product-Banner.webp", "Matte", OPTION_NOTE],
-  ["Gloss.webp", "Spot UV", OPTION_NOTE],
-  ["Embossing.webp", "Embossing", OPTION_NOTE],
-  ["Debossing.webp", "Debossing", OPTION_NOTE],
-  ["Foiling-Stamp.webp", "Foil Stamping", OPTION_NOTE],
-  ["Soft-Touch.webp", "Soft Touch Lamination", OPTION_NOTE],
-  ["Varnish.webp", "Varnish", OPTION_NOTE],
+  ["/gloss-lamination-sample-card.webp", "Gloss", OPTION_NOTE],
+  ["/matte-lamination-product-banner.webp", "Matte", OPTION_NOTE],
+  ["/gloss.webp", "Spot UV", OPTION_NOTE],
+  ["/embossing-magnetic.webp", "Embossing", OPTION_NOTE],
+  ["/debossing.webp", "Debossing", OPTION_NOTE],
+  ["/foiling-stamp.webp", "Foil Stamping", OPTION_NOTE],
+  ["/soft-touch-magnetic.webp", "Soft Touch Lamination", OPTION_NOTE],
+  ["/varnish.webp", "Varnish", OPTION_NOTE],
 ];
 // `src` is where the review was posted (same attribution as app/reviews/page.tsx); "pl" = collected directly by
 // Pack Legacy, shown with our own logo as on the Reviews page. `rest` is the part hidden behind "Read more".
 const REVIEW_LOGOS = {
-  clutch: { img: "/custom-boxes/images/r-clutch.webp", alt: "Clutch", note: "Review on Clutch" },
-  trustpilot: { img: "/custom-boxes/images/r-trustpilot.png", alt: "Trustpilot", note: "Review on Trustpilot" },
-  bark: { img: "/custom-boxes/images/r-bark.webp", alt: "Bark", note: "Review on Bark" },
-  pl: { img: "/images/pack-legacy-logo.svg", alt: "Pack Legacy review", note: "Verified customer" },
+  clutch: { img: "/r-clutch.webp", alt: "Clutch", note: "Review on Clutch" },
+  trustpilot: { img: "/r-trustpilot.png", alt: "Trustpilot", note: "Review on Trustpilot" },
+  bark: { img: "/r-bark.webp", alt: "Bark", note: "Review on Bark" },
+  pl: { img: "/pack-legacy-logo.svg", alt: "Pack Legacy review", note: "Verified customer" },
 } as const;
 const heroReviews: { who: string; text: string; rest?: string; src: keyof typeof REVIEW_LOGOS }[] = [
   { who: "Andy Roy", src: "clutch", text: "Pack Legacy successfully delivered the project on time and met the client’s expectations.", rest: " The team kept the client updated on the progress and was attentive to the client’s needs. The client was also impressed with the team’s support and how they handled the project overall." },
@@ -164,7 +163,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
   const name = p.title.replace(/^Custom\s+/, "");
   const bag = isBagHref(`/product/${p.slug}/`) || /\bbags?\b/i.test(p.category); // bags have a minimum order
   const moqSpec = spec(p, /minimum order|\bmoqs?\b/i); // a "Minimum Order Quantity" row in the product's own table
-  const gallery = p.gallery.length ? p.gallery : [MB + "hero.webp"];
+  const gallery = p.gallery.length ? p.gallery : ["/hero.webp"];
   const related = relatedFor(p);
   const takeaway = p.takeaway || p.metaDescription || p.intro[0]?.replace(/<[^>]+>/g, "") || "";
   const isCta = (h: string) => /^\s*<(em|strong|b|i)>/.test(h);
@@ -273,7 +272,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                   </div>
                   {/* One image with all three logos; a link sits over each logo (styles: .rp-link in magnetic-boxes.css). */}
                   <div className="review-platforms">
-                    <img src={MB + "reviews.webp"} width={500} height={67} alt="" />
+                    <img src={"/reviews.webp"} width={500} height={67} alt="" />
                     <a className="rp-link rp-clutch" {...reviewLinkProps("clutch")} aria-label="Pack Legacy reviews on Clutch" />
                     <a className="rp-link rp-bark" {...reviewLinkProps("bark")} aria-label="Pack Legacy reviews on Bark" />
                     <a className="rp-link rp-trustpilot" {...reviewLinkProps("trustpilot")} aria-label="Pack Legacy reviews on Trustpilot" />
@@ -282,10 +281,10 @@ export default function ProductPage({ product: p }: { product: Product }) {
               </section>
               {/* Same benefit copy as the Magnetic page, so the strip stays one tidy row on every product. */}
               <div className="benefits">
-                <div><img src={MB + "materials.webp"} alt="" width={39} height={39} /><div><strong>Materials</strong><small>Corrugated, kraft, cardboard<br />&amp; rigid stock options</small></div></div>
-                <div><img src={MB + "printing.webp"} alt="" width={39} height={39} /><div><strong>Printing</strong><small>CMYK &amp; PMS colors<br />Digital and offset printing</small></div></div>
-                <div><img src={MB + "turnaround.webp"} alt="" width={39} height={39} /><div><strong>Turnaround</strong><small>Rush, standard &amp; economy<br />Confirm timing with your quote</small></div></div>
-                <div><img src={MB + "shipping.webp"} alt="" width={39} height={39} /><div><strong>Free Shipping</strong><small>From our team<br />to your doorstep</small></div></div>
+                <div><img src={"/materials.webp"} alt="" width={39} height={39} /><div><strong>Materials</strong><small>Corrugated, kraft, cardboard<br />&amp; rigid stock options</small></div></div>
+                <div><img src={"/printing.webp"} alt="" width={39} height={39} /><div><strong>Printing</strong><small>CMYK &amp; PMS colors<br />Digital and offset printing</small></div></div>
+                <div><img src={"/turnaround.webp"} alt="" width={39} height={39} /><div><strong>Turnaround</strong><small>Rush, standard &amp; economy<br />Confirm timing with your quote</small></div></div>
+                <div><img src={"/shipping.webp"} alt="" width={39} height={39} /><div><strong>Free Shipping</strong><small>From our team<br />to your doorstep</small></div></div>
               </div>
             </div>
             <div className="quote-rail" id="quote" tabIndex={-1} dangerouslySetInnerHTML={{ __html: quotePanelMarkup }} />
@@ -333,7 +332,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                 <div className="option-grid boards">
                   {materialOptions.map(([img, t, d]) => (
                     <div key={t} className="option-card">
-                      <img src={MB + img} alt="" loading="lazy" />
+                      <img src={img} alt="" loading="lazy" />
                       <span><strong>{t}</strong><small>{d}</small></span>
                     </div>
                   ))}
@@ -343,7 +342,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                 <div className="option-grid">
                   {finishOptions.map(([img, t, d]) => (
                     <div key={t} className="option-card">
-                      <img src={MB + img} alt="" loading="lazy" />
+                      <img src={img} alt="" loading="lazy" />
                       <span><strong>{t}</strong><small>{d}</small></span>
                     </div>
                   ))}

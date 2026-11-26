@@ -17,25 +17,25 @@ const article: Article = [
   { p: "Use this for cookies, brownies, slices, donuts, and even mini cakes. Keep the window large enough to show the product clearly, but not so large that it weakens the box during delivery." },
 
   { h2: "Cake Boxes That Protect Decoration and Travel Like a Pro" },
-  { img: { src: "/pages/blog/Cake-Boxes-That-Protect-Decoration-and-Travel-Like-a-Pro.webp", alt: "Cake Boxes That Protect Decoration and Travel Like a Pro", width: 780, height: 520 } },
+  { img: { src: "/cake-boxes-that-protect-decoration-and-travel-like-a-pro.webp", alt: "Cake Boxes That Protect Decoration and Travel Like a Pro", width: 780, height: 520 } },
   { p: "Cakes are the product category where packaging can directly affect reviews. If a cake arrives with smudged buttercream or a dented edge, the customer blames the baker, not the box." },
   { p: "Using sturdy [cake boxes](/product/cake-boxes/) helps keep cakes secure, supports safe transport, and preserves presentation for pickup or delivery. These cake packaging emphasizes custom sizing and food-grade options, which is exactly what you need when you sell different cake diameters and heights." },
   { p: "A simple pro move is to design for the “last 10 minutes” of travel. That is when sliding happens. Add a snug base, consider a taller lid for piped designs, and avoid too much empty space." },
 
   { h2: "Cupcake Boxes With Inserts That Prevent “Frosting Disasters”" },
-  { img: { src: "/pages/blog/Cupcake-Boxes-With-Inserts-That-Prevent-Frosting-Disasters.webp", alt: "Cupcake Boxes With Inserts That Prevent “Frosting Disasters”", width: 780, height: 520 } },
+  { img: { src: "/cupcake-boxes-with-inserts-that-prevent-frosting-disasters.webp", alt: "Cupcake Boxes With Inserts That Prevent “Frosting Disasters”", width: 780, height: 520 } },
   { p: "Cupcakes sell fast and photograph beautifully, but only if they arrive intact. The packaging goal is to stop lateral movement and prevent the lid from touching frosting." },
   { p: "For delicate treats, [custom cupcake boxes](/product/cupcake-boxes/) with inserts keep cupcakes upright and protect frosting details." },
   { p: "If you want to make this feel more premium, match the insert color to your brand palette, or print a subtle pattern on the inside lid. Customers remember what they see when they open the box." },
 
   { h2: "Donut Boxes That Balance Ventilation and Grease Control" },
-  { img: { src: "/pages/blog/Donut-Boxes-That-Balance-Ventilation-and-Grease-Control.webp", alt: "Donut Boxes That Balance Ventilation and Grease Control", width: 780, height: 520 } },
+  { img: { src: "/donut-boxes-that-balance-ventilation-and-grease-control.webp", alt: "Donut Boxes That Balance Ventilation and Grease Control", width: 780, height: 520 } },
   { p: "Donuts are tricky because they can be both moist and oily. If you seal them too tightly while they are warm, condensation softens the glaze and makes toppings slide. If you ventilate too much, they dry out faster." },
   { p: "Choose a donut box designed for inserts, dividers, or window options, depending on your style of donut and how you display them. [Custom Donut boxes](/product/donut-boxes/) that support customization give you more control over presentation and structure." },
   { p: "If your donuts are heavily glazed, add a food-safe liner sheet to keep the box clean and prevent oil staining that can make branding look messy." },
 
   { h2: "Cookie Boxes That Keep Texture Crisp and Look Giftable" },
-  { img: { src: "/pages/blog/Cookie-Boxes-That-Keep-Texture-Crisp-and-Look-Giftable.webp", alt: "Cookie Boxes That Keep Texture Crisp and Look Giftable", width: 780, height: 520 } },
+  { img: { src: "/cookie-boxes-that-keep-texture-crisp-and-look-giftable.webp", alt: "Cookie Boxes That Keep Texture Crisp and Look Giftable", width: 780, height: 520 } },
   { p: "Cookies are one of the best products for repeat business, but packaging needs to protect the texture. Soft cookies need a moisture-friendly environment, while crisp cookies need protection from humidity. Either way, you want a neat presentation that looks like a gift even when someone buys it “just because.”" },
   { p: "Use [custom cookie boxes](/product/cookie-boxes/) for clean stacking, better perceived value, and easy gifting. Many custom packaging providers, including PackLegacy, offer food-safe materials and multiple finish options. This makes it easier to move from simple kraft to a more premium look." },
   { p: "A subtle upgrade is to add a small “best enjoyed by” label. It signals professionalism and helps customers enjoy your product at its best." },
@@ -50,7 +50,7 @@ const article: Article = [
   { p: "If you are a home baker, you can start with a standard box plus a simple insert. When you scale, move to custom dividers sized for your best sellers." },
 
   { h2: "Premium Gift Packaging Using Rigid, Drawer, and Sleeve Styles" },
-  { img: { src: "/pages/blog/Premium-Gift-Packaging-Using-Rigid-Drawer-and-Sleeve-Styles.webp", alt: "Premium Gift Packaging Using Rigid, Drawer, and Sleeve Styles", width: 780, height: 520 } },
+  { img: { src: "/premium-gift-packaging-using-rigid-drawer-and-sleeve-styles.webp", alt: "Premium Gift Packaging Using Rigid, Drawer, and Sleeve Styles", width: 780, height: 520 } },
   { p: "When you want your pricing to rise without resistance, packaging is the lever. Customers accept higher prices faster when the packaging looks like a gift." },
   { p: "For luxury assortments or festive collections, [custom rigid boxes](/rigid-boxes/) create a high-end unboxing experience and stronger protection for delicate items. If you want a “wow” opening style, [custom rigid drawer boxes](/product/rigid-drawer-boxes/) add a sliding reveal that feels premium and memorable. If you want a clean, modern upgrade to a standard box, [sleeve boxes](/product/tray-sleeve-boxes/) work like a branded jacket around your packaging and can instantly make a simple box feel designed." },
   { p: "This is ideal for wedding favors, corporate gifting, holiday collections, and “thank you” boxes." },
@@ -60,7 +60,7 @@ const article: Article = [
   { p: "For example, a Thanksgiving sleeve, a Christmas sticker, or a Valentine’s limited edition wrap can turn a standard cookie box into a seasonal bestseller." },
 
   { h2: "Eco-Friendly Kraft Packaging That Looks Artisanal and Builds Trust" },
-  { img: { src: "/pages/blog/Eco-Friendly-Kraft-Packaging-That-Looks-Artisanal-and-Builds-Trust.webp", alt: "Eco Friendly Kraft Packaging That Looks Artisanal and Builds Trust", width: 780, height: 520 } },
+  { img: { src: "/eco-friendly-kraft-packaging-that-looks-artisanal-and-builds-trust.webp", alt: "Eco Friendly Kraft Packaging That Looks Artisanal and Builds Trust", width: 780, height: 520 } },
   { p: "Sustainability is no longer niche. Customers actively look for recyclable and eco-friendly packaging, especially when they buy frequently. Kraft packaging fits this trend while also delivering an artisan look that pairs beautifully with baked goods." },
   { p: "Switching to [Kraft boxes](/product/kraft-boxes/) is a practical step toward eco-friendly packaging because they are positioned as customizable and recyclable." },
   { p: "If your brand is “homemade,” “small batch,” or “farmhouse,” kraft packaging can actually strengthen your identity while also meeting modern expectations." },

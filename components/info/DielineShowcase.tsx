@@ -26,8 +26,8 @@ export default function DielineShowcase() {
   return (
     <div className="dls" aria-hidden="true">
       <div className="dls-fan">
-        <img className="dls-thumb dls-thumb-a" src="/pages/dielines/Mailer-Box-Dieline.webp" alt="" width={480} height={360} />
-        <img className="dls-thumb dls-thumb-b" src="/pages/dielines/Pillow-Box-Dieline.webp" alt="" width={480} height={360} />
+        <img className="dls-thumb dls-thumb-a" src="/mailer-box-dieline.webp" alt="" width={480} height={360} />
+        <img className="dls-thumb dls-thumb-b" src="/pillow-box-dieline.webp" alt="" width={480} height={360} />
       </div>
 
       <div className="dls-board">

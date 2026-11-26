@@ -7,7 +7,7 @@ const article: Article = [
   { p: "This blog post will cover all aspects of embossing, including its procedure, advantages, and differences from debossing." },
 
   { h2: "The Process of Embossing" },
-  { img: { src: "/pages/blog/The-Process-of-Embossing.webp", alt: "The Process of Embossing", width: 780, height: 520 } },
+  { img: { src: "/the-process-of-embossing.webp", alt: "The Process of Embossing", width: 780, height: 520 } },
   { p: "Embossing involves multiple steps to produce the effect on the printing material. A printing company uses two main tools to create this effect: a die and a press." },
   { p: "Before I explain the embossing process, let’s take a closer look at how an embossing die is made." },
   { p: "Creating a die involves two metal plates, one for the front and one for the back (also called counterdies), that sandwich the paper to create the effect." },
@@ -23,7 +23,7 @@ const article: Article = [
   ] },
 
   { h2: "Difference Between Embossing & Debossing" },
-  { img: { src: "/pages/blog/Difference-Between-Embossing-Debossing.webp", alt: "Difference Between Embossing Debossing", width: 780, height: 520 } },
+  { img: { src: "/difference-between-embossing-debossing.webp", alt: "Difference Between Embossing Debossing", width: 780, height: 520 } },
   { p: "Embossing and debossing are two sides of the same coin. Embossing raises the printed area above the surface, while debossing presses the design inward to create a recessed effect." },
   { p: "Here are the differences between embossing & debossing:" },
   { table: {
@@ -40,7 +40,7 @@ const article: Article = [
   } },
 
   { h2: "Benefits of Using Embossing" },
-  { img: { src: "/pages/blog/Benefits-of-Using-Embossing.webp", alt: "Benefits of Using Embossing", width: 780, height: 520 } },
+  { img: { src: "/benefits-of-using-embossing.webp", alt: "Benefits of Using Embossing", width: 780, height: 520 } },
   { p: "Embossing adds texture and depth to packaging, helping important design elements stand out while creating a more premium customer experience." },
   { ul: [
     "**Improves Brand Visibility:** Raised logos and graphics catch attention, making packaging memorable and helping customers recognize your brand easily and quickly.",

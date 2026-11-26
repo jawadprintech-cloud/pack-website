@@ -12,7 +12,6 @@ import InstaMarquee from "@/components/InstaMarquee";
 import "@/styles/magnetic-boxes.css";
 import "@/styles/custom-boxes.css";
 
-const IMG = "/custom-boxes/images/";
 
 export type GridCard = { name: string; href: string; img: string; note?: string };
 /** Without `after`, paragraphs[0] sits above the list(s) and the rest below; with `after`, all paragraphs sit above. */
@@ -49,15 +48,15 @@ export type CategoryPageProps = {
 };
 
 const reasons = [
-  { label: "No Minimums", icon: "w-no-moq.svg" },
-  { label: "Sustainable Options", icon: "w-sustainable.svg" },
-  { label: "Fully Customizable", icon: "w-customizable.svg" },
-  { label: "Fast Turnaround", icon: "w-turnaround.svg" },
-  { label: "Free Design Support", icon: "w-design.svg" },
-  { label: "Responsive Chat Support", icon: "w-chat.svg" },
+  { label: "No Minimums", icon: "/w-no-moq.svg" },
+  { label: "Sustainable Options", icon: "/w-sustainable.svg" },
+  { label: "Fully Customizable", icon: "/w-customizable.svg" },
+  { label: "Fast Turnaround", icon: "/w-turnaround.svg" },
+  { label: "Free Design Support", icon: "/w-design.svg" },
+  { label: "Responsive Chat Support", icon: "/w-chat.svg" },
 ];
 
-const instagram = ["cat-cbd.webp", "cat-magnetic.webp", "ig-cake.webp", "ig-cookie.webp", "ig-pastry.webp", "cat-cosmetic.webp"];
+const instagram = ["/cat-cbd.webp", "/cat-magnetic.webp", "/ig-cake.webp", "/ig-cookie.webp", "/ig-pastry.webp", "/cat-cosmetic.webp"];
 
 const LayersIcon = () => (
   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -86,8 +85,8 @@ const withLinks = (node: ReactNode): ReactNode =>
 export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid, why, content, specs, faqs, maxFaqs, faqTitle, moqLabel }: CategoryPageProps) {
   const isHub = crumb === "Custom boxes";
   const hasGrid = grid.cards.length > 0;
-  const allReasons = why.reorder ? [...reasons, { label: "Easy Reordering", icon: "w-reorder.svg" }] : reasons;
-  const whyReasons = moqLabel ? allReasons.map((r) => (r.icon === "w-no-moq.svg" ? { ...r, label: moqLabel } : r)) : allReasons;
+  const allReasons = why.reorder ? [...reasons, { label: "Easy Reordering", icon: "/w-reorder.svg" }] : reasons;
+  const whyReasons = moqLabel ? allReasons.map((r) => (r.icon === "/w-no-moq.svg" ? { ...r, label: moqLabel } : r)) : allReasons;
   const BlockHeading = content.blockHeading ?? "h3";
   return (
     <>
@@ -247,7 +246,7 @@ export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid,
           <ul className="cb-why-grid">
             {whyReasons.map((r) => (
               <li key={r.icon}>
-                <img src={IMG + r.icon} alt="" width={56} height={56} loading="lazy" />
+                <img src={r.icon} alt="" width={56} height={56} loading="lazy" />
                 {why.headings ? <h3>{r.label}</h3> : <span>{r.label}</span>}
               </li>
             ))}
@@ -278,7 +277,7 @@ export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid,
               </a>
             </div>
           </div>
-          <InstaMarquee images={instagram.map((img) => IMG + img)} />
+          <InstaMarquee images={instagram.map((img) => img)} />
         </section>
 
         <section className="cb-wrap cb-cta-wrap" aria-labelledby="cb-cta-title">

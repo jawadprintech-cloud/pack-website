@@ -19,7 +19,7 @@ export default function MaterialsPage() {
         eyebrow="Get Our Professional Support"
         title={<>Materials & <em>Options Library</em></>}
         lead="Pack Legacy only provides top-notch quality packaging materials. Browse our gallery for material options and select the one that best suits your packaging needs."
-        media={<img src="/pages/materials/Material-Boards.webp" alt="Grey chipboard, white board, kraft and holographic material samples" width={640} height={430} style={{ aspectRatio: "640 / 430", objectFit: "cover", objectPosition: "97% 50%" }} />}
+        media={<img src="/material-boards.webp" alt="Grey chipboard, white board, kraft and holographic material samples" width={640} height={430} style={{ aspectRatio: "640 / 430", objectFit: "cover", objectPosition: "97% 50%" }} />}
       >
         <div className="ip-actions">
           <a className="ip-btn ip-btn-red" href={QUOTE_HREF}>Get Instant Quote <Icons.arrow size={16} /></a>

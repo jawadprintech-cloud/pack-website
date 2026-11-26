@@ -37,7 +37,7 @@ const article: Article = [
   { p: "Protective inserts also play an important role in product safety. These inserts prevent fragile items from shifting inside the packaging during transportation. If you use them correctly, they will make sure that glass bottles and vape cartridges reach customers without damage." },
 
   { h2: "Labeling Requirements for Delta-8 Packaging" },
-  { img: { src: "/pages/blog/Labeling-Requirements-for-Delta-8-Packaging.webp", alt: "Labeling Requirements for Delta-8 Packaging", width: 780, height: 520 } },
+  { img: { src: "/labeling-requirements-for-delta-8-packaging.webp", alt: "Labeling Requirements for Delta-8 Packaging", width: 780, height: 520 } },
   { p: "Labeling is one of the most important elements of Delta-8 packaging. Clear and accurate labeling helps your customers understand the product and supports transparency within the hemp industry." },
   { p: "Most Delta-8 packages include essential details such as the product name, cannabinoid content, ingredient list, and usage instructions. Warning statements are also commonly added to remind consumers to keep the product out of reach of children and use it responsibly." },
   { p: "Additional information, like batch numbers and expiration dates, helps maintain quality control and traceability. By presenting these details clearly, you can demonstrate professionalism and commitment to consumer safety. For more insights, see our [CBD Labeling Requirements Guide](/blog/cbd-labeling-requirements/), which covers many practices relevant to hemp-derived cannabinoid products." },

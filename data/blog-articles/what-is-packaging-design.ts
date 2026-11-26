@@ -30,7 +30,7 @@ const article: Article = [
   { h2: "The Main Elements of Effective Packaging Design" },
   { p: "Successful packaging blends multiple design elements into a cohesive experience. Each component serves a specific purpose." },
   { h3: "Color" },
-  { img: { src: "/pages/blog/Color-Palette.webp", alt: "Color Palette", width: 780, height: 520 } },
+  { img: { src: "/color-palette.webp", alt: "Color Palette", width: 780, height: 520 } },
   { p: "Color is often the first thing customers notice. Different colors communicate different emotions and meanings." },
   { p: "For example:" },
   { ul: [
@@ -42,7 +42,7 @@ const article: Article = [
   ] },
   { p: "The right color choices help your products connect with the intended audience." },
   { h3: "Typography" },
-  { img: { src: "/pages/blog/Packaging-Typography.webp", alt: "Packaging Typography", width: 780, height: 520 } },
+  { img: { src: "/packaging-typography.webp", alt: "Packaging Typography", width: 780, height: 520 } },
   { p: "Typography affects readability and brand perception." },
   { p: "Effective typography should:" },
   { ul: [
@@ -53,7 +53,7 @@ const article: Article = [
   ] },
   { p: "A premium brand may use elegant fonts, while a modern technology brand may choose cleaner and simpler styles." },
   { h3: "Graphics and Imagery" },
-  { img: { src: "/pages/blog/Graphics-Packaging.webp", alt: "Graphics Packaging", width: 780, height: 520 } },
+  { img: { src: "/graphics-packaging.webp", alt: "Graphics Packaging", width: 780, height: 520 } },
   { p: "Visual elements like illustrations, product photos, icons, patterns, and custom artwork help tell the product’s story. Good graphics support your packaging design rather than overwhelm it." },
   { h3: "Packaging Structure" },
   { p: "The structure is the package’s physical form. Shape, size, and opening style all affect customer experience. Creative structures can improve usability while making products more noticeable on shelves." },
@@ -63,7 +63,7 @@ const article: Article = [
   { p: "Customers rely on your packaging for essential information. Product name, benefits, ingredients, instructions, safety information, and barcodes should be clear, organized, and easy to find." },
 
   { h2: "What Makes Packaging Visually Appealing and Functional?" },
-  { img: { src: "/pages/blog/Packaging-Visually-Appealing.webp", alt: "Packaging Visually Appealing", width: 780, height: 520 } },
+  { img: { src: "/packaging-visually-appealing.webp", alt: "Packaging Visually Appealing", width: 780, height: 520 } },
   { p: "Great packaging should look attractive and perform effectively. Focusing on appearance alone is not enough. Your packaging must also be practical and user-friendly. The most successful packaging designs balance aesthetics with functionality." },
   { p: "What should you focus on to make product packaging visually appealing and functional?" },
   { ul: [
@@ -159,17 +159,17 @@ const article: Article = [
   { ul: [
     "**Apple**",
   ] },
-  { img: { src: "/pages/blog/Apple-IPhone-Packaging.webp", alt: "Apple IPhone Packaging", width: 780, height: 520 } },
+  { img: { src: "/apple-iphone-packaging.webp", alt: "Apple IPhone Packaging", width: 780, height: 520 } },
   { p: "Apple uses clean layouts, premium materials, and minimalist design elements. Its packaging reflects the brand’s focus on simplicity, innovation, and quality. Every detail contributes to a premium customer experience." },
   { ul: [
     "**Tiffany & Co.**",
   ] },
-  { img: { src: "/pages/blog/Tiffany-Co-Packaging.webp", alt: "Tiffany Co Packaging", width: 780, height: 520 } },
+  { img: { src: "/tiffany-co-packaging.webp", alt: "Tiffany Co Packaging", width: 780, height: 520 } },
   { p: "Tiffany’s signature blue box is one of the most recognizable packaging designs in the world. The packaging itself has become part of the brand identity. Customers instantly associate the color and box style with luxury and exclusivity." },
   { ul: [
     "**Coca-Cola**",
   ] },
-  { img: { src: "/pages/blog/Coca-Cola-Packaging.webp", alt: "Coca Cola Packaging", width: 780, height: 520 } },
+  { img: { src: "/coca-cola-packaging.webp", alt: "Coca Cola Packaging", width: 780, height: 520 } },
   { p: "Coca-Cola maintains visual consistency across countless packaging formats. Its logo, red color palette, and typography create instant recognition worldwide. This consistency has helped strengthen brand recall for decades." },
 
   { h2: "The Takeaway" },

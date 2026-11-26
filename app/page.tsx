@@ -25,7 +25,6 @@ export const metadata: Metadata = withSeo("/", {
     "Custom packaging for brands of every size. No minimum order, free design support and free US shipping on custom mailer boxes, rigid boxes and folding cartons.",
 });
 
-const CB = "/custom-boxes/images/";
 
 const perks = [
   {
@@ -80,9 +79,9 @@ const perks = [
 ];
 
 const notes = [
-  { tag: "02 / Structure", title: "Different types of packaging boxes", img: "cat-display.webp", href: "/blog/" },
-  { tag: "03 / Fundamentals", title: "What is packaging?", img: "cat-cosmetic.webp", href: "/blog/" },
-  { tag: "04 / Budget", title: "How much does packaging cost?", img: "cat-food.webp", href: "/blog/" },
+  { tag: "02 / Structure", title: "Different types of packaging boxes", img: "/cat-display.webp", href: "/blog/" },
+  { tag: "03 / Fundamentals", title: "What is packaging?", img: "/cat-cosmetic.webp", href: "/blog/" },
+  { tag: "04 / Budget", title: "How much does packaging cost?", img: "/cat-food.webp", href: "/blog/" },
 ];
 
 const Stars = ({ label = "5 out of 5 stars" }: { label?: string }) => (
@@ -117,9 +116,9 @@ export default function HomePage() {
                 <span><strong>5.0</strong> <Stars /></span>
                 <small>Verified Customer Reviews</small>
               </a>
-              <a {...reviewLinkProps("clutch")}><img src={CB + "r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={32} /></a>
-              <a {...reviewLinkProps("bark")}><img src={CB + "r-bark.webp"} alt="Pack Legacy reviews on Bark" height={32} /></a>
-              <a {...reviewLinkProps("trustpilot")}><img src={CB + "r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={32} /></a>
+              <a {...reviewLinkProps("clutch")}><img src={"/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={32} /></a>
+              <a {...reviewLinkProps("bark")}><img src={"/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={32} /></a>
+              <a {...reviewLinkProps("trustpilot")}><img src={"/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={32} /></a>
             </div>
           </div>
           <HeroSlider />
@@ -224,7 +223,7 @@ export default function HomePage() {
           <div className="h-notes">
             <a className="h-note-card h-note-feature" href="/blog/">
               <span className="h-note-img">
-                <img src={CB + "cat-mailer.webp"} alt="" width={600} height={600} loading="lazy" />
+                <img src={"/cat-mailer.webp"} alt="" width={600} height={600} loading="lazy" />
               </span>
               <span className="h-note-body">
                 <span className="h-note-tag">01 / Measuring</span>
@@ -237,7 +236,7 @@ export default function HomePage() {
               {notes.map((n) => (
                 <a className="h-note-card" href={n.href} key={n.title}>
                   <span className="h-note-img">
-                    <img src={CB + n.img} alt="" width={300} height={300} loading="lazy" />
+                    <img src={n.img} alt="" width={300} height={300} loading="lazy" />
                   </span>
                   <span className="h-note-body">
                     <span className="h-note-tag">{n.tag}</span>

@@ -2,8 +2,7 @@
 import InstaMarquee from "@/components/InstaMarquee";
 import "@/styles/home.css";
 
-const CB = "/custom-boxes/images/";
-const instagram = ["cat-cbd.webp", "cat-rigid.webp", "cat-magnetic.webp", "cat-gift.webp", "cat-cosmetic.webp"];
+const instagram = ["/cat-cbd.webp", "/cat-rigid.webp", "/cat-magnetic.webp", "/cat-gift.webp", "/cat-cosmetic.webp"];
 
 export default function InstagramSection() {
   return (
@@ -19,7 +18,7 @@ export default function InstagramSection() {
           </a>
         </div>
       </div>
-      <InstaMarquee images={instagram.map((img) => CB + img)} />
+      <InstaMarquee images={instagram.map((img) => img)} />
     </section>
   );
 }

@@ -26,24 +26,24 @@ const reviews: { name: string; src: Source; color: string; featured?: boolean; t
 ];
 
 const sources: Record<Source, { label: string; img: string; alt: string; cls: string }> = {
-  pl: { label: "Verified customer", img: "/images/pack-legacy-logo.svg", alt: "Pack Legacy review", cls: "is-pl" },
-  trustpilot: { label: "Review on Trustpilot", img: "/custom-boxes/images/r-trustpilot.png", alt: "Trustpilot review", cls: "is-tp" },
-  clutch: { label: "Review on Clutch", img: "/custom-boxes/images/r-clutch.webp", alt: "Clutch review", cls: "is-clutch" },
+  pl: { label: "Verified customer", img: "/pack-legacy-logo.svg", alt: "Pack Legacy review", cls: "is-pl" },
+  trustpilot: { label: "Review on Trustpilot", img: "/r-trustpilot.png", alt: "Trustpilot review", cls: "is-tp" },
+  clutch: { label: "Review on Clutch", img: "/r-clutch.webp", alt: "Clutch review", cls: "is-clutch" },
 };
 const initials = (n: string) => n.split(" ").map((w) => w[0]).join("").slice(0, 2);
 
 // Hero photo collage: each tile shows boxes a reviewer talked about. Hover zooms the photo and reveals the quote.
 // `pos` keeps the boxes in frame.
 const heroTiles = [
-  { img: "/custom-boxes/images/cat-gift.webp", pos: "50% 50%", href: "/gift-boxes/", title: "Luxury gift boxes", name: "Emily Ron", quote: "Feel so luxurious. Worth every penny.", big: true },
-  { img: "/custom-boxes/images/cat-magnetic.webp", pos: "50% 60%", href: "/product/magnetic-closure-boxes/", title: "Magnetic closure boxes", name: "Johnson Ron", quote: "Matched exactly what I expected." },
-  { img: "/custom-boxes/images/cat-cosmetic.webp", pos: "50% 60%", href: "/cosmetic-boxes/", title: "Cosmetic boxes", name: "Carrie Suda", quote: "They look lovely and the quality is great." },
+  { img: "/cat-gift.webp", pos: "50% 50%", href: "/gift-boxes/", title: "Luxury gift boxes", name: "Emily Ron", quote: "Feel so luxurious. Worth every penny.", big: true },
+  { img: "/cat-magnetic.webp", pos: "50% 60%", href: "/product/magnetic-closure-boxes/", title: "Magnetic closure boxes", name: "Johnson Ron", quote: "Matched exactly what I expected." },
+  { img: "/cat-cosmetic.webp", pos: "50% 60%", href: "/cosmetic-boxes/", title: "Cosmetic boxes", name: "Carrie Suda", quote: "They look lovely and the quality is great." },
 ];
 
 const platforms = [
-  { name: "Clutch", img: "/pages/reviews/image-234.svg", href: REVIEW_PROFILES.clutch },
-  { name: "Bark", img: "/pages/reviews/image-235.svg", href: REVIEW_PROFILES.bark },
-  { name: "Trustpilot", img: "/pages/reviews/image-233.svg", href: REVIEW_PROFILES.trustpilot },
+  { name: "Clutch", img: "/image-234.svg", href: REVIEW_PROFILES.clutch },
+  { name: "Bark", img: "/image-235.svg", href: REVIEW_PROFILES.bark },
+  { name: "Trustpilot", img: "/image-233.svg", href: REVIEW_PROFILES.trustpilot },
 ];
 
 export default function ReviewsPage() {

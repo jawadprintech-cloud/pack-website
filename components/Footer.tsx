@@ -115,7 +115,7 @@ export default function Footer() {
           <div className="pl-footer__top">
             <div className="pl-footer__logo">
               <a href="/">
-                <img src="/images/pack-legacy-logo.webp" alt="Pack Legacy" width={210} height={40} style={{ width: 210, height: "auto" }} />
+                <img src="/pack-legacy-logo.webp" alt="Pack Legacy" width={210} height={40} style={{ width: 210, height: "auto" }} />
               </a>
             </div>
 
@@ -226,7 +226,7 @@ export default function Footer() {
             </p>
             <div className="pl-footer__payment">
               <span className="pl-footer__pay-label">Accepted payments</span>
-              <img src="/images/payments.png" alt="Accepted payment methods" />
+              <img src="/payments.png" alt="Accepted payment methods" />
             </div>
           </div>
         </div>

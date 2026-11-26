@@ -16,7 +16,7 @@ export const BUSINESS = {
     "Custom printed packaging boxes, rigid boxes, folding cartons, mailer boxes and mylar bags with no minimum order, free design support and free shipping.",
   email: "sales@packlegacy.com",
   phone: "+1-424-321-6460",
-  logo: "/images/pack-legacy-logo.webp",
+  logo: "/pack-legacy-logo.webp",
   address: { street: "520 Vetterlein Ave", city: "Hamilton Township", region: "NJ", postalCode: "08619", country: "US" },
   sameAs: [
     "https://www.facebook.com/people/Pack-Legacy/61577888315684/",

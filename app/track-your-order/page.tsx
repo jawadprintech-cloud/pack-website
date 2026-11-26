@@ -10,7 +10,6 @@ export const metadata: Metadata = withSeo("/track-your-order/", {
   description: "Track your Pack Legacy custom packaging order with DHL, FedEx or UPS. Paste your tracking number to see live delivery updates.",
 });
 
-const IMG = "/pages/track/";
 
 // From proof to doorstep. "mail: true" marks the step where the tracking email is sent.
 const journey = [
@@ -23,9 +22,9 @@ const journey = [
 ];
 
 const carriers = [
-  { id: "ups", name: "UPS", image: "image-1.jpg", format: "1Z + 16 letters and numbers", example: "1Z999AA10123456784", href: "https://www.ups.com/track?loc=en_US&requester=ST/" },
-  { id: "fedex", name: "FedEx", image: "image.jpg", format: "12 or 15 digits", example: "123456789012", href: "https://www.fedex.com/en-us/tracking.html" },
-  { id: "dhl", name: "DHL", image: "image-1-1.png", format: "10 digits (DHL Express)", example: "1234567890", href: "https://www.dhl.com/us-en/home/tracking.html" },
+  { id: "ups", name: "UPS", image: "/image-1.jpg", format: "1Z + 16 letters and numbers", example: "1Z999AA10123456784", href: "https://www.ups.com/track?loc=en_US&requester=ST/" },
+  { id: "fedex", name: "FedEx", image: "/image.jpg", format: "12 or 15 digits", example: "123456789012", href: "https://www.fedex.com/en-us/tracking.html" },
+  { id: "dhl", name: "DHL", image: "/image-1-1.png", format: "10 digits (DHL Express)", example: "1234567890", href: "https://www.dhl.com/us-en/home/tracking.html" },
 ];
 
 const tips = [
@@ -56,7 +55,7 @@ export default function TrackPage() {
             <TrackTool />
           </div>
           <div className="trk-hero-art" aria-hidden="true">
-            <img src={`${IMG}Frame-4-1.png`} alt="" width={693} height={308} />
+            <img src={`/frame-4-1.png`} alt="" width={693} height={308} />
             <span className="trk-pill trk-pill-a"><i className="trk-live" /> Out for delivery</span>
             <span className="trk-pill trk-pill-b"><Icons.check size={16} /> Shipped with tracking</span>
           </div>
@@ -101,7 +100,7 @@ export default function TrackPage() {
           <div className="trk-carriers">
             {carriers.map((c) => (
               <article className={`trk-carrier trk-carrier-${c.id}`} key={c.id}>
-                <img src={`${IMG}${c.image}`} alt={`${c.name} tracking`} width={277} height={276} loading="lazy" />
+                <img src={`${c.image}`} alt={`${c.name} tracking`} width={277} height={276} loading="lazy" />
                 <div className="trk-carrier-body">
                   <h3>{c.name} tracking</h3>
                   <dl>

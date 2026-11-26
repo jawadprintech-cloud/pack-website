@@ -23,7 +23,7 @@ const article: Article = [
   { calc: "gsm" },
 
   { h2: "Types of Paper" },
-  { img: { src: "/pages/blog/Types-of-Paper.webp", alt: "Types of Paper", width: 780, height: 520 } },
+  { img: { src: "/types-of-paper.webp", alt: "Types of Paper", width: 780, height: 520 } },
   { p: "There are a lot of paper materials available in the market, but the most common ones that are used for the printing job are as follows:" },
   { ul: [
     "Text Stock",

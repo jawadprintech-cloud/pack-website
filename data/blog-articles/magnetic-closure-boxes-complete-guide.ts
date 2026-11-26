@@ -10,7 +10,7 @@ const article: Article = [
   { p: "They are popular in luxury retail, cosmetics, electronics, gifting, and subscription boxes. Just like other types of [rigid boxes](/rigid-boxes/), [magnetic closure boxes](/product/magnetic-closure-boxes/) appeal for their durability, elegance, and memorable unboxing." },
 
   { h2: "Types of Magnetic Closure Boxes" },
-  { img: { src: "/pages/blog/Types-of-Rigid-Magnetic-Boxes.webp", alt: "Types of Rigid Magnetic Boxes", width: 780, height: 520 } },
+  { img: { src: "/types-of-rigid-magnetic-boxes.webp", alt: "Types of Rigid Magnetic Boxes", width: 780, height: 520 } },
   { p: "Magnetic closure boxes are defined by their hidden magnets." },
   { p: "Here are the main types." },
   { ul: [
@@ -21,7 +21,7 @@ const article: Article = [
   ] },
 
   { h2: "Materials Used in Magnetic Closure Boxes" },
-  { img: { src: "/pages/blog/Materials-Used-in-Magnetic-Boxes.webp", alt: "Materials Used in Magnetic Boxes", width: 780, height: 520 } },
+  { img: { src: "/materials-used-in-magnetic-boxes.webp", alt: "Materials Used in Magnetic Boxes", width: 780, height: 520 } },
   { p: "Materials define the durability and feel of your [custom boxes](/custom-boxes/)." },
   { p: "Common options used in magnetic closure boxes include:" },
   { ul: [
@@ -77,7 +77,7 @@ const article: Article = [
   { p: "EVA foam, cardboard, or fabric inserts protect products and deliver a more premium presentation." },
 
   { h2: "Sustainability in Magnetic Closure Boxes" },
-  { img: { src: "/pages/blog/Kraft-Magnetic-Closure-Boxes.webp", alt: "Kraft Magnetic Closure Boxes", width: 780, height: 520 } },
+  { img: { src: "/kraft-magnetic-closure-boxes.webp", alt: "Kraft Magnetic Closure Boxes", width: 780, height: 520 } },
   { p: "Eco‑friendly rigid box packaging is no longer optional. Buyers expect it. Magnetic closure boxes can be sustainable when made with recyclable chipboard, kraft wraps, and soy‑based inks. Plus, the foldable designs can reduce shipping volume and carbon footprint." },
   { p: "Another advantage is reusability. Because magnetic closure boxes are durable and attractive, buyers often keep and reuse them for storage, gifting, or organizing. This extends the box’s lifecycle and reduces waste." },
 

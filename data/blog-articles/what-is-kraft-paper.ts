@@ -26,7 +26,7 @@ const article: Article = [
   ] },
 
   { h2: "What’s the Difference between Kraft Paper and Regular Paper?" },
-  { img: { src: "/pages/blog/Whats-the-Difference-between-Kraft-Paper-and-Regular-Paper.webp", alt: "What's the Difference between Kraft Paper and Regular Paper", width: 780, height: 520 } },
+  { img: { src: "/whats-the-difference-between-kraft-paper-and-regular-paper.webp", alt: "What's the Difference between Kraft Paper and Regular Paper", width: 780, height: 520 } },
   { p: "The key difference between kraft paper and regular paper lies in the pulping process and fiber strength." },
   { p: "Kraft paper retains more lignin and longer fibers, making it stronger, more durable, and eco‑friendly. Meanwhile, regular paper is bleached, smoother, and optimized for writing and printing but less resistant to tearing." },
   { p: "Here’s a detailed comparison between kraft paper and regular paper." },
@@ -45,7 +45,7 @@ const article: Article = [
   { p: "Kraft is the go‑to for businesses highlighting sustainability and strength, while regular paper remains essential for communication and documentation." },
 
   { h2: "Kraft Paper vs Regular Paper" },
-  { img: { src: "/pages/blog/Kraft-Paper-vs-Regular-Paper.webp", alt: "Kraft Paper vs Regular Paper", width: 780, height: 520 } },
+  { img: { src: "/kraft-paper-vs-regular-paper.webp", alt: "Kraft Paper vs Regular Paper", width: 780, height: 520 } },
   { table: {
     head: ["Feature", "Kraft Paper", "Regular Paper"],
     rows: [
@@ -92,7 +92,7 @@ const article: Article = [
   { p: "The right kraft paper depends on its intended application. For example, food packaging may require verified food-contact suitability and grease resistance, while industrial sacks need sufficient strength and durability to handle heavy loads." },
 
   { h2: "Suitable Printing & Finishing Techniques for Kraft Paper" },
-  { img: { src: "/pages/blog/Suitable-Printing-Finishing-Techniques-for-Kraft-Paper.webp", alt: "Suitable Printing & Finishing Techniques for Kraft Paper", width: 780, height: 520 } },
+  { img: { src: "/suitable-printing-finishing-techniques-for-kraft-paper.webp", alt: "Suitable Printing & Finishing Techniques for Kraft Paper", width: 780, height: 520 } },
   { p: "Branding is where kraft paper shines. Best of all, its surface accepts a variety of printing and finishing techniques, making it ideal for customization." },
   { p: "Printing Methods:" },
   { ul: [
@@ -110,7 +110,7 @@ const article: Article = [
   { p: "All these techniques transform kraft paper from a functional material into [custom printed boxes](/custom-boxes/) that serve as a brand’s storytelling medium." },
 
   { h2: "Why Choose Kraft Paper for Packaging?" },
-  { img: { src: "/pages/blog/Why-Choose-Kraft-Paper-for-Packaging.webp", alt: "Why Choose Kraft Paper for Packaging", width: 780, height: 520 } },
+  { img: { src: "/why-choose-kraft-paper-for-packaging.webp", alt: "Why Choose Kraft Paper for Packaging", width: 780, height: 520 } },
   { p: "Choosing kraft paper for packaging is a strategic decision that blends strength, sustainability, and branding appeal." },
   { p: "Unlike regular paper or plastic alternatives, kraft paper offers tremendous benefits for your business." },
   { h3: "Reliable Strength & Durability" },

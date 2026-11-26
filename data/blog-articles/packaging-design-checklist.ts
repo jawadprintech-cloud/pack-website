@@ -62,7 +62,7 @@ const article: Article = [
   { p: "Choose colors strategically — they shape perception and trigger emotions." },
 
   { h2: "Typography That Works" },
-  { img: { src: "/pages/blog/Typography-That-Works-infographic-box.webp", alt: "Typography That Works infographic box", width: 780, height: 520 } },
+  { img: { src: "/typography-that-works-infographic-box.webp", alt: "Typography That Works infographic box", width: 780, height: 520 } },
   { p: "The fonts you use on your product packaging carry personality and meaning." },
   { ul: [
     "**Serif:** Tradition, reliability.",
@@ -72,7 +72,7 @@ const article: Article = [
   { p: "Remember that typography must remain legible even in thumbnails. Clear fonts improve online visibility." },
 
   { h2: "Know Packaging Shape and Ergonomics" },
-  { img: { src: "/pages/blog/Know-Packaging-Shape-and-Ergonomics.webp", alt: "Know Packaging Shape and Ergonomics", width: 780, height: 520 } },
+  { img: { src: "/know-packaging-shape-and-ergonomics.webp", alt: "Know Packaging Shape and Ergonomics", width: 780, height: 520 } },
   { p: "Packaging shape is more than aesthetics. It determines how customers interact with your product, how efficiently it ships, and how well it performs in storage. In addition, ergonomics (the science of usability) ensures packaging feels intuitive and convenient." },
   { h3: "Easy-Grip Bottles" },
   { p: "Contoured shapes or textured surfaces improve handling. Customers appreciate packaging that feels comfortable in hand, especially for beverages, cleaning products, or cosmetics." },
@@ -132,7 +132,7 @@ const article: Article = [
   { p: "Finishing effects don’t just decorate; they signal quality, elevate perception, and make your brand unforgettable." },
 
   { h2: "Focus on the Unboxing Experience" },
-  { img: { src: "/pages/blog/Unboxing-Experience-Guide.webp", alt: "Unboxing Experience Guide", width: 780, height: 512 } },
+  { img: { src: "/unboxing-experience-guide.webp", alt: "Unboxing Experience Guide", width: 780, height: 512 } },
   { p: "Unboxing is no longer just a moment of opening a package — it has become a cultural event. From YouTube videos to TikTok reels, millions of people watch others unbox products. This ritual transforms packaging into entertainment, marketing, and retention strategy all at once. Studies show that buyers who enjoy unboxing are more likely to reorder. The emotional high of a satisfying reveal creates loyalty." },
   { p: "Here’s how to focus on the unboxing experience." },
   { h3: "Design Subscription Boxes That Thrive on Surprise" },

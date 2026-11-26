@@ -7,7 +7,7 @@ const article: Article = [
   { p: "Let’s have a look at 15 creative gift packaging ideas businesses can use on any budget!" },
 
   { h2: "Holiday-Themed Mailer Boxes: Turn Deliveries Into Gifts" },
-  { img: { src: "/pages/blog/Holiday-Themed-Mailer-Boxes-1024x683.png", alt: "Holiday Themed Mailer Boxes", width: 1024, height: 683 } },
+  { img: { src: "/holiday-themed-mailer-boxes-1024x683.png", alt: "Holiday Themed Mailer Boxes", width: 1024, height: 683 } },
   { p: "A corrugated mailer box can become a festive gift package with the right seasonal touches. This idea works particularly well for Christmas gift sets, New Year promotions, client appreciation gifts, and employee reward programs." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -22,7 +22,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Using one box for shipping and gifting reduces packaging materials and fulfillment costs." },
 
   { h2: "Foil-Stamped Magnetic Boxes for Luxury Gift Presentation" },
-  { img: { src: "/pages/blog/Luxury-Gift-Presentation.webp", alt: "Luxury Gift Presentation", width: 780, height: 520 } },
+  { img: { src: "/luxury-gift-presentation.webp", alt: "Luxury Gift Presentation", width: 780, height: 520 } },
   { p: "This box concept instantly increases perceived value. The combination of a rigid structure, magnetic closure, and metallic foil creates a luxury presentation without excessive decoration." },
   { p: "**Design Tips**" },
   { ul: [
@@ -37,7 +37,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Many customers reuse [magnetic closure boxes](/product/magnetic-closure-boxes/) for storage, extending your brand exposure at no additional cost." },
 
   { h2: "Ribbon-Pull Drawer Boxes That Create an Unforgettable Unboxing Experience" },
-  { img: { src: "/pages/blog/Ribbon-Pull-Drawer-Boxes.webp", alt: "Ribbon Pull Drawer Boxes", width: 780, height: 520 } },
+  { img: { src: "/ribbon-pull-drawer-boxes.webp", alt: "Ribbon Pull Drawer Boxes", width: 780, height: 520 } },
   { p: "[Drawer boxes](/product/rigid-drawer-boxes/) make customers interact with the gift before they fully reveal what’s inside." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -52,7 +52,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: The premium structure reduces the need for additional decorative accessories." },
 
   { h2: "Window Packaging Boxes for Gourmet and Handmade Products" },
-  { img: { src: "/pages/blog/Window-Packaging-Box.webp", alt: "Window Packaging Box", width: 780, height: 520 } },
+  { img: { src: "/window-packaging-box.webp", alt: "Window Packaging Box", width: 780, height: 520 } },
   { p: "When your products are visually appealing, [window packaging boxes](/product/window-boxes/) allow them to become part of the design." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -66,7 +66,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Your product itself becomes the focal point, reducing the need for extensive printing." },
 
   { h2: "Personalized Gable Boxes for Corporate and Event Gifting" },
-  { img: { src: "/pages/blog/Personalized-Gable-Box.webp", alt: "Personalized Gable Box", width: 780, height: 520 } },
+  { img: { src: "/personalized-gable-box.webp", alt: "Personalized Gable Box", width: 780, height: 520 } },
   { p: "The built-in handle on [gable boxes](/product/gable-boxes/) creates convenience while offering ample space for customization." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -79,7 +79,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: No separate shopping or gift bag is required." },
 
   { h2: "Minimalist Pillow Boxes with Custom Belly Bands" },
-  { img: { src: "/pages/blog/Minimalist-Pillow-Box-1024x683.jpg", alt: "Minimalist Pillow Box", width: 1024, height: 683 } },
+  { img: { src: "/minimalist-pillow-box-1024x683.jpg", alt: "Minimalist Pillow Box", width: 1024, height: 683 } },
   { p: "This [pillow box](/product/pillow-boxes/) concept proves that small gifts can still feel premium." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -92,7 +92,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Uses minimal material while maintaining a sophisticated look." },
 
   { h2: "Tissue-Lined Rigid Boxes Inspired by Luxury Retail Packaging" },
-  { img: { src: "/pages/blog/Lined-Rigid-Box.webp", alt: "Lined Rigid Box", width: 780, height: 520 } },
+  { img: { src: "/lined-rigid-box.webp", alt: "Lined Rigid Box", width: 780, height: 520 } },
   { p: "Luxury retailers often rely on presentation details rather than excessive graphics. This is where [rigid boxes](/rigid-boxes/) perform." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -106,7 +106,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: The reusable structure increases long-term value." },
 
   { h2: "Eco-Chic Paper Tube Gift Sets for Sustainable Brands" },
-  { img: { src: "/pages/blog/Paper-Tube-Gift.webp", alt: "Paper Tube Gift", width: 780, height: 520 } },
+  { img: { src: "/paper-tube-gift.webp", alt: "Paper Tube Gift", width: 780, height: 520 } },
   { p: "Paper tubes combine uniqueness with sustainability." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -119,7 +119,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Requires fewer decorative elements due to its naturally unique shape." },
 
   { h2: "Fully Illustrated Folding Cartons That Double as Gift Packaging" },
-  { img: { src: "/pages/blog/Illustrated-Folding-Cartons-Packaging.webp", alt: "Illustrated Folding Cartons Packaging", width: 780, height: 520 } },
+  { img: { src: "/illustrated-folding-cartons-packaging.webp", alt: "Illustrated Folding Cartons Packaging", width: 780, height: 520 } },
   { p: "Artwork can transform an ordinary folding carton into a gift-worthy presentation." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -132,7 +132,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: They eliminate the need for separate gift packaging." },
 
   { h2: "Storytelling Sleeve-and-Tray Boxes for Branded Gifts" },
-  { img: { src: "/pages/blog/Sleeve-and-Tray.webp", alt: "Sleeve and Tray", width: 780, height: 520 } },
+  { img: { src: "/sleeve-and-tray.webp", alt: "Sleeve and Tray", width: 780, height: 520 } },
   { p: "Every package provides an opportunity to communicate your brand story. And [sleeve tray boxes](/product/tray-sleeve-boxes/) make it easier." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -145,7 +145,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Your brand can update sleeves without redesigning entire boxes." },
 
   { h2: "Boutique Gift Bags with Premium Inserts and Tissue Wraps" },
-  { img: { src: "/pages/blog/Boutique-Gift-Bags-with-Premium-Inserts-and-Tissue-Wraps.webp", alt: "Boutique Gift Bags with Premium Inserts and Tissue Wraps", width: 780, height: 520 } },
+  { img: { src: "/boutique-gift-bags-with-premium-inserts-and-tissue-wraps.webp", alt: "Boutique Gift Bags with Premium Inserts and Tissue Wraps", width: 780, height: 520 } },
   { p: "Luxury brands have proven that thoughtful details elevate simple packaging, even in a gift bag." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -158,7 +158,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: They require less material." },
 
   { h2: "Metallic Hexagon Boxes That Stand Out on Any Shelf" },
-  { img: { src: "/pages/blog/Metallic-Hexagon-Box.webp", alt: "Metallic Hexagon Box", width: 780, height: 520 } },
+  { img: { src: "/metallic-hexagon-box.webp", alt: "Metallic Hexagon Box", width: 780, height: 520 } },
   { p: "Hexagon boxes—the unique shape can instantly make your gift packaging feel special." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -170,7 +170,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Unique shape reduces the need for excessive decorative printing." },
 
   { h2: "Keepsake Book Boxes for Executive and VIP Gifts" },
-  { img: { src: "/pages/blog/VIP-Gifts-Book-Boxes.webp", alt: "VIP Gifts Book Boxes", width: 780, height: 520 } },
+  { img: { src: "/vip-gifts-book-boxes.webp", alt: "VIP Gifts Book Boxes", width: 780, height: 520 } },
   { p: "[Book-style boxes](/product/book-boxes/) create a memorable, ceremonial reveal." },
   { p: "**Design Tips**:" },
   { ul: [
@@ -183,7 +183,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: Recipients often keep the box for years, extending your brand visibility." },
 
   { h2: "Ornament Boxes That Double as Part of the Gift" },
-  { img: { src: "/pages/blog/Ornament-Boxes.webp", alt: "Ornament Boxes", width: 780, height: 520 } },
+  { img: { src: "/ornament-boxes-blog.webp", alt: "Ornament Boxes", width: 780, height: 520 } },
   { p: "Ornaments add a festive, memorable touch to seasonal gifting. How to design [ornament boxes](/product/ornament-boxes/) that double as part of the gift?" },
   { p: "**Design Tips**:" },
   { ul: [
@@ -196,7 +196,7 @@ const article: Article = [
   { p: "**Cost Efficiency**: The eye-catching structure naturally attracts attention, reducing the need for extensive printing or decorative elements." },
 
   { h2: "Minimalist Monochrome Gift Boxes with Embossed and Foil Details" },
-  { img: { src: "/pages/blog/Gift-Boxes-with-Embossed.webp", alt: "Gift Boxes with Embossed", width: 780, height: 520 } },
+  { img: { src: "/gift-boxes-with-embossed.webp", alt: "Gift Boxes with Embossed", width: 780, height: 520 } },
   { p: "A minimalist approach often looks more expensive than complex designs." },
   { p: "**Design Tips**:" },
   { ul: [

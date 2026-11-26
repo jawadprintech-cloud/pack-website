@@ -10,7 +10,7 @@ const article: Article = [
   { p: "The main goals of any finishing technique are to protect your magnetic closure box, enhance graphics, and create tactile experiences. Think of finishes as the final layer of personality. And the perfect finish depends on your goals. Do you want elegance, vibrancy, or eco‑friendly appeal?" },
   { p: "Let’s break down the most popular finishes for [magnetic closure boxes](/product/magnetic-closure-boxes/)." },
   { h3: "Matte Lamination" },
-  { img: { src: "/pages/blog/Matte-Lamination.webp", alt: "Matte Lamination", width: 780, height: 520 } },
+  { img: { src: "/matte-lamination.webp", alt: "Matte Lamination", width: 780, height: 520 } },
   { p: "Matte lamination involves applying a thin, non‑reflective film to the box surface. The process uses heat and pressure to bond the film securely. The result is a smooth, velvety texture that feels premium." },
   { p: "What makes it ideal for magnetic boxes?" },
   { ul: [
@@ -20,7 +20,7 @@ const article: Article = [
   ] },
   { p: "Matte lamination is perfect for luxury brands, tech products, and minimalist designs. It makes your magnetic boxes look sleek and timeless." },
   { h3: "Gloss Lamination" },
-  { img: { src: "/pages/blog/Gloss-Lamination.webp", alt: "Gloss Lamination", width: 780, height: 520 } },
+  { img: { src: "/gloss-lamination.webp", alt: "Gloss Lamination", width: 780, height: 520 } },
   { p: "As the name suggests, gloss lamination adds a glossy, shiny, reflective film to the box. The process enhances colors and graphics, making them vibrant and eye‑catching." },
   { p: "What makes it ideal for magnetic boxes?" },
   { ul: [
@@ -30,7 +30,7 @@ const article: Article = [
   ] },
   { p: "Gloss lamination is popular for cosmetics, promotional packaging, and retail displays. It’s cost‑effective and delivers instant brightness. If your brand thrives on energy and color, gloss is the way to go." },
   { h3: "Foil Stamping" },
-  { img: { src: "/pages/blog/choosing-the-perfect-finish-for-your-magnetic-box-Foil-Stamping.webp", alt: "Foil Stamping", width: 780, height: 520 } },
+  { img: { src: "/choosing-the-perfect-finish-for-your-magnetic-box-foil-stamping.webp", alt: "Foil Stamping", width: 780, height: 520 } },
   { p: "Foil stamping uses heat and pressure to apply metallic foil to specific areas. This finish comes in silver, rose gold, and holographic foils." },
   { p: "What makes it ideal for magnetic boxes?" },
   { ul: [
@@ -40,7 +40,7 @@ const article: Article = [
   ] },
   { p: "Foil stamping works beautifully on matte or soft‑touch surfaces. It is ideal for jewelry, cosmetics, and [gift packaging](/gift-boxes/). A magnetic box with foil stamping feels like a keepsake, not just packaging." },
   { h3: "Spot UV Coating" },
-  { img: { src: "/pages/blog/Spot-UV-Coating.webp", alt: "Spot UV Coating", width: 780, height: 520 } },
+  { img: { src: "/spot-uv-coating.webp", alt: "Spot UV Coating", width: 780, height: 520 } },
   { p: "[Spot UV](/blog/what-is-spot-uv/) applies a glossy coating to selected areas of the box. The process uses ultraviolet light to cure the coating, creating contrast against matte surfaces." },
   { p: "What makes it ideal for magnetic boxes?" },
   { ul: [
@@ -50,7 +50,7 @@ const article: Article = [
   ] },
   { p: "Spot UV is perfect for brands that want sophistication with restraint. You can also combine it with matte lamination for maximum contrast." },
   { h3: "Embossing/Debossing" },
-  { img: { src: "/pages/blog/EmbossingDebossing.webp", alt: "Embossing vs Debossing", width: 780, height: 520 } },
+  { img: { src: "/embossingdebossing.webp", alt: "Embossing vs Debossing", width: 780, height: 520 } },
   { p: "[Embossing](/blog/what-is-embossing/) raises designs above the surface. [Debossing](/blog/what-is-debossing/) presses them inward. Both techniques use metal dies and pressure to create a 3D texture." },
   { p: "What makes them ideal for magnetic boxes?" },
   { ul: [
@@ -60,7 +60,7 @@ const article: Article = [
   ] },
   { p: "Both embossing and debossing work well for luxury products. They pair well with foil stamping or spot UV for layered effects." },
   { h3: "Holographic Finish" },
-  { img: { src: "/pages/blog/Holographic-Finish.webp", alt: "Holographic Finish", width: 780, height: 520 } },
+  { img: { src: "/holographic-finish.webp", alt: "Holographic Finish", width: 780, height: 520 } },
   { p: "Holographic finish uses iridescent films or foils. The technique shifts colors under light, creating a futuristic, rainbow-like effect." },
   { p: "What makes it ideal for magnetic boxes?" },
   { ul: [

@@ -13,7 +13,7 @@ const article: Article = [
   { p: "In short, SRP is not just packaging—it’s a retail strategy." },
 
   { h2: "Key Characteristics of Shelf Ready Packaging: The “Five Easies”" },
-  { img: { src: "/pages/blog/Shelf-Ready-Packaging-The-Five-Easies.webp", alt: "Shelf Ready Packaging The Five Easies", width: 780, height: 520 } },
+  { img: { src: "/shelf-ready-packaging-the-five-easies.webp", alt: "Shelf Ready Packaging The Five Easies", width: 780, height: 520 } },
   { p: "Retailers evaluate SRP using five universal criteria." },
   { ul: [
     "**Easy to identify:** Clear labeling, barcodes, and graphics for quick shelf placement.",
@@ -74,7 +74,7 @@ const article: Article = [
   { p: "The best part? SRP is now being used as a data collection tool. QR codes on SRP allow brands to track shopper engagement, gather analytics, and even run loyalty campaigns directly from the shelf." },
 
   { h2: "Common SRP Types" },
-  { img: { src: "/pages/blog/Common-SRP-Type.webp", alt: "Common SRP Type", width: 780, height: 520 } },
+  { img: { src: "/common-srp-type.webp", alt: "Common SRP Type", width: 780, height: 520 } },
   { p: "SRP comes in multiple formats, each suited to specific products." },
   { p: "Let’s have a look at the common SRP types." },
   { table: {

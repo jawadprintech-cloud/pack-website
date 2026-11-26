@@ -9,7 +9,7 @@ const article: Article = [
   { p: "What’s the difference between retail boxes and corrugated boxes? Which one is right for your product? Let’s explore this in detail." },
 
   { h2: "What Are Retail Boxes?" },
-  { img: { src: "/pages/blog/Retail-Boxes.webp", alt: "Retail Boxes", width: 780, height: 520 } },
+  { img: { src: "/retail-boxes.webp", alt: "Retail Boxes", width: 780, height: 520 } },
   { p: "[Retail boxes](/retail-boxes/) are often described as packaging designed for display, but that explanation only scratches the surface." },
   { p: "A more accurate description is that retail packaging exists to reduce uncertainty in the buyer’s mind." },
   { p: "Every customer has questions before making a purchase, such as:" },
@@ -31,7 +31,7 @@ const article: Article = [
   { p: "Examples: [Makeup boxes](/product/makeup-boxes/), [perfume boxes](/product/perfume-boxes/), [soap boxes](/soap-boxes/), [candle boxes](/candle-boxes/)." },
 
   { h2: "What Are Corrugated Boxes?" },
-  { img: { src: "/pages/blog/retail-boxes-vs-corrugated-boxes-Corrugated-Boxes.webp", alt: "Corrugated Boxes", width: 780, height: 520 } },
+  { img: { src: "/retail-boxes-vs-corrugated-boxes-corrugated-boxes.webp", alt: "Corrugated Boxes", width: 780, height: 520 } },
   { p: "[Corrugated boxes](/corrugated-boxes/) act as a form of risk management." },
   { p: "The fluted structure inside the board creates tiny air pockets that absorb external pressure and distribute impact energy. This engineering makes corrugated packaging especially effective in unpredictable transportation environments." },
   { p: "Corrugated packaging also creates operational advantages." },

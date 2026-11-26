@@ -29,7 +29,7 @@ const article: Article = [
   { p: "E-liquid boxes package CBD vape juice bottles securely and protect them during handling and transport. You customize [e-liquid boxes](/product/e-liquid-boxes/) with inserts, branded artwork, flavor details, nicotine-free labeling, usage instructions, and product information for retail presentation." },
 
   { h2: "CBD Box Styles & Their Applications" },
-  { img: { src: "/pages/blog/CBD-Box-Styles.webp", alt: "CBD Box Styles", width: 780, height: 520 } },
+  { img: { src: "/cbd-box-styles.webp", alt: "CBD Box Styles", width: 780, height: 520 } },
   { p: "There are various box styles that offer various uses for different types of CBD products. Below are some of the most popular CBD box styles along with their applications:" },
   { table: {
     head: ["Box Style", "Best Applications for CBD Products"],
@@ -59,7 +59,7 @@ const article: Article = [
   { p: "Mailer boxes are ideal for shipping CBD gummies, oils, tinctures, skincare products, subscription kits, and multiple-item orders. The sturdy structure of [mailer boxes](/mailer-boxes/) helps protect products during transportation, while custom inserts can keep bottles, containers, and other CBD items securely positioned inside." },
 
   { h2: "Essential Components To Consider When Designing CBD Packaging" },
-  { img: { src: "/pages/blog/Designing-CBD-Packaging.webp", alt: "Designing CBD Packaging", width: 780, height: 520 } },
+  { img: { src: "/designing-cbd-packaging.webp", alt: "Designing CBD Packaging", width: 780, height: 520 } },
   { p: "Products that are infused with CBD are considered to be medicated, and their packaging must comply with regulations. This is why, when you are designing your CBD packaging, it is a must for you to add these essential components that are mentioned below:" },
   { h3: "Product Name and Identity" },
   { p: "Clearly state the product name and what it is, such as CBD oil, topical cream, gummies, or tincture. Keep the information easy for customers to read and understand on the packaging." },

@@ -24,8 +24,7 @@ export const metadata: Metadata = withSeo("/box-by-style/", {
     "Choose your custom box by style: tuck end, auto lock, pillow, gable and handle boxes, plus luxury book, magnetic, two-piece and drawer styles. No minimum order and free shipping.",
 });
 
-const IMG = "/custom-boxes/images/";
-const instagram = ["cat-cbd.webp", "cat-magnetic.webp", "ig-cake.webp", "ig-cookie.webp", "ig-pastry.webp", "cat-cosmetic.webp"];
+const instagram = ["/cat-cbd.webp", "/cat-magnetic.webp", "/ig-cake.webp", "/ig-cookie.webp", "/ig-pastry.webp", "/cat-cosmetic.webp"];
 
 // [card label, product slug], in the order shown on packlegacy.com/box-by-style/.
 const trendy: [string, string][] = [
@@ -140,9 +139,9 @@ export default function BoxByStylePage() {
                   <strong>5.0</strong> <span className="cb-stars" aria-label="5 out of 5 stars">★★★★★</span>
                   <small>Verified Customer Reviews</small>
                 </a>
-                <a {...reviewLinkProps("clutch")}><img src={IMG + "r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={26} /></a>
-                <a {...reviewLinkProps("bark")}><img src={IMG + "r-bark.webp"} alt="Pack Legacy reviews on Bark" height={26} /></a>
-                <a {...reviewLinkProps("trustpilot")}><img src={IMG + "r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={26} /></a>
+                <a {...reviewLinkProps("clutch")}><img src={"/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={26} /></a>
+                <a {...reviewLinkProps("bark")}><img src={"/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={26} /></a>
+                <a {...reviewLinkProps("trustpilot")}><img src={"/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={26} /></a>
               </div>
             </section>
 
@@ -206,7 +205,7 @@ export default function BoxByStylePage() {
               </a>
             </div>
           </div>
-          <InstaMarquee images={instagram.map((img) => IMG + img)} />
+          <InstaMarquee images={instagram.map((img) => img)} />
         </section>
 
         <section className="cb-wrap cb-cta-wrap" aria-labelledby="bbs-cta-title">

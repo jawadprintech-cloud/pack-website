@@ -31,7 +31,7 @@ export default function Login({ needsSetup, expired, onDone }: { needsSetup: boo
   return (
     <div className="ad ad-login">
       <form className="ad-login-card" onSubmit={submit}>
-        <img src="/images/pack-legacy-logo.webp" alt="Pack Legacy" />
+        <img src="/pack-legacy-logo.webp" alt="Pack Legacy" />
         <h1>{needsSetup ? "Create your account" : "Log in"}</h1>
         <p className="ad-muted">{needsSetup ? "Choose the username and password for this dashboard." : expired ? "You have been logged out. Log in to continue; your unsaved changes are kept." : "Log in to manage your website."}</p>
         {error && <p className="ad-login-error" role="alert">{error}</p>}

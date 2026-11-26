@@ -142,7 +142,7 @@ function Dashboard({ user, passwordManaged, onLoggedOut }: { user: string; passw
     <C.Provider value={ctx}>
       <div className="ad">
         <aside className="ad-side">
-          <a className="ad-brand" href="#"><img src="/images/pack-legacy-logo.webp" alt="Pack Legacy" /></a>
+          <a className="ad-brand" href="#"><img src="/pack-legacy-logo.webp" alt="Pack Legacy" /></a>
           <nav aria-label="Dashboard">
             {NAV.map(([id, label]) => <a key={id} href={"#" + id} aria-current={(view === id || (view === "edit" && KINDS[id]?.kinds.includes(a)) || (view === "product-layout" && id === "products")) ? "page" : undefined}><Icon id={id} />{label}</a>)}
           </nav>
@@ -433,11 +433,11 @@ function SaveBar({ dirty, busy, onSave, onDiscard, label = "Unsaved changes" }: 
 const BLOCKS: Record<string, () => Any> = {
   Heading: () => ({ h2: "New heading" }), Subheading: () => ({ h3: "New subheading" }), Paragraph: () => ({ p: "New paragraph" }),
   "Bulleted list": () => ({ ul: ["First point"] }), "Numbered list": () => ({ ol: ["First step"] }), Tip: () => ({ tip: "New tip" }),
-  Image: () => ({ img: { src: "/pages/blog/Feature.webp", alt: "", width: 780, height: 520 } }), Table: () => ({ table: { head: ["Column 1", "Column 2"], rows: [["", ""]] } }),
+  Image: () => ({ img: { src: "/feature-blog.webp", alt: "", width: 780, height: 520 } }), Table: () => ({ table: { head: ["Column 1", "Column 2"], rows: [["", ""]] } }),
 };
 const PRODUCT_BLOCKS: Record<string, () => Any> = {
   Heading: () => ({ t: "h2", html: "New heading" }), Subheading: () => ({ t: "h3", html: "New subheading" }), Paragraph: () => ({ t: "p", html: "New paragraph" }),
-  List: () => ({ t: "ul", items: ["First point"] }), Image: () => ({ t: "img", src: "/pages/blog/Feature.webp", alt: "" }),
+  List: () => ({ t: "ul", items: ["First point"] }), Image: () => ({ t: "img", src: "/feature-blog.webp", alt: "" }),
 };
 const EMPTY: Record<string, () => Any> = { gallery: () => "", faqs: () => ({ q: "", a: "" }), specs: () => ["", ""], related: () => ({ name: "", href: "", img: "" }), rows: () => [""] };
 const NAMES: Record<string, string> = { slug: "URL slug", metaTitle: "Default SEO title", metaDescription: "Default SEO description", gallery: "Photos", whatYouGet: "What you get", whyUs: "Why us", quickFaqs: "Quick FAQs", q: "Question", a: "Answer", html: "Text", t: "Block type", img: "Image", src: "Image", alt: "Image alt text", href: "Link", blocks: "Page content", lead: "Introduction", cta: "Closing line", specs: "Specifications", related: "Related products" };

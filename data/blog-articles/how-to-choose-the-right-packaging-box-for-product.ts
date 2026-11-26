@@ -17,7 +17,7 @@ const article: Article = [
   ] },
   { p: "Ignore this step, and even the most beautiful box will fail. Remember, your box must fit the product perfectly before you add style or branding." },
   { h3: "Step 2: Match Box Style to Function" },
-  { img: { src: "/pages/blog/Box-Style.webp", alt: "Box Style", width: 780, height: 520 } },
+  { img: { src: "/box-style.webp", alt: "Box Style", width: 780, height: 520 } },
   { p: "Box style is more than looks. It defines how your product travels, how it’s displayed, and how customers interact with it." },
   { p: "Here are the main popular packaging box options." },
   { h4: "[Mailer Boxes](/mailer-boxes/)" },
@@ -71,7 +71,7 @@ const article: Article = [
     ],
   } },
   { h3: "Step 3: Choose the Right Material" },
-  { img: { src: "/pages/blog/Materials-Options.webp", alt: "Materials Options", width: 780, height: 520 } },
+  { img: { src: "/materials-options.webp", alt: "Materials Options", width: 780, height: 520 } },
   { p: "Material defines strength, sustainability, and print quality. It is the backbone of your packaging box." },
   { ul: [
     "**Paperboard:** Lightweight, recyclable, excellent for high‑quality printing. Best for folding cartons and retail packaging.",
@@ -143,7 +143,7 @@ const article: Article = [
   ] },
   { p: "Smart budgeting means balancing protection, branding, and sustainability without overspending." },
   { h3: "Common Mistakes in Choosing the Ideal Box" },
-  { img: { src: "/pages/blog/Choosing-the-Ideal-Box.webp", alt: "Choosing the Ideal Box", width: 780, height: 520 } },
+  { img: { src: "/choosing-the-ideal-box.webp", alt: "Choosing the Ideal Box", width: 780, height: 520 } },
   { p: "Every box choice has consequences. Recognizing the risks helps you avoid costly mistakes." },
   { ul: [
     "**Thinking Price Alone:** Cheap boxes lead to damaged goods, higher returns, and poor impressions.",

@@ -2,7 +2,6 @@
 
 import { useRef, useState } from "react";
 
-const IMG = "/custom-boxes/images/";
 
 // Line icons (Lucide shapes) used in the feature row under each material.
 const icons: Record<string, React.ReactNode> = {
@@ -53,50 +52,50 @@ const tabs: Tab[] = [
   {
     label: "Materials",
     cards: [
-      { title: "Cardboard", img: "m-cardboard-grey.webp", swatch: "30% 28%", text: "Lightweight, printable, and cost-effective for custom retail boxes.", features: [["leaf", "Lightweight"], ["printer", "High Print Quality"], ["coins", "Budget Friendly"]] },
-      { title: "Corrugated Cardboard", img: "m-corrugated-grey.webp", swatch: "60% 77%", text: "Strong, protective, and ideal for shipping products safely.", features: [["shield", "High Strength"], ["package", "Impact Protection"], ["leaf", "Recyclable"]] },
-      { title: "Rigid Stock", img: "m-rigid-grey.webp", swatch: "72% 68%", badge: "Premium Choice", text: "Thick, durable, and luxurious, perfect for high-end packaging.", features: [["gem", "Luxury Look"], ["shieldCheck", "Extra Durability"], ["star", "Long Lasting"]] },
-      { title: "Kraft Stock", img: "m-kraft-grey.webp", swatch: "30% 28%", text: "Eco-friendly, natural, and a great choice for sustainable packaging.", features: [["leaf", "Eco-Friendly"], ["recycle", "Recycled Material"], ["layers", "Natural Look"]] },
+      { title: "Cardboard", img: "/m-cardboard-grey.webp", swatch: "30% 28%", text: "Lightweight, printable, and cost-effective for custom retail boxes.", features: [["leaf", "Lightweight"], ["printer", "High Print Quality"], ["coins", "Budget Friendly"]] },
+      { title: "Corrugated Cardboard", img: "/m-corrugated-grey.webp", swatch: "60% 77%", text: "Strong, protective, and ideal for shipping products safely.", features: [["shield", "High Strength"], ["package", "Impact Protection"], ["leaf", "Recyclable"]] },
+      { title: "Rigid Stock", img: "/m-rigid-grey.webp", swatch: "72% 68%", badge: "Premium Choice", text: "Thick, durable, and luxurious, perfect for high-end packaging.", features: [["gem", "Luxury Look"], ["shieldCheck", "Extra Durability"], ["star", "Long Lasting"]] },
+      { title: "Kraft Stock", img: "/m-kraft-grey.webp", swatch: "30% 28%", text: "Eco-friendly, natural, and a great choice for sustainable packaging.", features: [["leaf", "Eco-Friendly"], ["recycle", "Recycled Material"], ["layers", "Natural Look"]] },
     ],
   },
   {
     label: "Material Thickness",
     cards: [
-      { title: "14 pt Cardboard", img: "t-14pt-grey.webp", swatch: "55% 62%", text: "A light paperboard for small, lightweight retail items.", features: [["feather", "Lightweight"], ["printer", "Smooth Print"], ["coins", "Budget Friendly"]] },
-      { title: "16 pt Cardboard", img: "t-16pt-grey.webp", swatch: "55% 58%", badge: "Most Popular", text: "A popular weight for everyday retail and product boxes.", features: [["star", "Most Popular"], ["printer", "Sharp Print"], ["shield", "Everyday Strength"]] },
-      { title: "18 pt Cardboard", img: "t-18pt-grey.webp", swatch: "55% 55%", text: "Extra stiffness for heavier retail products.", features: [["shield", "Extra Stiffness"], ["package", "Retail Ready"], ["printer", "Crisp Print"]] },
-      { title: "24 pt Cardboard", img: "t-24pt-grey.webp", swatch: "55% 50%", text: "Our thickest paperboard for added strength.", features: [["shieldCheck", "Maximum Strength"], ["layers", "Thick Board"], ["gem", "Premium Feel"]] },
-      { title: "E-flute", img: "t-eflute-grey.webp", swatch: "50% 60%", text: "A thin corrugated flute for mailers with crisp print.", features: [["truck", "Mailer Ready"], ["printer", "Fine Print Surface"], ["feather", "Slim Profile"]] },
-      { title: "B-flute", img: "t-bflute-grey.webp", swatch: "45% 58%", text: "A thicker flute for heavier shipping boxes.", features: [["shield", "Heavy Duty"], ["package", "Impact Protection"], ["truck", "Shipping Safe"]] },
-      { title: "2mm", img: "t-2mm-grey.webp", swatch: "70% 53%", text: "Rigid board for gift, magnetic and premium boxes.", features: [["gem", "Luxury Look"], ["shieldCheck", "Sturdy Build"], ["gift", "Gift Ready"]] },
-      { title: "3mm", img: "t-3mm-grey.webp", swatch: "70% 53%", text: "Extra-thick rigid board for heavy luxury items.", features: [["shieldCheck", "Extra Rigid"], ["gem", "High-End Feel"], ["star", "Long Lasting"]] },
+      { title: "14 pt Cardboard", img: "/t-14pt-grey.webp", swatch: "55% 62%", text: "A light paperboard for small, lightweight retail items.", features: [["feather", "Lightweight"], ["printer", "Smooth Print"], ["coins", "Budget Friendly"]] },
+      { title: "16 pt Cardboard", img: "/t-16pt-grey.webp", swatch: "55% 58%", badge: "Most Popular", text: "A popular weight for everyday retail and product boxes.", features: [["star", "Most Popular"], ["printer", "Sharp Print"], ["shield", "Everyday Strength"]] },
+      { title: "18 pt Cardboard", img: "/t-18pt-grey.webp", swatch: "55% 55%", text: "Extra stiffness for heavier retail products.", features: [["shield", "Extra Stiffness"], ["package", "Retail Ready"], ["printer", "Crisp Print"]] },
+      { title: "24 pt Cardboard", img: "/t-24pt-grey.webp", swatch: "55% 50%", text: "Our thickest paperboard for added strength.", features: [["shieldCheck", "Maximum Strength"], ["layers", "Thick Board"], ["gem", "Premium Feel"]] },
+      { title: "E-flute", img: "/t-eflute-grey.webp", swatch: "50% 60%", text: "A thin corrugated flute for mailers with crisp print.", features: [["truck", "Mailer Ready"], ["printer", "Fine Print Surface"], ["feather", "Slim Profile"]] },
+      { title: "B-flute", img: "/t-bflute-grey.webp", swatch: "45% 58%", text: "A thicker flute for heavier shipping boxes.", features: [["shield", "Heavy Duty"], ["package", "Impact Protection"], ["truck", "Shipping Safe"]] },
+      { title: "2mm", img: "/t-2mm-grey.webp", swatch: "70% 53%", text: "Rigid board for gift, magnetic and premium boxes.", features: [["gem", "Luxury Look"], ["shieldCheck", "Sturdy Build"], ["gift", "Gift Ready"]] },
+      { title: "3mm", img: "/t-3mm-grey.webp", swatch: "70% 53%", text: "Extra-thick rigid board for heavy luxury items.", features: [["shieldCheck", "Extra Rigid"], ["gem", "High-End Feel"], ["star", "Long Lasting"]] },
     ],
   },
   {
     label: "Printing Sides",
     cards: [
-      { title: "Inside", img: "s-inside-grey.webp", swatch: "60% 35%", text: "Print a message, pattern or color inside the box.", features: [["sparkles", "Surprise Reveal"], ["message", "Brand Message"], ["palette", "Inside Pattern"]] },
-      { title: "Outside", img: "s-outside-grey.webp", swatch: "22% 65%", text: "Full branding on the outside of the box.", features: [["eye", "Shelf Appeal"], ["tag", "Brand Visibility"], ["palette", "Full Color"]] },
-      { title: "Both Sides", img: "s-both-grey.webp", swatch: "62% 35%", badge: "Premium Choice", text: "A branded outside plus a printed inside reveal.", features: [["sparkles", "Full Experience"], ["eye", "Maximum Impact"], ["gem", "Premium Unboxing"]] },
-      { title: "No Print", img: "s-none-grey.webp", swatch: "60% 40%", text: "Plain boxes without any printing.", features: [["coins", "Lowest Cost"], ["leaf", "Minimal Look"], ["clock", "Fast Turnaround"]] },
+      { title: "Inside", img: "/s-inside-grey.webp", swatch: "60% 35%", text: "Print a message, pattern or color inside the box.", features: [["sparkles", "Surprise Reveal"], ["message", "Brand Message"], ["palette", "Inside Pattern"]] },
+      { title: "Outside", img: "/s-outside-grey.webp", swatch: "22% 65%", text: "Full branding on the outside of the box.", features: [["eye", "Shelf Appeal"], ["tag", "Brand Visibility"], ["palette", "Full Color"]] },
+      { title: "Both Sides", img: "/s-both-grey.webp", swatch: "62% 35%", badge: "Premium Choice", text: "A branded outside plus a printed inside reveal.", features: [["sparkles", "Full Experience"], ["eye", "Maximum Impact"], ["gem", "Premium Unboxing"]] },
+      { title: "No Print", img: "/s-none-grey.webp", swatch: "60% 40%", text: "Plain boxes without any printing.", features: [["coins", "Lowest Cost"], ["leaf", "Minimal Look"], ["clock", "Fast Turnaround"]] },
     ],
   },
   {
     label: "Printing Options",
     cards: [
-      { title: "CMYK", img: "p-cmyk-grey.webp", swatch: "40% 40%", badge: "Most Popular", text: "Full-color process printing for photos and artwork.", features: [["palette", "Full Color"], ["image", "Photo Quality"], ["coins", "Cost Effective"]] },
-      { title: "Pantone (PMS)", img: "p-pantone-grey.webp", swatch: "45% 40%", text: "Exact brand colors matched with spot inks.", features: [["target", "Exact Match"], ["shieldCheck", "Color Consistency"], ["droplet", "Spot Inks"]] },
+      { title: "CMYK", img: "/p-cmyk-grey.webp", swatch: "40% 40%", badge: "Most Popular", text: "Full-color process printing for photos and artwork.", features: [["palette", "Full Color"], ["image", "Photo Quality"], ["coins", "Cost Effective"]] },
+      { title: "Pantone (PMS)", img: "/p-pantone-grey.webp", swatch: "45% 40%", text: "Exact brand colors matched with spot inks.", features: [["target", "Exact Match"], ["shieldCheck", "Color Consistency"], ["droplet", "Spot Inks"]] },
     ],
   },
   {
     label: "Finishing",
     cards: [
-      { title: "Foil Stamping", img: "f-foil-grey.webp", swatch: "45% 40%", badge: "Premium Choice", text: "Metallic gold, silver or colored accents.", features: [["sparkles", "Metallic Shine"], ["gem", "Luxury Look"], ["tag", "Logo Highlight"]] },
-      { title: "Embossing/Debossing", img: "f-emboss-grey.webp", swatch: "30% 60%", text: "Raised or pressed designs you can feel.", features: [["hand", "Tactile Feel"], ["layers", "3D Depth"], ["gem", "Premium Touch"]] },
-      { title: "Textured Finishes", img: "f-textured-grey.webp", swatch: "40% 40%", text: "Tactile surfaces such as linen or leather-look.", features: [["hand", "Soft Touch"], ["layers", "Unique Texture"], ["eye", "Elegant Look"]] },
-      { title: "Raised UV", img: "f-raised-uv-grey.webp", swatch: "35% 45%", text: "A glossy raised coating that highlights details.", features: [["sparkles", "Glossy Accent"], ["hand", "Raised Feel"], ["eye", "Eye Catching"]] },
-      { title: "Holographic Foiling", img: "f-holographic-grey.webp", swatch: "45% 40%", text: "Rainbow foil that shifts with the light.", features: [["sparkles", "Rainbow Effect"], ["eye", "Eye Catching"], ["star", "Standout Look"]] },
-      { title: "Combination Embossing", img: "f-combo-emboss-grey.webp", swatch: "45% 50%", text: "Embossing paired with foil for extra depth.", features: [["layers", "Layered Depth"], ["sparkles", "Foil Accent"], ["gem", "Luxury Finish"]] },
+      { title: "Foil Stamping", img: "/f-foil-grey.webp", swatch: "45% 40%", badge: "Premium Choice", text: "Metallic gold, silver or colored accents.", features: [["sparkles", "Metallic Shine"], ["gem", "Luxury Look"], ["tag", "Logo Highlight"]] },
+      { title: "Embossing/Debossing", img: "/f-emboss-grey.webp", swatch: "30% 60%", text: "Raised or pressed designs you can feel.", features: [["hand", "Tactile Feel"], ["layers", "3D Depth"], ["gem", "Premium Touch"]] },
+      { title: "Textured Finishes", img: "/f-textured-grey.webp", swatch: "40% 40%", text: "Tactile surfaces such as linen or leather-look.", features: [["hand", "Soft Touch"], ["layers", "Unique Texture"], ["eye", "Elegant Look"]] },
+      { title: "Raised UV", img: "/f-raised-uv-grey.webp", swatch: "35% 45%", text: "A glossy raised coating that highlights details.", features: [["sparkles", "Glossy Accent"], ["hand", "Raised Feel"], ["eye", "Eye Catching"]] },
+      { title: "Holographic Foiling", img: "/f-holographic-grey.webp", swatch: "45% 40%", text: "Rainbow foil that shifts with the light.", features: [["sparkles", "Rainbow Effect"], ["eye", "Eye Catching"], ["star", "Standout Look"]] },
+      { title: "Combination Embossing", img: "/f-combo-emboss-grey.webp", swatch: "45% 50%", text: "Embossing paired with foil for extra depth.", features: [["layers", "Layered Depth"], ["sparkles", "Foil Accent"], ["gem", "Luxury Finish"]] },
     ],
   },
 ];
@@ -146,7 +145,7 @@ export default function MaterialTabs() {
           {t.cards.map((c) => (
             <article key={c.title} className={`cb-option${c.badge ? " is-featured" : ""}`}>
               <div className="cb-option-media">
-                <img src={IMG + c.img} alt="" width={750} height={499} loading="lazy" />
+                <img src={c.img} alt="" width={750} height={499} loading="lazy" />
                 {c.badge && (
                   <span className="cb-badge">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -160,7 +159,7 @@ export default function MaterialTabs() {
                   <span
                     className="cb-swatch"
                     aria-hidden="true"
-                    style={{ backgroundImage: `url(${IMG + c.img})`, backgroundPosition: c.swatch }}
+                    style={{ backgroundImage: `url(${c.img})`, backgroundPosition: c.swatch }}
                   />
                 )}
               </div>

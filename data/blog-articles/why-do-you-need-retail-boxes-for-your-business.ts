@@ -8,7 +8,7 @@ const article: Article = [
   { p: "This is where retail packaging comes in. The right packaging can grab customers’ attention, improve your product presentation, and help your brand stand out. [Custom retail boxes](/retail-boxes/) let you create packaging that reflects your brand and makes your products more noticeable on retail shelves." },
 
   { h2: "5 Reasons Why You Need Retail Boxes for Your Brand" },
-  { img: { src: "/pages/blog/5-Reasons-Why-You-Need-Retail-Boxes.webp", alt: "5 Reasons Why You Need Retail Boxes", width: 780, height: 520 } },
+  { img: { src: "/5-reasons-why-you-need-retail-boxes.webp", alt: "5 Reasons Why You Need Retail Boxes", width: 780, height: 520 } },
   { p: "There are several reasons to use a retail box for your product and help your brand stand out in the market. We have mentioned 5 of them below:" },
   { h3: "Keeps Products Safe and Secure" },
   { p: "Custom retail boxes are made from durable materials such as cardstock and corrugated cardboard. They help keep your products protected while displayed on retail shelves or during transportation. You can also use them for heavier products such as electronics, perfumes, glass bottles, and other delicate items that require extra protection." },

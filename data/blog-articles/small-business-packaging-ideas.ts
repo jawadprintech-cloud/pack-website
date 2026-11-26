@@ -18,7 +18,7 @@ const article: Article = [
   { p: "Small businesses can customize their packaging in many ways to create a premium first impression. The ideas below are just a few possibilities, and you can mix, match, or adjust them based on your brand and product needs." },
 
   { h2: "Corrugated Boxes" },
-  { img: { src: "/pages/blog/Corrugated-Boxes.webp", alt: "Corrugated Boxes", width: 780, height: 520 } },
+  { img: { src: "/corrugated-boxes.webp", alt: "Corrugated Boxes", width: 780, height: 520 } },
   { p: "Most small business start their journey through online platforms like eBay, Amazon, or other eCommerce stores. This helps them minimize warehouse costs. But one thing remains constant: leaving a lasting impression on customers. That is why small businesses should use [custom corrugated boxes](/corrugated-boxes/) for their product shipments." },
   { p: "You can find various types of corrugated boxes for shipping products; however, the most popular boxes that create a memorable unboxing experience while enhancing overall brand appeal are as follows:" },
   { ul: [
@@ -27,7 +27,7 @@ const article: Article = [
     "**Roll End Tuck Front Boxes:** Designed with a front-locking tuck closure that adds extra security during transit. Their strong structure and customizable exterior help small businesses protect products while creating a professional unboxing experience.",
   ] },
   { h3: "Paperboard Boxes" },
-  { img: { src: "/pages/blog/Paperboard-Boxes.webp", alt: "Paperboard Boxes", width: 780, height: 520 } },
+  { img: { src: "/paperboard-boxes.webp", alt: "Paperboard Boxes", width: 780, height: 520 } },
   { p: "Paperboard boxes, also known as [folding cartons](/folding-cartons/), are a great option for small businesses that need lightweight, affordable, and customizable packaging. They work well for retail products, cosmetics, food items, candles, soaps, and other lightweight products. Their smooth surface also supports high-quality printing, making it easier to present your brand professionally." },
   { p: "Some popular paperboard packaging styles include:" },
   { ul: [
@@ -36,7 +36,7 @@ const article: Article = [
     "[Window Boxes](/product/window-boxes/)**:** Feature a clear window that allows customers to see the product without opening the packaging. They work well for bakery items, cosmetics, gifts, and retail products.",
   ] },
   { h3: "Rigid Boxes" },
-  { img: { src: "/pages/blog/Rigid-Boxes.webp", alt: "Rigid Boxes", width: 780, height: 520 } },
+  { img: { src: "/rigid-boxes.webp", alt: "Rigid Boxes", width: 780, height: 520 } },
   { p: "[Rigid boxes](/rigid-boxes/) are a premium packaging choice for small businesses selling luxury, gift, jewelry, cosmetic, and high-value products. They are made with thick chipboard, which gives them a strong structure and premium feel. These boxes also support different finishes, inserts, and printing options." },
   { p: "Popular rigid box styles include:" },
   { ul: [
@@ -45,7 +45,7 @@ const article: Article = [
     "[Drawer Boxes](/product/rigid-drawer-boxes/)**:** Include an outer sleeve and sliding inner tray. They are commonly used for jewelry, watches, cosmetics, electronics, and gift products.",
   ] },
   { h3: "Plastic Mailers and Poly Bags" },
-  { img: { src: "/pages/blog/Plastic-Mailers-and-Poly-Bags.webp", alt: "Plastic Mailers and Poly Bags", width: 780, height: 520 } },
+  { img: { src: "/plastic-mailers-and-poly-bags.webp", alt: "Plastic Mailers and Poly Bags", width: 780, height: 520 } },
   { p: "Plastic mailers and poly bags are lightweight packaging options for businesses that regularly ship clothing, accessories, and soft products. Their lightweight structure helps reduce shipping costs while protecting products against dust, moisture, and dirt during delivery." },
   { p: "Common options include:" },
   { ul: [
@@ -54,7 +54,7 @@ const article: Article = [
     "**Custom Printed Poly Bags:** Allow businesses to add logos, colors, patterns, and other branding elements directly to the packaging.",
   ] },
   { h3: "Paper Mailers" },
-  { img: { src: "/pages/blog/Paper-Mailers.webp", alt: "Paper Mailers", width: 780, height: 520 } },
+  { img: { src: "/paper-mailers.webp", alt: "Paper Mailers", width: 780, height: 520 } },
   { p: "Paper mailers are a practical option for small businesses that want simple, lightweight shipping packaging. They work well for documents, books, apparel, accessories, and other lightweight products. Their printable surface also makes it easier to add logos, labels, and custom branding." },
   { p: "Some popular paper mailer options include:" },
   { ul: [
@@ -63,7 +63,7 @@ const article: Article = [
     "**Expandable Paper Mailers:** Designed with gussets that allow the package to expand, making them useful for products with different sizes or thicknesses.",
   ] },
   { h3: "Custom Tapes and Stickers" },
-  { img: { src: "/pages/blog/Custom-Tapes-and-Stickers.webp", alt: "Custom Tapes and Stickers", width: 780, height: 520 } },
+  { img: { src: "/custom-tapes-and-stickers.webp", alt: "Custom Tapes and Stickers", width: 780, height: 520 } },
   { p: "Small businesses do not always need fully printed boxes to create branded packaging. Custom tapes and stickers are simple and affordable ways to add branding to plain boxes, bags, and mailers. They can display your logo, brand colors, messages, or other design elements." },
   { p: "You can use them in different ways:" },
   { ul: [
@@ -72,7 +72,7 @@ const article: Article = [
     "**Thank You Stickers:** Use short thank-you messages to make the packaging feel more personal and improve the customer’s unboxing experience.",
   ] },
   { h3: "Custom Tissue Paper" },
-  { img: { src: "/pages/blog/Custom-Tissue-Paper.webp", alt: "Custom Tissue Paper", width: 780, height: 520 } },
+  { img: { src: "/custom-tissue-paper.webp", alt: "Custom Tissue Paper", width: 780, height: 520 } },
   { p: "Custom tissue paper adds an extra layer of presentation inside boxes, bags, and mailers. Small businesses can use it to wrap products, protect delicate surfaces, and create a more premium unboxing experience without significantly increasing packaging costs." },
   { p: "Some creative ways to use tissue paper include:" },
   { ul: [
