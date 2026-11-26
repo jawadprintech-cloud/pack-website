@@ -115,7 +115,7 @@
 .plmb .option-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .plmb .option-grid.boards{grid-template-columns:repeat(3,1fr);max-width:950px}
 .plmb .option-grid .option-card{text-align:left;padding:0;overflow:hidden;border:1px solid #d1dbce;border-radius:9px;background:#fff;color:var(--ink);transition:border .15s,box-shadow .15s}
-.plmb .option-grid .option-card:hover{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+@media(hover:hover){.plmb .option-grid .option-card:hover{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}}
 .plmb .option-grid img{width:100%;height:clamp(64px,9vw,110px);object-fit:cover}
 .plmb .option-grid .option-card>span{display:block;padding:10px 12px}
 .plmb .option-grid strong,.plmb .option-grid small{display:block}
@@ -495,8 +495,8 @@
 .plmb .related-card:hover img{transform:scale(1.06)}
 .plmb .related-card:hover h3{color:var(--green)}
 .plmb .related-card h3{transition:color .2s var(--ease)}
-.plmb .option-grid .option-card:hover{transform:translateY(-3px);box-shadow:0 0 0 1px var(--green),var(--lift)}
-.plmb .option-grid .option-card:hover img{transform:scale(1.07)}
+@media(hover:hover){.plmb .option-grid .option-card:hover{transform:translateY(-3px);box-shadow:0 0 0 1px var(--green),var(--lift)}}
+@media(hover:hover){.plmb .option-grid .option-card:hover img{transform:scale(1.07)}}
 .plmb .feature-photo{transition:box-shadow .4s var(--ease)}
 .plmb .feature-photo:hover{box-shadow:var(--lift)}
 .plmb .tool-icon{transition:background .3s var(--ease),color .3s var(--ease),transform .35s var(--ease)}
@@ -555,8 +555,8 @@
 
 /* No hover devices: skip lift effects. Reduced motion: no movement at all. */
 @media (hover:none){
- .plmb .button:hover,.plmb .quote-card:hover,.plmb .tool-grid>a:hover,.plmb .related-card:hover,.plmb .option-grid .option-card:hover,.plmb .detail-aside>div:hover,.plmb .design-picker :is(label,.design-link):hover>span{transform:none}
- .plmb .gallery-main:hover>img,.plmb .related-card:hover img,.plmb .option-grid .option-card:hover img{transform:none}
+ .plmb .button:hover,.plmb .quote-card:hover,.plmb .tool-grid>a:hover,.plmb .related-card:hover,.plmb .detail-aside>div:hover,.plmb .design-picker :is(label,.design-link):hover>span{transform:none}
+ .plmb .gallery-main:hover>img,.plmb .related-card:hover img{transform:none}
 }
 @media (prefers-reduced-motion:reduce){
  .plmb *,.plmb *::before,.plmb *::after{animation:none!important}
@@ -670,14 +670,14 @@
 
 /* Most option photos have a thin white frame baked in; scale them up a little (anchored at the bottom) so the photo fills the card edge to edge. */
 .plmb .option-grid img{transform-origin:50% 100%;transform:scale(1.07)}
-.plmb .option-grid .option-card:hover img{transform:scale(1.13)}
-@media (prefers-reduced-motion:reduce){.plmb .option-grid .option-card:hover img{transform:scale(1.07)}}
+@media(hover:hover){.plmb .option-grid .option-card:hover img{transform:scale(1.13)}}
+@media (hover:hover) and (prefers-reduced-motion:reduce){.plmb .option-grid .option-card:hover img{transform:scale(1.07)}}
 
 /* Materials & finishes cards, styled after the packlegacy.com option cards. */
 .plmb .options .option-grid{gap:14px}
 .plmb .options .option-grid.boards{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none}
 .plmb .options .option-grid .option-card{border:0;border-radius:8px;background:#f8f9f4;box-shadow:0 1px 3px #0000000d}
-.plmb .options .option-grid .option-card:hover{box-shadow:0 0 0 1.5px var(--green),var(--lift)}
+@media(hover:hover){.plmb .options .option-grid .option-card:hover{box-shadow:0 0 0 1.5px var(--green),var(--lift)}}
 .plmb .options .option-grid img{height:auto;aspect-ratio:2.25/1;object-position:72% 50%}
 .plmb .options .option-grid.boards img{aspect-ratio:3.1/1;object-position:70% 50%}
 .plmb .options .option-grid .option-card>span{padding:12px 14px 15px}
