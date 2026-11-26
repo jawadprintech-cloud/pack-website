@@ -171,7 +171,8 @@
 .plcb .cb-content-block p + p { margin-top: 10px; }
 /* Lists/tables inside long-form blocks: space before the paragraphs that follow them */
 .plcb .cb-content-block ul + p, .plcb .cb-content-block table + p { margin-top: 16px; }
-.plcb .cb-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 24px; }
+/* Bullet lists: one point per line on every screen size. */
+.plcb .cb-list { grid-template-columns: minmax(0, 1fr); }
 .plcb .cb-why-bullets { margin-bottom: 18px; }
 /* Size / price table */
 .plcb .cb-table thead th { background: var(--cb-green); color: #fff; width: 50%; }
@@ -181,9 +182,6 @@
 .plcb .cb-table td { font-variant-numeric: tabular-nums; }
 .plcb .cb-table td:last-child { font-weight: 700; color: var(--cb-ink); }
 .plcb .cb-table tbody tr:nth-child(even) td { background: #f8faf7; }
-@media (max-width: 560px) {
-  .plcb .cb-list { grid-template-columns: minmax(0, 1fr); }
-}
 .plcb .cb-tips { margin-top: 12px; display: grid; gap: 6px; }
 .plcb .cb-tips li { position: relative; padding-left: 20px; }
 .plcb .cb-tips li::before { content: ""; position: absolute; left: 4px; top: 0.68em; width: 6px; height: 6px; border-radius: 50%; background: var(--cb-green); }
