@@ -20,16 +20,13 @@ const nextConfig = {
     "/mcp": ["./node_modules/sharp/**/*", "./node_modules/@img/**/*", "./node_modules/detect-libc/**/*", "./node_modules/semver/**/*"],
     "/api/packaging-tools": ["./node_modules/sharp/**/*", "./node_modules/@img/**/*", "./node_modules/detect-libc/**/*", "./node_modules/semver/**/*"],
   },
-  // The site lives at https://packlegacy.com (no www). Any www request is sent permanently (308) to the same page there.
+  // The site lives at https://www.packlegacy.com. Vercel's domain settings send packlegacy.com (no www) there,
+  // so there is no host redirect here: one that sent www back to packlegacy.com would loop forever.
   async redirects() {
-    const www = [{ type: "host", value: "www.packlegacy.com" }];
     return [
       ...saved,
       // Packaging Inserts is a category page now; its packlegacy.com address was under /product/.
       { source: "/product/packaging-inserts/", destination: "/packaging-inserts/", permanent: true },
-      // Files (robots.txt, sitemap_index.xml, images…) keep their exact path; pages keep their trailing slash, so it's one hop.
-      { source: "/:path*.:ext(txt|xml|webp|png|jpe?g|svg|ico|pdf|js|css|json)", has: www, destination: "https://packlegacy.com/:path*.:ext", permanent: true },
-      { source: "/:path*", has: www, destination: "https://packlegacy.com/:path*/", permanent: true },
     ];
   },
   // Until the live site sets ALLOW_INDEXING=true (see lib/site.ts), tell search engines not to index anything.
