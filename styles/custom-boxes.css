@@ -88,7 +88,8 @@
 @media (prefers-reduced-motion: reduce) {
   .plcb .cb-takeaway:hover { transform: none; }
 }
-.plcb .cb-takeaway h2 { margin: 0 0 6px; font-size: 1.05rem; font-weight: 700; color: var(--cb-ink); }
+/* "Key Takeaways" is a div (was an h2; the site-wide h2 rule made it 28px). Same look as before. */
+.plcb .cb-takeaway .cb-takeaway-title { margin: 0 0 6px; font-size: 28px; font-weight: 700; line-height: 1.25; letter-spacing: -0.015em; color: var(--cb-ink); }
 .plcb .cb-takeaway p { margin: 0; font-size: 0.92rem; line-height: 1.65; color: var(--cb-ink); }
 
 .plcb .cb-section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px 24px; margin-bottom: 24px; }

@@ -126,7 +126,7 @@ export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid,
               </a>
               {takeaway && (
                 <aside className="cb-takeaway" aria-labelledby="cb-takeaway-title">
-                  <h2 id="cb-takeaway-title">Key Takeaways</h2>
+                  <div id="cb-takeaway-title" className="cb-takeaway-title">Key Takeaways</div>
                   <p>{takeaway}</p>
                 </aside>
               )}
