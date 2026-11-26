@@ -493,6 +493,7 @@ export default function Header() {
                   <div className="pl-header-dropdown" id="pl-dd-resources">
                     <ul>
                       <li><a href={`${SITE}/blog/`}>Blogs</a></li>
+                      <li><a href={`${SITE}/tools/`}>Packaging Tools</a></li>
                       <li><a href={`${SITE}/how-to-order/`}>How To Order</a></li>
                       <li><a href={`${SITE}/faqs/`}>FAQs</a></li>
                       <li><a href={`${SITE}/track-your-order/`}>Track Your Order</a></li>
