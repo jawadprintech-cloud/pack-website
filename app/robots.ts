@@ -5,7 +5,7 @@ import { INDEXABLE, absUrl } from "@/lib/site";
 export default function robots(): MetadataRoute.Robots {
   if (!INDEXABLE) return { rules: [{ userAgent: "*", disallow: "/" }] };
   return {
-    rules: [{ userAgent: "*", allow: "/", disallow: ["/api/", "/thank-you/"] }],
+    rules: [{ userAgent: "*", allow: "/" }],
     sitemap: absUrl("/sitemap_index.xml"),
     host: absUrl("/").replace(/\/$/, ""),
   };
