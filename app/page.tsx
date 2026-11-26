@@ -215,7 +215,7 @@ export default function HomePage() {
           <div className="h-head">
             <div>
               <p className="h-eyebrow">The Packaging Field Notes</p>
-              <h2 className="h-display" id="h-notes-title">Plan your next box.</h2>
+              <h2 className="h-display" id="h-notes-title">Packaging Insight To Get Inspired</h2>
             </div>
             <a className="h-link" href="/blog/">
               Browse all articles <ArrowUpRight />
