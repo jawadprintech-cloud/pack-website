@@ -150,10 +150,10 @@
 .plmb .quote-form legend,.plmb .quote-form label{font-size:.8rem;font-weight:700}
 .plmb .quote-form legend{padding:0;margin-bottom:8px}
 .plmb .design-picker>div{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.plmb .design-picker label{position:relative;cursor:pointer;min-width:0}
+.plmb .design-picker :is(label,.design-link){position:relative;cursor:pointer;min-width:0}
 .plmb .design-picker input{position:absolute;opacity:0;left:10px;top:10px}
-.plmb .design-picker label>span{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;min-height:94px;height:100%;border:1px solid var(--line);border-radius:8px;text-align:center;padding:7px 4px;line-height:1.2}
-.plmb .design-picker label>span img{width:42px;height:38px;object-fit:contain}
+.plmb .design-picker :is(label,.design-link)>span{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;min-height:94px;height:100%;border:1px solid var(--line);border-radius:8px;text-align:center;padding:7px 4px;line-height:1.2}
+.plmb .design-picker :is(label,.design-link)>span img{width:42px;height:38px;object-fit:contain}
 .plmb .design-picker input:checked+span{background:var(--sage);border-color:var(--green);color:#16572e}
 .plmb .design-picker input:focus-visible+span{outline:3px solid var(--green);outline-offset:2px}
 .plmb .design-hint{font-size:.79rem;color:var(--muted);margin:9px 0 17px}
@@ -301,8 +301,8 @@
 .plmb .quote-panel .quote-form{border:0;box-shadow:none;padding:0}
 .plmb .quote-panel .quote-form :is(label,legend){font-size:clamp(.65rem,.69vw,.79rem)}
 .plmb .quote-panel .design-picker>div{gap:7px}
-.plmb .quote-panel .design-picker label>span{min-height:clamp(63px,5.7vw,100px);padding:5px 3px}
-.plmb .quote-panel .design-picker label>span img{width:clamp(32px,3.2vw,62px);height:clamp(29px,2.8vw,55px)}
+.plmb .quote-panel .design-picker :is(label,.design-link)>span{min-height:clamp(63px,5.7vw,100px);padding:5px 3px}
+.plmb .quote-panel .design-picker :is(label,.design-link)>span img{width:clamp(32px,3.2vw,62px);height:clamp(29px,2.8vw,55px)}
 .plmb .quote-panel .design-picker{margin-bottom:12px}
 .plmb .quote-panel .form-grid,.plmb .quote-panel .dimension-group>div{gap:7px 9px}
 .plmb .quote-panel .quote-specs{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:8px}
@@ -507,10 +507,10 @@
 .plmb .benefits>div:hover img{transform:translateY(-3px) scale(1.08)}
 
 /* Quote form */
-.plmb .design-picker label>span{transition:border-color .2s var(--ease),background .2s var(--ease),transform .25s var(--ease),box-shadow .25s var(--ease)}
-.plmb .design-picker label:hover>span{border-color:#9cc2a5;transform:translateY(-2px);box-shadow:0 6px 14px #173c1712}
-.plmb .design-picker label>span img{transition:transform .3s var(--ease)}
-.plmb .design-picker label:hover>span img{transform:scale(1.08)}
+.plmb .design-picker :is(label,.design-link)>span{transition:border-color .2s var(--ease),background .2s var(--ease),transform .25s var(--ease),box-shadow .25s var(--ease)}
+.plmb .design-picker :is(label,.design-link):hover>span{border-color:#9cc2a5;transform:translateY(-2px);box-shadow:0 6px 14px #173c1712}
+.plmb .design-picker :is(label,.design-link)>span img{transition:transform .3s var(--ease)}
+.plmb .design-picker :is(label,.design-link):hover>span img{transform:scale(1.08)}
 .plmb .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea){transition:border-color .2s var(--ease),box-shadow .2s var(--ease),background .2s var(--ease)}
 .plmb .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea):hover{border-color:#a9bfac}
 .plmb .quote-form :is(input:not([type=radio],[type=file],[type=checkbox]),select,textarea):focus{outline:none;border-color:var(--green);background:#fff;box-shadow:0 0 0 3px #14743c22}
@@ -555,7 +555,7 @@
 
 /* No hover devices: skip lift effects. Reduced motion: no movement at all. */
 @media (hover:none){
- .plmb .button:hover,.plmb .quote-card:hover,.plmb .tool-grid>a:hover,.plmb .related-card:hover,.plmb .option-grid .option-card:hover,.plmb .detail-aside>div:hover,.plmb .design-picker label:hover>span{transform:none}
+ .plmb .button:hover,.plmb .quote-card:hover,.plmb .tool-grid>a:hover,.plmb .related-card:hover,.plmb .option-grid .option-card:hover,.plmb .detail-aside>div:hover,.plmb .design-picker :is(label,.design-link):hover>span{transform:none}
  .plmb .gallery-main:hover>img,.plmb .related-card:hover img,.plmb .option-grid .option-card:hover img{transform:none}
 }
 @media (prefers-reduced-motion:reduce){
@@ -639,9 +639,9 @@
 /* Design cards: evenly spaced, white, no default selection */
 .plmb .quote-panel .design-picker{margin-bottom:20px}
 .plmb .quote-panel .design-picker>div{gap:clamp(8px,1vw,20px);padding-inline:clamp(0px,.8vw,20px)}
-@media(min-width:1400px){.plmb .quote-panel .design-picker label>span>span{white-space:nowrap}}
-.plmb .quote-panel .design-picker label>span{min-height:clamp(80px,6.3vw,120px);padding:8px 4px 10px;gap:8px;border-color:#d6d6d6;border-radius:6px;background:#fff;font-weight:400;font-size:clamp(.62rem,.68vw,.76rem);color:var(--ink)}
-.plmb .quote-panel .design-picker label>span img{width:clamp(44px,4.2vw,82px);height:clamp(36px,3.4vw,66px)}
+@media(min-width:1400px){.plmb .quote-panel .design-picker :is(label,.design-link)>span>span{white-space:nowrap}}
+.plmb .quote-panel .design-picker :is(label,.design-link)>span{min-height:clamp(80px,6.3vw,120px);padding:8px 4px 10px;gap:8px;border-color:#d6d6d6;border-radius:6px;background:#fff;font-weight:400;font-size:clamp(.62rem,.68vw,.76rem);color:var(--ink)}
+.plmb .quote-panel .design-picker :is(label,.design-link)>span img{width:clamp(44px,4.2vw,82px);height:clamp(36px,3.4vw,66px)}
 .plmb .quote-panel .design-picker input:checked+span{background:#fff;border-color:var(--green);box-shadow:0 0 0 1px var(--green);color:var(--ink)}
 /* Fields */
 .plmb .quote-panel .quote-form :is(label,legend){font-weight:400;font-size:clamp(.6rem,.62vw,.72rem)}
