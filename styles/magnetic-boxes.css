@@ -81,8 +81,11 @@
 .plmb .review-name{font-size:.77rem;font-weight:750;margin-top:10px}
 .plmb .takeaway{border:1px solid var(--line);border-radius:11px;margin-block:25px 13px;padding:19px 24px 20px;background:#fafbf8}
 .plmb .takeaway .eyebrow{margin-bottom:6px}
-.plmb .takeaway>div{display:flex;align-items:baseline;gap:20px;margin-bottom:8px}
-.plmb .takeaway h2{font-size:1.15rem;white-space:nowrap}
+.plmb .takeaway>div:not(.takeaway-title){display:flex;align-items:baseline;gap:20px;margin-bottom:8px}
+/* "Key Takeaway" and "Let’s create your box." are divs, not headings: give them the h2/h3 base look. */
+.plmb .takeaway-title{line-height:1.12;letter-spacing:-.04em;font-weight:690}
+.plmb .quote-heading-title{line-height:1.12;letter-spacing:-.025em;font-weight:700}
+.plmb .takeaway .takeaway-title{font-size:1.15rem;white-space:nowrap}
 .plmb .takeaway p:not(.eyebrow){font-size:.88rem;color:var(--muted)}
 .plmb .benefits{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:10px;margin-bottom:28px;padding:16px 0}
 .plmb .benefits>div{display:flex;align-items:center;gap:11px;padding-inline:15px}
@@ -209,7 +212,7 @@
 .plmb .gallery-main>img{aspect-ratio:1.16;object-fit:contain} /* show the whole photo, no crop */
 .plmb .hero-copy .quote-card{display:none}
 .plmb .takeaway>div{display:block}
-.plmb .takeaway h2{margin-bottom:4px}
+.plmb .takeaway .takeaway-title{margin-bottom:4px}
 .plmb .benefits{grid-template-columns:1fr 1fr;padding:0}
 .plmb .benefits>div{padding:10px}
 .plmb .benefits>div:nth-child(3){border-left:0}
@@ -273,7 +276,7 @@
 .plmb .review-platforms img{width:100%;height:auto}
 .plmb .takeaway{margin:12px 0 0;background:#fff;padding:clamp(11px,1.2vw,22px);text-align:center}
 .plmb .takeaway .eyebrow{font-size:clamp(.49rem,.55vw,.65rem);margin-bottom:4px}
-.plmb .takeaway h2{font-size:clamp(.84rem,1vw,1.1rem);text-transform:uppercase;letter-spacing:.03em}
+.plmb .takeaway .takeaway-title{font-size:clamp(.84rem,1vw,1.1rem);text-transform:uppercase;letter-spacing:.03em}
 .plmb .takeaway p:not(.eyebrow){margin-top:7px;text-align:left;font-size:clamp(.69rem,.76vw,.86rem);line-height:1.45}
 .plmb .takeaway .text-link{display:flex;border-top:1px solid var(--line);padding-top:6px;margin-top:7px;font-size:.73rem}
 .plmb .benefits{margin:12px 0 0;padding:12px 0}
@@ -288,7 +291,7 @@
 .plmb .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .plmb .quote-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-bottom:9px}
 .plmb .quote-heading-text{min-width:0}
-.plmb .quote-heading h3{display:flex;align-items:center;gap:5px;font-size:clamp(.91rem,1.05vw,1.13rem)}
+.plmb .quote-heading .quote-heading-title{display:flex;align-items:center;gap:5px;font-size:clamp(.91rem,1.05vw,1.13rem)}
 .plmb .quote-info{display:inline-flex;color:var(--muted);cursor:help}
 .plmb .quote-heading-text p{margin:3px 0 0;font-size:clamp(.65rem,.69vw,.79rem);font-weight:700}
 .plmb .quote-heading-price{display:flex;align-items:flex-end;gap:10px;flex-shrink:0}
@@ -623,7 +626,7 @@
 .plmb .quote-panel h2{font-weight:700!important}
 .plmb .quote-panel .quote-promises{padding:12px 10px;margin-bottom:16px;gap:6px 10px;font-weight:400;font-size:clamp(.62rem,.66vw,.74rem);border-radius:4px}
 .plmb .quote-panel .quote-heading{margin-bottom:14px}
-.plmb .quote-panel .quote-heading h3{font-weight:700;letter-spacing:-.02em}
+.plmb .quote-panel .quote-heading .quote-heading-title{font-weight:700;letter-spacing:-.02em}
 .plmb .quote-panel .quote-heading-text p{margin-top:7px;font-weight:500}
 .plmb .quote-panel .quote-info{color:#555}
 .plmb .quote-panel .quote-stock{font-size:.8rem;font-weight:700;margin-bottom:2px}

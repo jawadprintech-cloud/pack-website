@@ -232,8 +232,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                     </dialog>
                   </div>
                   <aside className="takeaway">
-                    <p className="eyebrow">THE DETAILS THAT MATTER</p>
-                    <h2>Key Takeaway</h2>
+                    <div className="takeaway-title">Key Takeaway</div>
                     <p>{takeaway}</p>
                     <a href="#materials" className="text-link">Explore your packaging options <ArrowDown /></a>
                   </aside>
