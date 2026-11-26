@@ -14,3 +14,6 @@
 .pl-product-page h2 { font-size: 24px !important; }
 .pl-product-page h3 { font-size: 22px !important; }
 .pl-product-page h4 { font-size: 20px !important; }
+
+/* Quote form title ("Fill Out The Quote Form") on product pages. */
+.pl-product-page .quote-title { font-size: 24px !important; }
