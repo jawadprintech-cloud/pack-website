@@ -17,3 +17,14 @@
 
 /* Quote form title ("Fill Out The Quote Form") on product pages. */
 .pl-product-page .quote-title { font-size: 24px !important; }
+
+/* Magnetic Closure Boxes page only (/product/magnetic-closure-boxes/). */
+.pl-magnetic-page #product-title { font-size: 25px !important; }
+.pl-magnetic-page .quote-panel .quote-title { font-size: 21px !important; }
+/* Long description: text only, with spacing between its sections. */
+.pl-magnetic-page .long-desc h2 { margin-top: 30px; }
+.pl-magnetic-page .long-desc .eyebrow + h2 { margin-top: 0; }
+.pl-magnetic-page .long-desc h3 { margin-top: 20px; }
+.pl-magnetic-page .long-desc p { margin-top: 12px; max-width: 70ch; }
+.pl-magnetic-page .long-desc ul { margin: 12px 0 0; padding-left: 22px; list-style: disc; max-width: 70ch; }
+.pl-magnetic-page .long-desc li { margin-top: 8px; }

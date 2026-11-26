@@ -14,19 +14,21 @@ import "@/styles/magnetic-boxes.css";
 import "@/styles/product-typography.css";
 
 const PATH = "/product/magnetic-closure-boxes/";
+const TITLE = "Custom Magnetic Closure Boxes (Wholesale Rates)";
 const DESCRIPTION =
-  "Custom magnetic closure boxes with rigid board, printed wraps, fitted inserts and premium finishes. No minimums, free design support and free US shipping.";
+  "Order custom magnetic rigid boxes at competitive prices with no minimum order quantity. Available in custom sizes, shapes, styles, and colors. Free Shipping.";
 
 export const metadata: Metadata = withSeo("/product/magnetic-closure-boxes/", {
-  title: "Custom Magnetic Closure Boxes | Pack Legacy",
+  title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: PATH },
-  openGraph: { type: "website", url: PATH, title: "Custom Magnetic Closure Boxes | Pack Legacy", description: DESCRIPTION },
+  openGraph: { type: "website", url: PATH, title: TITLE, description: DESCRIPTION },
 });
 
 // The FAQs shown on this page, read from its markup so the structured data matches what visitors see.
 const pageFaqs = [...baseMarkup.matchAll(/<details[^>]*><summary>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/g)].map((m) => ({ q: m[1], a: m[2] }));
-const gallery = [...new Set([...baseMarkup.matchAll(/src="(\/magnetic-closure-boxes\/images\/[^"]+)"/g)].map((m) => m[1]))].filter((s) => !/icon|logo|review|bark|clutch|trust/i.test(s));
+// Product photos for structured data: the hero gallery (every image before the product title).
+const gallery = [...new Set([...baseMarkup.slice(0, baseMarkup.indexOf('id="product-title"')).matchAll(/src="(\/images\/[^"]+)"/g)].map((m) => m[1]))];
 const schema = [
   productSchema({ name: "Custom Magnetic Closure Boxes", path: PATH, description: DESCRIPTION, images: gallery.length ? gallery : getProduct("magnetic-closure-boxes")?.gallery || [], category: "Rigid Boxes" }),
   breadcrumbSchema([{ name: "Rigid Boxes", path: "/rigid-boxes/" }, { name: "Magnetic Closure Boxes", path: PATH }]),
@@ -39,7 +41,7 @@ export default function ProductPage() {
       <JsonLd data={schema} />
       <Header />
       {/* Product page body from packlegacy-magnetic-boxes (its own header and footer are not used). */}
-      <div className="plmb pl-product-page" dangerouslySetInnerHTML={{ __html: markup }} suppressHydrationWarning />
+      <div className="plmb pl-product-page pl-magnetic-page" dangerouslySetInnerHTML={{ __html: markup }} suppressHydrationWarning />
       <MagneticBoxesScript />
       <Footer />
     </>
