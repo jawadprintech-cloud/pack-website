@@ -144,9 +144,12 @@
 .plcb .cb-why-grid li { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; min-width: 0; }
 .plcb .cb-why-grid img { width: clamp(38px, 5cqi, 56px); height: clamp(38px, 5cqi, 56px); }
 .plcb .cb-why-grid span, .plcb .cb-why-grid h3 { white-space: nowrap; font-weight: 700; color: #111; font-size: clamp(0.6rem, 1.42cqi, 0.9rem); line-height: 1.3; }
+/* On /custom-boxes/ the labels are h3s; the site-wide h3 rule forces 24px !important, so restore the label size here. */
+.plcb .cb-why-grid h3 { font-size: clamp(0.6rem, 1.42cqi, 0.9rem) !important; }
 @container (max-width: 720px) {
   .plcb .cb-why-grid { flex-wrap: wrap; justify-content: flex-start; gap: 20px 22px; }
-  .plcb .cb-why-grid span, .plcb .cb-why-grid h3 { font-size: 0.8rem; }
+  .plcb .cb-why-grid span { font-size: 0.8rem; }
+  .plcb .cb-why-grid h3 { font-size: 0.8rem !important; }
 }
 
 /* Long-form content: green headings, a thin rule under each block */
