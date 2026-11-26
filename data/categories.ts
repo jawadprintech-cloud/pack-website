@@ -2753,6 +2753,7 @@ export const categoryPageFor: Record<string, string> = {
   "Display Boxes": "/display-boxes/",
   "Mailer Boxes": "/mailer-boxes/",
   "Folding Cartons": "/folding-cartons/",
+  "Box By Styles": "/box-by-style/",
   "Mylar Bags": "/custom-mylar-bags/",
   "Packaging Inserts": "/packaging-inserts/",
 };
