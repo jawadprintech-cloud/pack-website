@@ -27,6 +27,8 @@ const nextConfig = {
       ...saved,
       // Packaging Inserts is a category page now; its packlegacy.com address was under /product/.
       { source: "/product/packaging-inserts/", destination: "/packaging-inserts/", permanent: true },
+      // The sitemap opens only at /sitemap_index.xml (as on the old WordPress/Yoast site).
+      { source: "/sitemap.xml", destination: "/sitemap_index.xml", statusCode: 301 },
     ];
   },
   // Until the live site sets ALLOW_INDEXING=true (see lib/site.ts), tell search engines not to index anything.

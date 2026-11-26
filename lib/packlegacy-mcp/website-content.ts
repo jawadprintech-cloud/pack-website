@@ -288,7 +288,7 @@ export class WebsiteContentClient {
       search_keywords: [],
     }));
     return {
-      source_url: this.origin + "/sitemap.xml", retrieved_at: this.snapshot.generated_at,
+      source_url: this.origin + "/sitemap_index.xml", retrieved_at: this.snapshot.generated_at,
       query, total_matches: matches.length, items,
       snapshot_generated_at: this.snapshot.generated_at, source_kind: "website_content_snapshot",
     };
