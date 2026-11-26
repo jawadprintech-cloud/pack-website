@@ -13,37 +13,37 @@ export const metadata: Metadata = withSeo("/sample-kits/", {
 // Photos live in public/categories/Sample Kits/<name>/ (Rigid Boxes uses the Magnetic Closure Boxes photo).
 const IMG = "/categories/Sample%20Kits/";
 
+// Names, prices, text and checklists from "Sample kits.pdf".
 const kits: Kit[] = [
   {
     id: "plain",
     name: "Plain Sample",
-    price: 50,
+    price: 70,
     image: `${IMG}Plain%20Sample/Plan-Sample.webp`,
-    text: "A blank, unprinted sample of your box style.",
-    checks: ["Material", "Size and fit", "Structure"],
-    best: "Testing the fit and feel before you design.",
+    text: "A blank sample of your custom boxes and packaging in your desired stock and box and packaging style.",
+    checks: ["Material", "Dimension", "Structure"],
+    best: "Testing Packaging Quality & Fit Before You Order in Bulk",
   },
   {
     id: "random",
     name: "Random Sample",
-    price: 20,
+    price: 50,
     image: `${IMG}Random%20Sample/Random-Sample.webp`,
-    text: "A printed box from one of our past jobs.",
-    checks: ["CMYK and Pantone print", "Materials", "Finish quality"],
-    best: "Seeing our print quality at the lowest cost.",
+    text: "A random sample of a custom box or packaging from our past jobs",
+    checks: ["Print Quality", "Structure", "Finishes", "Material", "Dimension"],
     tag: "Lowest price",
   },
   {
     id: "pre-production",
-    name: "Pre Production Sample",
+    name: "Pre-Production Sample",
     price: 100,
     image: `${IMG}Pre%20Production%20Sample/Pre-Production.webp`,
-    text: "A real sample of the exact packaging you plan to order.",
-    checks: ["Your artwork", "Your colors and finishes", "Exact production material"],
-    best: "Approving everything before a full run.",
+    text: "A real sample of your custom boxes and packaging to check its quality before a bulk order.",
+    checks: ["Material", "Dimension", "Structure", "Your Artwork", "Colors & Finishes", "Print Quality"],
     tag: "Most accurate",
   },
 ];
+const LOWEST = Math.min(...kits.map((k) => k.price));
 
 const Y = <span className="smp-yes"><Icons.check size={16} /><span className="ip-sr">Yes</span></span>;
 const N = <span className="smp-no" aria-label="No">—</span>;
@@ -54,7 +54,7 @@ const rows: [string, React.ReactNode, React.ReactNode, React.ReactNode][] = [
   ["Offset printing", N, Y, Y],
   ["Exact production material", Y, Y, Y],
   ["Your own artwork", N, N, Y],
-  ["Cost (USD)", "From $50", "From $20", "From $100"],
+  ["Cost (USD)", ...kits.map((k) => `From $${k.price}`)] as [string, string, string, string],
 ];
 
 const steps = [
@@ -72,10 +72,10 @@ const products = [
 ];
 
 const faqs = [
-  { q: "Can I order more than one sample?", a: "Yes. You can order several samples. Send a separate request for each one." },
-  { q: "Can I get a quote before placing an order?", a: <>Yes. Request a free quote any time through our <a href="/get-a-quote/">quote form</a>.</> },
-  { q: "How long does it take to receive a sample?", a: "Samples usually ship within 3 to 5 business days." },
-  { q: "Do you also offer samples for mylar bags?", a: "Yes. Samples are available for Mylar bags as well as boxes." },
+  { q: "Can I order more than one sample?", a: "Absolutely! You can order more than one sample for your box. Simply fill out a sample quote form and submit it, and our agent will reach out to you soon with your quotation!" },
+  { q: "Can I get a quote before placing an order?", a: <>Yes. Simply fill out the <a href="/get-a-quote/">quote form</a>, and we will send you a custom quote for your order before you place an order with us!</> },
+  { q: "When will I receive the sample of my order?", a: "Generally, we take 3-5 business days to ship the sample of your packaging boxes." },
+  { q: "Do you also offer samples for mylar bags?", a: <>Yes. We deal in custom packaging and boxes. Whether you need a sample for <a href="/custom-mylar-bags/">mylar bags</a> or <a href="/product/corrugated-mailer-boxes/">mailer boxes</a>, we can provide you with both.</> },
 ];
 
 export default function SampleKitsPage() {
@@ -87,16 +87,16 @@ export default function SampleKitsPage() {
           <div className="smp-hero-copy">
             <Crumbs items={[{ label: "Sample Kits" }]} />
             <p className="ip-eyebrow">Sample kits</p>
-            <h1>Hold your box <em>before you order it.</em></h1>
+            <h1>Be Confident <em>Before You Order in Bulk</em></h1>
             <p className="ip-lead">
-              Check the material, print and fit in your hands before a full run of <a className="ip-link" href="/custom-boxes/">custom boxes</a>. Three sample types, starting from $20.
+              Order with confidence before committing to bulk production. Get a <a className="ip-link" href="/custom-boxes/">custom packaging</a> sample to experience the material, print quality, and product fit firsthand. <strong>Samples start at just ${LOWEST}.</strong>
             </p>
             <div className="ip-actions">
               <a className="ip-btn ip-btn-red" href="#choose">Choose a sample <Icons.arrow size={16} /></a>
               <a className="ip-btn ip-btn-outline" href="#compare">Compare samples</a>
             </div>
             <ul className="smp-facts">
-              <li><Icons.box size={18} /><span><strong>From $20</strong> per sample</span></li>
+              <li><Icons.box size={18} /><span><strong>From ${LOWEST}</strong> per sample</span></li>
               <li><Icons.truck size={18} /><span><strong>3–5 days</strong> to ship</span></li>
               <li><Icons.check size={18} /><span><strong>Mylar bags</strong> too</span></li>
             </ul>
@@ -121,8 +121,8 @@ export default function SampleKitsPage() {
         <div className="ip-wrap">
           <div className="ip-head">
             <p className="ip-eyebrow">Step 1 · Pick one</p>
-            <h2 id="smp-choose-h">Choose your sample.</h2>
-            <p className="ip-lead">Select a sample type, then tell us where to send it.</p>
+            <h2 id="smp-choose-h">Choose Your Packaging Sample</h2>
+            <p className="ip-lead">Select a packaging sample that suits your needs best:</p>
           </div>
           <SampleChooser kits={kits} />
         </div>
@@ -209,7 +209,7 @@ export default function SampleKitsPage() {
         <div className="ip-wrap-narrow">
           <div className="ip-head ip-head-center">
             <p className="ip-eyebrow">FAQs</p>
-            <h2 id="smp-faq-h">Sample questions, answered.</h2>
+            <h2 id="smp-faq-h">Frequently Asked Questions</h2>
           </div>
           <FaqList items={faqs} />
         </div>

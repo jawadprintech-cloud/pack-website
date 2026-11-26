@@ -5,7 +5,7 @@
 import { useState, type FormEvent } from "react";
 import { QUOTE_ENDPOINT, submitQuote, thankYouUrl } from "@/lib/quote";
 
-export type Kit = { id: string; name: string; price: number; image: string; text: string; checks: string[]; best: string; tag?: string };
+export type Kit = { id: string; name: string; price: number; image: string; text: string; checks: string[]; best?: string; tag?: string };
 
 const Check = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
@@ -67,7 +67,7 @@ export default function SampleChooser({ kits, initial = 1 }: { kits: Kit[]; init
               <span className="smp-kit-checks">
                 {k.checks.map((c) => <span key={c}><Check />{c}</span>)}
               </span>
-              <span className="smp-kit-best"><strong>Best for:</strong> {k.best}</span>
+              {k.best && <span className="smp-kit-best"><strong>Best For:</strong> {k.best}</span>}
             </span>
             <span className="smp-radio" aria-hidden="true" />
           </button>
