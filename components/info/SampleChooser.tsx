@@ -61,7 +61,7 @@ export default function SampleChooser({ kits, initial = 1 }: { kits: Kit[]; init
             <span className="smp-kit-body">
               <span className="smp-kit-top">
                 <span className="smp-kit-name">{k.name}</span>
-                <span className="smp-kit-price"><small>from</small> ${k.price}</span>
+                <span className="smp-kit-price"><small>From</small> ${k.price}</span>
               </span>
               <span className="smp-kit-text">{k.text}</span>
               <span className="smp-kit-checks">
@@ -82,7 +82,7 @@ export default function SampleChooser({ kits, initial = 1 }: { kits: Kit[]; init
           <div>
             <span className="smp-summary-label">Your sample</span>
             <strong>{kit.name}</strong>
-            <span className="smp-summary-price">Starting from ${kit.price}</span>
+            <span className="smp-summary-price">From ${kit.price}</span>
           </div>
         </div>
         <div className="smp-fields">
