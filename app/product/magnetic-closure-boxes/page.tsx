@@ -11,6 +11,7 @@ import MagneticBoxesScript from "@/components/magnetic/MagneticBoxesScript";
 import { getProduct } from "@/components/product/ProductPage";
 import { JsonLd, breadcrumbSchema, faqSchema, productSchema } from "@/lib/schema";
 import "@/styles/magnetic-boxes.css";
+import "@/styles/product-typography.css";
 
 const PATH = "/product/magnetic-closure-boxes/";
 const DESCRIPTION =
@@ -38,7 +39,7 @@ export default function ProductPage() {
       <JsonLd data={schema} />
       <Header />
       {/* Product page body from packlegacy-magnetic-boxes (its own header and footer are not used). */}
-      <div className="plmb" dangerouslySetInnerHTML={{ __html: markup }} suppressHydrationWarning />
+      <div className="plmb pl-product-page" dangerouslySetInnerHTML={{ __html: markup }} suppressHydrationWarning />
       <MagneticBoxesScript />
       <Footer />
     </>

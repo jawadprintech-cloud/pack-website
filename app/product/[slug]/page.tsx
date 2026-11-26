@@ -9,6 +9,7 @@ import { categoryPageFor } from "@/data/categories";
 import { JsonLd, breadcrumbSchema, faqSchema, productSchema } from "@/lib/schema";
 import "@/styles/magnetic-boxes.css";
 import "@/styles/product.css";
+import "@/styles/product-typography.css";
 
 // Magnetic Closure Boxes has its own hand-built page in app/product/magnetic-closure-boxes.
 export function generateStaticParams() {
@@ -47,7 +48,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     <>
       <JsonLd data={schema} />
       <Header />
-      <div className="plmb">
+      <div className="plmb pl-product-page">
         <ProductPage product={p} />
       </div>
       <MagneticBoxesScript />

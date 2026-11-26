@@ -1,0 +1,16 @@
+/* Product page typography (/product/... only).
+   Scoped to .pl-product-page, which only the two product page wrappers carry
+   (app/product/[slug]/page.tsx and app/product/magnetic-closure-boxes/page.tsx).
+   The same .plmb class is also used by quote forms on other pages, so nothing here targets .plmb alone.
+   !important is needed because app/globals.css forces h1/h2/h3 sizes with !important,
+   and a few product styles set their own font families. */
+
+.pl-product-page,
+.pl-product-page * {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif !important;
+}
+
+.pl-product-page h1 { font-size: 27px !important; }
+.pl-product-page h2 { font-size: 24px !important; }
+.pl-product-page h3 { font-size: 22px !important; }
+.pl-product-page h4 { font-size: 20px !important; }
