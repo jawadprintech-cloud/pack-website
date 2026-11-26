@@ -28,7 +28,7 @@ export const metadata: Metadata = withSeo("/industries/", {
 const IMG = "/custom-boxes/images/";
 const instagram = ["cat-cbd.webp", "cat-magnetic.webp", "ig-cake.webp", "ig-cookie.webp", "ig-pastry.webp", "cat-cosmetic.webp"];
 
-// Same 8 industries, order and photos as packlegacy.com/industries/, plus Packaging Inserts.
+// Same 8 industries, order and photos as packlegacy.com/industries/.
 const industries = [
   { name: "Food Boxes", href: "/food-boxes/", img: "/categories/Food%20Boxes/Category%20Images/Custom-Food-Boxes-pic.webp" },
   { name: "Retail Boxes", href: "/retail-boxes/", img: "/categories/Retail%20Boxes/Category%20Images/Retail-Boxes-pic.webp" },
@@ -38,7 +38,6 @@ const industries = [
   { name: "Cosmetic Boxes", href: "/cosmetic-boxes/", img: "/categories/Cosmetic%20Boxes/Category%20Images/Cosmetic-Boxes-pic.webp" },
   { name: "Apparel Boxes", href: "/apparel-boxes/", img: "/categories/Food%20Boxes/Apparel%20Boxes/Category%20Images/custom-apparel-boxes.webp" },
   { name: "Jewelry Boxes", href: "/jewelry-boxes/", img: "/categories/Jewelry%20Boxes/Category%20Images/custom-jewelry-Boxes.webp" },
-  { name: "Packaging Inserts", href: "/packaging-inserts/", img: "/categories/Packaging%20Inserts/Category%20Images/Packaging-Inserts.webp" },
 ];
 
 const faqs: FaqItem[] = [
