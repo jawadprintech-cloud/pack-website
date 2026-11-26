@@ -1,4 +1,3 @@
-(() => {
 // Calculation rules and arithmetic from Pack Legacy's dimensional weight calculator.
 const calculateShipment = (() => {
   const round = (n, digits=0) => Math.sign(n) * Math.round(Math.abs(n) * 10**digits + 1e-9) / 10**digits;
@@ -67,7 +66,7 @@ let k={carriers:v,cubic:x},B=(e,t=2)=>(0,A.l)(e,t),C=(e,t,r=3)=>`${e.map(e=>B(e,
     const url = new URL(location.href);
     url.search=q.toString();
     try {if(location.protocol!=='file:')history.replaceState(null,'',url);} catch {}
-    const publicURL = new URL('https://packlegacy.com/tools/dimensional-weight-calculator/');
+    const publicURL = new URL('https://pack-legacy-packaging-toolkit.customboxmakers.chatgpt.site/tools/dimensional-weight-calculator/');
     publicURL.search=q.toString();
     shareURL=publicURL.href;
   }
@@ -140,6 +139,4 @@ let k={carriers:v,cubic:x},B=(e,t=2)=>(0,A.l)(e,t),C=(e,t,r=3)=>`${e.map(e=>B(e,
     catch {const box=document.createElement('input');box.readOnly=true;box.value=shareURL;box.setAttribute('aria-label','Calculation link');byId('copy-status').replaceChildren(box);box.select();}
   });
   refresh();
-})();
-
 })();

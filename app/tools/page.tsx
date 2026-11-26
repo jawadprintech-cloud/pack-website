@@ -5,8 +5,8 @@ import html from "@/data/toolkit/tools";
 
 export const metadata: Metadata = withSeo("/tools/", {
   alternates: { canonical: "/tools/" },
-  title: "Packaging Toolkit | Pack Legacy",
-  description: "Find free Pack Legacy tools for box sizing, shipping, materials, printing, and storage.",
+  title: "Free Packaging Tools | Pack Legacy",
+  description: "Use our free packaging tools to find the right sizes, weight, material, GSM, and Mylar bag sizes, and add QR codes, barcodes, and more.",
 });
 
 export default function ToolkitPage() {

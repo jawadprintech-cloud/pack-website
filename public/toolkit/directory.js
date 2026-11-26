@@ -1,4 +1,3 @@
-(() => {
 const search = document.querySelector('#directory input[type="search"]');
 const cards = [...document.querySelectorAll('.card')];
 const filters = [...document.querySelectorAll('.filter')];
@@ -21,5 +20,3 @@ document.querySelector('#reset').addEventListener('click', () => {group = '-1'; 
 document.addEventListener('keydown', event => {
   if (event.key === '/' && !event.metaKey && !event.ctrlKey && !event.target.closest('input,textarea,[contenteditable=true]')) { event.preventDefault(); search.focus(); }
 });
-
-})();
