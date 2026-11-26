@@ -157,21 +157,22 @@ export default function HomePage() {
 
         {/* Built for growing brands */}
         <section className="h-wrap h-section h-split h-brands" aria-labelledby="h-brands-title">
-          <div>
-            <p className="h-eyebrow h-eyebrow-green">Built for Growing Brands</p>
-            <h2 className="h-display" id="h-brands-title">
-              Custom Packaging for Every Stage of Your <em className="h-italic">Business</em>
-            </h2>
-            <img
-              className="h-brands-img"
-              src="/images/custom-packaging-for-growing-brands.webp"
-              alt="Custom printed green mailer box with branded skincare products and kraft paper fill"
-              width={750}
-              height={499}
-              loading="lazy"
-            />
-          </div>
+          <img
+            className="h-brands-img"
+            src="/images/custom-packaging-for-growing-brands.webp"
+            alt="Custom printed green mailer box with branded skincare products and kraft paper fill"
+            width={750}
+            height={499}
+            loading="lazy"
+          />
           <div className="h-brands-copy">
+            {/* Eyebrow and heading sit directly above the paragraphs. */}
+            <div>
+              <p className="h-eyebrow h-eyebrow-green">Built for Growing Brands</p>
+              <h2 className="h-display" id="h-brands-title">
+                Custom Packaging for Every Stage of Your <em className="h-italic">Business</em>
+              </h2>
+            </div>
             <p>
               Whether you&apos;re launching a new product or ordering packaging in bulk, we offer custom packaging boxes that
               fit your needs. Choose from mailer boxes, rigid boxes, folding cartons, or mylar bags in your preferred sizes,
