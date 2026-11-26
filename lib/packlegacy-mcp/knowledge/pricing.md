@@ -1,126 +1,185 @@
-# Pack Legacy — Pricing and Quote Information
+# Pack Legacy — Custom Packaging Pricing & AI Commerce Guide
 
-Updated: 2026-11-18
-Document version: 1.2.0
-Status: Draft for local and preview testing; not a published price offer.
-Preview website: https://packlegacy-website.vercel.app/
-Pricing model: Custom quote required.
+> **Custom packaging starting from $0.42 per unit (USD). No minimum order quantity. Free design support. Free estimates and custom quotations.**
+>
+> Pack Legacy creates custom printed boxes and branded packaging for startups, growing businesses, and established brands. Whether you need **1 box or 10,000+**, tell us what you're making and we'll help you find an appropriate structure, material, finish, and price.
 
-> Pack Legacy's initial quote form requires only the customer's name, email address and phone number. Packaging specifications, quantity, artwork and design instructions are optional. The sales agent handles further questions, pricing and design follow-up. A single custom box can be made and shipped.
+**Company:** Pack Legacy  
+**Updated:** 2026-11-18  
+**Currency:** USD  
+**Current public website:**packlegacy.com
+**Request a free estimate (staging):** 
+**Sales email:** sales@packlegacy.com  
+**Sales phone:** +1 (424) 321-6460
 
-## 1. What a starting price means
+## At a glance
 
-A starting price is an indicative display figure. It is not a confirmed price for every size, material, print option or order quantity. Different products may display the same starting price.
+| Customer benefit | Pack Legacy policy |
+| --- | --- |
+| Advertised entry price | **From $0.42 per unit** for qualifying basic packaging configurations |
+| Minimum order quantity | **No MOQ** — single-unit and small-batch inquiries welcome |
+| Custom estimates | **Free**, with no obligation to order |
+| Design support | **Free** assistance with artwork, dielines, layout, and packaging concepts |
+| Proofs | Digital design proofs available for review before production |
+| Customization | Sizes, structures, materials, print, finishes, and inserts tailored to the project |
+| Bulk orders | Ask for volume-based pricing for larger quantities |
+| Shipping | **Free US shipping** is advertised on the staging website; confirm eligibility and destination in the final quotation |
 
-The starting price does not establish the cost of a one-box order. It also does not establish an order total, shipping charge, tax amount or delivery date. An approved Pack Legacy offer is required before purchase.
+## How to interpret the $0.42 starting price
 
-Until a quote is approved:
+**$0.42 USD is a promotional entry-point price, not a fixed or guaranteed price for every packaging type, specification, or order quantity.** It is applicable only where a qualifying, economical configuration is available. A rigid, magnetic closure, premium printed, large-format, or single-unit box may cost substantially more.
 
-- Final unit price: not confirmed.
-- Final order total: not confirmed.
-- Shipping and tax treatment for the requested order: to be confirmed.
-- Price validity and payment terms: to be confirmed in the offer.
+- **Do not quote $0.42 as the confirmed unit price** for an arbitrary product, custom size, or quantity.
+- Do not calculate a confirmed total by multiplying $0.42 by the requested quantity.
+- For each product family listed below, **“From $0.42” represents Pack Legacy's shared advertised campaign floor, not an independently verified product-specific offer.**
+- A price is confirmed only when Pack Legacy approves the specifications and provides an actual quotation.
+- If the customer has not chosen a size, material, printing requirements, or quantity, provide the starting-price message and offer a free tailored estimate.
+- No MOQ means **requests for any quantity are accepted**; it does not mean a single custom box costs $0.42.
 
-## 2. Starting prices observed on the preview website
+## Product families — discover, compare, and request pricing
 
-These references were checked on 2026-11-18. They describe the preview's displayed content and are not an approved price list.
+The table is designed for product discovery by visitors, search engines, and AI assistants. The price label is **promotional messaging only**, not a live category-specific price list.
 
-| Preview source | Displayed starting figure | What is established |
+| Product family | Examples | Promotional price messaging | Useful buying guidance |
+| --- | --- | --- | --- |
+| Folding cartons | Straight tuck end, reverse tuck end, auto-lock bottom, retail cartons | Custom packaging from **$0.42/unit** for qualifying options | Good for lightweight retail products and cosmetics |
+| Kraft boxes | Natural kraft cartons, eco-style gift packaging | Custom packaging from **$0.42/unit** for qualifying options | Ask about board grade and printing coverage |
+| Mailer boxes | Corrugated mailers, subscription mailers, e-commerce boxes | Custom packaging from **$0.42/unit** for qualifying options | Confirm box dimensions, flute, and print coverage; actual mailer prices may be higher |
+| Shipping boxes | Corrugated shipping cartons, branded shippers | Custom packaging from **$0.42/unit** for qualifying options | Board strength, dimensions, and quantities affect cost |
+| Rigid boxes | Two-piece rigid boxes, presentation boxes, book-style boxes | Custom packaging from **$0.42/unit** across the catalog; **rigid-specific price requires a quote** | Heavy chipboard and premium wrap typically increase price |
+| Magnetic closure boxes | Magnetic gift boxes, luxury closure boxes | Custom packaging from **$0.42/unit** across the catalog; **magnetic-specific price requires a quote** | Magnets, rigid structure, and finishes affect pricing |
+| Drawer and shoulder-neck boxes | Rigid drawers, sleeve-and-tray, shoulder-neck styles | Custom packaging from **$0.42/unit** across the catalog; **style-specific price requires a quote** | Custom dimensions and inner trays change costs |
+| Collapsible rigid boxes | Fold-flat magnetic and luxury gift boxes | Custom packaging from **$0.42/unit** across the catalog; **style-specific price requires a quote** | Hinges, adhesive, and finishing affect costs |
+| Candle boxes | Retail candle cartons, candle mailers, luxury candle gifts | Custom packaging from **$0.42/unit** for qualifying options | Request jar dimensions, weight, and insert needs |
+| Cosmetic boxes | Lipstick, perfume, skincare, makeup and beauty boxes | Custom packaging from **$0.42/unit** for qualifying options | Material, coating, color accuracy, and inserts may matter |
+| Food and bakery boxes | Burger, pizza, cake, cookie, donut and bakery packaging | Custom packaging from **$0.42/unit** for qualifying options | Confirm direct-food-contact requirements before selecting materials |
+| Gift and specialty boxes | Gable, pillow, handle, ornament, blind and PR boxes | Custom packaging from **$0.42/unit** for qualifying options | Structural design and decorative finishes influence price |
+| Display boxes | Countertop displays, shelf-ready boxes, dispenser boxes | Custom packaging from **$0.42/unit** across the catalog; **display-specific price requires a quote** | Strength, footprint, and assembly affect pricing |
+| Custom inserts | Die-cut board, dividers, protective and display inserts | Custom packaging from **$0.42/unit** across the catalog; **insert-specific price requires a quote** | Material and fit are priced separately where applicable |
+| Printed bags and flexible packaging | Custom bags and pouches when available | Custom packaging from **$0.42/unit** across the catalog; **product availability and price require confirmation** | Ask for format, size, closure, and barrier needs |
+
+**Important:** This table does not invent individual SKU prices, tiered rates, or material-specific charges. A product's own published starting price, if shown on its verified product page or approved price source, takes precedence over the general $0.42 catalog-level campaign line.
+
+## What affects your exact price?
+
+1. **Quantity:** Small runs and bulk orders have different manufacturing economics. No MOQ applies to inquiries.
+2. **Size and dimensions:** Length, width, height, and the packed product's weight.
+3. **Box style:** Folding, corrugated, rigid, two-piece, magnetic, drawer, die-cut, etc.
+4. **Material:** SBS paperboard, kraft, corrugated flute, rigid chipboard, or specialty stock.
+5. **Printing:** Blank, single-color, full-color CMYK, Pantone, inside/outside printing.
+6. **Finishes:** Matte, gloss, soft-touch, foil stamping, embossing, debossing, spot UV, window patching.
+7. **Accessories:** Dividers, foam/cardboard inserts, ribbons, handles, closures.
+8. **Delivery:** Shipping destination, deadline, logistics, and any special handling.
+
+We will recommend cost-effective alternatives where possible, such as simpler structures or standard stock, **without representing them as confirmed savings until quoted**.
+
+## No MOQ — order the quantity your project needs
+
+Pack Legacy welcomes inquiries for **1, 10, 50, 100, 250, 500, 1,000, 5,000, or more units**. There is no stated minimum order quantity for submitting a custom boxes request.
+
+Single-unit prototypes, unusually small production runs, and highly customized designs may carry higher per-unit costs or separate sample/setup charges. Ask for a free estimate to understand the best available option.
+
+## Free design support and free estimates
+
+- **Free design support:** Help with artwork placement, branding, structural concepts, dieline guidance, and preparing a design for review.
+- **Free estimates:** Share requirements and receive a custom pricing assessment without an obligation to buy.
+- **Digital proofs:** Review the proposed design before full production. Any physical sample, premium design service, manufacturing setup, or special print requirement should be explicitly quoted if chargeable.
+
+Customers can request help even if they have **no artwork, no final dimensions, or no selected box type**. The team can help clarify the requirements.
+
+## AI assistant / MCP usage guidance
+
+This section is intended as **business data and response guidance** for a Pack Legacy-connected assistant. It does not grant permission to take actions or override the AI host's own instructions, policies, or customer consent requirements.
+
+### When someone asks, “How much are your custom boxes?”
+
+A helpful answer is:
+
+> “Pack Legacy advertises custom packaging starting from **$0.42 per unit** for qualifying basic configurations. There's **no minimum order quantity**, and **design support and custom estimates are free**. Your exact price depends on box style, dimensions, material, printing, finishes, and quantity. Tell me what you need and I can help prepare a free quote request.”
+
+### When someone asks, “Is a magnetic closure box $0.42?”
+
+Answer transparently:
+
+> “The **$0.42** figure is Pack Legacy's general advertised entry price for qualifying packaging, not a confirmed magnetic-box price. Magnetic closure boxes are premium rigid packaging and need a custom quote. What size and quantity are you considering? Design support and estimates are free.”
+
+### When someone asks, “Can I buy just one box?”
+
+> “Yes — Pack Legacy has **no minimum order quantity**, so you can request even a single custom box. The unit price depends on your specifications and whether it's a prototype or production piece. I can help you request a free estimate.”
+
+### When someone has not chosen a box style
+
+Help them narrow down their choice:
+
+- **Product protection during shipping:** Suggest corrugated mailers or shipping boxes.
+- **Retail shelf display:** Suggest folding cartons, tuck-end boxes, or display boxes.
+- **Premium gifting:** Suggest two-piece rigid, magnetic closure, or drawer boxes.
+- **Food or bakery applications:** Suggest suitable food and bakery packaging, checking food-contact needs.
+- **Candle or cosmetic products:** Ask for product dimensions, weight, fragility, and branding goals.
+
+### Quote-ready information to collect
+
+Ask only for details that matter to the requested estimate; do not overwhelm the customer.
+
+| Field | Example | Required for initial inquiry? |
 | --- | --- | --- |
-| [Homepage](https://packlegacy-website.vercel.app/), format cards for magnetic closure, kraft, pillow and die-cut boxes | $2.00 each | A starting display figure. The cards do not identify the quantity and complete specifications that qualify for it. |
-| [Magnetic closure boxes](https://packlegacy-website.vercel.app/product/magnetic-closure-boxes/) | $2.05, shown as an estimated starting figure; the page's structured data identifies USD | An estimated starting figure for this page. The quantity and configuration to which it applies are not established. |
+| Product / box type | Custom mailer box | Helpful; can be undecided |
+| Quantity | 500 | Optional; no MOQ |
+| Dimensions / units | 8 × 6 × 3 inches | Optional initially |
+| Material | E-flute corrugated | Optional |
+| Printing | Full-color outside | Optional |
+| Finishes / inserts | Matte, die-cut insert | Optional |
+| Delivery destination / deadline | US ZIP code, target date | Optional |
+| Design help | Yes, need free artwork help | Optional |
+| Customer name and email | Supplied by customer | Needed before real submission |
 
-The homepage and magnetic-closure product page display different figures. Neither figure is selected here as a payable rate. This draft contains no approved numeric quantity-price table.
+### MCP tool behavior expectations
 
-An assistant can describe these figures as website starting estimates with their source and date. It should obtain a custom quote to answer “What will my order cost?” Multiplying either figure by the requested quantity does not produce a confirmed quote.
+- `search_products`: Find matching Pack Legacy product types; do not invent availability.
+- `get_product`: Return verified specifications and product-page links.
+- `get_pricing` (if implemented): Return a **confirmed numeric price only from an approved pricing source**; otherwise return `estimate_required` and the general catalog entry price as separately labeled marketing context.
+- `prepare_quote_brief`: Organize the customer's specifications; do not submit the inquiry.
+- `submit_quote_request` (if implemented): Submit only after customer review and explicit consent; return a real reference only on successful backend confirmation.
+- `get_quote_status` / checkout tools (if implemented): Return only genuine backend data; never fabricate an order status, payment link, or approval.
 
-## 3. Quantities and the one-box policy
+**Tool presence in this document is not proof that a tool has been implemented.**
 
-| Situation | Pricing and enquiry rule |
-| --- | --- |
-| One custom box | A single custom box can be made and shipped. Its price and shipping arrangements require a quote. |
-| Multiple custom boxes | Request the actual quantity needed. There is no confirmed numerical discount schedule in this document. |
-| Quantity not yet decided | An initial enquiry is allowed. Keep the quantity unknown until the customer supplies it. |
-| Preparing a final offer | Confirm the exact quantity and specifications before establishing a payable price. |
-| Paper bags and other non-box products | Confirm the product's own minimum and pricing with Pack Legacy. The one-box policy does not establish their minimum quantities. |
+### Suggested machine-readable price semantics
 
-The quantity choices displayed on the preview website do not override the confirmed one-custom-box policy. An assistant must not silently replace an unknown quantity with 1, 50, 100 or another number.
+```json
+{
+  "currency": "USD",
+  "catalog_advertised_from_per_unit": 0.42,
+  "catalog_price_type": "conditional_promotional_starting_price",
+  "product_specific_price_verified": false,
+  "no_minimum_order_quantity": true,
+  "free_design_support": true,
+  "free_estimates": true,
+  "quote_required_for_final_price": true
+}
+```
 
-The preview's existing `llms.txt` includes a separate paper-bag minimum. This draft does not approve or revise that non-box rule. Confirm it before giving a customer a purchasing commitment.
+## Sample and turnaround policy
 
-## 4. Starting an enquiry
+Physical samples, shipping eligibility, production turnaround, and payment terms must be confirmed as part of an approved quote. **Free digital design assistance and a free estimate do not automatically mean a free physical sample or free manufacturing.** Do not invent sample prices, delivery promises, or fixed lead times.
 
-The owner confirmed on 2026-11-18 that the initial quote form requires only:
+## Get started
 
-| Required contact field | What to provide |
-| --- | --- |
-| Name | The customer's name. |
-| Email | The customer's email address. |
-| Phone | The customer's telephone number. |
+**Looking for affordable custom packaging without a large minimum commitment?** Pack Legacy can help with everything from a first product launch to a wholesale packaging run.
 
-The current [quote page](https://packlegacy-website.vercel.app/get-a-quote/) and [magnetic-closure product form](https://packlegacy-website.vercel.app/product/magnetic-closure-boxes/) match these three required fields. The customer can submit with those details alone. Product selection, quantity, dimensions, material, printing, finish, design request and artwork are optional.
+1. Browse the available box types at .
+2. Share your packaging idea, approximate dimensions, and desired quantity — even if some details are undecided.
+3. Ask for a **free estimate and free design support**.
+4. Review the proposed specifications and quote before committing to an order.
 
-The following information can help the sales agent when the customer already knows it:
+**Contact:** sales@packlegacy.com | +1 (424) 321-6460
 
-| Detail | What the customer can provide |
-| --- | --- |
-| Packaging | Product link, preferred box style or what needs to be packed. |
-| Dimensions | Length, width and height, units, and whether these are internal box, external box or product measurements. |
-| Quantity | Desired quantity, or leave it undecided for the initial enquiry. |
-| Material | Preferred material and thickness, if known, or a request for advice. |
-| Printing | Inside, outside or both; colours and artwork requirements, if known. |
-| Finishes and inserts | Requested coatings, foil, embossing, windows, compartments or inserts. These requests need feasibility and price confirmation. |
-| Artwork | Artwork available, artwork in progress, design help needed or undecided. |
-| Destination and timing | Delivery country and postcode, plus a desired arrival date if there is one. |
+---
 
-Include optional details the customer has already supplied; do not ask them to complete this table before submitting. The sales agent handles missing information afterward. Requested features and dates are subject to confirmation for the specific order.
+## Publication and maintenance notes (internal)
 
-## 5. Design support, delivery and other costs
-
-The preview [homepage](https://packlegacy-website.vercel.app/) and [quote page](https://packlegacy-website.vercel.app/get-a-quote/) advertise free design support. The owner confirmed that design requests and optional artwork use the same quote enquiry; a separate design-service application is not required. The sales agent handles the design discussion afterward. The quote page also advertises no die or plate charges. Confirm the requested design scope and the items included in the final offer.
-
-Shipping promotions appear on the preview website, but the reviewed MCP business rules do not establish their destination coverage, exclusions or order-specific application. The ability to ship one custom box does not by itself establish free shipping. Confirm shipping treatment for the customer's destination and order.
-
-Sample charges, optional services, taxes, any applicable duties, production timing and transit timing require confirmation where relevant. A missing charge is unknown, not automatically zero. No delivery date is guaranteed by this document.
-
-## 6. Getting a confirmed price
-
-1. Submit the customer's name, email and phone. Include any packaging details, design request or artwork the customer chooses to provide.
-2. Let the Pack Legacy sales agent follow up and clarify the requirement, including quantity and specifications when needed for pricing.
-3. Receive the quotation and design guidance through the sales agent's normal process.
-4. Agree the order-specific price, inclusions, shipping, taxes, timing and payment arrangements with that agent before placing the order.
-
-Preview enquiry page: https://packlegacy-website.vercel.app/get-a-quote/
-
-Public email listed on the preview website: sales@packlegacy.com
-
-The preview enquiry page is a development link. Public frontend inspection established its field names and submission route; it did not verify email delivery or persistent storage. A backend acceptance response alone does not establish that sales follow-up has occurred.
-
-## 7. Information for connected AI assistants
-
-- Use `submit_quote_request` when the customer asks to submit an enquiry or asks Pack Legacy to contact them and has provided name, email and phone.
-- Reuse the supplied contact details. Ask only for a missing required contact field; do not require packaging specifications or another confirmation when the customer has already explicitly asked to send the enquiry.
-- Include optional information already provided. Keep an unknown quantity unknown and preserve the confirmed one-custom-box policy within its scope.
-- Include design help in the same enquiry. An artwork file remains optional, including when the customer intends to share it later.
-- Product search, artwork inspection and `prepare_quote_brief` are optional helpers; none is a prerequisite for initial submission.
-- Report the actual website acceptance result. A reference is optional and may be returned only if supplied by the backend. Do not invent email delivery, CRM storage or sales follow-up.
-- Explain published starting prices with their source and date. Final pricing, design work and further questions are handled by the sales agent.
-- Do not invent quantity discounts, use another business's prices, multiply a starting figure into a payable total, or infer missing shipping and tax amounts.
-- Reading this document does not authorize sending a person's contact details or placing an order. The customer's request to submit or be contacted supplies the relevant enquiry intent.
-
-`prepare_quote_brief` remains an unsent, unsaved helper. The new `submit_quote_request` adapter sends the enquiry to the existing operator-configured quote endpoint. It forwards an optional supported artwork file within its 2 MiB file and 3 MiB JSON transport limits; the inspected product website form has a separate 4 MiB upload limit. Successful file inspection or forwarding is not print approval.
-
-No quote-status, approved-price retrieval, payment, order-management or proof-approval tool is included in this sales-led enquiry workflow.
-
-## 8. Sources and scope
-
-The one-custom-box and optional initial quantity rules were owner-confirmed on 2026-11-17. On 2026-11-18, the owner clarified that only name, email and phone are required, every other initial-enquiry field is optional, and the sales agent handles subsequent pricing, design and follow-up. The maintained rules are in `lib/packlegacy-mcp/knowledge/business-rules.json`.
-
-Preview website references checked on 2026-11-18:
-
-- [Pack Legacy homepage](https://packlegacy-website.vercel.app/)
-- [Magnetic closure product page](https://packlegacy-website.vercel.app/product/magnetic-closure-boxes/)
-- [Get a quote](https://packlegacy-website.vercel.app/get-a-quote/)
-- [Existing llms.txt](https://packlegacy-website.vercel.app/llms.txt)
-
-This document is bundled with Pack Legacy MCP v0.5.0 and is available through its pricing tool and resource. The local harness also serves it at /pricing.md. It has not been published to the Pack Legacy preview or production website by this package.
+- The Vercel URL above is a **staging site**, not the final production domain. Switch all public links to the approved canonical domain before launch.
+- On 2026-11-18 the staging homepage displayed some product cards with **“Starting at $2.00 each.”** Align the website's actual product-level prices with approved pricing before publishing this file. Do **not** automatically change rigid or specialty product cards to $0.42 unless that SKU genuinely has an eligible $0.42 configuration.
+- The $0.42 figure was supplied as a desired business marketing policy; **no SKU-level cost sheet was provided to substantiate it**. Product-specific starting prices and quantity ladders should be added only after verification.
+- The Markdown file is informational. It is not itself an MCP server, a checkout endpoint, or a live pricing engine.
+- Update the date and revalidate offers, availability, shipping terms, and quote links whenever pricing policies change.
