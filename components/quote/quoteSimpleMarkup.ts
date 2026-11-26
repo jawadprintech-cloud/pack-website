@@ -2,7 +2,7 @@
 // It keeps the class names and hidden artwork/hint elements that MagneticBoxesScript expects,
 // so submission, errors and the thank-you redirect work exactly like the full form.
 const quoteSimpleMarkup =
-  "<section class=\"quote-panel quote-simple\" aria-labelledby=\"quote-title\"><h2 id=\"quote-title\">Fill Out The Quote Form</h2>" +
+  "<section class=\"quote-panel quote-simple\" aria-labelledby=\"quote-title\"><div id=\"quote-title\" class=\"quote-title\">Fill Out The Quote Form</div>" +
   "<form action=\"/api/quote/\" method=\"post\" class=\"quote-form\" aria-busy=\"false\" encType=\"multipart/form-data\">" +
   "<div class=\"form-grid quote-contact\">" +
   "<label>Full Name *<input placeholder=\"Full Name\" required=\"\" minLength=\"2\" maxLength=\"120\" autoComplete=\"name\" name=\"name\"/></label>" +

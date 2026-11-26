@@ -173,7 +173,7 @@ export function QuickQuote() {
 
   return (
     <form className="ba-card ba-quote" action={QUOTE_ENDPOINT} method="post" encType="multipart/form-data" onSubmit={onSubmit}>
-      <h2>Fill Out The Quote Form</h2>
+      <div className="ba-quote-title">Fill Out The Quote Form</div>
       <label>
         Full Name *
         <input name="name" required autoComplete="name" placeholder="Full Name" maxLength={120} />

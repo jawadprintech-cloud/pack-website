@@ -85,6 +85,7 @@
 /* "Key Takeaway" and "Let’s create your box." are divs, not headings: give them the h2/h3 base look. */
 .plmb .takeaway-title{line-height:1.12;letter-spacing:-.04em;font-weight:690}
 .plmb .quote-heading-title{line-height:1.12;letter-spacing:-.025em;font-weight:700}
+.plmb .quote-title{line-height:1.12;letter-spacing:-.04em;font-weight:700}
 .plmb .takeaway .takeaway-title{font-size:1.15rem;white-space:nowrap}
 .plmb .takeaway p:not(.eyebrow){font-size:.88rem;color:var(--muted)}
 .plmb .benefits{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:10px;margin-bottom:28px;padding:16px 0}
@@ -285,7 +286,7 @@
 .plmb .benefits strong{font-size:clamp(.65rem,.72vw,.85rem)}
 .plmb .benefits small{font-size:clamp(.61rem,.66vw,.77rem);line-height:1.35}
 .plmb .quote-panel{padding:clamp(13px,1.5vw,30px);border:1px solid var(--line);border-radius:15px;background:#fff}
-.plmb .quote-panel h2{text-align:center;font-size:clamp(1.3rem,1.65vw,1.85rem);margin-bottom:11px}
+.plmb .quote-panel .quote-title{text-align:center;font-size:clamp(1.3rem,1.65vw,1.85rem);margin-bottom:11px}
 .plmb .quote-promises{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));justify-items:center;gap:2px 8px;list-style:none;background:#f0f4ed;padding:8px;margin:0 0 13px;border-radius:6px;color:var(--green);font-size:clamp(.62rem,.68vw,.78rem);font-weight:720}
 .plmb .quote-promises li{display:flex;align-items:center;gap:3px}
 .plmb .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -623,7 +624,7 @@
    unselected design cards, "$ 1.05 Est" price line)
    ========================================================================== */
 .plmb .quote-panel{font-family:"Libre Franklin",system-ui,sans-serif;padding:clamp(16px,1.6vw,28px) clamp(18px,1.9vw,32px)}
-.plmb .quote-panel h2{font-weight:700!important}
+.plmb .quote-panel .quote-title{font-weight:700!important}
 .plmb .quote-panel .quote-promises{padding:12px 10px;margin-bottom:16px;gap:6px 10px;font-weight:400;font-size:clamp(.62rem,.66vw,.74rem);border-radius:4px}
 .plmb .quote-panel .quote-heading{margin-bottom:14px}
 .plmb .quote-panel .quote-heading .quote-heading-title{font-weight:700;letter-spacing:-.02em}

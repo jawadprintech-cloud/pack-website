@@ -271,7 +271,7 @@
 
 /* Right column cards */
 .plip .ba-card { display: block; padding: 18px; border-radius: 14px; background: #fff; border: 1px solid var(--ip-line); box-shadow: 0 14px 36px rgba(13, 15, 14, 0.06); }
-.plip .ba-quote h2 { margin: 0 0 14px; font-size: 1.15rem; text-align: center; }
+.plip .ba-quote .ba-quote-title { margin: 0 0 14px; font-size: 1.15rem; text-align: center; font-weight: 800; letter-spacing: -0.03em; line-height: 1.12; color: var(--ip-ink); }
 .plip .ba-quote label { display: grid; gap: 5px; margin-top: 10px; font-size: 0.78rem; font-weight: 700; color: var(--ip-ink); }
 .plip .ba-quote input {
   width: 100%; min-height: 42px; padding: 9px 12px; border: 1px solid #e2e6df; border-radius: 8px; background: #f7f8f5;
