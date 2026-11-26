@@ -79,9 +79,9 @@ const perks = [
 ];
 
 const notes = [
-  { tag: "02 / Structure", title: "Different types of packaging boxes", img: "/images/cat-display.webp", href: "/blog/" },
-  { tag: "03 / Fundamentals", title: "What is packaging?", img: "/images/cat-cosmetic.webp", href: "/blog/" },
-  { tag: "04 / Budget", title: "How much does packaging cost?", img: "/images/cat-food.webp", href: "/blog/" },
+  { tag: "02 / Structure", title: "Different types of packaging boxes", img: "/images/cat-display.webp", href: "/blog/types-of-boxes/" },
+  { tag: "03 / Fundamentals", title: "What is packaging?", img: "/images/cat-cosmetic.webp", href: "/blog/what-is-packaging/" },
+  { tag: "04 / Budget", title: "How much does packaging cost?", img: "/images/cat-food.webp", href: "/blog/how-much-does-packaging-cost/" },
 ];
 
 const Stars = ({ label = "5 out of 5 stars" }: { label?: string }) => (
@@ -230,7 +230,7 @@ export default function HomePage() {
             </a>
           </div>
           <div className="h-notes">
-            <a className="h-note-card h-note-feature" href="/blog/">
+            <a className="h-note-card h-note-feature" href="/blog/measure-your-box-dimensions/">
               <span className="h-note-img">
                 <img src={"/images/cat-mailer.webp"} alt="" width={600} height={600} loading="lazy" />
               </span>
