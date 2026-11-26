@@ -107,7 +107,7 @@ export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid,
               {intro.map((p, i) => <p key={i}>{p}</p>)}
               {strong && <p className="cb-hero-strong">{strong}</p>}
               <div className="cb-actions">
-                <a className="cb-btn cb-btn-red" href="/get-a-quote/">
+                <a className="cb-btn cb-btn-red" href="#quote">
                   Get Started <Arrow />
                 </a>
                 {hasGrid && (
@@ -291,7 +291,7 @@ export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid,
               </p>
             </div>
             <div className="cb-cta-actions">
-              <a className="cb-btn cb-btn-red" href="/get-a-quote/#quote">
+              <a className="cb-btn cb-btn-red" href="#quote">
                 Get a Quote
               </a>
               <a className="cb-btn cb-btn-outline" href="/shop/">
