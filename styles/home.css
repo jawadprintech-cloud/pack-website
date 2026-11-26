@@ -485,6 +485,9 @@
 }
 .plh .h-cta .h-display { color: var(--h-cream); font-size: clamp(1.8rem, 3.2vw, 3rem); }
 .plh .h-cta p:last-child { margin-top: 12px; max-width: 640px; font-size: 1.05rem; }
+/* The site-wide p rule forces dark grey (!important); keep the text on the green banner bright. */
+.plh .h-cta p { color: #f8f4e6 !important; }
+.plh .h-cta .h-eyebrow { color: var(--h-cream) !important; }
 .plh .h-cta .h-btn { flex: none; }
 
 /* "Material Options:" / "Finishing Options:" label above the option pills */
