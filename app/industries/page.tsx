@@ -30,14 +30,14 @@ const instagram = ["cat-cbd.webp", "cat-magnetic.webp", "ig-cake.webp", "ig-cook
 
 // Same 8 industries, order and photos as packlegacy.com/industries/.
 const industries = [
-  { name: "Food Boxes", href: "/food-boxes/", img: "/categories/Food%20Boxes/Category%20Images/Custom-Food-Boxes-pic.webp" },
-  { name: "Retail Boxes", href: "/retail-boxes/", img: "/categories/Retail%20Boxes/Category%20Images/Retail-Boxes-pic.webp" },
-  { name: "Bakery Boxes", href: "/bakery-boxes/", img: "/categories/Bakery%20Boxes/Category%20Images/Custom-Bakery-Boxes-pic.webp" },
-  { name: "CBD Boxes", href: "/cbd-boxes/", img: "/categories/CBD%20Boxes/Category%20Images/Custom-CBD-Boxes-pic.webp" },
-  { name: "Gift Boxes", href: "/gift-boxes/", img: "/categories/Gift%20Boxes/Category%20Images/Gift-Boxes-pic.webp" },
-  { name: "Cosmetic Boxes", href: "/cosmetic-boxes/", img: "/categories/Cosmetic%20Boxes/Category%20Images/Cosmetic-Boxes-pic.webp" },
-  { name: "Apparel Boxes", href: "/apparel-boxes/", img: "/categories/Food%20Boxes/Apparel%20Boxes/Category%20Images/custom-apparel-boxes.webp" },
-  { name: "Jewelry Boxes", href: "/jewelry-boxes/", img: "/categories/Jewelry%20Boxes/Category%20Images/custom-jewelry-Boxes.webp" },
+  { name: "Food Boxes", href: "/food-boxes/", img: "/images/food-boxes/custom-food-boxes-pic.webp" },
+  { name: "Retail Boxes", href: "/retail-boxes/", img: "/images/retail-boxes/retail-boxes-pic.webp" },
+  { name: "Bakery Boxes", href: "/bakery-boxes/", img: "/images/bakery-boxes/custom-bakery-boxes-pic.webp" },
+  { name: "CBD Boxes", href: "/cbd-boxes/", img: "/images/cbd-boxes/custom-cbd-boxes-pic.webp" },
+  { name: "Gift Boxes", href: "/gift-boxes/", img: "/images/gift-boxes/gift-boxes-pic.webp" },
+  { name: "Cosmetic Boxes", href: "/cosmetic-boxes/", img: "/images/cosmetic-boxes/cosmetic-boxes-pic.webp" },
+  { name: "Apparel Boxes", href: "/apparel-boxes/", img: "/images/apparel-boxes/custom-apparel-boxes.webp" },
+  { name: "Jewelry Boxes", href: "/jewelry-boxes/", img: "/images/jewelry-boxes/custom-jewelry-boxes-2.webp" },
 ];
 
 const faqs: FaqItem[] = [

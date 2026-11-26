@@ -28,15 +28,15 @@ const pillars: Pillar[] = [
 // The industries on /industries/, each linked to its own page.
 // The industries on /industries/, each linked to its own page.
 const industries = [
-  { name: "Food Boxes", img: "/categories/Food%20Boxes/Category%20Images/Custom-Food-Boxes-pic.webp", href: "/food-boxes/" },
-  { name: "Retail Boxes", img: "/categories/Retail%20Boxes/Category%20Images/Retail-Boxes-pic.webp", href: "/retail-boxes/" },
-  { name: "Bakery Boxes", img: "/categories/Bakery%20Boxes/Category%20Images/Custom-Bakery-Boxes-pic.webp", href: "/bakery-boxes/" },
-  { name: "CBD Boxes", img: "/categories/CBD%20Boxes/Category%20Images/Custom-CBD-Boxes-pic.webp", href: "/cbd-boxes/" },
-  { name: "Gift Boxes", img: "/categories/Gift%20Boxes/Category%20Images/Gift-Boxes-pic.webp", href: "/gift-boxes/" },
-  { name: "Cosmetic Boxes", img: "/categories/Cosmetic%20Boxes/Category%20Images/Cosmetic-Boxes-pic.webp", href: "/cosmetic-boxes/" },
-  { name: "Apparel Boxes", img: "/categories/Food%20Boxes/Apparel%20Boxes/Category%20Images/custom-apparel-boxes.webp", href: "/apparel-boxes/" },
-  { name: "Jewelry Boxes", img: "/categories/Jewelry%20Boxes/Category%20Images/custom-jewelry-Boxes.webp", href: "/jewelry-boxes/" },
-  { name: "Packaging Inserts", img: "/categories/Packaging%20Inserts/Category%20Images/Packaging-Inserts.webp", href: "/packaging-inserts/" },
+  { name: "Food Boxes", img: "/images/food-boxes/custom-food-boxes-pic.webp", href: "/food-boxes/" },
+  { name: "Retail Boxes", img: "/images/retail-boxes/retail-boxes-pic.webp", href: "/retail-boxes/" },
+  { name: "Bakery Boxes", img: "/images/bakery-boxes/custom-bakery-boxes-pic.webp", href: "/bakery-boxes/" },
+  { name: "CBD Boxes", img: "/images/cbd-boxes/custom-cbd-boxes-pic.webp", href: "/cbd-boxes/" },
+  { name: "Gift Boxes", img: "/images/gift-boxes/gift-boxes-pic.webp", href: "/gift-boxes/" },
+  { name: "Cosmetic Boxes", img: "/images/cosmetic-boxes/cosmetic-boxes-pic.webp", href: "/cosmetic-boxes/" },
+  { name: "Apparel Boxes", img: "/images/apparel-boxes/custom-apparel-boxes.webp", href: "/apparel-boxes/" },
+  { name: "Jewelry Boxes", img: "/images/jewelry-boxes/custom-jewelry-boxes-2.webp", href: "/jewelry-boxes/" },
+  { name: "Packaging Inserts", img: "/images/packaging-inserts/packaging-inserts.webp", href: "/packaging-inserts/" },
 ];
 
 const faqs = [

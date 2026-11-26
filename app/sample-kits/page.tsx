@@ -11,15 +11,14 @@ export const metadata: Metadata = withSeo("/sample-kits/", {
 });
 
 // Page text is exactly the content of "Sample kits.pdf": heading, intro, the three samples, and the FAQs.
-// Photos live in public/categories/Sample Kits/<name>/.
-const IMG = "/categories/Sample%20Kits/";
+// Photos live in public/images/sample-kits/.
 
 const kits: Kit[] = [
   {
     id: "plain",
     name: "Plain Sample",
     price: 70,
-    image: `${IMG}Plain%20Sample/Plain-Sample.webp`,
+    image: `/images/sample-kits/plain-sample.webp`,
     text: "A blank sample of your custom boxes and packaging in your desired stock and box and packaging style.",
     checks: ["Material", "Dimension", "Structure"],
     best: "Testing Packaging Quality & Fit Before You Order in Bulk",
@@ -28,7 +27,7 @@ const kits: Kit[] = [
     id: "random",
     name: "Random Sample",
     price: 50,
-    image: `${IMG}Random%20Sample/Random-Sample-Boxes.webp`,
+    image: `/images/sample-kits/random-sample-boxes.webp`,
     text: "A random sample of a custom box or packaging from our past jobs",
     checks: ["Print Quality", "Structure", "Finishes", "Material", "Dimension"],
   },
@@ -36,7 +35,7 @@ const kits: Kit[] = [
     id: "pre-production",
     name: "Pre-Production Sample",
     price: 100,
-    image: `${IMG}Pre%20Production%20Sample/Pre-Production-Sample.webp`,
+    image: `/images/sample-kits/pre-production-sample.webp`,
     text: "A real sample of your custom boxes and packaging to check its quality before a bulk order.",
     checks: ["Material", "Dimension", "Structure", "Your Artwork", "Colors & Finishes", "Print Quality"],
   },
