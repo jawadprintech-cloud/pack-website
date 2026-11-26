@@ -223,7 +223,8 @@
   font-size: 0.74rem; font-weight: 500; white-space: nowrap;
 }
 .plcb .cb-option-body { display: flex; flex-direction: column; flex: 1; padding: 22px 12px 10px; }
-.plcb .cb-option h3 { font-size: clamp(1.05rem, 1.15vw, 1.25rem); font-weight: 700; color: #111; }
+/* Option card titles are divs (were h3s; the site-wide h3 rule made them 24px). Same look as before. */
+.plcb .cb-option-title { margin: 0; font-size: 24px; font-weight: 700; line-height: 1.35; letter-spacing: -0.015em; color: #111; }
 /* Two-line minimum so the icon rows line up across cards */
 .plcb .cb-option p { margin-top: 6px; font-size: 0.88rem; line-height: 1.45; color: #3d3d3d; min-height: 2.9em; }
 .plcb .cb-option-features { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 6px; margin-top: 18px; text-align: center; }

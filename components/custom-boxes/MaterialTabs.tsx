@@ -165,7 +165,7 @@ export default function MaterialTabs() {
                 )}
               </div>
               <div className="cb-option-body">
-                <h3>{c.title}</h3>
+                <div className="cb-option-title">{c.title}</div>
                 <p>{c.text}</p>
                 {c.features && (
                   <ul className="cb-option-features">
