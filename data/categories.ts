@@ -2608,6 +2608,8 @@ export const categories: Record<string, CategoryData> = {
       "Our custom packaging inserts keep your products organized, protected, and ready for an impressive presentation. They not only improve the unboxing experience but also help strengthen your brand image."
     ],
     strong: "Share your product specifications with us, and we will create custom inserts that fit your packaging perfectly from the start.",
+    takeaway:
+      "Pack Legacy designs custom box inserts and packaging inlays around your product dimensions for a secure fit. Each insert limits movement during transit and reduces the risk of damage. Custom inserts also keep products organized and create a polished unboxing experience that reflects your brand. Share your product specifications with Pack Legacy to get started and get free shipping.",
     gridTitle: "Explore Popular Custom Box Inserts",
     gridIntro: "Not every box or product uses the same type of inserts, which is why we offer a range of custom box inserts and packaging inlays so you can easily fit your products and protect them from any harm. We offer the following custom packaging box inserts:",
     products: [
