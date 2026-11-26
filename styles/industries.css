@@ -1,5 +1,9 @@
 /* Industries page (app/industries/page.tsx). Builds on styles/custom-boxes.css (.plcb). */
 .plcb .ind-top { grid-template-areas: "hero quote" "cats quote"; grid-template-rows: auto 1fr; }
+/* Phones and small tablets: one column (intro, then the quote form, then the industries), like the category pages. */
+@media (max-width: 920px) {
+  .plcb .ind-top { grid-template-areas: "hero" "quote" "cats"; grid-template-rows: auto; }
+}
 .plcb .ind-top .cb-hero h1 { max-width: 760px; }
 .plcb .ind-top .cb-hero p { max-width: 720px; }
 

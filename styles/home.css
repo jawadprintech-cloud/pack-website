@@ -633,19 +633,19 @@
   .plh .h-insta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .plh .h-insta-grid li:nth-child(n + 3) { display: none; }
 }
-/* Tablet and phone: round tab pills sit in one row that scrolls sideways instead of wrapping.
+/* Tablet and phone: tab pills (round and square, e.g. Material Options) sit in one row that scrolls sideways instead of wrapping.
    The row runs to the screen edge (negative gutter) so a cut-off pill shows there's more, and a slim
    scrollbar under it can be dragged with a mouse as well as swiped on touch screens. */
 @media (max-width: 1024px) {
-  .plh .h-pills-round {
+  .plh :is(.h-pills-round, .h-pills-square) {
     flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity;
     margin-inline: calc(-1 * var(--site-gutter, 16px)); padding: 4px var(--site-gutter, 16px) 10px;
     scroll-padding-inline: var(--site-gutter, 16px); -webkit-overflow-scrolling: touch;
     scrollbar-width: thin; scrollbar-color: #c9d6cc transparent;
   }
-  .plh .h-pills-round::-webkit-scrollbar { height: 4px; }
-  .plh .h-pills-round::-webkit-scrollbar-thumb { background: #c9d6cc; border-radius: 4px; }
-  .plh .h-pills-round button { flex: 0 0 auto; white-space: nowrap; scroll-snap-align: start; }
+  .plh :is(.h-pills-round, .h-pills-square)::-webkit-scrollbar { height: 4px; }
+  .plh :is(.h-pills-round, .h-pills-square)::-webkit-scrollbar-thumb { background: #c9d6cc; border-radius: 4px; }
+  .plh :is(.h-pills-round, .h-pills-square) button { flex: 0 0 auto; white-space: nowrap; scroll-snap-align: start; }
 }
 
 /* No motion: reviews become a still row the visitor can scroll sideways. */

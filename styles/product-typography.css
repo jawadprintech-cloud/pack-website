@@ -28,3 +28,23 @@
 .pl-magnetic-page .long-desc p { margin-top: 12px; max-width: 70ch; }
 .pl-magnetic-page .long-desc ul { margin: 12px 0 0; padding-left: 22px; list-style: disc; max-width: 70ch; }
 .pl-magnetic-page .long-desc li { margin-top: 8px; }
+
+/* Phones: H1, then the quote form, then the short description and the rest of the page.
+   The wrappers around the hero become layout-transparent so their pieces can be ordered in one column
+   (no duplicate form; desktop and tablet layouts are unchanged). */
+@media (max-width: 640px) {
+  .pl-product-page .product-grid { display: flex; flex-direction: column; gap: 16px; }
+  .pl-product-page .product-main,
+  .pl-product-page .hero,
+  .pl-product-page .hero-gallery,
+  .pl-product-page .hero-copy { display: contents; }
+  .pl-product-page .gallery { order: -6; }
+  .pl-product-page .hero-copy > .eyebrow,
+  .pl-product-page .last-updated { order: -5; margin: 0; }
+  .pl-product-page #product-title { order: -4; margin: 0; }
+  .pl-product-page .rating { order: -3; margin: -8px 0 0; }
+  .pl-product-page .quote-rail { order: -2; width: 100%; }
+  .pl-product-page .hero-description { margin: 0; }
+  .pl-product-page .takeaway { order: 3; }
+  .pl-product-page .benefits { order: 4; }
+}
