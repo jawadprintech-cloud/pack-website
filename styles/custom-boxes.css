@@ -150,7 +150,9 @@
 /* On /custom-boxes/ the labels are h3s; the site-wide h3 rule forces 24px !important, so restore the label size here. */
 .plcb .cb-why-grid h3 { font-size: clamp(0.6rem, 1.42cqi, 0.9rem) !important; }
 @container (max-width: 720px) {
-  .plcb .cb-why-grid { flex-wrap: wrap; justify-content: flex-start; gap: 20px 22px; }
+  /* Narrow screens: three per row; labels may wrap onto two centred lines. */
+  .plcb .cb-why-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 10px; }
+  .plcb .cb-why-grid :is(span, h3) { white-space: normal; text-align: center; }
   .plcb .cb-why-grid span { font-size: 0.8rem; }
   .plcb .cb-why-grid h3 { font-size: 0.8rem !important; }
 }
@@ -317,7 +319,16 @@
   .plcb .cb-cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .plcb .cb-tablist { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; padding-bottom: 6px; margin-inline: -16px; padding-inline: 16px; }
   .plcb .cb-tablist button { flex-shrink: 0; }
-  .plcb .cb-option-grid { grid-template-columns: minmax(0, 1fr); }
+  /* Phones: two option cards side by side, with the card contents scaled to the narrower card. */
+  .plcb .cb-option-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .plcb .cb-option-body { padding: 16px 6px 6px; }
+  .plcb .cb-option-title { font-size: 16px; line-height: 1.25; }
+  .plcb .cb-option p { font-size: 0.74rem !important; line-height: 1.4; min-height: 4.2em; }
+  .plcb .cb-swatch { width: 40px; right: 8px; bottom: -18px; border-width: 2px; }
+  .plcb .cb-badge { top: 6px; right: 6px; padding: 3px 7px; font-size: 0.6rem; }
+  .plcb .cb-option-features { gap: 3px; margin-top: 12px; }
+  .plcb .cb-option-features li { gap: 4px; font-size: 0.58rem; }
+  .plcb .cb-option-features svg { width: 16px; height: 16px; }
   .plcb .cb-reviews-grid { grid-template-columns: minmax(0, 1fr); }
   .plcb .cb-insta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .plcb .cb-cta-actions { width: 100%; }
