@@ -40,9 +40,9 @@ const blocks: ContentBlock[] = [
     paragraphs: [
       "When it comes to custom packaging boxes, three main types suit different business needs.",
       "Here are the 3 main types of custom boxes:",
-      <><strong>Folding Cartons:</strong> Display and package cosmetics, candles, gifts, and other retail products with folding carton paperboard boxes. These boxes are easy to assemble and can be printed to match your brand.</>,
-      <><strong>Custom Mailer Boxes:</strong> Ship e-commerce orders in sturdy corrugated mailer boxes. Available in white or brown kraft, these boxes protect your products while giving you space to showcase your branding.</>,
-      <><strong>Custom Rigid Boxes:</strong> Pack luxury gifts, jewelry, cosmetics, and other premium products in sturdy custom rigid boxes. Choose from magnetic closure, two-piece, drawer, and shoulder-neck styles with custom printing and finishes to match your brand.</>,
+      <><strong><a href="/folding-cartons/">Folding Cartons</a>:</strong> Display and package cosmetics, candles, gifts, and other retail products with folding carton paperboard boxes. These boxes are easy to assemble and can be printed to match your brand.</>,
+      <><strong><a href="/mailer-boxes/">Custom Mailer Boxes</a>:</strong> Ship e-commerce orders in sturdy corrugated mailer boxes. Available in white or brown kraft, these boxes protect your products while giving you space to showcase your branding.</>,
+      <><strong><a href="/rigid-boxes/">Custom Rigid Boxes</a>:</strong> Pack luxury gifts, jewelry, cosmetics, and other premium products in sturdy custom rigid boxes. Choose from magnetic closure, two-piece, drawer, and shoulder-neck styles with custom printing and finishes to match your brand.</>,
     ],
   },
   {
