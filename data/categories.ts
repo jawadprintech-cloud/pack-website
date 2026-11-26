@@ -2641,17 +2641,9 @@ export const categories: Record<string, CategoryData> = {
       "Make a lasting impression and secure your product with custom box inserts and packaging inlays. These inserts are perfectly crafted to your box’s inner dimensions and keep your product snug. They are designed to enhance your product’s unboxing experience.",
       "A perfect fit not only protects your products but also creates a clean and organized presentation. Custom packaging inlays enhance the unboxing experience, giving customers a premium first impression while adding value to your brand and packaging."
     ],
-    contentImg: {
-      src: "/categories/Packaging%20Inserts/Category%20Images/Create-a-Memorable-Unboxing-Experience-with-Custom-Box-Inserts.webp",
-      alt: "Create a Memorable Unboxing Experience with Custom Box Inserts"
-    },
     sections: [
       {
         title: "Customize Your Custom Packaging Inlays & Box Inserts",
-        img: {
-          src: "/categories/Packaging%20Inserts/Category%20Images/Customize-Your-Custom-Packaging-Inlays-Box-Inserts.webp",
-          alt: "Customize Your Custom Packaging Inlays & Box Inserts"
-        },
         paragraphs: [
           "Looking for custom packaging inlays and box inserts as per your box requirements? No worries, we’ve got you covered. We have all the right tools and materials to manufacture your packaging inserts just the way you want them.",
           "Our team of experts works closely with you to ensure you receive custom packaging inserts as you want them. Whether you require a custom size, shape, print, or weight to be considered, we can take care of all your custom needs.",
@@ -2660,10 +2652,6 @@ export const categories: Record<string, CategoryData> = {
       },
       {
         title: "Built for E-Commerce, Retail, and Manufacturing Needs",
-        img: {
-          src: "/categories/Packaging%20Inserts/Category%20Images/Built-for-E-Commerce-Retail-and-Manufacturing-Needs.webp",
-          alt: "Built for E-Commerce, Retail, and Manufacturing Needs"
-        },
         paragraphs: [
           "Our packaging inserts are used across multiple industries where protection and presentation matter.",
           "E-commerce brands use inserts to reduce returns and improve customer satisfaction. Retail businesses rely on inserts to create attractive product displays.",
@@ -2673,10 +2661,6 @@ export const categories: Record<string, CategoryData> = {
       },
       {
         title: "Designed By Industry’s Finest Experts: Pack Legacy",
-        img: {
-          src: "/categories/Packaging%20Inserts/Category%20Images/Designed-By-Industrys-Finest-Expert.webp",
-          alt: "Designed By Industry’s Finest Experts: Pack Legacy"
-        },
         paragraphs: [
           "Pack Legacy understands that every packaging project has unique requirements, and your custom box inserts should be designed the same way. Our packaging experts create inserts that match your products perfectly while improving protection, organization, and presentation.",
           "Order now to get your custom box inserts at wholesale rates with free shipping."
