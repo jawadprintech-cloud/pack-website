@@ -141,10 +141,13 @@ function renderDescription(blocks: Block[]) {
     else if (b.t === "table") out.push(
       <div key={i} className="prod-table-wrap">
         <table className="prod-table">
-          <thead><tr>{b.head!.map((h, j) => <th key={j} scope="col">{h}</th>)}</tr></thead>
+          {/* Cells hold HTML (links, &amp;), like the other description blocks. */}
+          <thead><tr>{b.head!.map((h, j) => <th key={j} scope="col" dangerouslySetInnerHTML={{ __html: h }} />)}</tr></thead>
           <tbody>
             {b.rows!.map((r, j) => (
-              <tr key={j}>{r.map((c, k) => (k === 0 ? <th key={k} scope="row">{c}</th> : <td key={k}>{c}</td>))}</tr>
+              <tr key={j}>{r.map((c, k) => (k === 0
+                ? <th key={k} scope="row" dangerouslySetInnerHTML={{ __html: c }} />
+                : <td key={k} dangerouslySetInnerHTML={{ __html: c }} />))}</tr>
             ))}
           </tbody>
         </table>
