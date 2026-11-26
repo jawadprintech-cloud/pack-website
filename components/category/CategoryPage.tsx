@@ -80,7 +80,7 @@ const withLinks = (node: ReactNode): ReactNode =>
     ? node
     : node.split(/(\[[^\]]+\]\([^)\s]+\))/g).map((part, i) => {
         const m = /^\[([^\]]+)\]\(([^)\s]+)\)$/.exec(part);
-        return m ? <a key={i} href={m[2]} style={{ color: "#15753f", textDecoration: "underline" }}>{m[1]}</a> : part;
+        return m ? <a key={i} href={m[2]} className="cb-inline-link">{m[1]}</a> : part;
       });
 
 export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid, why, content, specs, faqs, maxFaqs, faqTitle, moqLabel }: CategoryPageProps) {
