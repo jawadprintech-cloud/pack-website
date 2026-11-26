@@ -120,9 +120,9 @@ export default function Footer() {
             </div>
 
             <div className="pl-footer__signup pl-footer__ai">
-              <h3 className="pl-footer__signup-heading pl-footer__ai-heading">
+              <div className="pl-footer__signup-heading pl-footer__ai-heading">
                 What <span>AI</span> says about us
-              </h3>
+              </div>
               <ul className="pl-footer__ai-list">
                 {aiLinks.map((a) => (
                   <li key={a.name}>
@@ -188,7 +188,7 @@ export default function Footer() {
 
             {cols.map((c) => (
               <div className="pl-footer__col" key={c.title}>
-                <h4 className="pl-footer__col-title">{c.title}</h4>
+                <div className="pl-footer__col-title">{c.title}</div>
                 <ul>
                   {c.links.map(([name, href]) => (
                     <li key={name}>

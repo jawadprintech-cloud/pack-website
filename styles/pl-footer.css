@@ -61,6 +61,8 @@
 .pl-footer__ai-note { position: absolute; right: 0; top: calc(100% + 6px); margin: 0; max-width: 100%; font-size: 13px; color: var(--pl-green-dark); text-align: right; }
 .pl-footer__ai-note:empty { display: none; }
 .pl-footer__ai-heading { font-size: 16px; white-space: nowrap; }
+/* A div now (was an h3). The site-wide h3 rule forced 24px on it, so keep that size on every screen. */
+.site-footer-wrap div.pl-footer__ai-heading { font-size: 24px; }
 .pl-footer__ai-list {
   display: flex;
   align-items: center;
@@ -198,7 +200,7 @@
 }
 .pl-footer__social a:hover { color: var(--pl-green); transform: translateY(-2px); }
 
-.pl-footer__col-title { margin: 0 0 16px; font-size: 17px; font-weight: 700; color: var(--pl-text); }
+.pl-footer__col-title { margin: 0 0 16px; font-size: 17px; font-weight: 700; line-height: 1.3; color: var(--pl-text); }
 .pl-footer__col li { margin-bottom: 10px; font-weight: 600; }
 .pl-footer__col a { font-size: 15px; }
 
