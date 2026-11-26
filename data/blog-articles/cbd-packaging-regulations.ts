@@ -19,7 +19,7 @@ const article: Article = [
   { p: "Brands should treat this as a packaging redesign opportunity, optimizing container sizes, refining potency panels, and creating modular label templates." },
 
   { h2: "Federal vs State CBD Packaging Laws" },
-  { img: { src: "/federal-vs-state-cbd-packaging-laws.webp", alt: "Federal vs State CBD Packaging Laws", width: 780, height: 520 } },
+  { img: { src: "/images/federal-vs-state-cbd-packaging-laws.webp", alt: "Federal vs State CBD Packaging Laws", width: 780, height: 520 } },
   { h3: "Federal oversight" },
   { p: "At the federal level, CBD legality remains tied to hemp definitions and THC thresholds, while the FDA focuses primarily on misleading health claims and improper product positioning." },
   { h3: "State regulatory frameworks" },

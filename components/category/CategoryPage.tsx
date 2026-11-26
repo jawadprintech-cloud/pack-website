@@ -48,15 +48,15 @@ export type CategoryPageProps = {
 };
 
 const reasons = [
-  { label: "No Minimums", icon: "/w-no-moq.svg" },
-  { label: "Sustainable Options", icon: "/w-sustainable.svg" },
-  { label: "Fully Customizable", icon: "/w-customizable.svg" },
-  { label: "Fast Turnaround", icon: "/w-turnaround.svg" },
-  { label: "Free Design Support", icon: "/w-design.svg" },
-  { label: "Responsive Chat Support", icon: "/w-chat.svg" },
+  { label: "No Minimums", icon: "/images/w-no-moq.svg" },
+  { label: "Sustainable Options", icon: "/images/w-sustainable.svg" },
+  { label: "Fully Customizable", icon: "/images/w-customizable.svg" },
+  { label: "Fast Turnaround", icon: "/images/w-turnaround.svg" },
+  { label: "Free Design Support", icon: "/images/w-design.svg" },
+  { label: "Responsive Chat Support", icon: "/images/w-chat.svg" },
 ];
 
-const instagram = ["/cat-cbd.webp", "/cat-magnetic.webp", "/ig-cake.webp", "/ig-cookie.webp", "/ig-pastry.webp", "/cat-cosmetic.webp"];
+const instagram = ["/images/cat-cbd.webp", "/images/cat-magnetic.webp", "/images/ig-cake.webp", "/images/ig-cookie.webp", "/images/ig-pastry.webp", "/images/cat-cosmetic.webp"];
 
 const LayersIcon = () => (
   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -85,8 +85,8 @@ const withLinks = (node: ReactNode): ReactNode =>
 export default function CategoryPage({ crumb, h1, intro, strong, takeaway, grid, why, content, specs, faqs, maxFaqs, faqTitle, moqLabel }: CategoryPageProps) {
   const isHub = crumb === "Custom boxes";
   const hasGrid = grid.cards.length > 0;
-  const allReasons = why.reorder ? [...reasons, { label: "Easy Reordering", icon: "/w-reorder.svg" }] : reasons;
-  const whyReasons = moqLabel ? allReasons.map((r) => (r.icon === "/w-no-moq.svg" ? { ...r, label: moqLabel } : r)) : allReasons;
+  const allReasons = why.reorder ? [...reasons, { label: "Easy Reordering", icon: "/images/w-reorder.svg" }] : reasons;
+  const whyReasons = moqLabel ? allReasons.map((r) => (r.icon === "/images/w-no-moq.svg" ? { ...r, label: moqLabel } : r)) : allReasons;
   const BlockHeading = content.blockHeading ?? "h3";
   return (
     <>

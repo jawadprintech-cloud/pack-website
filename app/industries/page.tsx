@@ -25,18 +25,18 @@ export const metadata: Metadata = withSeo("/industries/", {
     "Custom boxes made for every industry: food, retail, bakery, CBD, gift, cosmetic, apparel and jewelry packaging. No minimum order, free design support and free shipping.",
 });
 
-const instagram = ["/cat-cbd.webp", "/cat-magnetic.webp", "/ig-cake.webp", "/ig-cookie.webp", "/ig-pastry.webp", "/cat-cosmetic.webp"];
+const instagram = ["/images/cat-cbd.webp", "/images/cat-magnetic.webp", "/images/ig-cake.webp", "/images/ig-cookie.webp", "/images/ig-pastry.webp", "/images/cat-cosmetic.webp"];
 
 // Same 8 industries, order and photos as packlegacy.com/industries/.
 const industries = [
-  { name: "Food Boxes", href: "/food-boxes/", img: "/custom-food-boxes-pic.webp" },
-  { name: "Retail Boxes", href: "/retail-boxes/", img: "/retail-boxes-pic.webp" },
-  { name: "Bakery Boxes", href: "/bakery-boxes/", img: "/custom-bakery-boxes-pic.webp" },
-  { name: "CBD Boxes", href: "/cbd-boxes/", img: "/custom-cbd-boxes-pic.webp" },
-  { name: "Gift Boxes", href: "/gift-boxes/", img: "/gift-boxes-pic.webp" },
-  { name: "Cosmetic Boxes", href: "/cosmetic-boxes/", img: "/cosmetic-boxes-pic.webp" },
-  { name: "Apparel Boxes", href: "/apparel-boxes/", img: "/custom-apparel-boxes.webp" },
-  { name: "Jewelry Boxes", href: "/jewelry-boxes/", img: "/custom-jewelry-boxes-2.webp" },
+  { name: "Food Boxes", href: "/food-boxes/", img: "/images/custom-food-boxes-pic.webp" },
+  { name: "Retail Boxes", href: "/retail-boxes/", img: "/images/retail-boxes-pic.webp" },
+  { name: "Bakery Boxes", href: "/bakery-boxes/", img: "/images/custom-bakery-boxes-pic.webp" },
+  { name: "CBD Boxes", href: "/cbd-boxes/", img: "/images/custom-cbd-boxes-pic.webp" },
+  { name: "Gift Boxes", href: "/gift-boxes/", img: "/images/gift-boxes-pic.webp" },
+  { name: "Cosmetic Boxes", href: "/cosmetic-boxes/", img: "/images/cosmetic-boxes-pic.webp" },
+  { name: "Apparel Boxes", href: "/apparel-boxes/", img: "/images/custom-apparel-boxes.webp" },
+  { name: "Jewelry Boxes", href: "/jewelry-boxes/", img: "/images/custom-jewelry-boxes-2.webp" },
 ];
 
 const faqs: FaqItem[] = [
@@ -80,9 +80,9 @@ export default function IndustriesPage() {
                   <strong>5.0</strong> <span className="cb-stars" aria-label="5 out of 5 stars">★★★★★</span>
                   <small>Verified Customer Reviews</small>
                 </a>
-                <a {...reviewLinkProps("clutch")}><img src={"/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={26} /></a>
-                <a {...reviewLinkProps("bark")}><img src={"/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={26} /></a>
-                <a {...reviewLinkProps("trustpilot")}><img src={"/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={26} /></a>
+                <a {...reviewLinkProps("clutch")}><img src={"/images/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={26} /></a>
+                <a {...reviewLinkProps("bark")}><img src={"/images/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={26} /></a>
+                <a {...reviewLinkProps("trustpilot")}><img src={"/images/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={26} /></a>
               </div>
             </section>
 

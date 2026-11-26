@@ -11,7 +11,7 @@ const article: Article = [
   { p: "Let’s begin." },
 
   { h2: "How Packaging Works as an Advertising Tool" },
-  { img: { src: "/packaging-works-as-an-advertising-tool.webp", alt: "Packaging Works as an Advertising Tool", width: 780, height: 520 } },
+  { img: { src: "/images/packaging-works-as-an-advertising-tool.webp", alt: "Packaging Works as an Advertising Tool", width: 780, height: 520 } },
   { p: "Packaging works as a marketing tool that helps promote your product and brand. You can add your logo, brand colors, product details, slogan, and other elements to make your packaging recognizable." },
   { p: "Unlike other forms of advertising, packaging stays with the product until it reaches the customer. It can attract attention on retail shelves, help customers recognize your brand, and make your product easier to remember." },
   { p: "When designed properly, packaging does more than protect the product. It also gives your brand another way to communicate with customers and promote what you offer." },

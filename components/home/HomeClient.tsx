@@ -74,12 +74,12 @@ function Pills<T extends string>({
 // Cards are square so the square photos show whole (logo top-left, code bottom-right).
 // `pos` shifts the crop of the wider 708×616 cosmetic photo left so its logo stays whole.
 const heroSlides: { img: string; name: string; href: string; pos?: string }[] = [
-  { img: "/cat-mailer.webp", name: "Mailer Boxes", href: "/mailer-boxes/" },
-  { img: "/cat-magnetic.webp", name: "Magnetic Closure Boxes", href: "/product/magnetic-closure-boxes/" },
-  { img: "/cat-rigid.webp", name: "Rigid Boxes", href: "/rigid-boxes/" },
-  { img: "/cat-cosmetic.webp", name: "Cosmetic Boxes", href: "/cosmetic-boxes/", pos: "0% 50%" },
-  { img: "/cat-gift.webp", name: "Gift Boxes", href: "/gift-boxes/" },
-  { img: "/cat-food.webp", name: "Food Boxes", href: "/food-boxes/" },
+  { img: "/images/cat-mailer.webp", name: "Mailer Boxes", href: "/mailer-boxes/" },
+  { img: "/images/cat-magnetic.webp", name: "Magnetic Closure Boxes", href: "/product/magnetic-closure-boxes/" },
+  { img: "/images/cat-rigid.webp", name: "Rigid Boxes", href: "/rigid-boxes/" },
+  { img: "/images/cat-cosmetic.webp", name: "Cosmetic Boxes", href: "/cosmetic-boxes/", pos: "0% 50%" },
+  { img: "/images/cat-gift.webp", name: "Gift Boxes", href: "/gift-boxes/" },
+  { img: "/images/cat-food.webp", name: "Food Boxes", href: "/food-boxes/" },
 ];
 
 /* Hero photo strip: drifts slowly on its own (no controls) and pauses while hovered.
@@ -119,24 +119,24 @@ const useTabs: { id: Use; label: string; tag: string }[] = [
 ];
 // `href` is a category page or a product page.
 const formats: { name: string; use: Use; desc: string; img: string; href: string }[] = [
-  { use: "ecommerce", name: "Mailer Boxes", href: "/mailer-boxes/", img: "/printed-corrugated-mailer-box-mailer.webp", desc: "Strong, self-locking boxes with protective flaps, ideal for secure product shipping." },
-  { use: "custom", name: "Display Boxes", href: "/display-boxes/", img: "/printed-front-cut-out-display-boxes-display.webp", desc: "Open-front boxes designed to showcase products on retail shelves and counters." },
-  { use: "custom", name: "Mylar Bags", href: "/custom-mylar-bags/", img: "/custom-printed-mylar-bags.webp", desc: "Flexible, lightweight pouches that help protect products from moisture, air, and light." },
-  { use: "custom", name: "Paper Bags", href: "/custom-paper-bags/", img: "/kraft-paper-bags-with-handle.webp", desc: "Lightweight, customizable paper bags with handles for easy carrying." },
-  { use: "custom", name: "Candle Boxes", href: "/candle-boxes/", img: "/luxury-candle-boxes-candle.webp", desc: "Custom candle packaging designed to protect jars and showcase your brand." },
-  { use: "ecommerce", name: "Subscription Boxes", href: "/product/subscription-boxes/", img: "/subscription-boxes-1-mailer.webp", desc: "Custom-printed boxes designed to pack multiple products for recurring deliveries." },
-  { use: "ecommerce", name: "PR Boxes", href: "/product/pr-boxes/", img: "/mailer-pr-box-gift.webp", desc: "Premium branded boxes with custom inserts for influencer kits and promotional campaigns." },
-  { use: "ecommerce", name: "Corrugated Boxes", href: "/corrugated-boxes/", img: "/corrugated-box.webp", desc: "Strong boxes made from fluted cardboard that provide cushioning and protection during shipping." },
-  { use: "folding", name: "Reverse Tuck End (RTE)", href: "/product/reverse-tuck-end-boxes/", img: "/reverse-tuck-end-box-2.webp", desc: "Features top and bottom tuck flaps that close in opposite directions." },
-  { use: "folding", name: "Straight Tuck End (STE)", href: "/product/straight-tuck-end-boxes/", img: "/straight-tuck-end-box-folding-cartons.webp", desc: "Features top and bottom tuck flaps that close in the same direction." },
-  { use: "folding", name: "Auto Bottom Boxes", href: "/product/auto-lock-bottom-boxes/", img: "/auto-lock-bottom-box-folding-cartons.webp", desc: "Pre-glued bottom flaps that automatically lock into place during assembly." },
-  { use: "folding", name: "1-2-3 Bottom Boxes", href: "/product/123-bottom-boxes/", img: "/123-bottom-boxes-folding-cartons.webp", desc: "Three-step interlocking bottom flaps designed to provide extra support for products." },
-  { use: "mylar", name: "Die Cut Mylar Bags", href: "/product/die-cut-mylar-bags/", img: "/printed-die-cut-mylar-bag-mylar.webp", desc: "Custom-shaped flexible pouches designed for unique product packaging and branding." },
-  { use: "mylar", name: "Coffee Packaging Bags", href: "/product/coffee-packaging-bags/", img: "/printed-coffee-packaging-bags-mylar.webp", desc: "High-barrier bags with optional resealable zippers and degassing valves to preserve coffee freshness." },
-  { use: "rigid", name: "Magnetic Closure Boxes", href: "/product/magnetic-closure-boxes/", img: "/magnetic-closure-boxes-2.webp", desc: "Rigid boxes with built-in magnets that provide secure and convenient opening and closing." },
-  { use: "rigid", name: "Two-Piece Rigid Boxes", href: "/product/two-piece-rigid-boxes/", img: "/custom-two-piece-rigid-box-rigid.webp", desc: "Feature a separate lid and base for secure packaging and a premium unboxing experience." },
-  { use: "rigid", name: "Drawer Boxes", href: "/product/rigid-drawer-boxes/", img: "/rigid-drawer-box1z-rigid.webp", desc: "Feature a sliding inner tray and outer sleeve for convenient product access." },
-  { use: "rigid", name: "Folding Carton Boxes", href: "/folding-cartons/", img: "/eco-tuck-top-boxes-folding-cartons.webp", desc: "Cost-effective paperboard boxes with foldable panels and customizable printing options." },
+  { use: "ecommerce", name: "Mailer Boxes", href: "/mailer-boxes/", img: "/images/printed-corrugated-mailer-box-mailer.webp", desc: "Strong, self-locking boxes with protective flaps, ideal for secure product shipping." },
+  { use: "custom", name: "Display Boxes", href: "/display-boxes/", img: "/images/printed-front-cut-out-display-boxes-display.webp", desc: "Open-front boxes designed to showcase products on retail shelves and counters." },
+  { use: "custom", name: "Mylar Bags", href: "/custom-mylar-bags/", img: "/images/custom-printed-mylar-bags.webp", desc: "Flexible, lightweight pouches that help protect products from moisture, air, and light." },
+  { use: "custom", name: "Paper Bags", href: "/custom-paper-bags/", img: "/images/kraft-paper-bags-with-handle.webp", desc: "Lightweight, customizable paper bags with handles for easy carrying." },
+  { use: "custom", name: "Candle Boxes", href: "/candle-boxes/", img: "/images/luxury-candle-boxes-candle.webp", desc: "Custom candle packaging designed to protect jars and showcase your brand." },
+  { use: "ecommerce", name: "Subscription Boxes", href: "/product/subscription-boxes/", img: "/images/subscription-boxes-1-mailer.webp", desc: "Custom-printed boxes designed to pack multiple products for recurring deliveries." },
+  { use: "ecommerce", name: "PR Boxes", href: "/product/pr-boxes/", img: "/images/mailer-pr-box-gift.webp", desc: "Premium branded boxes with custom inserts for influencer kits and promotional campaigns." },
+  { use: "ecommerce", name: "Corrugated Boxes", href: "/corrugated-boxes/", img: "/images/corrugated-box.webp", desc: "Strong boxes made from fluted cardboard that provide cushioning and protection during shipping." },
+  { use: "folding", name: "Reverse Tuck End (RTE)", href: "/product/reverse-tuck-end-boxes/", img: "/images/reverse-tuck-end-box-2.webp", desc: "Features top and bottom tuck flaps that close in opposite directions." },
+  { use: "folding", name: "Straight Tuck End (STE)", href: "/product/straight-tuck-end-boxes/", img: "/images/straight-tuck-end-box-folding-cartons.webp", desc: "Features top and bottom tuck flaps that close in the same direction." },
+  { use: "folding", name: "Auto Bottom Boxes", href: "/product/auto-lock-bottom-boxes/", img: "/images/auto-lock-bottom-box-folding-cartons.webp", desc: "Pre-glued bottom flaps that automatically lock into place during assembly." },
+  { use: "folding", name: "1-2-3 Bottom Boxes", href: "/product/123-bottom-boxes/", img: "/images/123-bottom-boxes-folding-cartons.webp", desc: "Three-step interlocking bottom flaps designed to provide extra support for products." },
+  { use: "mylar", name: "Die Cut Mylar Bags", href: "/product/die-cut-mylar-bags/", img: "/images/printed-die-cut-mylar-bag-mylar.webp", desc: "Custom-shaped flexible pouches designed for unique product packaging and branding." },
+  { use: "mylar", name: "Coffee Packaging Bags", href: "/product/coffee-packaging-bags/", img: "/images/printed-coffee-packaging-bags-mylar.webp", desc: "High-barrier bags with optional resealable zippers and degassing valves to preserve coffee freshness." },
+  { use: "rigid", name: "Magnetic Closure Boxes", href: "/product/magnetic-closure-boxes/", img: "/images/magnetic-closure-boxes-2.webp", desc: "Rigid boxes with built-in magnets that provide secure and convenient opening and closing." },
+  { use: "rigid", name: "Two-Piece Rigid Boxes", href: "/product/two-piece-rigid-boxes/", img: "/images/custom-two-piece-rigid-box-rigid.webp", desc: "Feature a separate lid and base for secure packaging and a premium unboxing experience." },
+  { use: "rigid", name: "Drawer Boxes", href: "/product/rigid-drawer-boxes/", img: "/images/rigid-drawer-box1z-rigid.webp", desc: "Feature a sliding inner tray and outer sleeve for convenient product access." },
+  { use: "rigid", name: "Folding Carton Boxes", href: "/folding-cartons/", img: "/images/eco-tuck-top-boxes-folding-cartons.webp", desc: "Cost-effective paperboard boxes with foldable panels and customizable printing options." },
 ];
 
 export function FormatGrid() {
@@ -182,10 +182,10 @@ export function FormatGrid() {
 /* ---------- Custom packaging builder ---------- */
 // Images cut from the homepage design (public/home/builder).
 const builderSteps = [
-  { title: "Box Style", desc: "Mailer, rigid, folding & more", img: "/box-style.jpg" },
-  { title: "Material", desc: "Kraft, rigid, corrugated & more", img: "/material.jpg" },
+  { title: "Box Style", desc: "Mailer, rigid, folding & more", img: "/images/box-style.jpg" },
+  { title: "Material", desc: "Kraft, rigid, corrugated & more", img: "/images/material.jpg" },
   { title: "Printing", desc: "Logo, patterns, full color & more", img: "" },
-  { title: "Finishing", desc: "Matte, gloss, soft-touch & more", img: "/finishing.jpg" },
+  { title: "Finishing", desc: "Matte, gloss, soft-touch & more", img: "/images/finishing.jpg" },
 ];
 
 export function Builder() {
@@ -380,22 +380,22 @@ const materials: Record<Mat, { label: string; text: string; img: string }> = {
   kraft: {
     label: "Kraft Corrugated",
     text: "A strong, natural-looking material suitable for shipping boxes, mailers, and retail packaging.",
-    img: "/m-kraft.webp",
+    img: "/images/m-kraft.webp",
   },
   white: {
     label: "White Corrugated",
     text: "A sturdy board with a clean white surface that works well for custom printing and shipping.",
-    img: "/m-corrugated.webp",
+    img: "/images/m-corrugated.webp",
   },
   folding: {
     label: "Paperboard",
     text: "A lightweight and flexible material suitable for cosmetics, food, and other retail products.",
-    img: "/m-cardboard.webp",
+    img: "/images/m-cardboard.webp",
   },
   rigid: {
     label: "Rigid Board",
     text: "A thick, sturdy material used for gift boxes, luxury packaging, and premium product presentation.",
-    img: "/m-rigid.webp",
+    img: "/images/m-rigid.webp",
   },
 };
 
@@ -432,9 +432,9 @@ export function MaterialsLab() {
 /* ---------- Finishing studio ---------- */
 type Fin = "foil" | "emboss" | "soft";
 const finishes: Record<Fin, { label: string; text: string; img: string; dot: string }> = {
-  foil: { label: "Foil Stamping", text: "Add metallic details to your logo, text, or artwork for a shiny, eye-catching finish.", img: "/foil-stamping.webp", dot: "#c9a14a" },
-  emboss: { label: "Embossing", text: "Create raised designs or lettering that add texture and make your packaging more noticeable.", img: "/embossing.webp", dot: "#c97a62" },
-  soft: { label: "Soft-Touch", text: "Give your packaging boxes a smooth, velvety surface with a soft matte feel.", img: "/soft-touch.webp", dot: "#6f9a74" },
+  foil: { label: "Foil Stamping", text: "Add metallic details to your logo, text, or artwork for a shiny, eye-catching finish.", img: "/images/foil-stamping.webp", dot: "#c9a14a" },
+  emboss: { label: "Embossing", text: "Create raised designs or lettering that add texture and make your packaging more noticeable.", img: "/images/embossing.webp", dot: "#c97a62" },
+  soft: { label: "Soft-Touch", text: "Give your packaging boxes a smooth, velvety surface with a soft matte feel.", img: "/images/soft-touch.webp", dot: "#6f9a74" },
 };
 
 export function FinishingStudio() {

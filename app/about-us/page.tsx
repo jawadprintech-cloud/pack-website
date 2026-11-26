@@ -17,24 +17,24 @@ export const metadata: Metadata = withSeo("/about-us/", {
 
 
 const pillars: Pillar[] = [
-  { title: "Mission", lead: "Our Mission", text: "Our mission is to make custom packaging better, easier, and more affordable for every brand. We aim to be the driving force behind your business’s success through custom packaging solutions that exceed your expectations.", image: `/frame-3.png` },
-  { title: "Vision", lead: "Our Vision", text: "Our vision is to see your products become the representative of your brand. We understand the value of brand identity, which differs for each customer. We make the best effort to ensure your custom packaging meets your specific requirements.", image: `/different-custom-boxes.webp` },
-  { title: "Goal", lead: "Our Goal", text: "Our main goal is to be the leader of premium custom packaging–available and affordable–for businesses across various industries. We do not compromise on providing the most exclusive presentation for your customized boxes.", image: `/frame-5.png` },
-  { title: "Core Values", lead: "Our Core Values", text: "We are passionate about packaging. Therefore, we value transparency, quality, and integrity in every work effort we provide. With our years of experience and innovative equipment, we deliver only the best results.", image: `/frame-4.png` },
+  { title: "Mission", lead: "Our Mission", text: "Our mission is to make custom packaging better, easier, and more affordable for every brand. We aim to be the driving force behind your business’s success through custom packaging solutions that exceed your expectations.", image: `/images/frame-3.png` },
+  { title: "Vision", lead: "Our Vision", text: "Our vision is to see your products become the representative of your brand. We understand the value of brand identity, which differs for each customer. We make the best effort to ensure your custom packaging meets your specific requirements.", image: `/images/different-custom-boxes.webp` },
+  { title: "Goal", lead: "Our Goal", text: "Our main goal is to be the leader of premium custom packaging–available and affordable–for businesses across various industries. We do not compromise on providing the most exclusive presentation for your customized boxes.", image: `/images/frame-5.png` },
+  { title: "Core Values", lead: "Our Core Values", text: "We are passionate about packaging. Therefore, we value transparency, quality, and integrity in every work effort we provide. With our years of experience and innovative equipment, we deliver only the best results.", image: `/images/frame-4.png` },
 ];
 
 // The industries on /industries/, each linked to its own page.
 // The industries on /industries/, each linked to its own page.
 const industries = [
-  { name: "Food Boxes", img: "/custom-food-boxes-pic.webp", href: "/food-boxes/" },
-  { name: "Retail Boxes", img: "/retail-boxes-pic.webp", href: "/retail-boxes/" },
-  { name: "Bakery Boxes", img: "/custom-bakery-boxes-pic.webp", href: "/bakery-boxes/" },
-  { name: "CBD Boxes", img: "/custom-cbd-boxes-pic.webp", href: "/cbd-boxes/" },
-  { name: "Gift Boxes", img: "/gift-boxes-pic.webp", href: "/gift-boxes/" },
-  { name: "Cosmetic Boxes", img: "/cosmetic-boxes-pic.webp", href: "/cosmetic-boxes/" },
-  { name: "Apparel Boxes", img: "/custom-apparel-boxes.webp", href: "/apparel-boxes/" },
-  { name: "Jewelry Boxes", img: "/custom-jewelry-boxes-2.webp", href: "/jewelry-boxes/" },
-  { name: "Packaging Inserts", img: "/packaging-inserts.webp", href: "/packaging-inserts/" },
+  { name: "Food Boxes", img: "/images/custom-food-boxes-pic.webp", href: "/food-boxes/" },
+  { name: "Retail Boxes", img: "/images/retail-boxes-pic.webp", href: "/retail-boxes/" },
+  { name: "Bakery Boxes", img: "/images/custom-bakery-boxes-pic.webp", href: "/bakery-boxes/" },
+  { name: "CBD Boxes", img: "/images/custom-cbd-boxes-pic.webp", href: "/cbd-boxes/" },
+  { name: "Gift Boxes", img: "/images/gift-boxes-pic.webp", href: "/gift-boxes/" },
+  { name: "Cosmetic Boxes", img: "/images/cosmetic-boxes-pic.webp", href: "/cosmetic-boxes/" },
+  { name: "Apparel Boxes", img: "/images/custom-apparel-boxes.webp", href: "/apparel-boxes/" },
+  { name: "Jewelry Boxes", img: "/images/custom-jewelry-boxes-2.webp", href: "/jewelry-boxes/" },
+  { name: "Packaging Inserts", img: "/images/packaging-inserts.webp", href: "/packaging-inserts/" },
 ];
 
 const faqs = [
@@ -69,7 +69,7 @@ export default function AboutPage() {
           </div>
 
           <div className="abt-collage">
-            <div className="abt-collage-main"><img src={`/background-23-1.webp`} alt="" width={575} height={400} /></div>
+            <div className="abt-collage-main"><img src={`/images/background-23-1.webp`} alt="" width={575} height={400} /></div>
             <a className="abt-badge" href="/about-us/#reviews" aria-label="5.0 verified reviews: see what clients say">
               <Stars size={13} />
               <strong>5.0</strong>
@@ -83,7 +83,7 @@ export default function AboutPage() {
       <section className="ip-section" id="story" aria-labelledby="abt-story-h">
         <div className="ip-wrap abt-story">
           <div className="abt-story-media">
-            <img className="abt-story-img" src={`/pl-about-us.webp`} alt="Custom printed boxes made by Pack Legacy" width={650} height={650} loading="lazy" />
+            <img className="abt-story-img" src={`/images/pl-about-us.webp`} alt="Custom printed boxes made by Pack Legacy" width={650} height={650} loading="lazy" />
             <div className="abt-story-card">
               <span className="abt-story-card-icon"><Icons.box size={20} /></span>
               <p><strong>500+ businesses</strong> of all sizes trust us with their custom boxes.</p>
@@ -131,7 +131,7 @@ export default function AboutPage() {
               <a className="ip-btn abt-btn-cream ip-btn-sm" href="#quote">Get a free quote <Icons.arrow size={14} /></a>
             </div>
             <div className="abt-b abt-b-photo">
-              <img src={`/cat-rigid.webp`} alt="Custom rigid boxes" width={400} height={400} loading="lazy" />
+              <img src={`/images/cat-rigid.webp`} alt="Custom rigid boxes" width={400} height={400} loading="lazy" />
               <span>Premium rigid boxes</span>
             </div>
             <div className="abt-b abt-b-dark">
@@ -213,7 +213,7 @@ export default function AboutPage() {
               </ul>
               <a className="ip-btn abt-btn-cream" href="/materials/#sustainability">Explore eco materials <Icons.arrow size={16} /></a>
             </div>
-            <img src={`/frame-4.png`} alt="Pack Legacy commitment to sustainability" width={467} height={422} loading="lazy" />
+            <img src={`/images/frame-4.png`} alt="Pack Legacy commitment to sustainability" width={467} height={422} loading="lazy" />
           </div>
         </div>
       </section>
@@ -226,7 +226,7 @@ export default function AboutPage() {
       {/* 9. AI */}
       <section className="ip-section" aria-labelledby="abt-ai-h">
         <div className="ip-wrap">
-          <AiVisibility robot={`/friendly-green-chatbot-mascot.webp`} />
+          <AiVisibility robot={`/images/friendly-green-chatbot-mascot.webp`} />
         </div>
       </section>
 

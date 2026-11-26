@@ -6,7 +6,7 @@ const article: Article = [
 
   { h2: "3 Main Types of Product Packaging" },
   { p: "If you’re a new startup or just starting a packaging project, you may be confused by the different types of product packaging. Yes, there’s a variety of materials used in packaging, including glass, plastic, cardboard, and wood. However, speaking of the function, there are three main types of packaging in marketing: primary, secondary, and tertiary. Let’s break it down!" },
-  { img: { src: "/types-of-product-packaging.webp", alt: "3 Main Types of Product Packaging", width: 780, height: 520 } },
+  { img: { src: "/images/types-of-product-packaging.webp", alt: "3 Main Types of Product Packaging", width: 780, height: 520 } },
   { h3: "Primary Packaging" },
   { p: "A question might come to your mind right now: **What is primary packaging? **" },
   { p: "Primary packaging is the type of packaging that comes into direct contact with the product. Its main purpose is to protect and maintain the optimal condition of a product. It is the first material or layer wrapped around a product. Therefore, primary packaging should be eye-catching, as it will be the first image your customer receives when interacting with your product. This is particularly important if you’re running an e-commerce business. On this packaging, you can include labels with important information for customers, such as ingredients or other essential details." },

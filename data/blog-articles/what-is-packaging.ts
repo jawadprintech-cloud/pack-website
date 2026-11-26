@@ -58,7 +58,7 @@ const article: Article = [
   { p: "Packaging materials define performance, perception, and sustainability." },
   { p: "Here are the common materials used in modern packaging." },
   { h3: "Paper & Paperboard" },
-  { img: { src: "/paper-paperboard.webp", alt: "Paper & Paperboard", width: 780, height: 520 } },
+  { img: { src: "/images/paper-paperboard.webp", alt: "Paper & Paperboard", width: 780, height: 520 } },
   { p: "Paper‑based packaging is one of the most widely used packaging solutions worldwide. It is lightweight, cost‑effective, printable, and recyclable, making it ideal for retail and e‑commerce brands." },
   { p: "Popular examples include:" },
   { ul: [
@@ -68,16 +68,16 @@ const article: Article = [
     "[Luxury rigid boxes](/rigid-boxes/)",
   ] },
   { h3: "Plastic" },
-  { img: { src: "/what-is-packaging-plastic.webp", alt: "Plastic", width: 780, height: 520 } },
+  { img: { src: "/images/what-is-packaging-plastic.webp", alt: "Plastic", width: 780, height: 520 } },
   { p: "Plastic packaging delivers flexibility, durability, and strong barrier protection. It is commonly used for food containers, beverage bottles, pouches, and protective wraps. Materials such as PET, HDPE, and LDPE dominate consumer packaging because they offer long shelf life, moisture resistance, and versatility." },
   { h3: "Glass" },
-  { img: { src: "/what-is-packaging-glass.webp", alt: "Glass", width: 780, height: 520 } },
+  { img: { src: "/images/what-is-packaging-glass.webp", alt: "Glass", width: 780, height: 520 } },
   { p: "Glass packaging is the go‑to option for beverages, cosmetics, and pharmaceuticals. It is non‑reactive, preserves product purity, and enhances shelf appeal." },
   { h3: "Metal" },
-  { img: { src: "/metal.webp", alt: "Metal", width: 780, height: 520 } },
+  { img: { src: "/images/metal.webp", alt: "Metal", width: 780, height: 520 } },
   { p: "Metal packaging, including aluminum cans and tin containers, offers exceptional durability and barrier protection. It is widely used for beverages, canned foods, and specialty products." },
   { h3: "Biodegradable & Compostable Packaging" },
-  { img: { src: "/biodegradable.webp", alt: "Biodegradable & Compostable Packaging", width: 780, height: 520 } },
+  { img: { src: "/images/biodegradable.webp", alt: "Biodegradable & Compostable Packaging", width: 780, height: 520 } },
   { p: "As demand for eco‑friendly packaging rises, many brands are shifting to biodegradable and compostable materials. Options like molded pulp, biodegradable films, and compostable packaging solutions reduce environmental impact while appealing to sustainability‑focused consumers." },
   { h3: "Types of Packaging Materials" },
   { table: {
@@ -112,7 +112,7 @@ const article: Article = [
   { p: "Die‑cut inserts, foldable cartons, and modular packaging tailored to product needs. They enhance unboxing experiences and protect irregular shapes." },
 
   { h2: "Product Packaging: Regulatory Standards & Compliance" },
-  { img: { src: "/product-packaging.webp", alt: "Product Packaging", width: 780, height: 520 } },
+  { img: { src: "/images/product-packaging.webp", alt: "Product Packaging", width: 780, height: 520 } },
   { p: "Compliant packaging ensures safety, credibility, and market access. Non‑compliance risks fines, recalls, and reputational damage. Businesses that align with the international standards gain trust and global reach." },
   { p: "What are the global packaging regulatory standards?" },
   { ul: [

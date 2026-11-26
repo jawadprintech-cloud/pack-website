@@ -17,7 +17,7 @@ import "@/styles/blog.css";
 // Styles: styles/blog.css (.ba-*), built on styles/info-pages.css.
 
 const AUTHOR_ROLE = "Content Strategist & Writer";
-const AUTHOR_PHOTO = "/sarah-ashley.webp";
+const AUTHOR_PHOTO = "/images/sarah-ashley.webp";
 /** Google "Preferred sources" page for this site (lets readers see more Pack Legacy articles in Google). */
 const PREFERRED_SOURCES = "https://www.google.com/preferences/source?q=packlegacy.com";
 

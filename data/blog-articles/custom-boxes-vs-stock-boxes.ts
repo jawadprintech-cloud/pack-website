@@ -34,7 +34,7 @@ const article: Article = [
   ] },
 
   { h2: "How Do Custom Boxes Differ From Stock Boxes?" },
-  { img: { src: "/how-do-custom-boxes-differ-from-stock-boxes.webp", alt: "How Do Custom Boxes Differ From Stock Boxes", width: 780, height: 520 } },
+  { img: { src: "/images/how-do-custom-boxes-differ-from-stock-boxes.webp", alt: "How Do Custom Boxes Differ From Stock Boxes", width: 780, height: 520 } },
   { p: "Custom boxes and stock boxes differ from each other in various ways, such as cost, preparation, lead time, and design flexibility." },
   { p: "We have compiled all of them below so you can compare custom boxes vs. stock boxes at a glance:" },
   { table: {

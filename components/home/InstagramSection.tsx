@@ -2,7 +2,7 @@
 import InstaMarquee from "@/components/InstaMarquee";
 import "@/styles/home.css";
 
-const instagram = ["/cat-cbd.webp", "/cat-rigid.webp", "/cat-magnetic.webp", "/cat-gift.webp", "/cat-cosmetic.webp"];
+const instagram = ["/images/cat-cbd.webp", "/images/cat-rigid.webp", "/images/cat-magnetic.webp", "/images/cat-gift.webp", "/images/cat-cosmetic.webp"];
 
 export default function InstagramSection() {
   return (

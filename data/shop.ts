@@ -39,13 +39,13 @@ export const shopCategories: ShopCategory[] = [
     id: "mylar", tab: "Mylar Bags", title: "Mylar Bags", page: "/custom-mylar-bags/",
     cards: [
       ["Coffee Packaging Bags", "coffee-packaging-bags"], ["Die Cut Mylar Bags", "die-cut-mylar-bags"],
-      ["Custom Mylar Bags", "/custom-mylar-bags/", "/custom-printed-mylar-bags.webp"],
+      ["Custom Mylar Bags", "/custom-mylar-bags/", "/images/custom-printed-mylar-bags.webp"],
     ],
   },
   {
     id: "paper-bags", tab: "Paper Bags", title: "Paper Bags", page: "/custom-paper-bags/",
     cards: [
-      ["Custom Paper Bags", "/custom-paper-bags/", "/kraft-paper-bags-with-handle.webp"],
+      ["Custom Paper Bags", "/custom-paper-bags/", "/images/kraft-paper-bags-with-handle.webp"],
     ],
   },
   {
@@ -86,12 +86,12 @@ export const shopCategories: ShopCategory[] = [
   {
     id: "retail", tab: "Retail", title: "Retail Boxes", page: "/retail-boxes/",
     cards: [
-      ["Candle Boxes", "/candle-boxes/", "/luxury-candle-boxes-candle.webp"], ["Game Boxes", "game-boxes"],
+      ["Candle Boxes", "/candle-boxes/", "/images/luxury-candle-boxes-candle.webp"], ["Game Boxes", "game-boxes"],
       ["Tray and Sleeve Boxes", "tray-sleeve-boxes"], ["Presentation Boxes", "presentation-boxes"], ["Kraft Boxes", "kraft-boxes"],
       ["Medicine Boxes", "medicine-boxes"], ["Playing Card Boxes", "playing-card-boxes"], ["Business Card Boxes", "business-card-boxes"],
       ["Archive Boxes", "archive-boxes"], ["Cube Boxes", "cube-boxes"], ["Hand Sanitizer Boxes", "hand-sanitizer-boxes"], ["School Boxes", "school-boxes"],
       ["Packaging Sleeves", "packaging-sleeves"], ["Window Boxes", "window-boxes"], ["Coaster Boxes", "coaster-boxes"],
-      ["Corrugated Boxes", "/corrugated-boxes/", "/corrugated-box.webp"],
+      ["Corrugated Boxes", "/corrugated-boxes/", "/images/corrugated-box.webp"],
     ],
   },
   {

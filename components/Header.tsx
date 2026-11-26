@@ -349,7 +349,7 @@ export default function Header() {
         <div className="plt-inner">
           <div className="plt-logo">
             <a href="/">
-              <img src="/pack-legacy-logo.webp" alt="Pack-legacy-Logo" width={800} height={169} />
+              <img src="/images/pack-legacy-logo.webp" alt="Pack-legacy-Logo" width={800} height={169} />
             </a>
           </div>
           <div className="plt-search">
@@ -376,7 +376,7 @@ export default function Header() {
         </div>
         <div className="plt-mobile-logo plt-mobile">
           <a href="/">
-            <img src="/pack-legacy-logo.svg" alt="Pack legacy Logo" width={1283} height={270} />
+            <img src="/images/pack-legacy-logo.svg" alt="Pack legacy Logo" width={1283} height={270} />
           </a>
         </div>
 
@@ -387,7 +387,7 @@ export default function Header() {
             <nav className="pl-header-nav" id="plMainNav" aria-label="Main navigation">
               <div className="pl-header-mobile-head" style={{ display: "none" }}>
                 <a href="/" className="pl-header-mobile-logo-link" aria-label="Pack Legacy Home">
-                  <img src="/pack-legacy-logo.svg" alt="Pack Legacy" className="pl-header-mobile-logo" width={150} height={40} decoding="async" />
+                  <img src="/images/pack-legacy-logo.svg" alt="Pack Legacy" className="pl-header-mobile-logo" width={150} height={40} decoding="async" />
                 </a>
                 <button type="button" className="pl-header-mobile-close" id="plMobileClose" aria-label="Close menu">
                   <svg className="pli pli-xmark" aria-hidden="true" focusable="false">

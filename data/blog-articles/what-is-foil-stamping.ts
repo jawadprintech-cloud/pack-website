@@ -12,7 +12,7 @@ const article: Article = [
   { p: "Like [embossing](/blog/what-is-embossing/), [debossing](/blog/what-is-debossing/), and spot UV, foil stamping adds visual appeal and increases a product’s perceived value. It works on various paper stocks, but smooth surfaces deliver the best results." },
 
   { h2: "Process of Foil Stamping" },
-  { img: { src: "/foil-stamping-process.webp", alt: "Foil Stamping Process", width: 780, height: 520 } },
+  { img: { src: "/images/foil-stamping-process.webp", alt: "Foil Stamping Process", width: 780, height: 520 } },
   { p: "Foil stamping uses heat, pressure, and a custom metal die to transfer a thin layer of foil onto packaging materials. Unlike traditional printing, this process does not use liquid ink." },
   { p: "The process involves a few simple steps:" },
   { ol: [
@@ -25,7 +25,7 @@ const article: Article = [
   { p: "This process works well for logos, brand names, patterns, and decorative details." },
 
   { h2: "Different Types of Foil Stamping" },
-  { img: { src: "/types-of-foil-stamping.webp", alt: "Types of Foil Stamping", width: 780, height: 520 } },
+  { img: { src: "/images/types-of-foil-stamping.webp", alt: "Types of Foil Stamping", width: 780, height: 520 } },
   { p: "Several types of foil stamping are used in custom packaging. Each method offers a different look and works best for certain designs and materials." },
   { h3: "1. Hot Foil Stamping" },
   { p: "Hot foil stamping is one of the most common methods. It uses a heated metal die to transfer foil onto paperboard, cardboard, and other packaging surfaces." },

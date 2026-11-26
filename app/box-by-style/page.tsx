@@ -24,7 +24,7 @@ export const metadata: Metadata = withSeo("/box-by-style/", {
     "Choose your custom box by style: tuck end, auto lock, pillow, gable and handle boxes, plus luxury book, magnetic, two-piece and drawer styles. No minimum order and free shipping.",
 });
 
-const instagram = ["/cat-cbd.webp", "/cat-magnetic.webp", "/ig-cake.webp", "/ig-cookie.webp", "/ig-pastry.webp", "/cat-cosmetic.webp"];
+const instagram = ["/images/cat-cbd.webp", "/images/cat-magnetic.webp", "/images/ig-cake.webp", "/images/ig-cookie.webp", "/images/ig-pastry.webp", "/images/cat-cosmetic.webp"];
 
 // [card label, product slug], in the order shown on packlegacy.com/box-by-style/.
 const trendy: [string, string][] = [
@@ -139,9 +139,9 @@ export default function BoxByStylePage() {
                   <strong>5.0</strong> <span className="cb-stars" aria-label="5 out of 5 stars">★★★★★</span>
                   <small>Verified Customer Reviews</small>
                 </a>
-                <a {...reviewLinkProps("clutch")}><img src={"/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={26} /></a>
-                <a {...reviewLinkProps("bark")}><img src={"/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={26} /></a>
-                <a {...reviewLinkProps("trustpilot")}><img src={"/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={26} /></a>
+                <a {...reviewLinkProps("clutch")}><img src={"/images/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={26} /></a>
+                <a {...reviewLinkProps("bark")}><img src={"/images/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={26} /></a>
+                <a {...reviewLinkProps("trustpilot")}><img src={"/images/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={26} /></a>
               </div>
             </section>
 

@@ -24,7 +24,7 @@ export const metadata: Metadata = withSeo("/for-ai-agents/", {
     "How AI assistants can discover Pack Legacy custom packaging, explore materials and finishes, and prepare quote requests through MCP and A2A integrations.",
 });
 
-const ROBOT = "/friendly-green-chatbot-mascot.webp";
+const ROBOT = "/images/friendly-green-chatbot-mascot.webp";
 
 const toc = [
   { id: "overview", title: "Overview" },

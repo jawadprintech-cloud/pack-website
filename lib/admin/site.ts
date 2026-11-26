@@ -251,9 +251,9 @@ export async function create(kind: string, title: string, slug: string, copyFrom
     if (!name) throw new AdminError("The article list could not be read");
     const nextIndex = src.insertFirst(ARTICLES, index, name, `${key}: ${id}`).replace(/(import type \{ Article \}[^\n]*\n)/, `$1import ${id} from ${JSON.stringify("./" + slug)};\n`);
     const nextPosts = src.insertFirst(POSTS, await readText(POSTS), "blogPosts",
-      `{ slug: ${key}, title: ${JSON.stringify(title)}, date: "${today}", category: "Informative", image: "/feature-blog.webp", excerpt: "Write a short summary here." }`);
+      `{ slug: ${key}, title: ${JSON.stringify(title)}, date: "${today}", category: "Informative", image: "/images/feature-blog.webp", excerpt: "Write a short summary here." }`);
     const nextOver = src.insertFirst(OVERVIEWS, await readText(OVERVIEWS), "blogOverviews", `${key}: "Write the overview here."`);
-    await writeFile(article, `import type { Article } from "./types";\n\nconst article: Article = [\n  { p: "Write your introduction here." },\n  { h2: "First heading" },\n  { p: "Write a paragraph here." },\n  { ul: ["First point", "Second point"] },\n  { img: { src: "/feature-blog.webp", alt: "Describe the image", width: 780, height: 520 } },\n  { tip: "Write a tip here." },\n];\n\nexport default article;\n`);
+    await writeFile(article, `import type { Article } from "./types";\n\nconst article: Article = [\n  { p: "Write your introduction here." },\n  { h2: "First heading" },\n  { p: "Write a paragraph here." },\n  { ul: ["First point", "Second point"] },\n  { img: { src: "/images/feature-blog.webp", alt: "Describe the image", width: 780, height: 520 } },\n  { tip: "Write a tip here." },\n];\n\nexport default article;\n`);
     await writeFile(ARTICLES, nextIndex);
     await writeFile(OVERVIEWS, nextOver);
     await writeFile(POSTS, nextPosts);

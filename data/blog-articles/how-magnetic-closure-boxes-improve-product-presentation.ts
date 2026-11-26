@@ -9,7 +9,7 @@ const article: Article = [
   { p: "In this guide, we will explore how magnetic closure boxes improve product presentation, why brands use them, which products benefit most, and whether they are worth the investment." },
 
   { h2: "More Premium First Impression" },
-  { img: { src: "/more-premium-first-impression.webp", alt: "More Premium First Impression", width: 780, height: 520 } },
+  { img: { src: "/images/more-premium-first-impression.webp", alt: "More Premium First Impression", width: 780, height: 520 } },
   { p: "Customers judge your product before touching it, from the packaging around it. A magnetic closure box immediately creates a different impression because of its solid structure and clean appearance. These boxes are different from the ordinary lightweight cartons that may bend, crease, or lose their shape. [Rigid boxes](/rigid-boxes/) keep a neat and professional look." },
   { p: "This matters because packaging becomes a signal of what customers expect from the product. For example, if you are launching a skincare collection, the way you present different products influences how customers perceive the value of your brand." },
   { p: "Instead of placing bottles randomly inside any folding carton where they look ordinary, you can use a magnetic closure box with custom compartments to create a more organized and thoughtful presentation. In these boxes, you get a chance to put each product in its place, highlight your brand message, and the overall packaging reflects the quality customers expect from luxury brands." },
@@ -25,7 +25,7 @@ const article: Article = [
   { p: "The magnetic closure adds another small but noticeable detail. The secure closing movement gives the box a finished feel and reinforces the idea that the packaging has been carefully designed." },
 
   { h2: "Product Arrangement and Interior Presentation" },
-  { img: { src: "/product-arrangement-and-interior-presentation.webp", alt: "Product Arrangement and Interior Presentation", width: 780, height: 520 } },
+  { img: { src: "/images/product-arrangement-and-interior-presentation.webp", alt: "Product Arrangement and Interior Presentation", width: 780, height: 520 } },
   { p: "No matter how well-designed the exterior is, it can lose its impact if the inside of the box looks unorganized." },
   { p: "Magnetic closure boxes allow brands to use [custom packaging inserts](/packaging-inserts/) and compartments that keep products positioned correctly. This creates a cleaner presentation and prevents products from appearing randomly placed inside the package." },
   { p: "This is particularly useful for product sets. A skincare brand offering a cleanser, serum, moisturizer, and accessories can use a fitted insert to present each item separately. Similarly, a corporate gift box containing stationery, electronics, accessories, or promotional items can use internal compartments to maintain a professional appearance." },
@@ -94,7 +94,7 @@ const article: Article = [
   { p: "When the packaging looks as good on screen as it does in person, customers get a clearer idea of what to expect from the product. For online brands, that can help create a more consistent presentation from the first image to the moment the package is opened." },
 
   { h2: "Which Brands Benefit More From Magnetic Closure Boxes?" },
-  { img: { src: "/which-brands-benefit-more-from-magnetic-closure-boxes.webp", alt: "Which Brands Benefit More From Magnetic Closure Boxes", width: 780, height: 520 } },
+  { img: { src: "/images/which-brands-benefit-more-from-magnetic-closure-boxes.webp", alt: "Which Brands Benefit More From Magnetic Closure Boxes", width: 780, height: 520 } },
   { p: "All those brands that need a presentation to impress their customers and it affects their buying decision can benefit from magnetic closure boxes. They give brands a structured box, a cleaner and smoother opening experience, and more room to present the product neatly." },
   { p: "Luxury beauty brands can use them to give skincare and cosmetics a more organized presentation,an easy-on-the-eyes look, especially when the products are sold as gifts. Fragrance brands can use the box to make the opening feel more deliberate and match the premium positioning of the product." },
   { p: "For jewellery and watches, a structured box can keep smaller items secure and present them neatly when the lid is opened. Corporate brands can use magnetic boxes for client gifts and employee packages when they want the packaging to look more polished than standard [gift boxes.](/gift-boxes/)" },

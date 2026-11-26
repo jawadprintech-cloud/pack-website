@@ -6,10 +6,10 @@
   "metaDescription": "Order 123 bottom boxes, also known as snap lock bottom boxes, at wholesale rates. Available in custom sizes, shapes, and styles. Free Shipping & No Minimums.",
   "category": "Folding Cartons",
   "gallery": [
-   "/123-bottom-boxes-folding-cartons.webp",
-   "/123-bottom-box-with-window-folding-cartons.webp",
-   "/custom-123-bottom-box-folding-cartons.webp",
-   "/custom-printed-123-bottom-boxes-folding-cartons.webp"
+   "/images/123-bottom-boxes-folding-cartons.webp",
+   "/images/123-bottom-box-with-window-folding-cartons.webp",
+   "/images/custom-123-bottom-box-folding-cartons.webp",
+   "/images/custom-printed-123-bottom-boxes-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -209,22 +209,22 @@
    {
     "name": "Pillow Boxes",
     "href": "/product/pillow-boxes/",
-    "img": "/pillow-box-folding-cartons.webp"
+    "img": "/images/pillow-box-folding-cartons.webp"
    },
    {
     "name": "Handle Boxes",
     "href": "/product/handle-boxes/",
-    "img": "/handle-boxes-folding-cartons.webp"
+    "img": "/images/handle-boxes-folding-cartons.webp"
    },
    {
     "name": "Gable Boxes",
     "href": "/product/gable-boxes/",
-    "img": "/gable-box-folding-cartons.webp"
+    "img": "/images/gable-box-folding-cartons.webp"
    },
    {
     "name": "Auto Lock Bottom Boxes",
     "href": "/product/auto-lock-bottom-boxes/",
-    "img": "/auto-lock-bottom-box-folding-cartons.webp"
+    "img": "/images/auto-lock-bottom-box-folding-cartons.webp"
    }
   ]
  },
@@ -235,10 +235,10 @@
   "metaDescription": "Order custom auto lock bottom boxes designed for strength, convenience, and product protection. Available in custom sizes, materials, prints, and premium finishes at wholesale prices.",
   "category": "Folding Cartons",
   "gallery": [
-   "/auto-lock-bottom-box-folding-cartons.webp",
-   "/custom-auto-lock-bottom-box-folding-cartons.webp",
-   "/auto-lock-bottom-boxes-with-window-folding-cartons.webp",
-   "/auto-lock-bottom-box-with-qrcode-folding-cartons.webp"
+   "/images/auto-lock-bottom-box-folding-cartons.webp",
+   "/images/custom-auto-lock-bottom-box-folding-cartons.webp",
+   "/images/auto-lock-bottom-boxes-with-window-folding-cartons.webp",
+   "/images/auto-lock-bottom-box-with-qrcode-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -475,22 +475,22 @@
    {
     "name": "Reverse Tuck End Boxes",
     "href": "/product/reverse-tuck-end-boxes/",
-    "img": "/reverse-tuck-end-box-2.webp"
+    "img": "/images/reverse-tuck-end-box-2.webp"
    },
    {
     "name": "Roll End Tuck Top Boxes",
     "href": "/product/roll-end-tuck-top-boxes/",
-    "img": "/custom-roll-end-tuck-top-boxes-folding-cartons.webp"
+    "img": "/images/custom-roll-end-tuck-top-boxes-folding-cartons.webp"
    },
    {
     "name": "123 Bottom Boxes",
     "href": "/product/123-bottom-boxes/",
-    "img": "/123-bottom-boxes-folding-cartons.webp"
+    "img": "/images/123-bottom-boxes-folding-cartons.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-box-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-box-folding-cartons.webp"
    }
   ]
  },
@@ -501,10 +501,10 @@
   "metaDescription": "Black mailer boxes in custom sizes and logo printing at wholesale prices. Order wholesale black mailer boxes and enjoy fast, hassle-free shipping!",
   "category": "Mailer Boxes",
   "gallery": [
-   "/black-mailer-mailer.webp",
-   "/printed-black-mailer-boxes-mailer.webp",
-   "/handle-black-mailer-box-mailer.webp",
-   "/black-mailer-with-window-mailer.webp"
+   "/images/black-mailer-mailer.webp",
+   "/images/printed-black-mailer-boxes-mailer.webp",
+   "/images/handle-black-mailer-box-mailer.webp",
+   "/images/black-mailer-with-window-mailer.webp"
   ],
   "hero": {
    "body": [
@@ -728,22 +728,22 @@
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Subscription Boxes",
     "href": "/product/subscription-boxes/",
-    "img": "/subscription-boxes-1-mailer.webp"
+    "img": "/images/subscription-boxes-1-mailer.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    },
    {
     "name": "PR Boxes",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  },
@@ -754,10 +754,10 @@
   "metaDescription": "Get custom cardboard packaging dividers in any size with quality printing. Keep products organized, protected, and securely separated during shipping.",
   "category": "Packaging Inserts",
   "gallery": [
-   "/cardboard-box-divider-packaging-inserts.webp",
-   "/cardboard-box-dividers-1-packaging-inserts.webp",
-   "/cardboard-divider-packaging-inserts.webp",
-   "/mailer-boxes-with-cardboard-dividers-packaging-inserts.webp"
+   "/images/cardboard-box-divider-packaging-inserts.webp",
+   "/images/cardboard-box-dividers-1-packaging-inserts.webp",
+   "/images/cardboard-divider-packaging-inserts.webp",
+   "/images/mailer-boxes-with-cardboard-dividers-packaging-inserts.webp"
   ],
   "hero": {
    "body": [
@@ -967,22 +967,22 @@
    {
     "name": "Die Cut Inserts",
     "href": "/product/die-cut-inserts/",
-    "img": "/printed-die-cut-inserts-packaging-inserts.webp"
+    "img": "/images/printed-die-cut-inserts-packaging-inserts.webp"
    },
    {
     "name": "EVA Foam Inserts",
     "href": "/product/eva-foam-inserts/",
-    "img": "/eva-foam-packaging-inserts.webp"
+    "img": "/images/eva-foam-packaging-inserts.webp"
    },
    {
     "name": "Cardboard Inserts",
     "href": "/product/cardboard-inserts/",
-    "img": "/cardboard-inserts-packaging-inserts.webp"
+    "img": "/images/cardboard-inserts-packaging-inserts.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-boxe-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-boxe-folding-cartons.webp"
    }
   ]
  },
@@ -993,10 +993,10 @@
   "metaDescription": "Cardboard counter top displays to showcase and sell multiple items easily at checkout counters. Order countertop displays today and enjoy free shipping!",
   "category": "Display Boxes",
   "gallery": [
-   "/cardboard-counter-top-display-display.webp",
-   "/cardboard-counter-top-displays-display.webp",
-   "/counter-top-displays-display.webp",
-   "/custom-cardboard-counter-top-displays-display.webp"
+   "/images/cardboard-counter-top-display-display.webp",
+   "/images/cardboard-counter-top-displays-display.webp",
+   "/images/counter-top-displays-display.webp",
+   "/images/custom-cardboard-counter-top-displays-display.webp"
   ],
   "hero": {
    "body": [
@@ -1215,22 +1215,22 @@
    {
     "name": "Perforated Boxes",
     "href": "/product/perforated-boxes/",
-    "img": "/custom-perforated-boxes-display.webp"
+    "img": "/images/custom-perforated-boxes-display.webp"
    },
    {
     "name": "Dispenser Boxes",
     "href": "/product/dispenser-boxes/",
-    "img": "/custom-dispenser-boxes-display.webp"
+    "img": "/images/custom-dispenser-boxes-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-display-boxes-1-display.webp"
+    "img": "/images/custom-pdq-display-boxes-1-display.webp"
    },
    {
     "name": "Pop-up Display Boxes",
     "href": "/product/pop-up-display-boxes/",
-    "img": "/custom-pop-up-display-boxes-pic-display.webp"
+    "img": "/images/custom-pop-up-display-boxes-pic-display.webp"
    }
   ]
  },
@@ -1241,10 +1241,10 @@
   "metaDescription": "Protect and organize your products with custom cardboard inserts featuring sturdy dividers for a perfect fit, secure packaging, and a premium unboxing experience.",
   "category": "Packaging Inserts",
   "gallery": [
-   "/printed-cardboard-insert-packaging-inserts.webp",
-   "/kraft-cardboard-insert-packaging-inserts.webp",
-   "/cardboard-insert-packaging-packaging-inserts.webp",
-   "/black-cardboard-insert-packaging-inserts.webp"
+   "/images/printed-cardboard-insert-packaging-inserts.webp",
+   "/images/kraft-cardboard-insert-packaging-inserts.webp",
+   "/images/cardboard-insert-packaging-packaging-inserts.webp",
+   "/images/black-cardboard-insert-packaging-inserts.webp"
   ],
   "hero": {
    "body": [
@@ -1508,22 +1508,22 @@
    {
     "name": "Die Cut Inserts",
     "href": "/product/die-cut-inserts/",
-    "img": "/printed-die-cut-inserts-packaging-inserts.webp"
+    "img": "/images/printed-die-cut-inserts-packaging-inserts.webp"
    },
    {
     "name": "EVA Foam Inserts",
     "href": "/product/eva-foam-inserts/",
-    "img": "/eva-foam-packaging-inserts.webp"
+    "img": "/images/eva-foam-packaging-inserts.webp"
    },
    {
     "name": "Cardboard Box Dividers",
     "href": "/product/cardboard-box-dividers/",
-    "img": "/cardboard-box-divider-packaging-inserts.webp"
+    "img": "/images/cardboard-box-divider-packaging-inserts.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-boxe-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-boxe-folding-cartons.webp"
    }
   ]
  },
@@ -1534,10 +1534,10 @@
   "metaDescription": "CBD cream boxes with child-resistant features, compliant labels, and logo printing. Get custom CBD cream boxes with free design support and free shipping!",
   "category": "CBD Boxes",
   "gallery": [
-   "/cbd-cream-box-cbd.webp",
-   "/cbd-cream-boxes-2.webp",
-   "/printed-cbd-cream-boxes-cbd.webp",
-   "/rigid-cbd-cream-boxes-cbd.webp"
+   "/images/cbd-cream-box-cbd.webp",
+   "/images/cbd-cream-boxes-2.webp",
+   "/images/printed-cbd-cream-boxes-cbd.webp",
+   "/images/rigid-cbd-cream-boxes-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -1770,22 +1770,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    }
   ]
  },
@@ -1796,10 +1796,10 @@
   "metaDescription": "Shop custom CBD crumble boxes with premium printing, durable materials, and luxury finishes to set your brand apart. Order now and get free shipping.",
   "category": "CBD Boxes",
   "gallery": [
-   "/cbd-crumble-boxes-cbd.webp",
-   "/cbd-crumble-boxes-with-window-cbd.webp",
-   "/dispay-cbd-crumble-box-cbd.webp",
-   "/drawer-cbd-crumble-boxes-cbd.webp"
+   "/images/cbd-crumble-boxes-cbd.webp",
+   "/images/cbd-crumble-boxes-with-window-cbd.webp",
+   "/images/dispay-cbd-crumble-box-cbd.webp",
+   "/images/drawer-cbd-crumble-boxes-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -2022,22 +2022,22 @@
    {
     "name": "CBD Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Gummies Boxes",
     "href": "/product/cbd-gummies-boxes/",
-    "img": "/printed-cbd-gummies-boxes-cbd.webp"
+    "img": "/images/printed-cbd-gummies-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "Vape Boxes",
     "href": "/product/vape-boxes/",
-    "img": "/vape-boxes-cbd.webp"
+    "img": "/images/vape-boxes-cbd.webp"
    }
   ]
  },
@@ -2048,10 +2048,10 @@
   "metaDescription": "CBD gummies boxes with child-resistant lock, custom sizes, and logo printing at wholesale prices. Order wholesale CBD gummies boxes now and enjoy free shipping!",
   "category": "CBD Boxes",
   "gallery": [
-   "/printed-cbd-gummies-boxes-cbd.webp",
-   "/drawer-cbd-gummies-boxes-cbd.webp",
-   "/cbd-gummies-box-with-window-cbd.webp",
-   "/cbd-dsplay-gummies-boxe-cbd.webp"
+   "/images/printed-cbd-gummies-boxes-cbd.webp",
+   "/images/drawer-cbd-gummies-boxes-cbd.webp",
+   "/images/cbd-gummies-box-with-window-cbd.webp",
+   "/images/cbd-dsplay-gummies-boxe-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -2274,22 +2274,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -2300,10 +2300,10 @@
   "metaDescription": "CBD lotion boxes made from high-quality materials with child-resistant locks to protect CBD lotions. Order wholesale CBD lotion boxes and get free shipping!",
   "category": "CBD Boxes",
   "gallery": [
-   "/cbd-display-lotion-box-cbd.webp",
-   "/cbd-lotion-box-with-window-cbd.webp",
-   "/cbd-mailer-lotion-box-cbd.webp",
-   "/cbd-rigid-lotion-box-cbd.webp"
+   "/images/cbd-display-lotion-box-cbd.webp",
+   "/images/cbd-lotion-box-with-window-cbd.webp",
+   "/images/cbd-mailer-lotion-box-cbd.webp",
+   "/images/cbd-rigid-lotion-box-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -2567,22 +2567,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    }
   ]
  },
@@ -2593,10 +2593,10 @@
   "metaDescription": "CBD oil boxes made from high-quality materials to protect fragile glass bottles and keep your CBD oils secure. Wholesale prices and free shipping available—Order Today!",
   "category": "CBD Boxes",
   "gallery": [
-   "/window-cbd-oil-box-cbd.webp",
-   "/display-cbd-oil-boxes-cbd.webp",
-   "/cbd-oil-boxes-with-hang-tab-cbd.webp",
-   "/cbd-oil-boxes.webp"
+   "/images/window-cbd-oil-box-cbd.webp",
+   "/images/display-cbd-oil-boxes-cbd.webp",
+   "/images/cbd-oil-boxes-with-hang-tab-cbd.webp",
+   "/images/cbd-oil-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -2852,22 +2852,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -2878,10 +2878,10 @@
   "metaDescription": "CBD pre-roll display boxes with logo and custom sizes at wholesale prices. Get custom CBD pre-roll display boxes with no minimums and enjoy free shipping!",
   "category": "CBD Boxes",
   "gallery": [
-   "/custom-cbd-pre-roll-display-box-cbd.webp",
-   "/custom-cbd-pre-roll-display-boxes-cbd.webp",
-   "/kraft-cbd-pre-roll-display-boxes-cbd.webp",
-   "/printed-custom-cbd-pre-roll-display-cbd.webp"
+   "/images/custom-cbd-pre-roll-display-box-cbd.webp",
+   "/images/custom-cbd-pre-roll-display-boxes-cbd.webp",
+   "/images/kraft-cbd-pre-roll-display-boxes-cbd.webp",
+   "/images/printed-custom-cbd-pre-roll-display-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -3139,22 +3139,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    }
   ]
  },
@@ -3165,10 +3165,10 @@
   "metaDescription": "Order CBD pre-roll packaging at wholesale prices and enjoy fast, free shipping! CBD pre-roll boxes in custom sizes, styles, and logo printing with no MOQs.",
   "category": "CBD Boxes",
   "gallery": [
-   "/cbd-pre-roll-packaging-cbd.webp",
-   "/drawer-cbd-pre-roll-packaging-cbd.webp",
-   "/display-cbd-pre-roll-packaging-cbd.webp",
-   "/cbd-pre-roll-packaging-with-window-cbd.webp"
+   "/images/cbd-pre-roll-packaging-cbd.webp",
+   "/images/drawer-cbd-pre-roll-packaging-cbd.webp",
+   "/images/display-cbd-pre-roll-packaging-cbd.webp",
+   "/images/cbd-pre-roll-packaging-with-window-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -3406,22 +3406,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -3432,10 +3432,10 @@
   "metaDescription": "CBD tincture boxes in custom sizes, leak-proof designs, and logo printing at wholesale prices. Order wholesale CBD tincture boxes now!",
   "category": "CBD Boxes",
   "gallery": [
-   "/cbd-tincture-boxes-packaging-cbd.webp",
-   "/cbd-tincture-boxes-pack-cbd.webp",
-   "/custom-mailer-cbd-tincture-cbd.webp",
-   "/display-cbd-tincture-box-cbd.webp"
+   "/images/cbd-tincture-boxes-packaging-cbd.webp",
+   "/images/cbd-tincture-boxes-pack-cbd.webp",
+   "/images/custom-mailer-cbd-tincture-cbd.webp",
+   "/images/display-cbd-tincture-box-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -3774,22 +3774,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -3800,10 +3800,10 @@
   "metaDescription": "Preserve and present your oriental dishes in appealing Chinese takeout boxes! Fast turnaround, free design support, and free shipping are available.",
   "category": "Food Boxes",
   "gallery": [
-   "/chinese-takeout-boxes-2.webp",
-   "/chinese-takeout-box-with-window-food.webp",
-   "/mailer-chinese-takeout-boxes-food.webp",
-   "/printed-chinese-takeout-boxes.webp"
+   "/images/chinese-takeout-boxes-2.webp",
+   "/images/chinese-takeout-box-with-window-food.webp",
+   "/images/mailer-chinese-takeout-boxes-food.webp",
+   "/images/printed-chinese-takeout-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -4077,22 +4077,22 @@
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Cookie boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/custom-mailer-cookie-boxes-bakery.webp"
+    "img": "/images/custom-mailer-cookie-boxes-bakery.webp"
    },
    {
     "name": "Truffle Boxes",
     "href": "/product/truffle-boxes/",
-    "img": "/truffle-boxes-food.webp"
+    "img": "/images/truffle-boxes-food.webp"
    }
   ]
  },
@@ -4103,10 +4103,10 @@
   "metaDescription": "Shop premium coffee packaging bags with resealable closures, degassing valves, and durable barrier films. Order wholesale coffee bags with free shipping!",
   "category": "Mylar Bags",
   "gallery": [
-   "/coffee-packaging-bags-with-window-mylar.webp",
-   "/luxury-coffee-packaging-bag-mylar.webp",
-   "/mylar-coffee-bag-mylar.webp",
-   "/printed-coffee-packaging-bags-mylar.webp"
+   "/images/coffee-packaging-bags-with-window-mylar.webp",
+   "/images/luxury-coffee-packaging-bag-mylar.webp",
+   "/images/mylar-coffee-bag-mylar.webp",
+   "/images/printed-coffee-packaging-bags-mylar.webp"
   ],
   "hero": {
    "body": [
@@ -4330,10 +4330,10 @@
   "metaDescription": "Order collapsible rigid packaging with magnetic closure, custom inserts, and premium finishes. Ideal for luxury retail, ecommerce, and gift packaging.",
   "category": "Rigid Boxes",
   "gallery": [
-   "/collapsible-rigid-boxes-rigid.webp",
-   "/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp",
-   "/collapsible-rigid-boxes-1-rigid.webp",
-   "/printed-collapsible-rigid-boxes-rigid.webp"
+   "/images/collapsible-rigid-boxes-rigid.webp",
+   "/images/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp",
+   "/images/collapsible-rigid-boxes-1-rigid.webp",
+   "/images/printed-collapsible-rigid-boxes-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -4558,22 +4558,22 @@
    {
     "name": "Two Piece Rigid Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "Shoulder Neck Rigid Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    }
   ]
  },
@@ -4584,10 +4584,10 @@
   "metaDescription": "Get colored mailer boxes to turn every delivery into brand advertising! Custom sizes, logo printing, and wholesale pricing are available—Get a Free Quote!",
   "category": "Mailer Boxes",
   "gallery": [
-   "/single-color-mailer-box-mailer.webp",
-   "/printed-color-mailer-box-mailer.webp",
-   "/custom-colored-mailer-box-with-handle-mailer.webp",
-   "/colored-mailer-boxes-pic-mailer.webp"
+   "/images/single-color-mailer-box-mailer.webp",
+   "/images/printed-color-mailer-box-mailer.webp",
+   "/images/custom-colored-mailer-box-with-handle-mailer.webp",
+   "/images/colored-mailer-boxes-pic-mailer.webp"
   ],
   "hero": {
    "body": [
@@ -4782,22 +4782,22 @@
    {
     "name": "Gift Boxes",
     "href": "/gift-boxes/",
-    "img": "/a-loved-choice-for-gifting-mailer.webp"
+    "img": "/images/a-loved-choice-for-gifting-mailer.webp"
    },
    {
     "name": "White Mailer Boxes",
     "href": "/product/white-mailer-boxes/",
-    "img": "/white-mailer-mailer.webp"
+    "img": "/images/white-mailer-mailer.webp"
    },
    {
     "name": "Black Mailer Boxes",
     "href": "/product/black-mailer-boxes/",
-    "img": "/black-mailer-mailer.webp"
+    "img": "/images/black-mailer-mailer.webp"
    },
    {
     "name": "PR Boxes",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  },
@@ -4808,10 +4808,10 @@
   "metaDescription": "Corrugated mailer boxes designed for strength and style at wholesale prices. Perfect for e‑commerce shipments and subscription kits—Order Now with No MOQs!",
   "category": "Mailer Boxes",
   "gallery": [
-   "/printed-corrugated-mailer-box-mailer.webp",
-   "/custom-corrugated-mailer-box-mailer.webp",
-   "/corrugated-mailer-box-with-card-mailer.webp",
-   "/corrugated-mailer-box-mailer.webp"
+   "/images/printed-corrugated-mailer-box-mailer.webp",
+   "/images/custom-corrugated-mailer-box-mailer.webp",
+   "/images/corrugated-mailer-box-with-card-mailer.webp",
+   "/images/corrugated-mailer-box-mailer.webp"
   ],
   "hero": {
    "body": [
@@ -5014,22 +5014,22 @@
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Subscription Boxes",
     "href": "/product/subscription-boxes/",
-    "img": "/subscription-boxes-1-mailer.webp"
+    "img": "/images/subscription-boxes-1-mailer.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    },
    {
     "name": "PR Boxes",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  },
@@ -5040,10 +5040,10 @@
   "metaDescription": "Order custom accessory boxes designed for jewelry, watches, and fashion items. Fast turnaround, free design support, and bulk discounts available.",
   "category": "Apparel Boxes",
   "gallery": [
-   "/display-accessory-boxes-apparel.webp",
-   "/drawer-accessory-box-apparel.webp",
-   "/printed-accessory-boxes-apparel.webp",
-   "/custom-accessory-boxes.webp"
+   "/images/display-accessory-boxes-apparel.webp",
+   "/images/drawer-accessory-box-apparel.webp",
+   "/images/printed-accessory-boxes-apparel.webp",
+   "/images/custom-accessory-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -5289,22 +5289,22 @@
    {
     "name": "Display Boxes",
     "href": "/display-boxes/",
-    "img": "/custom-display-boxes-apparel.webp"
+    "img": "/images/custom-display-boxes-apparel.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Two Piece Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    }
   ]
  },
@@ -5315,10 +5315,10 @@
   "metaDescription": "Order custom archive boxes for secure and organized document storage. Available in multiple sizes with wholesale pricing, fast delivery, and free shipping!",
   "category": "Retail Boxes",
   "gallery": [
-   "/archive-box-retail.webp",
-   "/archive-boxes-with-window-retail.webp",
-   "/archive-box-with-handle-retail.webp",
-   "/two-piece-archive-boxes-retail.webp"
+   "/images/archive-box-retail.webp",
+   "/images/archive-boxes-with-window-retail.webp",
+   "/images/archive-box-with-handle-retail.webp",
+   "/images/two-piece-archive-boxes-retail.webp"
   ],
   "hero": {
    "body": [
@@ -5627,22 +5627,22 @@
    {
     "name": "Business Card Boxes",
     "href": "/product/business-card-boxes/",
-    "img": "/tuck-top-business-card-box-retail.webp"
+    "img": "/images/tuck-top-business-card-box-retail.webp"
    },
    {
     "name": "Cube Boxes",
     "href": "/product/cube-boxes/",
-    "img": "/cube-boxes-retail.webp"
+    "img": "/images/cube-boxes-retail.webp"
    },
    {
     "name": "Display Boxes",
     "href": "/display-boxes/",
-    "img": "/custom-display-boxes-apparel.webp"
+    "img": "/images/custom-display-boxes-apparel.webp"
    },
    {
     "name": "Game Boxes",
     "href": "/product/game-boxes/",
-    "img": "/game-boxes-retail.webp"
+    "img": "/images/game-boxes-retail.webp"
    }
   ]
  },
@@ -5653,10 +5653,10 @@
   "metaDescription": "Custom bagel boxes designed to keep bagels fresh, prevent crushing, and showcase your brand. Custom sizes, wholesale prices. Order Yours Now!",
   "category": "Bakery Boxes",
   "gallery": [
-   "/custom-bagel-boxes-bakery.webp",
-   "/custom-gable-bagel-boxes-bakery.webp",
-   "/printed-bagel-boxes-bakery.webp",
-   "/window-bagel-boxes-bakery.webp"
+   "/images/custom-bagel-boxes-bakery.webp",
+   "/images/custom-gable-bagel-boxes-bakery.webp",
+   "/images/printed-bagel-boxes-bakery.webp",
+   "/images/window-bagel-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -5935,22 +5935,22 @@
    {
     "name": "Pillow Boxes",
     "href": "/product/pillow-boxes/",
-    "img": "/pillow-box-folding-cartons.webp"
+    "img": "/images/pillow-box-folding-cartons.webp"
    },
    {
     "name": "Gable Boxes",
     "href": "/product/gable-boxes/",
-    "img": "/gable-box-folding-cartons.webp"
+    "img": "/images/gable-box-folding-cartons.webp"
    },
    {
     "name": "Window Boxes",
     "href": "/product/window-boxes/",
-    "img": "/cake-window-boxes-retail.webp"
+    "img": "/images/cake-window-boxes-retail.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    }
   ]
  },
@@ -5961,10 +5961,10 @@
   "metaDescription": "Order custom bath bomb boxes in any size and shape, with logo printing. Wholesale bath bomb boxes with free shipping and no minimums—Get Yours Today!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/bath-bomb-cosmetic.webp",
-   "/bath-bomb-boxes-with-window-cosmetic.webp",
-   "/display-bath-bomb-box-cosmetic.webp",
-   "/two-piece-bath-bomb-boxes-cosmetic.webp"
+   "/images/bath-bomb-cosmetic.webp",
+   "/images/bath-bomb-boxes-with-window-cosmetic.webp",
+   "/images/display-bath-bomb-box-cosmetic.webp",
+   "/images/two-piece-bath-bomb-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -6236,22 +6236,22 @@
    {
     "name": "Die-Cut Boxes",
     "href": "/product/die-cut-boxes/",
-    "img": "/die-cut-boxes-gift.webp"
+    "img": "/images/die-cut-boxes-gift.webp"
    },
    {
     "name": "Packaging Sleeves",
     "href": "/product/packaging-sleeves/",
-    "img": "/printed-packaging-sleeves-retail.webp"
+    "img": "/images/printed-packaging-sleeves-retail.webp"
    },
    {
     "name": "Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Soap Boxes",
     "href": "/soap-boxes/",
-    "img": "/custom-soap-boxes-soap.webp"
+    "img": "/images/custom-soap-boxes-soap.webp"
    }
   ]
  },
@@ -6262,10 +6262,10 @@
   "metaDescription": "Custom blind boxes to surprise your customers, ideal for toys, cosmetics, and games, with no MOQ and free shipping.",
   "category": "Gift Boxes",
   "gallery": [
-   "/blind-box-gift.webp",
-   "/custom-blind-box-gift.webp",
-   "/custom-display-blind-boxes-gift.webp",
-   "/custom-blind-box-with-window-gift.webp"
+   "/images/blind-box-gift.webp",
+   "/images/custom-blind-box-gift.webp",
+   "/images/custom-display-blind-boxes-gift.webp",
+   "/images/custom-blind-box-with-window-gift.webp"
   ],
   "hero": {
    "body": [
@@ -6489,10 +6489,10 @@
   "metaDescription": "Design custom book boxes with exact sizes, selected materials, and unique printing with us! Get premium book packaging boxes at no MOQ and free shipping!",
   "category": "Rigid Boxes",
   "gallery": [
-   "/printed-book-boxes-rigid.webp",
-   "/rigid-book-box-rigid.webp",
-   "/book-boxes-rigid.webp",
-   "/mailer-book-boxes-rigid.webp"
+   "/images/printed-book-boxes-rigid.webp",
+   "/images/rigid-book-box-rigid.webp",
+   "/images/book-boxes-rigid.webp",
+   "/images/mailer-book-boxes-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -6773,22 +6773,22 @@
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-box-with-book-rigid.webp"
+    "img": "/images/mailer-box-with-book-rigid.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-box1z-rigid.webp"
+    "img": "/images/rigid-drawer-box1z-rigid.webp"
    },
    {
     "name": "Two Piece Rigid Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    }
   ]
  },
@@ -6799,10 +6799,10 @@
   "metaDescription": "Order custom burger boxes with your logo in any size, material or style. Get wholesale pricing, no fixed MOQ, free design support and free USA shipping. Request a quote.",
   "category": "Food Boxes",
   "gallery": [
-   "/custom-burger-boxes-food.webp",
-   "/custom-burger-box-food.webp",
-   "/kraft-burger-boxes-food.webp",
-   "/printed-burger-box-food.webp"
+   "/images/custom-burger-boxes-food.webp",
+   "/images/custom-burger-box-food.webp",
+   "/images/kraft-burger-boxes-food.webp",
+   "/images/printed-burger-box-food.webp"
   ],
   "hero": {
    "body": [
@@ -7477,22 +7477,22 @@
    {
     "name": "Cereal Boxes",
     "href": "/product/cereal-boxes/",
-    "img": "/cereal-boxes-food.webp"
+    "img": "/images/cereal-boxes-food.webp"
    },
    {
     "name": "French Fry Boxes",
     "href": "/product/french-fry-boxes/",
-    "img": "/french-fries.1-food.webp"
+    "img": "/images/french-fries.1-food.webp"
    },
    {
     "name": "Pizza Boxes",
     "href": "/product/pizza-boxes/",
-    "img": "/handle-pizza-boxes-food.webp"
+    "img": "/images/handle-pizza-boxes-food.webp"
    },
    {
     "name": "Popcorn Boxes",
     "href": "/product/popcorn-boxes/",
-    "img": "/popcorn-boxes-food.webp"
+    "img": "/images/popcorn-boxes-food.webp"
    }
   ]
  },
@@ -7503,10 +7503,10 @@
   "metaDescription": "Order premium business card boxes designed for durability and professional presentation. Business card boxes with free shipping from Pack Legacy.",
   "category": "Retail Boxes",
   "gallery": [
-   "/business-card-boxes-retail.webp",
-   "/rigid-business-card-boxes-retail.webp",
-   "/tuck-top-business-card-box-retail.webp",
-   "/window-business-card-boxes-retail.webp"
+   "/images/business-card-boxes-retail.webp",
+   "/images/rigid-business-card-boxes-retail.webp",
+   "/images/tuck-top-business-card-box-retail.webp",
+   "/images/window-business-card-boxes-retail.webp"
   ],
   "hero": {
    "body": [
@@ -7823,22 +7823,22 @@
    {
     "name": "Archive Boxes",
     "href": "/product/archive-boxes/",
-    "img": "/archive-box-retail.webp"
+    "img": "/images/archive-box-retail.webp"
    },
    {
     "name": "Bath Bomb Boxes",
     "href": "/product/bath-bomb-boxes/",
-    "img": "/bath-bomb-cosmetic.webp"
+    "img": "/images/bath-bomb-cosmetic.webp"
    },
    {
     "name": "Candle Boxes",
     "href": "/candle-boxes/",
-    "img": "/candle-boxes-candle.webp"
+    "img": "/images/candle-boxes-candle.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    }
   ]
  },
@@ -7849,10 +7849,10 @@
   "metaDescription": "Order custom cake boxes in any size, style, and finish. Get food-safe custom cake boxes with logos, windows, handles, free design support, and free shipping.",
   "category": "Bakery Boxes",
   "gallery": [
-   "/cake-boxes-bakery.webp",
-   "/cake-box-with-window-bakery.webp",
-   "/handle-cupcake-boxes-bakery.webp",
-   "/mailer-cake-boxes-bakery.webp"
+   "/images/cake-boxes-bakery.webp",
+   "/images/cake-box-with-window-bakery.webp",
+   "/images/handle-cupcake-boxes-bakery.webp",
+   "/images/mailer-cake-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -8134,22 +8134,22 @@
    {
     "name": "Pie Boxes",
     "href": "/product/pie-boxes/",
-    "img": "/pillow-pie-boxes-bakery.webp"
+    "img": "/images/pillow-pie-boxes-bakery.webp"
    },
    {
     "name": "Cupcake Boxes",
     "href": "/product/cupcake-boxes/",
-    "img": "/cupcake-boxes-bakery.webp"
+    "img": "/images/cupcake-boxes-bakery.webp"
    },
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    }
   ]
  },
@@ -8160,10 +8160,10 @@
   "metaDescription": "Custom candy boxes that preserve the sweetness and promote your brand at wholesale prices. Custom sizes, styles, and logo printing are available—Get Yours Today!",
   "category": "Food Boxes",
   "gallery": [
-   "/candy-boxes-food.webp",
-   "/candy-pillow-boxes-food.webp",
-   "/display-candy-boxes-food.webp",
-   "/window-candy-box-food.webp"
+   "/images/candy-boxes-food.webp",
+   "/images/candy-pillow-boxes-food.webp",
+   "/images/display-candy-boxes-food.webp",
+   "/images/window-candy-box-food.webp"
   ],
   "hero": {
    "body": [
@@ -8379,22 +8379,22 @@
    {
     "name": "Burger Boxes",
     "href": "/product/burger-boxes/",
-    "img": "/custom-burger-boxes-food.webp"
+    "img": "/images/custom-burger-boxes-food.webp"
    },
    {
     "name": "Chocolate Boxes",
     "href": "/product/chocolate-boxes/",
-    "img": "/chocolate-box-food.webp"
+    "img": "/images/chocolate-box-food.webp"
    },
    {
     "name": "Cookie boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/custom-mailer-cookie-boxes-bakery.webp"
+    "img": "/images/custom-mailer-cookie-boxes-bakery.webp"
    },
    {
     "name": "Truffle Boxes",
     "href": "/product/truffle-boxes/",
-    "img": "/truffle-boxes-food.webp"
+    "img": "/images/truffle-boxes-food.webp"
    }
   ]
  },
@@ -8405,10 +8405,10 @@
   "metaDescription": "CBD display boxes from premium materials that showcase multiple products. Wholesale pricing, no MOQs, and free shipping are available—Order Yours Today!",
   "category": "CBD Boxes",
   "gallery": [
-   "/cbd-display-boxes-2.webp",
-   "/cbd-display-perforated-box-cbd.webp",
-   "/printed-cbd-display-box-cbd.webp",
-   "/cbd-display-boxesz-cbd.webp"
+   "/images/cbd-display-boxes-2.webp",
+   "/images/cbd-display-perforated-box-cbd.webp",
+   "/images/printed-cbd-display-box-cbd.webp",
+   "/images/cbd-display-boxesz-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -8663,22 +8663,22 @@
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -8689,10 +8689,10 @@
   "metaDescription": "Custom CBD hemp oil boxes in all sizes and shapes, with logo printing, at wholesale prices. Order CBD boxes to protect products and grab sales with no minimums!",
   "category": "CBD Boxes",
   "gallery": [
-   "/hemp-oil-boxes-cbd.webp",
-   "/cbd-hemp-oil-boxes-cbd.webp",
-   "/custom-cbd-hemp-oil-boxes-with-window-cbd.webp",
-   "/display-cbd-hemp-oil-boxes-cbd.webp"
+   "/images/hemp-oil-boxes-cbd.webp",
+   "/images/cbd-hemp-oil-boxes-cbd.webp",
+   "/images/custom-cbd-hemp-oil-boxes-with-window-cbd.webp",
+   "/images/display-cbd-hemp-oil-boxes-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -8957,22 +8957,22 @@
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    },
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/custom-cbd-display-boxes-cbd.webp"
+    "img": "/images/custom-cbd-display-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -8983,10 +8983,10 @@
   "metaDescription": "Get custom cbd medicine boxes at wholesale rates with free shipping. We offer multiple customization options for medicine packaging.",
   "category": "",
   "gallery": [
-   "/cbd-medicine-boxes-cbd.webp",
-   "/custom-display-cbd-medicine-boxes-cbd.webp",
-   "/custom-cbd-medicine-boxes-cbd.webp",
-   "/custom-cbd-medicine-box-cbd.webp"
+   "/images/cbd-medicine-boxes-cbd.webp",
+   "/images/custom-display-cbd-medicine-boxes-cbd.webp",
+   "/images/custom-cbd-medicine-boxes-cbd.webp",
+   "/images/custom-cbd-medicine-box-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -9284,22 +9284,22 @@
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    },
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/custom-cbd-display-boxes-cbd.webp"
+    "img": "/images/custom-cbd-display-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -9310,10 +9310,10 @@
   "metaDescription": "Buy custom cereal boxes made from food-grade materials at wholesale prices. Preserve the freshness and promote your brand with printed cereal boxes!",
   "category": "Food Boxes",
   "gallery": [
-   "/cereal-boxes-food.webp",
-   "/cereal-boxes-window-food.webp",
-   "/custom-cereal-boxes-food.webp",
-   "/gable-cereal-boxes-food.webp"
+   "/images/cereal-boxes-food.webp",
+   "/images/cereal-boxes-window-food.webp",
+   "/images/custom-cereal-boxes-food.webp",
+   "/images/gable-cereal-boxes-food.webp"
   ],
   "hero": {
    "body": [
@@ -9589,22 +9589,22 @@
    {
     "name": "Burger Boxes",
     "href": "/product/burger-boxes/",
-    "img": "/custom-burger-boxes-food.webp"
+    "img": "/images/custom-burger-boxes-food.webp"
    },
    {
     "name": "Chocolate Boxes",
     "href": "/product/chocolate-boxes/",
-    "img": "/chocolate-box-food.webp"
+    "img": "/images/chocolate-box-food.webp"
    },
    {
     "name": "Cookie boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    },
    {
     "name": "Truffle Boxes",
     "href": "/product/truffle-boxes/",
-    "img": "/truffle-boxes-food.webp"
+    "img": "/images/truffle-boxes-food.webp"
    }
   ]
  },
@@ -9615,10 +9615,10 @@
   "metaDescription": "Get custom chocolate boxes from certified food-grade materials in all sizes. Order wholesale chocolate boxes today and enjoy free shipping!",
   "category": "Food Boxes",
   "gallery": [
-   "/chocolate-boxes-food.webp",
-   "/chocolate-box-food.webp",
-   "/custom-chocolate-boxes-with-window-food.webp",
-   "/heart-chocolate-boxes-with-ribbion-food.webp"
+   "/images/chocolate-boxes-food.webp",
+   "/images/chocolate-box-food.webp",
+   "/images/custom-chocolate-boxes-with-window-food.webp",
+   "/images/heart-chocolate-boxes-with-ribbion-food.webp"
   ],
   "hero": {
    "body": [
@@ -9838,22 +9838,22 @@
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Cookie boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    },
    {
     "name": "Truffle Boxes",
     "href": "/product/truffle-boxes/",
-    "img": "/truffle-boxes-food.webp"
+    "img": "/images/truffle-boxes-food.webp"
    }
   ]
  },
@@ -9864,10 +9864,10 @@
   "metaDescription": "Order custom Christmas boxes at wholesale prices from Pack Legacy. Choose festive designs, custom sizes, and premium finishes. Get free shipping and design support!",
   "category": "Gift Boxes",
   "gallery": [
-   "/luxury-magnetic-christmas-gift-box-gift.webp",
-   "/two-piece-holiday-gift-box-gift.webp",
-   "/custom-printed-christmas-mailer-box-gift.webp",
-   "/christmas-tree-gable-favor-box-gift.webp"
+   "/images/luxury-magnetic-christmas-gift-box-gift.webp",
+   "/images/two-piece-holiday-gift-box-gift.webp",
+   "/images/custom-printed-christmas-mailer-box-gift.webp",
+   "/images/christmas-tree-gable-favor-box-gift.webp"
   ],
   "hero": {
    "body": [
@@ -10120,10 +10120,10 @@
   "metaDescription": "Premium cigar boxes that preserve freshness, made from high-quality materials and custom sizes. Order wholesale cigar boxes and get free shipping!",
   "category": "CBD Boxes",
   "gallery": [
-   "/custom-cigar-box-cbd.webp",
-   "/rigid-cigar-boxes-cbd.webp",
-   "/two-piece-cigar-boxes-cbd.webp",
-   "/cigar-boxes.webp"
+   "/images/custom-cigar-box-cbd.webp",
+   "/images/rigid-cigar-boxes-cbd.webp",
+   "/images/two-piece-cigar-boxes-cbd.webp",
+   "/images/cigar-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -10372,22 +10372,22 @@
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/cbd-display-boxesz-cbd.webp"
+    "img": "/images/cbd-display-boxesz-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    }
   ]
  },
@@ -10398,10 +10398,10 @@
   "metaDescription": "CBD cigarette boxes that protect and preserve freshness at wholesale prices. Order custom CBD cigarette boxes with logo and enjoy free shipping!",
   "category": "CBD Boxes Custom",
   "gallery": [
-   "/cbd-cigarette-boxes-cbd.webp",
-   "/custom-cbd-cigarette-boxes-cbd.webp",
-   "/drawer-cbd-cigarette-boxes-cbd.webp",
-   "/printed-cbd-cigarette-box-cbd.webp"
+   "/images/cbd-cigarette-boxes-cbd.webp",
+   "/images/custom-cbd-cigarette-boxes-cbd.webp",
+   "/images/drawer-cbd-cigarette-boxes-cbd.webp",
+   "/images/printed-cbd-cigarette-box-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -10667,22 +10667,22 @@
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Display Boxes",
     "href": "/product/cbd-display-boxes/",
-    "img": "/custom-cbd-display-boxes-cbd.webp"
+    "img": "/images/custom-cbd-display-boxes-cbd.webp"
    },
    {
     "name": "CBD Cream Boxes",
     "href": "/product/cbd-cream-boxes/",
-    "img": "/cbd-cream-box-cbd.webp"
+    "img": "/images/cbd-cream-box-cbd.webp"
    }
   ]
  },
@@ -10693,10 +10693,10 @@
   "metaDescription": "Custom coaster boxes from high-quality cardboard, rigid, kraft, paperboard & corrugated options. Custom sizes, reusable designs, and advanced printing—Order Now!",
   "category": "Retail Boxes",
   "gallery": [
-   "/printed-coaster-boxes-with-window-retail.webp",
-   "/drawer-coaster-box-retail.webp",
-   "/mailer-coaster-box-retail.webp",
-   "/two-piece-coaster-box-retail.webp"
+   "/images/printed-coaster-boxes-with-window-retail.webp",
+   "/images/drawer-coaster-box-retail.webp",
+   "/images/mailer-coaster-box-retail.webp",
+   "/images/two-piece-coaster-box-retail.webp"
   ],
   "hero": {
    "body": [
@@ -10992,22 +10992,22 @@
    {
     "name": "Bath Bomb Boxes",
     "href": "/product/bath-bomb-boxes/",
-    "img": "/bath-bomb-cosmetic.webp"
+    "img": "/images/bath-bomb-cosmetic.webp"
    },
    {
     "name": "Candle Boxes",
     "href": "/candle-boxes/",
-    "img": "/custom-candle-mailer-box-candle.webp"
+    "img": "/images/custom-candle-mailer-box-candle.webp"
    },
    {
     "name": "Subscription Boxes",
     "href": "/product/subscription-boxes/",
-    "img": "/subscription-boxes-1-mailer.webp"
+    "img": "/images/subscription-boxes-1-mailer.webp"
    },
    {
     "name": "Shoulder Neck Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    }
   ]
  },
@@ -11018,9 +11018,9 @@
   "metaDescription": "Get custom cone sleeves made of food-grade materials and grease-resistant barriers at wholesale prices! Order cone sleeves with no minimums today!",
   "category": "Food Boxes",
   "gallery": [
-   "/cone-sleeves-2.webp",
-   "/custom-cone-sleeves-food.webp",
-   "/printed-cone-sleeves-food.webp"
+   "/images/cone-sleeves-2.webp",
+   "/images/custom-cone-sleeves-food.webp",
+   "/images/printed-cone-sleeves-food.webp"
   ],
   "hero": {
    "body": [
@@ -11234,22 +11234,22 @@
    {
     "name": "Burger Boxes",
     "href": "/product/burger-boxes/",
-    "img": "/custom-burger-boxes-food.webp"
+    "img": "/images/custom-burger-boxes-food.webp"
    },
    {
     "name": "Cereal Boxes",
     "href": "/product/cereal-boxes/",
-    "img": "/cereal-boxes-food.webp"
+    "img": "/images/cereal-boxes-food.webp"
    },
    {
     "name": "Cookie boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/custom-mailer-cookie-boxes-bakery.webp"
+    "img": "/images/custom-mailer-cookie-boxes-bakery.webp"
    },
    {
     "name": "Popcorn Boxes",
     "href": "/product/popcorn-boxes/",
-    "img": "/popcorn-boxes-food.webp"
+    "img": "/images/popcorn-boxes-food.webp"
    }
   ]
  },
@@ -11260,10 +11260,10 @@
   "metaDescription": "Order custom cookie boxes with logo in food-safe materials. Available in custom sizes, window styles, premium printing, and wholesale pricing with no minimum order quantity.",
   "category": "Bakery Boxes",
   "gallery": [
-   "/cookie-boxes-bakery.webp",
-   "/rigid-cookie-boxes-bakery.webp",
-   "/cookie-boxes-with-window-bakery.webp",
-   "/custom-mailer-cookie-boxes-bakery.webp"
+   "/images/cookie-boxes-bakery.webp",
+   "/images/rigid-cookie-boxes-bakery.webp",
+   "/images/cookie-boxes-with-window-bakery.webp",
+   "/images/custom-mailer-cookie-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -11541,22 +11541,22 @@
    {
     "name": "Pie Boxes",
     "href": "/product/pie-boxes/",
-    "img": "/pillow-pie-boxes-bakery.webp"
+    "img": "/images/pillow-pie-boxes-bakery.webp"
    },
    {
     "name": "Cupcake Boxes",
     "href": "/product/cupcake-boxes/",
-    "img": "/cupcake-boxes-bakery.webp"
+    "img": "/images/cupcake-boxes-bakery.webp"
    },
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    }
   ]
  },
@@ -11567,10 +11567,10 @@
   "metaDescription": "Get custom cream boxes in a variety of sizes, shapes, and designs! Order cream packaging boxes at wholesale rates and enjoy free shipping.",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-cream-boxes-cosmetic.webp",
-   "/custom-display-cream-box-cosmetic.webp",
-   "/custom-cream-boxes-with-window-cosmetic.webp",
-   "/custom-rigid-cream-boxes-cosmetic.webp"
+   "/images/custom-cream-boxes-cosmetic.webp",
+   "/images/custom-display-cream-box-cosmetic.webp",
+   "/images/custom-cream-boxes-with-window-cosmetic.webp",
+   "/images/custom-rigid-cream-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -11794,22 +11794,22 @@
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Hairspray Boxes",
     "href": "/product/hairspray-boxes/",
-    "img": "/hairspray-boxes-cosmetic.webp"
+    "img": "/images/hairspray-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-boxes-cosmetic.webp"
+    "img": "/images/lip-balm-boxes-cosmetic.webp"
    }
   ]
  },
@@ -11820,10 +11820,10 @@
   "metaDescription": "Order custom cube boxes in any size with logo printing, windows, inserts and premium finishes. No MOQ, free design support and free US shipping.",
   "category": "Retail Boxes",
   "gallery": [
-   "/cube-boxes-retail.webp",
-   "/custom-cube-boxes-retail.webp",
-   "/custom-cube-box-with-ribbion-retail.webp",
-   "/custom-cube-box-with-window-retail.webp"
+   "/images/cube-boxes-retail.webp",
+   "/images/custom-cube-boxes-retail.webp",
+   "/images/custom-cube-box-with-ribbion-retail.webp",
+   "/images/custom-cube-box-with-window-retail.webp"
   ],
   "hero": {
    "body": [
@@ -12448,22 +12448,22 @@
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    },
    {
     "name": "Sleeve Boxes",
     "href": "/product/tray-sleeve-boxes/",
-    "img": "/tray-and-sleeve-boxes-with-window-retail.webp"
+    "img": "/images/tray-and-sleeve-boxes-with-window-retail.webp"
    },
    {
     "name": "Soap Boxes",
     "href": "/soap-boxes/",
-    "img": "/custom-soap-boxes-soap.webp"
+    "img": "/images/custom-soap-boxes-soap.webp"
    },
    {
     "name": "Game Boxes",
     "href": "/product/game-boxes/",
-    "img": "/game-boxes-retail.webp"
+    "img": "/images/game-boxes-retail.webp"
    }
   ]
  },
@@ -12474,10 +12474,10 @@
   "metaDescription": "Get custom cupcake boxes in any size, design, color, and printing with free design support! Enjoy fast and hassle-free shipping for affordable cupcake boxes!",
   "category": "Bakery Boxes",
   "gallery": [
-   "/cupcake-boxes-bakery.webp",
-   "/cupcake-box-bakery.webp",
-   "/gable-cupcake-boxes-bakery.webp",
-   "/window-cup-cake-boxes-bakery.webp"
+   "/images/cupcake-boxes-bakery.webp",
+   "/images/cupcake-box-bakery.webp",
+   "/images/gable-cupcake-boxes-bakery.webp",
+   "/images/window-cup-cake-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -12737,22 +12737,22 @@
    {
     "name": "Pie Boxes",
     "href": "/product/pie-boxes/",
-    "img": "/pillow-pie-boxes-bakery.webp"
+    "img": "/images/pillow-pie-boxes-bakery.webp"
    },
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    }
   ]
  },
@@ -12763,10 +12763,10 @@
   "metaDescription": "Get custom dessert boxes that better preserve the freshness and flavor of every sweet treat! Wholesale pricing, no MOQs, and free shipping are available.",
   "category": "Bakery Boxes",
   "gallery": [
-   "/custom-handle-dessert-boxes-bakery.webp",
-   "/printed-dessert-box-bakery.webp",
-   "/custom-dessert-boxes-with-window-bakery.webp",
-   "/custom-drawer-dessert-boxes-bakery.webp"
+   "/images/custom-handle-dessert-boxes-bakery.webp",
+   "/images/printed-dessert-box-bakery.webp",
+   "/images/custom-dessert-boxes-with-window-bakery.webp",
+   "/images/custom-drawer-dessert-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -13033,22 +13033,22 @@
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Cupcake Boxes",
     "href": "/product/cupcake-boxes/",
-    "img": "/cupcake-boxes-bakery.webp"
+    "img": "/images/cupcake-boxes-bakery.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    }
   ]
  },
@@ -13059,10 +13059,10 @@
   "metaDescription": "Order custom die-cut inserts designed to hold products securely, prevent damage, and improve presentation. Available in multiple options, sizes, shapes, and more.",
   "category": "Packaging Inserts",
   "gallery": [
-   "/printed-die-cut-inserts-packaging-inserts.webp",
-   "/mailer-box-with-foam-die-cut-inserts-packaging-inserts.webp",
-   "/die-cut-inserts-boxes-packaging-inserts.webp",
-   "/box-die-cut-inserts-box-packaging-inserts.webp"
+   "/images/printed-die-cut-inserts-packaging-inserts.webp",
+   "/images/mailer-box-with-foam-die-cut-inserts-packaging-inserts.webp",
+   "/images/die-cut-inserts-boxes-packaging-inserts.webp",
+   "/images/box-die-cut-inserts-box-packaging-inserts.webp"
   ],
   "hero": {
    "body": [
@@ -13264,22 +13264,22 @@
    {
     "name": "Packaging Card Inserts",
     "href": "/product/packaging-card-inserts/",
-    "img": "/packaging-card-inserts-1-packaging-inserts.webp"
+    "img": "/images/packaging-card-inserts-1-packaging-inserts.webp"
    },
    {
     "name": "EVA Foam Inserts",
     "href": "/product/eva-foam-inserts/",
-    "img": "/eva-foam-packaging-inserts.webp"
+    "img": "/images/eva-foam-packaging-inserts.webp"
    },
    {
     "name": "Cardboard Inserts",
     "href": "/product/cardboard-inserts/",
-    "img": "/cardboard-inserts-packaging-inserts.webp"
+    "img": "/images/cardboard-inserts-packaging-inserts.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-boxe-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-boxe-folding-cartons.webp"
    }
   ]
  },
@@ -13290,10 +13290,10 @@
   "metaDescription": "Custom dispenser boxes with a smart gravity-feed or front-pull opening for easy product access. Available in custom sizes and materials—Order Yours Today!",
   "category": "Display Boxes Custom",
   "gallery": [
-   "/custom-dispenser-box-display.webp",
-   "/custom-dispenser-boxes-display.webp",
-   "/dispenser-box-display.webp",
-   "/printed-dispenser-boxes-display.webp"
+   "/images/custom-dispenser-box-display.webp",
+   "/images/custom-dispenser-boxes-display.webp",
+   "/images/dispenser-box-display.webp",
+   "/images/printed-dispenser-boxes-display.webp"
   ],
   "hero": {
    "body": [
@@ -13569,22 +13569,22 @@
    {
     "name": "Perforated Boxes",
     "href": "/product/perforated-boxes/",
-    "img": "/custom-perforated-boxes-display.webp"
+    "img": "/images/custom-perforated-boxes-display.webp"
    },
    {
     "name": "Cardboard Counter Top Displays",
     "href": "/product/cardboard-counter-top-displays/",
-    "img": "/cardboard-counter-top-display-display.webp"
+    "img": "/images/cardboard-counter-top-display-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-box2-display.webp"
+    "img": "/images/custom-pdq-box2-display.webp"
    },
    {
     "name": "Pop-up Display Boxes",
     "href": "/product/pop-up-display-boxes/",
-    "img": "/custom-pop-up-display-boxes-pic-display.webp"
+    "img": "/images/custom-pop-up-display-boxes-pic-display.webp"
    }
   ]
  },
@@ -13595,10 +13595,10 @@
   "metaDescription": "Order display mailer boxes and ship your product safely, then display it conveniently. Available in custom sizes, shapes, and colors, at wholesale rates. Free Shipping",
   "category": "Display Boxes",
   "gallery": [
-   "/custom-display-mailer-display.webp",
-   "/custom-display-mailer-box-display.webp",
-   "/display-mailer-box-display.webp",
-   "/printed-display-mailer-box-display.webp"
+   "/images/custom-display-mailer-display.webp",
+   "/images/custom-display-mailer-box-display.webp",
+   "/images/display-mailer-box-display.webp",
+   "/images/printed-display-mailer-box-display.webp"
   ],
   "hero": {
    "body": [
@@ -13888,22 +13888,22 @@
    {
     "name": "Perforated Boxes",
     "href": "/product/perforated-boxes/",
-    "img": "/custom-perforated-boxes-display.webp"
+    "img": "/images/custom-perforated-boxes-display.webp"
    },
    {
     "name": "Dispenser Boxes",
     "href": "/product/dispenser-boxes/",
-    "img": "/custom-dispenser-boxes-display.webp"
+    "img": "/images/custom-dispenser-boxes-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-display-boxes-1-display.webp"
+    "img": "/images/custom-pdq-display-boxes-1-display.webp"
    },
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    }
   ]
  },
@@ -13914,10 +13914,10 @@
   "metaDescription": "Custom dress boxes for boutique retail and e-commerce brands at wholesale prices. Custom sizes, logo printing, and free shipping are available — Get a Free Quote!",
   "category": "Apparel Boxes",
   "gallery": [
-   "/custom-drawer-dress-box-apparel.webp",
-   "/custom-mailer-dress-box-apparel.webp",
-   "/custom-shoulder-dress-box-apparel.webp",
-   "/custom-dress-boxes.webp"
+   "/images/custom-drawer-dress-box-apparel.webp",
+   "/images/custom-mailer-dress-box-apparel.webp",
+   "/images/custom-shoulder-dress-box-apparel.webp",
+   "/images/custom-dress-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -14174,22 +14174,22 @@
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-box1-1-rigid.webp"
+    "img": "/images/rigid-drawer-box1-1-rigid.webp"
    },
    {
     "name": "Tray and Sleeve Boxes",
     "href": "/product/tray-sleeve-boxes/",
-    "img": "/tray-and-sleeve-boxes-with-window-retail.webp"
+    "img": "/images/tray-and-sleeve-boxes-with-window-retail.webp"
    },
    {
     "name": "Rigid Boxes",
     "href": "/rigid-boxes/",
-    "img": "/rigid-boxes-pic-apparel.webp"
+    "img": "/images/rigid-boxes-pic-apparel.webp"
    }
   ]
  },
@@ -14200,10 +14200,10 @@
   "metaDescription": "E-liquid boxes in custom sizes, materials, and logo printing at wholesale prices. Get wholesale e-liquid boxes with no minimums and enjoy free shipping!",
   "category": "CBD Boxes",
   "gallery": [
-   "/cbd-e-liquid-box-cbd.webp",
-   "/mailer-e-liquid-boxes-cbd.webp",
-   "/e-liquid-boxes-with-window-cbd.webp",
-   "/display-e-liquid-box-cbd.webp"
+   "/images/cbd-e-liquid-box-cbd.webp",
+   "/images/mailer-e-liquid-boxes-cbd.webp",
+   "/images/e-liquid-boxes-with-window-cbd.webp",
+   "/images/display-e-liquid-box-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -14433,22 +14433,22 @@
    {
     "name": "Vape Boxes",
     "href": "/product/vape-boxes/",
-    "img": "/vape-boxes-cbd.webp"
+    "img": "/images/vape-boxes-cbd.webp"
    },
    {
     "name": "Hemp Oil Boxes",
     "href": "/product/cbd-hemp-oil-boxes/",
-    "img": "/hemp-oil-boxes-cbd.webp"
+    "img": "/images/hemp-oil-boxes-cbd.webp"
    },
    {
     "name": "CBD Cigarette Boxes",
     "href": "/product/cbd-cigarette-boxes/",
-    "img": "/custom-cbd-cigarette-boxes-cbd.webp"
+    "img": "/images/custom-cbd-cigarette-boxes-cbd.webp"
    },
    {
     "name": "CBD Tincture Boxes",
     "href": "/product/cbd-tincture-boxes/",
-    "img": "/cbd-tincture-boxes-packaging-cbd.webp"
+    "img": "/images/cbd-tincture-boxes-packaging-cbd.webp"
    }
   ]
  },
@@ -14459,10 +14459,10 @@
   "metaDescription": "Get custom eyelash boxes in durable materials, different sizes, and logo printing. Wholesale prices, No MOQs, and Free Shipping—Order Now!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-bookend-eyelashes-boxes-cosmetic.webp",
-   "/custom-eyelashes-box-cosmetic.webp",
-   "/eyelashes-box-with-window-cosmetic.webp",
-   "/drawer-eyelashes-boxes-cosmetic.webp"
+   "/images/custom-bookend-eyelashes-boxes-cosmetic.webp",
+   "/images/custom-eyelashes-box-cosmetic.webp",
+   "/images/eyelashes-box-with-window-cosmetic.webp",
+   "/images/drawer-eyelashes-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -14714,22 +14714,22 @@
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Hairspray Boxes",
     "href": "/product/hairspray-boxes/",
-    "img": "/hairspray-boxes-cosmetic.webp"
+    "img": "/images/hairspray-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-boxes-cosmetic.webp"
+    "img": "/images/lip-balm-boxes-cosmetic.webp"
    }
   ]
  },
@@ -14740,10 +14740,10 @@
   "metaDescription": "Get custom eyeliner boxes with top-grade materials, unique designs, and precise printing. Order printed eyeliner packaging boxes now at a wholesale rate!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-eyeliner-boxes-with-window-cosmetic.webp",
-   "/custom-display-eyeliner-boxes-cosmetic.webp",
-   "/printed-eyeliner-boxes-cosmetic.webp",
-   "/custom-eyeliner-boxes-cosmetic.webp"
+   "/images/custom-eyeliner-boxes-with-window-cosmetic.webp",
+   "/images/custom-display-eyeliner-boxes-cosmetic.webp",
+   "/images/printed-eyeliner-boxes-cosmetic.webp",
+   "/images/custom-eyeliner-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -14973,22 +14973,22 @@
    {
     "name": "Makeup Boxes",
     "href": "/product/makeup-boxes/",
-    "img": "/custom-makeup-boxes-1-cosmetic.webp"
+    "img": "/images/custom-makeup-boxes-1-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Hairspray Boxes",
     "href": "/product/hairspray-boxes/",
-    "img": "/hairspray-boxes-cosmetic.webp"
+    "img": "/images/hairspray-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-boxes-cosmetic.webp"
+    "img": "/images/lip-balm-boxes-cosmetic.webp"
    }
   ]
  },
@@ -14999,10 +14999,10 @@
   "metaDescription": "Get custom eyeshadow boxes made from durable materials at wholesale prices! Custom sizes, styles, and logo printing are available with no MOQs.",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/eye-shadow-boxes-cosmetic.webp",
-   "/eye-shadow-boxes-with-window-cosmetic.webp",
-   "/drawer-eye-shadow-boxes-cosmetic.webp",
-   "/display-eye-shadow-boxes-cosmetic.webp"
+   "/images/eye-shadow-boxes-cosmetic.webp",
+   "/images/eye-shadow-boxes-with-window-cosmetic.webp",
+   "/images/drawer-eye-shadow-boxes-cosmetic.webp",
+   "/images/display-eye-shadow-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -15202,22 +15202,22 @@
    {
     "name": "Makeup Boxes",
     "href": "/product/makeup-boxes/",
-    "img": "/custom-makeup-boxes-cosmetic.webp"
+    "img": "/images/custom-makeup-boxes-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Hairspray Boxes",
     "href": "/product/hairspray-boxes/",
-    "img": "/hairspray-boxes-cosmetic.webp"
+    "img": "/images/hairspray-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-box-cosmetic.webp"
+    "img": "/images/lip-balm-box-cosmetic.webp"
    }
   ]
  },
@@ -15228,10 +15228,10 @@
   "metaDescription": "Upgrade your product presentation with custom flip top boxes made for retail, gifting, and luxury packaging. Order wholesale flip top packaging with custom designs and reliable service.",
   "category": "Rigid Boxes Custom",
   "gallery": [
-   "/flip-top-box-rigid.webp",
-   "/custom-black-flip-top-box-rigid.webp",
-   "/mailer-flip-top-box-rigid.webp",
-   "/rigid-flip-top-boxes-rigid.webp"
+   "/images/flip-top-box-rigid.webp",
+   "/images/custom-black-flip-top-box-rigid.webp",
+   "/images/mailer-flip-top-box-rigid.webp",
+   "/images/rigid-flip-top-boxes-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -15496,22 +15496,22 @@
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/mailer-book-boxes-rigid.webp"
+    "img": "/images/mailer-book-boxes-rigid.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Collapsible Rigid Boxes",
     "href": "/product/collapsible-rigid-boxes/",
-    "img": "/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp"
+    "img": "/images/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    }
   ]
  },
@@ -15522,10 +15522,10 @@
   "metaDescription": "Premium foiling boxes at wholesale prices—crafted with gold, silver, and holographic finishes. Enjoy free shipping and no minimum order quantity.",
   "category": "Gift Boxes",
   "gallery": [
-   "/gold-foiling-box-gift.webp",
-   "/sliver-foiling-box-gift.webp",
-   "/mailer-gold-foiling-box-gift.webp",
-   "/custom-foiling-boxes-gift.webp"
+   "/images/gold-foiling-box-gift.webp",
+   "/images/sliver-foiling-box-gift.webp",
+   "/images/mailer-gold-foiling-box-gift.webp",
+   "/images/custom-foiling-boxes-gift.webp"
   ],
   "hero": {
    "body": [
@@ -15762,22 +15762,22 @@
    {
     "name": "Ornament Boxes",
     "href": "/product/ornament-boxes/",
-    "img": "/ornament-boxes-2.webp"
+    "img": "/images/ornament-boxes-2.webp"
    },
    {
     "name": "Holographic Boxes",
     "href": "/product/holographic-boxes/",
-    "img": "/custom-holographic-box-gift.webp"
+    "img": "/images/custom-holographic-box-gift.webp"
    },
    {
     "name": "Custom Blind Boxes",
     "href": "/product/custom-blind-boxes/",
-    "img": "/blind-box-gift.webp"
+    "img": "/images/blind-box-gift.webp"
    },
    {
     "name": "Die-Cut Boxes",
     "href": "/product/die-cut-boxes/",
-    "img": "/die-cut-boxes-gift.webp"
+    "img": "/images/die-cut-boxes-gift.webp"
    }
   ]
  },
@@ -15788,10 +15788,10 @@
   "metaDescription": "Get custom foundation boxes made from high-quality materials at wholesale prices! Free design support, no MOQs, and free shipping are available.",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/foundation-boxes-cosmetic.webp",
-   "/foundation-boxes-with-window-cosmetic.webp",
-   "/display-foundation-boxes-cosmetic.webp",
-   "/rigid-foundation-boxes-cosmetic.webp"
+   "/images/foundation-boxes-cosmetic.webp",
+   "/images/foundation-boxes-with-window-cosmetic.webp",
+   "/images/display-foundation-boxes-cosmetic.webp",
+   "/images/rigid-foundation-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -16028,22 +16028,22 @@
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Hairspray Boxes",
     "href": "/product/hairspray-boxes/",
-    "img": "/hairspray-boxes-cosmetic.webp"
+    "img": "/images/hairspray-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-box-cosmetic.webp"
+    "img": "/images/lip-balm-box-cosmetic.webp"
    }
   ]
  },
@@ -16054,10 +16054,10 @@
   "metaDescription": "Order custom french fry boxes made from grease-proof, food-safe materials at wholesale rates. Available in custom sizes, shapes, and styles. Free Shipping.",
   "category": "Food Boxes",
   "gallery": [
-   "/french-fries.1-food.webp",
-   "/french-fries2-food.webp",
-   "/french-fries3-food.webp",
-   "/french-fries-food.webp"
+   "/images/french-fries.1-food.webp",
+   "/images/french-fries2-food.webp",
+   "/images/french-fries3-food.webp",
+   "/images/french-fries-food.webp"
   ],
   "hero": {
    "body": [
@@ -16285,22 +16285,22 @@
    {
     "name": "Burger Boxes",
     "href": "/product/burger-boxes/",
-    "img": "/custom-burger-boxes-food.webp"
+    "img": "/images/custom-burger-boxes-food.webp"
    },
    {
     "name": "Chinese Takeout Boxes",
     "href": "/product/chinese-takeout-boxes/",
-    "img": "/chinese-takeout-boxes-2.webp"
+    "img": "/images/chinese-takeout-boxes-2.webp"
    },
    {
     "name": "Pizza Boxes",
     "href": "/product/pizza-boxes/",
-    "img": "/pizza-boxes-food.webp"
+    "img": "/images/pizza-boxes-food.webp"
    },
    {
     "name": "Cone Sleeves",
     "href": "/product/cone-sleeves/",
-    "img": "/custom-cone-sleeves-food.webp"
+    "img": "/images/custom-cone-sleeves-food.webp"
    }
   ]
  },
@@ -16311,10 +16311,10 @@
   "metaDescription": "Custom front cut out display boxes to showcase multiple products in checkout counters. Available in a wide range of sizes, materials, and logo printing—Order Now!",
   "category": "Display Boxes",
   "gallery": [
-   "/printed-front-cut-out-display-boxes-display.webp",
-   "/front-cut-out-display-boxes-display.webp",
-   "/custom-front-cut-out-display-box-display.webp",
-   "/front-cut-out-display-box-display.webp"
+   "/images/printed-front-cut-out-display-boxes-display.webp",
+   "/images/front-cut-out-display-boxes-display.webp",
+   "/images/custom-front-cut-out-display-box-display.webp",
+   "/images/front-cut-out-display-box-display.webp"
   ],
   "hero": {
    "body": [
@@ -16579,22 +16579,22 @@
    {
     "name": "Perforated Boxes",
     "href": "/product/perforated-boxes/",
-    "img": "/custom-perforated-boxes-display.webp"
+    "img": "/images/custom-perforated-boxes-display.webp"
    },
    {
     "name": "Dispenser Boxes",
     "href": "/product/dispenser-boxes/",
-    "img": "/custom-dispenser-boxes-display.webp"
+    "img": "/images/custom-dispenser-boxes-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-display-boxes-1-display.webp"
+    "img": "/images/custom-pdq-display-boxes-1-display.webp"
    },
    {
     "name": "Pop-up Display Boxes",
     "href": "/product/pop-up-display-boxes/",
-    "img": "/custom-pop-up-display-boxes-pic-display.webp"
+    "img": "/images/custom-pop-up-display-boxes-pic-display.webp"
    }
   ]
  },
@@ -16605,10 +16605,10 @@
   "metaDescription": "Order custom gable boxes in any size, material, print, or finish. Get no MOQ, free design support, wholesale pricing, digital proofs, and free shipping.",
   "category": "Folding Cartons",
   "gallery": [
-   "/gable-box-folding-cartons.webp",
-   "/gable-box-with-window-folding-cartons.webp",
-   "/gable-with-ribbion-folding-cartons.webp",
-   "/printed-gable-box-folding-cartons.webp"
+   "/images/gable-box-folding-cartons.webp",
+   "/images/gable-box-with-window-folding-cartons.webp",
+   "/images/gable-with-ribbion-folding-cartons.webp",
+   "/images/printed-gable-box-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -16925,22 +16925,22 @@
    {
     "name": "Reverse Tuck End Boxes",
     "href": "/product/reverse-tuck-end-boxes/",
-    "img": "/reverse-tuck-end-box-2.webp"
+    "img": "/images/reverse-tuck-end-box-2.webp"
    },
    {
     "name": "Roll End Tuck Top Boxes",
     "href": "/product/roll-end-tuck-top-boxes/",
-    "img": "/roll-end-tuck-top-box-folding-cartons.webp"
+    "img": "/images/roll-end-tuck-top-box-folding-cartons.webp"
    },
    {
     "name": "123 Bottom Boxes",
     "href": "/product/123-bottom-boxes/",
-    "img": "/123-bottom-boxes-folding-cartons.webp"
+    "img": "/images/123-bottom-boxes-folding-cartons.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-boxes-packaging-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-boxes-packaging-folding-cartons.webp"
    }
   ]
  },
@@ -16951,10 +16951,10 @@
   "metaDescription": "Order custom game boxes at wholesale prices and with no minimums! Custom sizes, free design support, and free shipping are available—Get Yours Today!",
   "category": "Retail Boxes",
   "gallery": [
-   "/game-boxes-retail.webp",
-   "/drawer-game-boxes-retail.webp",
-   "/mailer-game-boxes-retail.webp",
-   "/rigid-game-boxes-retail.webp"
+   "/images/game-boxes-retail.webp",
+   "/images/drawer-game-boxes-retail.webp",
+   "/images/mailer-game-boxes-retail.webp",
+   "/images/rigid-game-boxes-retail.webp"
   ],
   "hero": {
    "body": [
@@ -17173,10 +17173,10 @@
   "metaDescription": "Order custom hair extension boxes at wholesale prices with no minimums. Hair extension boxes available in a variety of sizes, styles, and printing—Order Now!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-hair-extension-boxes-cosmetic.webp",
-   "/rigid-hair-extension-box-cosmetic.webp",
-   "/pillow-hair-extention-boxes-cosmetic.webp",
-   "/custom-hair-extension-boxes-1-cosmetic.webp"
+   "/images/custom-hair-extension-boxes-cosmetic.webp",
+   "/images/rigid-hair-extension-box-cosmetic.webp",
+   "/images/pillow-hair-extention-boxes-cosmetic.webp",
+   "/images/custom-hair-extension-boxes-1-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -17449,22 +17449,22 @@
    {
     "name": "Foundation Boxes",
     "href": "/product/foundation-boxes/",
-    "img": "/foundation-boxes-cosmetic.webp"
+    "img": "/images/foundation-boxes-cosmetic.webp"
    },
    {
     "name": "Nail Polish Boxes",
     "href": "/product/nail-polish-boxes/",
-    "img": "/custom-nail-polish-boxes-cosmetic.webp"
+    "img": "/images/custom-nail-polish-boxes-cosmetic.webp"
    },
    {
     "name": "Hairspray Boxes",
     "href": "/product/hairspray-boxes/",
-    "img": "/hairspray-boxes-cosmetic.webp"
+    "img": "/images/hairspray-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-boxes-cosmetic.webp"
+    "img": "/images/lip-balm-boxes-cosmetic.webp"
    }
   ]
  },
@@ -17475,10 +17475,10 @@
   "metaDescription": "Custom hairspray boxes made from durable materials at wholesale prices and with no minimums. Order hairspray boxes in custom sizes, styles, and logo printing!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/hairspray-boxes-cosmetic.webp",
-   "/custom-drawer-hairspray-boxes-cosmetic.webp",
-   "/custom-rigid-hairspray-boxes-cosmetic.webp",
-   "/display-hairspray-boxes-cosmetic.webp"
+   "/images/hairspray-boxes-cosmetic.webp",
+   "/images/custom-drawer-hairspray-boxes-cosmetic.webp",
+   "/images/custom-rigid-hairspray-boxes-cosmetic.webp",
+   "/images/display-hairspray-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -17722,22 +17722,22 @@
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Foundation Boxes",
     "href": "/product/foundation-boxes/",
-    "img": "/foundation-boxes-cosmetic.webp"
+    "img": "/images/foundation-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-boxes-cosmetic.webp"
+    "img": "/images/lip-balm-boxes-cosmetic.webp"
    }
   ]
  },
@@ -17748,10 +17748,10 @@
   "metaDescription": "Hand sanitizer boxes for retail shelves, medical facilities, or promotional giveaways at wholesale prices. Order custom hand sanitizer boxes and enjoy free shipping!",
   "category": "Retail Boxes",
   "gallery": [
-   "/hand-sanitizer-box-retail.webp",
-   "/drawer-hand-sanitizer-box-retail.webp",
-   "/hand-sanitizer-boxes-display-retail.webp",
-   "/hand-sanitizer-boxes-with-window-retail.webp"
+   "/images/hand-sanitizer-box-retail.webp",
+   "/images/drawer-hand-sanitizer-box-retail.webp",
+   "/images/hand-sanitizer-boxes-display-retail.webp",
+   "/images/hand-sanitizer-boxes-with-window-retail.webp"
   ],
   "hero": {
    "body": [
@@ -17989,22 +17989,22 @@
    {
     "name": "Business Card Boxes",
     "href": "/product/business-card-boxes/",
-    "img": "/business-card-boxes-retail.webp"
+    "img": "/images/business-card-boxes-retail.webp"
    },
    {
     "name": "Cube Boxes",
     "href": "/product/cube-boxes/",
-    "img": "/custom-cube-boxes-retail.webp"
+    "img": "/images/custom-cube-boxes-retail.webp"
    },
    {
     "name": "Display Boxes",
     "href": "/display-boxes/",
-    "img": "/custom-display-boxes-apparel.webp"
+    "img": "/images/custom-display-boxes-apparel.webp"
    },
    {
     "name": "Game Boxes",
     "href": "/product/game-boxes/",
-    "img": "/game-boxes-retail.webp"
+    "img": "/images/game-boxes-retail.webp"
    }
   ]
  },
@@ -18015,10 +18015,10 @@
   "metaDescription": "Custom hat boxes in unique styles and logo printing to present exclusive hat collections at wholesale prices. Free design support and free shipping — Order Now!",
   "category": "Apparel Boxes",
   "gallery": [
-   "/custom-hat-boxes-with-window-apparel.webp",
-   "/custom-rigid-hat-boxes-apparel.webp",
-   "/hat-boxes-with-handle-apparel.webp",
-   "/premium-hat-boxes.webp"
+   "/images/custom-hat-boxes-with-window-apparel.webp",
+   "/images/custom-rigid-hat-boxes-apparel.webp",
+   "/images/hat-boxes-with-handle-apparel.webp",
+   "/images/premium-hat-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -18247,22 +18247,22 @@
    {
     "name": "Handle-Boxes",
     "href": "/product/handle-boxes/",
-    "img": "/handle-boxes-folding-cartons.webp"
+    "img": "/images/handle-boxes-folding-cartons.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Two Piece Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "PR Boxes",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  },
@@ -18273,10 +18273,10 @@
   "metaDescription": "Holographic boxes with a futuristic (rainbow-effect) look in custom sizes, styles, and logo printing. Order holographic boxes today — no minimums required!",
   "category": "Gift Boxes",
   "gallery": [
-   "/custom-holographic-box-gift.webp",
-   "/custom-mailer-holographic-box-gift.webp",
-   "/custom-rigid-holographic-box-with-ribbion-gift.webp",
-   "/gable-holographic-box-gift.webp"
+   "/images/custom-holographic-box-gift.webp",
+   "/images/custom-mailer-holographic-box-gift.webp",
+   "/images/custom-rigid-holographic-box-with-ribbion-gift.webp",
+   "/images/gable-holographic-box-gift.webp"
   ],
   "hero": {
    "body": [
@@ -18520,22 +18520,22 @@
    {
     "name": "Ornament Boxes",
     "href": "/product/ornament-boxes/",
-    "img": "/ornament-boxes-2.webp"
+    "img": "/images/ornament-boxes-2.webp"
    },
    {
     "name": "Foiling Boxes",
     "href": "/product/foiling-boxes/",
-    "img": "/gold-foiling-box-gift.webp"
+    "img": "/images/gold-foiling-box-gift.webp"
    },
    {
     "name": "Die-Cut Boxes",
     "href": "/product/die-cut-boxes/",
-    "img": "/die-cut-boxes-gift.webp"
+    "img": "/images/die-cut-boxes-gift.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    }
   ]
  },
@@ -18546,10 +18546,10 @@
   "metaDescription": "Custom hoodie boxes made of high-quality materials and logo printing at wholesale prices. Order wholesale hoodie boxes today — no minimums required!",
   "category": "Apparel Boxes Custom",
   "gallery": [
-   "/hoodie-boxes-apparel.webp",
-   "/custom-mailer-hoodie-box-apparel.webp",
-   "/custom-hoodie-box-with-window-apparel.webp",
-   "/custom-hoodie-boxes.webp"
+   "/images/hoodie-boxes-apparel.webp",
+   "/images/custom-mailer-hoodie-box-apparel.webp",
+   "/images/custom-hoodie-box-with-window-apparel.webp",
+   "/images/custom-hoodie-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -18791,22 +18791,22 @@
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-box1-1-rigid.webp"
+    "img": "/images/rigid-drawer-box1-1-rigid.webp"
    },
    {
     "name": "Tray and Sleeve Boxes",
     "href": "/product/tray-sleeve-boxes/",
-    "img": "/tray-and-sleeve-boxes-with-window-retail.webp"
+    "img": "/images/tray-and-sleeve-boxes-with-window-retail.webp"
    },
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    }
   ]
  },
@@ -18817,10 +18817,10 @@
   "metaDescription": "Invitation boxes in custom sizes, styles, and printing at wholesale prices. Order custom invitation boxes—free design support and free shipping available.",
   "category": "Gift Boxes",
   "gallery": [
-   "/invitation-boxes-gift.webp",
-   "/drawer-box-with-ribbion-gift.webp",
-   "/mailer-invitation-boxes-gift.webp",
-   "/ribbion-invitation-boxes-gift.webp"
+   "/images/invitation-boxes-gift.webp",
+   "/images/drawer-box-with-ribbion-gift.webp",
+   "/images/mailer-invitation-boxes-gift.webp",
+   "/images/ribbion-invitation-boxes-gift.webp"
   ],
   "hero": {
    "body": [
@@ -19065,10 +19065,10 @@
   "metaDescription": "Custom kid clothing boxes made of non-toxic materials at wholesale prices with no MOQs. Order kid clothing boxes with logo and enjoy fast, free shipping!",
   "category": "Apparel Boxes",
   "gallery": [
-   "/custom-kid-clothing-boxes-with-window-apparel.webp",
-   "/custom-kid-clothing-boxes-2.webp",
-   "/kid-clothing-drawer-boxes-apparel.webp",
-   "/printed-kid-clothing-box-apparel.webp"
+   "/images/custom-kid-clothing-boxes-with-window-apparel.webp",
+   "/images/custom-kid-clothing-boxes-2.webp",
+   "/images/kid-clothing-drawer-boxes-apparel.webp",
+   "/images/printed-kid-clothing-box-apparel.webp"
   ],
   "hero": {
    "body": [
@@ -19312,22 +19312,22 @@
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-box1-1-rigid.webp"
+    "img": "/images/rigid-drawer-box1-1-rigid.webp"
    },
    {
     "name": "Tray and Sleeve Boxes",
     "href": "/product/tray-sleeve-boxes/",
-    "img": "/tray-and-sleeve-boxes-with-window-retail.webp"
+    "img": "/images/tray-and-sleeve-boxes-with-window-retail.webp"
    },
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    }
   ]
  },
@@ -19338,10 +19338,10 @@
   "metaDescription": "Get custom kraft boxes at wholesale prices with full printing and design options. Eco-friendly, durable, and perfect kraft boxes with no minimums.",
   "category": "Retail Boxes",
   "gallery": [
-   "/kraft-boxes-retail.webp",
-   "/two-piece-kraft-boxes-retail.webp",
-   "/kraft-boxes-with-window-retail.webp",
-   "/custom-mailer-kraft-boxes-retail.webp"
+   "/images/kraft-boxes-retail.webp",
+   "/images/two-piece-kraft-boxes-retail.webp",
+   "/images/kraft-boxes-with-window-retail.webp",
+   "/images/custom-mailer-kraft-boxes-retail.webp"
   ],
   "hero": {
    "body": [
@@ -19604,22 +19604,22 @@
    {
     "name": "Presentation Boxes",
     "href": "/product/presentation-boxes/",
-    "img": "/custom-presentation-boxes-retail.webp"
+    "img": "/images/custom-presentation-boxes-retail.webp"
    },
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/custom-mailer-boxes-retail.webp"
+    "img": "/images/custom-mailer-boxes-retail.webp"
    },
    {
     "name": "Display Boxes",
     "href": "/display-boxes/",
-    "img": "/custom-display-boxes-apparel.webp"
+    "img": "/images/custom-display-boxes-apparel.webp"
    },
    {
     "name": "Soap Boxes",
     "href": "/soap-boxes/",
-    "img": "/custom-soap-boxes-soap.webp"
+    "img": "/images/custom-soap-boxes-soap.webp"
    }
   ]
  },
@@ -19630,10 +19630,10 @@
   "metaDescription": "Shop custom lip balm boxes with logo printing, no MOQ & fast turnaround. Trusted quality, free mockup, wholesale pricing, fast, free delivery—Order Now!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/lip-balm-boxes-cosmetic.webp",
-   "/display-lip-balm-box-cosmetic.webp",
-   "/lip-balm-box-cosmetic.webp",
-   "/mailer-lip-balm-box-cosmetic.webp"
+   "/images/lip-balm-boxes-cosmetic.webp",
+   "/images/display-lip-balm-box-cosmetic.webp",
+   "/images/lip-balm-box-cosmetic.webp",
+   "/images/mailer-lip-balm-box-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -19858,22 +19858,22 @@
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Foundation Boxes",
     "href": "/product/foundation-boxes/",
-    "img": "/foundation-boxes-cosmetic.webp"
+    "img": "/images/foundation-boxes-cosmetic.webp"
    },
    {
     "name": "Nail Polish Boxes",
     "href": "/product/nail-polish-boxes/",
-    "img": "/custom-nail-polish-boxes-cosmetic.webp"
+    "img": "/images/custom-nail-polish-boxes-cosmetic.webp"
    }
   ]
  },
@@ -19884,10 +19884,10 @@
   "metaDescription": "Design your own custom lip gloss boxes in a wide range of sizes, styles, and printing. Free design support and free shipping—Get your lip gloss boxes now!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/lip-gloss-boxes-cosmetic.webp",
-   "/custom-lip-gloss-box-with-drawer-cosmetic.webp",
-   "/display-lip-gloss-box-cosmetic.webp",
-   "/lip-gloss-box-with-window-cosmetic.webp"
+   "/images/lip-gloss-boxes-cosmetic.webp",
+   "/images/custom-lip-gloss-box-with-drawer-cosmetic.webp",
+   "/images/display-lip-gloss-box-cosmetic.webp",
+   "/images/lip-gloss-box-with-window-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -20136,22 +20136,22 @@
    {
     "name": "Cream Boxes",
     "href": "/product/cream-boxes/",
-    "img": "/custom-cream-boxes-cosmetic.webp"
+    "img": "/images/custom-cream-boxes-cosmetic.webp"
    },
    {
     "name": "Eyelash Boxes",
     "href": "/product/eyelash-boxes/",
-    "img": "/custom-bookend-eyelashes-boxes-cosmetic.webp"
+    "img": "/images/custom-bookend-eyelashes-boxes-cosmetic.webp"
    },
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Eyeshadow Boxes",
     "href": "/product/eyeshadow-boxes/",
-    "img": "/eye-shadow-boxes-cosmetic.webp"
+    "img": "/images/eye-shadow-boxes-cosmetic.webp"
    }
   ]
  },
@@ -20162,10 +20162,10 @@
   "metaDescription": "Custom lipstick boxes in a wide variety of materials, styles, sizes, and printing. Wholesale lipstick boxes with free design support and free shipping—Order Now!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-lipstick-box-cosmetic.webp",
-   "/custom-display-lipstick-boxes-cosmetic.webp",
-   "/lipstick-boxes-with-window-cosmetic.webp",
-   "/drawer-lipstick-box-with-ribbion-cosmetic.webp"
+   "/images/custom-lipstick-box-cosmetic.webp",
+   "/images/custom-display-lipstick-boxes-cosmetic.webp",
+   "/images/lipstick-boxes-with-window-cosmetic.webp",
+   "/images/drawer-lipstick-box-with-ribbion-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -20402,22 +20402,22 @@
    {
     "name": "Cream Boxes",
     "href": "/product/cream-boxes/",
-    "img": "/custom-cream-boxes-cosmetic.webp"
+    "img": "/images/custom-cream-boxes-cosmetic.webp"
    },
    {
     "name": "Eyelash Boxes",
     "href": "/product/eyelash-boxes/",
-    "img": "/custom-bookend-eyelashes-boxes-cosmetic.webp"
+    "img": "/images/custom-bookend-eyelashes-boxes-cosmetic.webp"
    },
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Eyeshadow Boxes",
     "href": "/product/eyeshadow-boxes/",
-    "img": "/eye-shadow-boxes-cosmetic.webp"
+    "img": "/images/eye-shadow-boxes-cosmetic.webp"
    }
   ]
  },
@@ -20428,10 +20428,10 @@
   "metaDescription": "Durable, lightweight, and customizable literature mailer boxes with logo, colors, and premium finishes. Get wholesale literature mailer boxes with free shipping!",
   "category": "Mailer Boxes",
   "gallery": [
-   "/kraft-literature-mailer-boxe-mailer.webp",
-   "/literature-mailer-box-mailer.webp",
-   "/literature-mailer-boxes-pic-mailer.webp",
-   "/printed-literature-mailer-boxes-mailer.webp"
+   "/images/kraft-literature-mailer-boxe-mailer.webp",
+   "/images/literature-mailer-box-mailer.webp",
+   "/images/literature-mailer-boxes-pic-mailer.webp",
+   "/images/printed-literature-mailer-boxes-mailer.webp"
   ],
   "hero": {
    "body": [
@@ -20636,10 +20636,10 @@
   "metaDescription": "Buy custom lotion boxes made from durable materials and logo printing at wholesale prices! Fast, free shipping for every order of lotion boxes with no minimums.",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-lotion-boxes-cosmetic.webp",
-   "/custom-lotion-boxes-1-cosmetic.webp",
-   "/custom-display-lotion-box-cosmetic.webp",
-   "/custom-lotion-box-with-window-cosmetic.webp"
+   "/images/custom-lotion-boxes-cosmetic.webp",
+   "/images/custom-lotion-boxes-1-cosmetic.webp",
+   "/images/custom-display-lotion-box-cosmetic.webp",
+   "/images/custom-lotion-box-with-window-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -20890,22 +20890,22 @@
    {
     "name": "Cream Boxes",
     "href": "/product/cream-boxes/",
-    "img": "/custom-cream-boxes-cosmetic.webp"
+    "img": "/images/custom-cream-boxes-cosmetic.webp"
    },
    {
     "name": "Eyelash Boxes",
     "href": "/product/eyelash-boxes/",
-    "img": "/custom-bookend-eyelashes-boxes-cosmetic.webp"
+    "img": "/images/custom-bookend-eyelashes-boxes-cosmetic.webp"
    },
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Eyeshadow Boxes",
     "href": "/product/eyeshadow-boxes/",
-    "img": "/eye-shadow-boxes-cosmetic.webp"
+    "img": "/images/eye-shadow-boxes-cosmetic.webp"
    }
   ]
  },
@@ -20916,10 +20916,10 @@
   "metaDescription": "Protect delicate macarons with custom macaron boxes made from food-grade materials. Custom sizes, inserts, and logo printing with fast turnaround.",
   "category": "Bakery Boxes",
   "gallery": [
-   "/custom-drawer-macaron-box-bakery.webp",
-   "/custom-macaron-boxes-bakery.webp",
-   "/custom-mailer-macaron-box-bakery.webp",
-   "/custom-macaron-boxes-window-bakery.webp"
+   "/images/custom-drawer-macaron-box-bakery.webp",
+   "/images/custom-macaron-boxes-bakery.webp",
+   "/images/custom-mailer-macaron-box-bakery.webp",
+   "/images/custom-macaron-boxes-window-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -21223,22 +21223,22 @@
    {
     "name": "Pie Boxes",
     "href": "/product/pie-boxes/",
-    "img": "/pillow-pie-boxes-bakery.webp"
+    "img": "/images/pillow-pie-boxes-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Cupcake Boxes",
     "href": "/product/cupcake-boxes/",
-    "img": "/cupcake-boxes-bakery.webp"
+    "img": "/images/cupcake-boxes-bakery.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    }
   ]
  },
@@ -21249,10 +21249,10 @@
   "metaDescription": "Get custom magnetic closure boxes with your logo, premium finishes & inserts. No MOQ, free design support, wholesale pricing & free shipping. Get a quote!",
   "category": "Rigid Boxes",
   "gallery": [
-   "/magnetic-closure-boxes-2.webp",
-   "/magnetic-closure-rigid-rigid.webp",
-   "/custom-magnetic-closure-rigid-rigid.webp",
-   "/rigid-magnetic-closure-rigid.webp"
+   "/images/magnetic-closure-boxes-2.webp",
+   "/images/magnetic-closure-rigid-rigid.webp",
+   "/images/custom-magnetic-closure-rigid-rigid.webp",
+   "/images/rigid-magnetic-closure-rigid.webp"
   ],
   "intro": [
    "Make your products feel premium from the first touch with custom magnetic closure boxes built from sturdy rigid board and designed with concealed magnets for a clean, secure snap. Also known as magnetic rigid boxes or magnetic gift boxes, they combine dependable product protection with a polished unboxing experience for jewelry, cosmetics, perfumes, electronics, corporate gifts, PR kits, and luxury retail products.",
@@ -21388,7 +21388,7 @@
    },
    {
     "t": "img",
-    "src": "/jewelry.svg",
+    "src": "/images/jewelry.svg",
     "alt": "Jewelry icon"
    },
    {
@@ -21405,7 +21405,7 @@
    },
    {
     "t": "img",
-    "src": "/perfume.svg",
+    "src": "/images/perfume.svg",
     "alt": ""
    },
    {
@@ -21422,7 +21422,7 @@
    },
    {
     "t": "img",
-    "src": "/watches-and-accessories.svg",
+    "src": "/images/watches-and-accessories.svg",
     "alt": "Watches and accessories icon"
    },
    {
@@ -21439,7 +21439,7 @@
    },
    {
     "t": "img",
-    "src": "/electronics.svg",
+    "src": "/images/electronics.svg",
     "alt": "Electronics icon"
    },
    {
@@ -21456,7 +21456,7 @@
    },
    {
     "t": "img",
-    "src": "/cosmetics-and-skincare.svg",
+    "src": "/images/cosmetics-and-skincare.svg",
     "alt": "Cosmetics and skincare icon"
    },
    {
@@ -21473,7 +21473,7 @@
    },
    {
     "t": "img",
-    "src": "/brand-focused-applications.svg",
+    "src": "/images/brand-focused-applications.svg",
     "alt": "Brand-Focused Applications icon"
    },
    {
@@ -21490,7 +21490,7 @@
    },
    {
     "t": "img",
-    "src": "/apparel.svg",
+    "src": "/images/apparel.svg",
     "alt": "Apparel icon"
    },
    {
@@ -21507,7 +21507,7 @@
    },
    {
     "t": "img",
-    "src": "/gourmet-foods.svg",
+    "src": "/images/gourmet-foods.svg",
     "alt": "Gourmet foods icon"
    },
    {
@@ -21671,7 +21671,7 @@
    },
    {
     "t": "img",
-    "src": "/magnetic-box-rigid.webp",
+    "src": "/images/magnetic-box-rigid.webp",
     "alt": "magnetic_box"
    },
    {
@@ -21764,22 +21764,22 @@
    {
     "name": "Two Piece Rigid Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Collapsible Rigid Boxes",
     "href": "/product/collapsible-rigid-boxes/",
-    "img": "/collapsible-rigid-boxes-rigid.webp"
+    "img": "/images/collapsible-rigid-boxes-rigid.webp"
    },
    {
     "name": "Shoulder Neck Rigid Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    }
   ]
  },
@@ -21790,10 +21790,10 @@
   "metaDescription": "Get custom makeup boxes from durable materials at wholesale prices. Highlight your beauty products with makeup boxes in a range of sizes and styles.",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-makeup-boxes-cosmetic.webp",
-   "/booklet-makeup-boxes-cosmetic.webp",
-   "/custom-makeup-boxes-1-cosmetic.webp",
-   "/rigid-makeup-boxes-cosmetic.webp"
+   "/images/custom-makeup-boxes-cosmetic.webp",
+   "/images/booklet-makeup-boxes-cosmetic.webp",
+   "/images/custom-makeup-boxes-1-cosmetic.webp",
+   "/images/rigid-makeup-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -22035,22 +22035,22 @@
    {
     "name": "Cream Boxes",
     "href": "/product/cream-boxes/",
-    "img": "/custom-cream-boxes-cosmetic.webp"
+    "img": "/images/custom-cream-boxes-cosmetic.webp"
    },
    {
     "name": "Eyelash Boxes",
     "href": "/product/eyelash-boxes/",
-    "img": "/custom-bookend-eyelashes-boxes-cosmetic.webp"
+    "img": "/images/custom-bookend-eyelashes-boxes-cosmetic.webp"
    },
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Eyeshadow Boxes",
     "href": "/product/eyeshadow-boxes/",
-    "img": "/eye-shadow-boxes-cosmetic.webp"
+    "img": "/images/eye-shadow-boxes-cosmetic.webp"
    }
   ]
  },
@@ -22061,10 +22061,10 @@
   "metaDescription": "Create your custom mascara boxes with our free design support. Wholesale mascara boxes in a wide range of materials, sizes, with no MOQ—Order Today!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-mascara-boxes-cosmetic.webp",
-   "/drawer-mascara-boxes-cosmetic.webp",
-   "/printed-mascara-box-cosmetic.webp",
-   "/custom-mascara-box-with-window-cosmetic.webp"
+   "/images/custom-mascara-boxes-cosmetic.webp",
+   "/images/drawer-mascara-boxes-cosmetic.webp",
+   "/images/printed-mascara-box-cosmetic.webp",
+   "/images/custom-mascara-box-with-window-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -22297,22 +22297,22 @@
    {
     "name": "Cream Boxes",
     "href": "/product/cream-boxes/",
-    "img": "/custom-cream-boxes-cosmetic.webp"
+    "img": "/images/custom-cream-boxes-cosmetic.webp"
    },
    {
     "name": "Eyelash Boxes",
     "href": "/product/eyelash-boxes/",
-    "img": "/custom-bookend-eyelashes-boxes-cosmetic.webp"
+    "img": "/images/custom-bookend-eyelashes-boxes-cosmetic.webp"
    },
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Eyeshadow Boxes",
     "href": "/product/eyeshadow-boxes/",
-    "img": "/eye-shadow-boxes-cosmetic.webp"
+    "img": "/images/eye-shadow-boxes-cosmetic.webp"
    }
   ]
  },
@@ -22323,10 +22323,10 @@
   "metaDescription": "Get custom medicine boxes that protect pharmaceutical products at wholesale prices! Order printed medicine boxes in all sizes and shapes!",
   "category": "Retail Boxes",
   "gallery": [
-   "/medicine-boxes-retail.webp",
-   "/custom-medicine-boxes-retail.webp",
-   "/custom-medicine-boxes-with-window-retail.webp",
-   "/drawer-medicine-box-retail.webp"
+   "/images/medicine-boxes-retail.webp",
+   "/images/custom-medicine-boxes-retail.webp",
+   "/images/custom-medicine-boxes-with-window-retail.webp",
+   "/images/drawer-medicine-box-retail.webp"
   ],
   "hero": {
    "body": [
@@ -22603,22 +22603,22 @@
    {
     "name": "Presentation Boxes",
     "href": "/product/presentation-boxes/",
-    "img": "/presentation-boxes-2.webp"
+    "img": "/images/presentation-boxes-2.webp"
    },
    {
     "name": "Kraft Boxes",
     "href": "/product/kraft-boxes/",
-    "img": "/kraft-boxes-retail.webp"
+    "img": "/images/kraft-boxes-retail.webp"
    },
    {
     "name": "Folding Cartons",
     "href": "/folding-cartons/",
-    "img": "/custom-folding-cartons-retail.webp"
+    "img": "/images/custom-folding-cartons-retail.webp"
    },
    {
     "name": "Tray and Sleeve Boxes",
     "href": "/product/tray-sleeve-boxes/",
-    "img": "/tray-and-sleeve-box-retail.webp"
+    "img": "/images/tray-and-sleeve-box-retail.webp"
    }
   ]
  },
@@ -22629,10 +22629,10 @@
   "metaDescription": "Buy custom nail polish boxes at wholesale prices and with no minimums! Get nail polish boxes with logo in custom sizes, shapes, and printing!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-nail-polish-boxes-cosmetic.webp",
-   "/custom-nail-polish-boxes-with-window-cosmetic.webp",
-   "/custom-rigid-nail-polish-boxes-cosmetic.webp",
-   "/two-piece-nail-polish-boxes-cosmetic.webp"
+   "/images/custom-nail-polish-boxes-cosmetic.webp",
+   "/images/custom-nail-polish-boxes-with-window-cosmetic.webp",
+   "/images/custom-rigid-nail-polish-boxes-cosmetic.webp",
+   "/images/two-piece-nail-polish-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -22883,22 +22883,22 @@
    {
     "name": "Cream Boxes",
     "href": "/product/cream-boxes/",
-    "img": "/custom-cream-boxes-cosmetic.webp"
+    "img": "/images/custom-cream-boxes-cosmetic.webp"
    },
    {
     "name": "Eyelash Boxes",
     "href": "/product/eyelash-boxes/",
-    "img": "/custom-bookend-eyelashes-boxes-cosmetic.webp"
+    "img": "/images/custom-bookend-eyelashes-boxes-cosmetic.webp"
    },
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Eyeshadow Boxes",
     "href": "/product/eyeshadow-boxes/",
-    "img": "/eye-shadow-boxes-cosmetic.webp"
+    "img": "/images/eye-shadow-boxes-cosmetic.webp"
    }
   ]
  },
@@ -22909,10 +22909,10 @@
   "metaDescription": "Custom ornament boxes at wholesale prices, with free shipping and no MOQs! Ornament boxes designed for Christmas ornaments, weddings, and holiday décor.",
   "category": "Gift Boxes",
   "gallery": [
-   "/ornament-boxes-2.webp",
-   "/drawer-ornament-boxes-gift.webp",
-   "/mailer-ornament-boxes-gift.webp",
-   "/christmas-ornament-boxes.webp"
+   "/images/ornament-boxes-2.webp",
+   "/images/drawer-ornament-boxes-gift.webp",
+   "/images/mailer-ornament-boxes-gift.webp",
+   "/images/christmas-ornament-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -23170,22 +23170,22 @@
    {
     "name": "Holographic Boxes",
     "href": "/product/holographic-boxes/",
-    "img": "/custom-holographic-box-gift.webp"
+    "img": "/images/custom-holographic-box-gift.webp"
    },
    {
     "name": "Foiling Boxes",
     "href": "/product/foiling-boxes/",
-    "img": "/gold-foiling-box-gift.webp"
+    "img": "/images/gold-foiling-box-gift.webp"
    },
    {
     "name": "Die-Cut Boxes",
     "href": "/product/die-cut-boxes/",
-    "img": "/die-cut-boxes-gift.webp"
+    "img": "/images/die-cut-boxes-gift.webp"
    },
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    }
   ]
  },
@@ -23196,10 +23196,10 @@
   "metaDescription": "Order custom packaging sleeves with premium finishing, printing, and durable materials,. Available in custom sizes with no MOQs, fast turnaround, and free shipping.",
   "category": "Retail Boxes",
   "gallery": [
-   "/custom-packaging-sleeves-retail.webp",
-   "/mailer-box-with-sleeve-retail.webp",
-   "/packaging-sleeves-retail.webp",
-   "/printed-packaging-sleeves-retail.webp"
+   "/images/custom-packaging-sleeves-retail.webp",
+   "/images/mailer-box-with-sleeve-retail.webp",
+   "/images/packaging-sleeves-retail.webp",
+   "/images/printed-packaging-sleeves-retail.webp"
   ],
   "hero": {
    "body": [
@@ -23485,10 +23485,10 @@
   "metaDescription": "Get custom panettone boxes with premium printing, unique designs, and durable packaging solutions. Food-safe panettone box packaging with free shipping.",
   "category": "Bakery Boxes",
   "gallery": [
-   "/panettone-boxes-bakery.webp",
-   "/custom-panettone-boxes-bakery.webp",
-   "/custom-panettone-boxes-with-window-bakery.webp",
-   "/custom-printed-panettone-boxes-bakery.webp"
+   "/images/panettone-boxes-bakery.webp",
+   "/images/custom-panettone-boxes-bakery.webp",
+   "/images/custom-panettone-boxes-with-window-bakery.webp",
+   "/images/custom-printed-panettone-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -23669,22 +23669,22 @@
    {
     "name": "Pillow Boxes",
     "href": "/product/pillow-boxes/",
-    "img": "/pillow-box-folding-cartons.webp"
+    "img": "/images/pillow-box-folding-cartons.webp"
    },
    {
     "name": "Handle Boxes",
     "href": "/product/handle-boxes/",
-    "img": "/handle-boxes-folding-cartons.webp"
+    "img": "/images/handle-boxes-folding-cartons.webp"
    },
    {
     "name": "Gable Boxes",
     "href": "/product/gable-boxes/",
-    "img": "/gable-box-folding-cartons.webp"
+    "img": "/images/gable-box-folding-cartons.webp"
    },
    {
     "name": "Auto Lock Bottom Boxes",
     "href": "/product/auto-lock-bottom-boxes/",
-    "img": "/auto-lock-bottom-box-folding-cartons.webp"
+    "img": "/images/auto-lock-bottom-box-folding-cartons.webp"
    }
   ]
  },
@@ -23695,10 +23695,10 @@
   "metaDescription": "Custom pastry boxes made of FDA-approved materials to preserve freshness and flavor. Order wholesale pastry boxes today and enjoy free shipping!",
   "category": "Bakery Boxes",
   "gallery": [
-   "/printed-pastry-boxes-bakery.webp",
-   "/custom-pastry-box-with-window-bakery.webp",
-   "/handle-pastry-boxes-bakery.webp",
-   "/mailer-pastry-boxes-bakery.webp"
+   "/images/printed-pastry-boxes-bakery.webp",
+   "/images/custom-pastry-box-with-window-bakery.webp",
+   "/images/handle-pastry-boxes-bakery.webp",
+   "/images/mailer-pastry-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -23979,22 +23979,22 @@
    {
     "name": "Pie Boxes",
     "href": "/product/pie-boxes/",
-    "img": "/pillow-pie-boxes-bakery.webp"
+    "img": "/images/pillow-pie-boxes-bakery.webp"
    },
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    }
   ]
  },
@@ -24005,10 +24005,10 @@
   "metaDescription": "Order PDQ boxes and trays to quickly display your products and drive impulse purchases. Customize printed PDQ boxes in any shape, size, and style. Low minimums.",
   "category": "",
   "gallery": [
-   "/custom-pdq-display-boxes-display.webp",
-   "/custom-printed-pdq-display-display.webp",
-   "/pdq-display-box-display.webp",
-   "/custom-pdq-box1.webp"
+   "/images/custom-pdq-display-boxes-display.webp",
+   "/images/custom-printed-pdq-display-display.webp",
+   "/images/pdq-display-box-display.webp",
+   "/images/custom-pdq-box1.webp"
   ],
   "hero": {
    "body": [
@@ -24252,10 +24252,10 @@
   "metaDescription": "Order custom perforated boxes with tear-open designs for retail displays, shipping, and product dispensing. Available in custom sizes, materials, printing, and finishes at wholesale prices.",
   "category": "Display Boxes",
   "gallery": [
-   "/custom-perforated-box-display.webp",
-   "/custom-perforated-boxes-display.webp",
-   "/perforated-boxes-display.webp",
-   "/printed-perforated-box-display.webp"
+   "/images/custom-perforated-box-display.webp",
+   "/images/custom-perforated-boxes-display.webp",
+   "/images/perforated-boxes-display.webp",
+   "/images/printed-perforated-box-display.webp"
   ],
   "hero": {
    "body": [
@@ -24586,22 +24586,22 @@
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    },
    {
     "name": "Dispenser Boxes",
     "href": "/product/dispenser-boxes/",
-    "img": "/custom-dispenser-box2-display.webp"
+    "img": "/images/custom-dispenser-box2-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-box2-display.webp"
+    "img": "/images/custom-pdq-box2-display.webp"
    },
    {
     "name": "Pop-up Display Boxes",
     "href": "/product/pop-up-display-boxes/",
-    "img": "/custom-pop-up-display-boxes-pic-display.webp"
+    "img": "/images/custom-pop-up-display-boxes-pic-display.webp"
    }
   ]
  },
@@ -24612,10 +24612,10 @@
   "metaDescription": "Get custom perfume boxes with logo printing at wholesale prices and no minimums! Custom sizes, style, and materials are available—Order Yours Today!",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/custom-perfume-boxes-cosmetic.webp",
-   "/drawer-perfume-box-cosmetic.webp",
-   "/perfume-box-with-window-cosmetic.webp",
-   "/rigid-perfume-box-cosmetic.webp"
+   "/images/custom-perfume-boxes-cosmetic.webp",
+   "/images/drawer-perfume-box-cosmetic.webp",
+   "/images/perfume-box-with-window-cosmetic.webp",
+   "/images/rigid-perfume-box-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -24908,22 +24908,22 @@
    {
     "name": "Two Piece Rigid Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "Shoulder Neck Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    }
   ]
  },
@@ -24934,10 +24934,10 @@
   "metaDescription": "Order custom pie boxes with food-safe materials, window cut-outs & crust-protecting design. No MOQ, free design support & fast shipping. Get a quote!",
   "category": "Bakery Boxes",
   "gallery": [
-   "/pillow-pie-boxes-bakery.webp",
-   "/pie-boxes-with-window-bakery.webp",
-   "/gable-pie-box-with-ribbion-bakery.webp",
-   "/custom-pie-boxes-bakery.webp"
+   "/images/pillow-pie-boxes-bakery.webp",
+   "/images/pie-boxes-with-window-bakery.webp",
+   "/images/gable-pie-box-with-ribbion-bakery.webp",
+   "/images/custom-pie-boxes-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -25307,22 +25307,22 @@
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Cupcake Boxes",
     "href": "/product/cupcake-boxes/",
-    "img": "/cupcake-boxes-bakery.webp"
+    "img": "/images/cupcake-boxes-bakery.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    }
   ]
  },
@@ -25333,10 +25333,10 @@
   "metaDescription": "Get custom pillow boxes—trendy, easy-to-assemble, and cost-effective packaging for every product. Wholesale pricing and free shipping are available—Order Today!",
   "category": "Folding Cartons",
   "gallery": [
-   "/pillow-box-folding-cartons.webp",
-   "/custom-pillow-box-folding-cartons.webp",
-   "/custom-pillow-boxes-with-window-folding-cartons.webp",
-   "/handle-pillow-boxes-folding-cartons.webp"
+   "/images/pillow-box-folding-cartons.webp",
+   "/images/custom-pillow-box-folding-cartons.webp",
+   "/images/custom-pillow-boxes-with-window-folding-cartons.webp",
+   "/images/handle-pillow-boxes-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -25621,22 +25621,22 @@
    {
     "name": "Reverse Tuck End Boxes",
     "href": "/product/reverse-tuck-end-boxes/",
-    "img": "/reverse-tuck-end-box-2.webp"
+    "img": "/images/reverse-tuck-end-box-2.webp"
    },
    {
     "name": "Roll End Tuck Top Boxes",
     "href": "/product/roll-end-tuck-top-boxes/",
-    "img": "/roll-end-tuck-top-box-folding-cartons.webp"
+    "img": "/images/roll-end-tuck-top-box-folding-cartons.webp"
    },
    {
     "name": "123 Bottom Boxes",
     "href": "/product/123-bottom-boxes/",
-    "img": "/123-bottom-boxes-folding-cartons.webp"
+    "img": "/images/123-bottom-boxes-folding-cartons.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-box-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-box-folding-cartons.webp"
    }
   ]
  },
@@ -25647,10 +25647,10 @@
   "metaDescription": "Custom pizza boxes made from FDA-approved materials with grease-resistant linings and heat retention. Wholesale pricing and free shipping—Get yours Today!",
   "category": "Food Boxes",
   "gallery": [
-   "/pizza-boxes-food.webp",
-   "/custom-pizza-boxes-food.webp",
-   "/handle-pizza-boxes-food.webp",
-   "/triangle-pizza-box-food.webp"
+   "/images/pizza-boxes-food.webp",
+   "/images/custom-pizza-boxes-food.webp",
+   "/images/handle-pizza-boxes-food.webp",
+   "/images/triangle-pizza-box-food.webp"
   ],
   "hero": {
    "body": [
@@ -25887,22 +25887,22 @@
    {
     "name": "Burger Boxes",
     "href": "/product/burger-boxes/",
-    "img": "/custom-burger-boxes-food.webp"
+    "img": "/images/custom-burger-boxes-food.webp"
    },
    {
     "name": "French Fry Boxes",
     "href": "/product/french-fry-boxes/",
-    "img": "/french-fries.1-food.webp"
+    "img": "/images/french-fries.1-food.webp"
    },
    {
     "name": "Pie Boxes",
     "href": "/product/pie-boxes/",
-    "img": "/pillow-pie-boxes-bakery.webp"
+    "img": "/images/pillow-pie-boxes-bakery.webp"
    },
    {
     "name": "Popcorn Boxes",
     "href": "/product/popcorn-boxes/",
-    "img": "/popcorn-boxes-food.webp"
+    "img": "/images/popcorn-boxes-food.webp"
    }
   ]
  },
@@ -25913,10 +25913,10 @@
   "metaDescription": "Custom playing card boxes made of durable, eco-friendly materials in all sizes and styles. Order wholesale playing card boxes today and get free shipping!",
   "category": "Retail Boxes",
   "gallery": [
-   "/playing-card-boxes-retail.webp",
-   "/drawer-playing-card-boxes-retail.webp",
-   "/playing-card-boxes-with-window-retail.webp",
-   "/two-piece-rigid-playing-card-boxes-retail.webp"
+   "/images/playing-card-boxes-retail.webp",
+   "/images/drawer-playing-card-boxes-retail.webp",
+   "/images/playing-card-boxes-with-window-retail.webp",
+   "/images/two-piece-rigid-playing-card-boxes-retail.webp"
   ],
   "hero": {
    "body": [
@@ -26162,22 +26162,22 @@
    {
     "name": "Display Boxes",
     "href": "/display-boxes/",
-    "img": "/custom-display-boxes-apparel.webp"
+    "img": "/images/custom-display-boxes-apparel.webp"
    },
    {
     "name": "Game Boxes",
     "href": "/product/game-boxes/",
-    "img": "/game-boxes-retail.webp"
+    "img": "/images/game-boxes-retail.webp"
    },
    {
     "name": "Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Tuck Boxes",
     "href": "/product/reverse-tuck-end-boxes/",
-    "img": "/reverse-tuck-end-box-2.webp"
+    "img": "/images/reverse-tuck-end-box-2.webp"
    }
   ]
  },
@@ -26188,10 +26188,10 @@
   "metaDescription": "Order custom pop-up display boxes designed to showcase products attractively at retail counters and shelves. Get branded designs, durable materials, and premium printing options for your packaging needs.",
   "category": "Display Boxes",
   "gallery": [
-   "/cbd-pop-up-display-boxes-display.webp",
-   "/custom-pop-up-display-boxes-display.webp",
-   "/pop-up-display-box-display.webp",
-   "/pop-up-display-boxes-display.webp"
+   "/images/cbd-pop-up-display-boxes-display.webp",
+   "/images/custom-pop-up-display-boxes-display.webp",
+   "/images/pop-up-display-box-display.webp",
+   "/images/pop-up-display-boxes-display.webp"
   ],
   "hero": {
    "body": [
@@ -26457,22 +26457,22 @@
    {
     "name": "Perforated Boxes",
     "href": "/product/perforated-boxes/",
-    "img": "/custom-perforated-boxes-display.webp"
+    "img": "/images/custom-perforated-boxes-display.webp"
    },
    {
     "name": "Dispenser Boxes",
     "href": "/product/dispenser-boxes/",
-    "img": "/custom-dispenser-boxes-display.webp"
+    "img": "/images/custom-dispenser-boxes-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-display-boxes-1-display.webp"
+    "img": "/images/custom-pdq-display-boxes-1-display.webp"
    },
    {
     "name": "Front Cut Out Display Boxes",
     "href": "/product/front-cut-out-display-boxes/",
-    "img": "/front-cut-out-display-box-display.webp"
+    "img": "/images/front-cut-out-display-box-display.webp"
    }
   ]
  },
@@ -26483,10 +26483,10 @@
   "metaDescription": "Custom popcorn boxes made from high-quality, FDA-approved materials with greaseproof coatings. Order wholesale popcorn boxes with no minimums!",
   "category": "Food Boxes",
   "gallery": [
-   "/popcorn-boxes-food.webp",
-   "/custom-popcorn-boxes-food.webp",
-   "/popcorn-boxes-with-window-food.webp",
-   "/printed-popcorn-boxes-food.webp"
+   "/images/popcorn-boxes-food.webp",
+   "/images/custom-popcorn-boxes-food.webp",
+   "/images/popcorn-boxes-with-window-food.webp",
+   "/images/printed-popcorn-boxes-food.webp"
   ],
   "hero": {
    "body": [
@@ -26713,22 +26713,22 @@
    {
     "name": "Burger Boxes",
     "href": "/product/burger-boxes/",
-    "img": "/custom-burger-boxes-food.webp"
+    "img": "/images/custom-burger-boxes-food.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/custom-mailer-cookie-boxes-bakery.webp"
+    "img": "/images/custom-mailer-cookie-boxes-bakery.webp"
    },
    {
     "name": "Truffle Boxes",
     "href": "/product/truffle-boxes/",
-    "img": "/truffle-boxes-food.webp"
+    "img": "/images/truffle-boxes-food.webp"
    },
    {
     "name": "Pizza Boxes",
     "href": "/product/pizza-boxes/",
-    "img": "/pizza-boxes-food.webp"
+    "img": "/images/pizza-boxes-food.webp"
    }
   ]
  },
@@ -26739,10 +26739,10 @@
   "metaDescription": "Create custom PR boxes with premium printing, custom sizes, and branded inserts. Perfect for influencer kits, media launches, product gifting, and memorable unboxing experiences. Free Shipping & No Minimums.",
   "category": "Gift Boxes",
   "gallery": [
-   "/mailer-pr-box-gift.webp",
-   "/pr-boxes-with-window-gift.webp",
-   "/rigid-pr-boxes-gift.webp",
-   "/two-piece-pr-boxes-gift.webp"
+   "/images/mailer-pr-box-gift.webp",
+   "/images/pr-boxes-with-window-gift.webp",
+   "/images/rigid-pr-boxes-gift.webp",
+   "/images/two-piece-pr-boxes-gift.webp"
   ],
   "hero": {
    "body": [
@@ -27040,10 +27040,10 @@
   "metaDescription": "Custom presentation boxes made of premium materials, precise sizes, and high-definition printing. Wholesale pricing, free shipping, and no MOQ—Order Now!",
   "category": "Retail Boxes",
   "gallery": [
-   "/custom-presentation-boxes-retail.webp",
-   "/drawer-custom-presentation-boxes-retail.webp",
-   "/presentation-boxes-2.webp",
-   "/magnetic-presentation-boxes.webp"
+   "/images/custom-presentation-boxes-retail.webp",
+   "/images/drawer-custom-presentation-boxes-retail.webp",
+   "/images/presentation-boxes-2.webp",
+   "/images/magnetic-presentation-boxes.webp"
   ],
   "hero": {
    "body": [
@@ -27331,22 +27331,22 @@
    {
     "name": "Bath Bomb Boxes",
     "href": "/product/bath-bomb-boxes/",
-    "img": "/bath-bomb-cosmetic.webp"
+    "img": "/images/bath-bomb-cosmetic.webp"
    },
    {
     "name": "Candle Boxes",
     "href": "/candle-boxes/",
-    "img": "/custom-candle-mailer-box-candle.webp"
+    "img": "/images/custom-candle-mailer-box-candle.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    },
    {
     "name": "Shoulder Neck Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    }
   ]
  },
@@ -27357,10 +27357,10 @@
   "metaDescription": "Get custom nail polish boxes with logo in durable materials, vibrant printing, free design support, and wholesale pricing — fast turnaround and free shipping.",
   "category": "Cosmetic Boxes",
   "gallery": [
-   "/printed-press-on-nails-boxes-cosmetic.webp",
-   "/rigid-press-on-nails-boxes-cosmetic.webp",
-   "/press-on-nail-with-window-cosmetic.webp",
-   "/drawer-press-on-nail-boxes-cosmetic.webp"
+   "/images/printed-press-on-nails-boxes-cosmetic.webp",
+   "/images/rigid-press-on-nails-boxes-cosmetic.webp",
+   "/images/press-on-nail-with-window-cosmetic.webp",
+   "/images/drawer-press-on-nail-boxes-cosmetic.webp"
   ],
   "hero": {
    "body": [
@@ -27611,22 +27611,22 @@
    {
     "name": "Eyeliner Boxes",
     "href": "/product/eyeliner-boxes/",
-    "img": "/custom-eyeliner-boxes-with-window-cosmetic.webp"
+    "img": "/images/custom-eyeliner-boxes-with-window-cosmetic.webp"
    },
    {
     "name": "Hair Extension Boxes",
     "href": "/product/hair-extension-boxes/",
-    "img": "/custom-hair-extension-boxes-cosmetic.webp"
+    "img": "/images/custom-hair-extension-boxes-cosmetic.webp"
    },
    {
     "name": "Hairspray Boxes",
     "href": "/product/hairspray-boxes/",
-    "img": "/hairspray-boxes-cosmetic.webp"
+    "img": "/images/hairspray-boxes-cosmetic.webp"
    },
    {
     "name": "Lip Balm Boxes",
     "href": "/product/lip-balm-boxes/",
-    "img": "/lip-balm-boxes-cosmetic.webp"
+    "img": "/images/lip-balm-boxes-cosmetic.webp"
    }
   ]
  },
@@ -27637,10 +27637,10 @@
   "metaDescription": "Order custom rigid drawer boxes with your logo, custom sizes, inserts, and premium finishes. No MOQ, free design support, and free shipping.",
   "category": "Rigid Boxes",
   "gallery": [
-   "/rigid-drawer-box1z-rigid.webp",
-   "/rigid-drawer-box2z-rigid.webp",
-   "/rigid-drawer-box1-1-rigid.webp",
-   "/rigid-drawer-box-rigid.webp"
+   "/images/rigid-drawer-box1z-rigid.webp",
+   "/images/rigid-drawer-box2z-rigid.webp",
+   "/images/rigid-drawer-box1-1-rigid.webp",
+   "/images/rigid-drawer-box-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -27920,22 +27920,22 @@
    {
     "name": "Two Piece Rigid Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "Shoulder Neck Rigid Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    },
    {
     "name": "Collapsible Rigid Boxes",
     "href": "/product/collapsible-rigid-boxes/",
-    "img": "/collapsible-rigid-boxes-rigid.webp"
+    "img": "/images/collapsible-rigid-boxes-rigid.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    }
   ]
  },
@@ -27946,10 +27946,10 @@
   "metaDescription": "Preserve better with custom sandwich boxes made of FDA-approved materials and grease-proof coatings. Order sandwich boxes with no MOQs and get free shipping!",
   "category": "Food Boxes",
   "gallery": [
-   "/printed-sandwich-box-food.webp",
-   "/kraft-gable-sandwich-boxes-food.webp",
-   "/gable-sandwich-box-with-window-food.webp",
-   "/custom-sandwich-box-with-window-food.webp"
+   "/images/printed-sandwich-box-food.webp",
+   "/images/kraft-gable-sandwich-boxes-food.webp",
+   "/images/gable-sandwich-box-with-window-food.webp",
+   "/images/custom-sandwich-box-with-window-food.webp"
   ],
   "hero": {
    "body": [
@@ -28200,22 +28200,22 @@
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Donut Boxes",
     "href": "/product/donut-boxes/",
-    "img": "/dount-boxes-bakery.webp"
+    "img": "/images/dount-boxes-bakery.webp"
    },
    {
     "name": "Cupcake Boxes",
     "href": "/product/cupcake-boxes/",
-    "img": "/cupcake-boxes-bakery.webp"
+    "img": "/images/cupcake-boxes-bakery.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    }
   ]
  },
@@ -28226,10 +28226,10 @@
   "metaDescription": "Order custom school boxes with your logo, colors, and artwork. Ideal for school supplies, welcome kits, gifts, and educational packaging. Get a free quote!",
   "category": "Retail Boxes",
   "gallery": [
-   "/custom-school-box-with-shredder-retail.webp",
-   "/custom-school-box-with-window-retail.webp",
-   "/custom-two-piece-box-school-boxes-retail.webp",
-   "/mailer-school-box-retail.webp"
+   "/images/custom-school-box-with-shredder-retail.webp",
+   "/images/custom-school-box-with-window-retail.webp",
+   "/images/custom-two-piece-box-school-boxes-retail.webp",
+   "/images/mailer-school-box-retail.webp"
   ],
   "hero": {
    "body": [
@@ -28463,22 +28463,22 @@
    {
     "name": "Packaging Sleeves",
     "href": "/product/packaging-sleeves/",
-    "img": "/custom-packaging-sleeves1-retail.webp"
+    "img": "/images/custom-packaging-sleeves1-retail.webp"
    },
    {
     "name": "Playing Card Boxes",
     "href": "/product/playing-card-boxes/",
-    "img": "/playing-card-boxes-retail.webp"
+    "img": "/images/playing-card-boxes-retail.webp"
    },
    {
     "name": "Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-box1z-rigid.webp"
+    "img": "/images/rigid-drawer-box1z-rigid.webp"
    },
    {
     "name": "Game Boxes",
     "href": "/product/game-boxes/",
-    "img": "/game-boxes-retail.webp"
+    "img": "/images/game-boxes-retail.webp"
    }
   ]
  },
@@ -28489,10 +28489,10 @@
   "metaDescription": "Get custom shirt boxes to present, protect, and sell better at wholesale prices! Available in a wide range of sizes and premium materials — Order shirt boxes today!",
   "category": "Apparel Boxes Custom",
   "gallery": [
-   "/printed-shirt-boxes-apparel.webp",
-   "/shirt-boxes-with-window-apparel.webp",
-   "/mailer-shirt-box-apparel.webp",
-   "/custom-shirt-boxe.webp"
+   "/images/printed-shirt-boxes-apparel.webp",
+   "/images/shirt-boxes-with-window-apparel.webp",
+   "/images/mailer-shirt-box-apparel.webp",
+   "/images/custom-shirt-boxe.webp"
   ],
   "hero": {
    "body": [
@@ -28711,22 +28711,22 @@
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-box1-1-rigid.webp"
+    "img": "/images/rigid-drawer-box1-1-rigid.webp"
    },
    {
     "name": "Tray and Sleeve Boxes",
     "href": "/product/tray-sleeve-boxes/",
-    "img": "/tray-and-sleeve-boxes-with-window-retail.webp"
+    "img": "/images/tray-and-sleeve-boxes-with-window-retail.webp"
    },
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    }
   ]
  },
@@ -28737,10 +28737,10 @@
   "metaDescription": "Custom sock boxes for retail, e-commerce shipments, and subscriptions. Wholesale pricing, free shipping, and fast turnaround — Order Now!",
   "category": "Apparel Boxes",
   "gallery": [
-   "/sock-boxes-apparel.webp",
-   "/mailer-sock-boxes-apparel.webp",
-   "/rigid-sock-boxes-apparel.webp",
-   "/sock-packaging-with-printed-apparel.webp"
+   "/images/sock-boxes-apparel.webp",
+   "/images/mailer-sock-boxes-apparel.webp",
+   "/images/rigid-sock-boxes-apparel.webp",
+   "/images/sock-packaging-with-printed-apparel.webp"
   ],
   "hero": {
    "body": [
@@ -28977,22 +28977,22 @@
    {
     "name": "Display Boxes",
     "href": "/display-boxes/",
-    "img": "/custom-display-boxes-apparel.webp"
+    "img": "/images/custom-display-boxes-apparel.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Two Piece Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "PR Boxes",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  },
@@ -29003,10 +29003,10 @@
   "metaDescription": "Order custom subscription boxes designed to protect products, showcase your brand, and create memorable unboxing experiences. Get a quote now!",
   "category": "Mailer Boxes",
   "gallery": [
-   "/subscription-boxes-1-mailer.webp",
-   "/custom-subscription-box-mailer.webp",
-   "/subscription-boxes-mailer.webp",
-   "/sub.webp"
+   "/images/subscription-boxes-1-mailer.webp",
+   "/images/custom-subscription-box-mailer.webp",
+   "/images/subscription-boxes-mailer.webp",
+   "/images/sub.webp"
   ],
   "hero": {
    "body": [
@@ -29308,22 +29308,22 @@
    {
     "name": "Mailer Boxes",
     "href": "/mailer-boxes/",
-    "img": "/mailer-boxes-corrugated.webp"
+    "img": "/images/mailer-boxes-corrugated.webp"
    },
    {
     "name": "Sleeve Boxes",
     "href": "/product/tray-sleeve-boxes/",
-    "img": "/tray-and-sleeve-box-retail.webp"
+    "img": "/images/tray-and-sleeve-box-retail.webp"
    },
    {
     "name": "Soap Boxes",
     "href": "/soap-boxes/",
-    "img": "/custom-soap-boxes-soap.webp"
+    "img": "/images/custom-soap-boxes-soap.webp"
    },
    {
     "name": "PR Boxes",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  },
@@ -29334,10 +29334,10 @@
   "metaDescription": "Custom tea boxes made from premium, sturdy materials to preserve freshness with appealing displays. Wholesale pricing and free shipping—Order Yours Today!",
   "category": "Food Boxes",
   "gallery": [
-   "/tea-boxes-food.webp",
-   "/custom-drawer-tea-boxes-food.webp",
-   "/custom-tea-box-food.webp",
-   "/custom-tea-boxes-with-window-food.webp"
+   "/images/tea-boxes-food.webp",
+   "/images/custom-drawer-tea-boxes-food.webp",
+   "/images/custom-tea-box-food.webp",
+   "/images/custom-tea-boxes-with-window-food.webp"
   ],
   "hero": {
    "body": [
@@ -29553,22 +29553,22 @@
    {
     "name": "Cereal Boxes",
     "href": "/product/cereal-boxes/",
-    "img": "/cereal-boxes-food.webp"
+    "img": "/images/cereal-boxes-food.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/rigid-cookie-boxes-bakery.webp"
+    "img": "/images/rigid-cookie-boxes-bakery.webp"
    },
    {
     "name": "Truffle Boxes",
     "href": "/product/truffle-boxes/",
-    "img": "/truffle-boxes-food.webp"
+    "img": "/images/truffle-boxes-food.webp"
    },
    {
     "name": "French Fry Boxes",
     "href": "/product/french-fry-boxes/",
-    "img": "/french-fries.1-food.webp"
+    "img": "/images/french-fries.1-food.webp"
    }
   ]
  },
@@ -29579,10 +29579,10 @@
   "metaDescription": "Get custom truffle boxes that protect, present, and promote better at wholesale prices. Custom sizes, styles, and printing are available for every order.",
   "category": "Food Boxes",
   "gallery": [
-   "/truffle-boxes-food.webp",
-   "/custom-rigid-truffle-boxes-food.webp",
-   "/custom-truffle-boxes-with-ribbion-food.webp",
-   "/custom-truffle-box-with-window-food.webp"
+   "/images/truffle-boxes-food.webp",
+   "/images/custom-rigid-truffle-boxes-food.webp",
+   "/images/custom-truffle-boxes-with-ribbion-food.webp",
+   "/images/custom-truffle-box-with-window-food.webp"
   ],
   "hero": {
    "body": [
@@ -29790,22 +29790,22 @@
    {
     "name": "Burger Boxes",
     "href": "/product/burger-boxes/",
-    "img": "/custom-burger-boxes-food.webp"
+    "img": "/images/custom-burger-boxes-food.webp"
    },
    {
     "name": "Candy Boxes",
     "href": "/product/candy-boxes/",
-    "img": "/candy-pillow-boxes-food.webp"
+    "img": "/images/candy-pillow-boxes-food.webp"
    },
    {
     "name": "Pizza Boxes",
     "href": "/product/pizza-boxes/",
-    "img": "/custom-pizza-boxes-food.webp"
+    "img": "/images/custom-pizza-boxes-food.webp"
    },
    {
     "name": "Chinese Takeout Boxes",
     "href": "/product/chinese-takeout-boxes/",
-    "img": "/chinese-takeout-box-with-window-food.webp"
+    "img": "/images/chinese-takeout-box-with-window-food.webp"
    }
   ]
  },
@@ -29816,10 +29816,10 @@
   "metaDescription": "Order custom tuck top boxes in any size with custom printing, premium finishes, no minimum order, free design support, and free USA shipping.",
   "category": "Folding Cartons",
   "gallery": [
-   "/eco-tuck-top-boxes-folding-cartons.webp",
-   "/printed-tuck-top-boxes-folding-cartons.webp",
-   "/tuck-top-boxes-folding-cartons.webp",
-   "/tuck-top-boxes-with-window-folding-cartons.webp"
+   "/images/eco-tuck-top-boxes-folding-cartons.webp",
+   "/images/printed-tuck-top-boxes-folding-cartons.webp",
+   "/images/tuck-top-boxes-folding-cartons.webp",
+   "/images/tuck-top-boxes-with-window-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -30091,22 +30091,22 @@
    {
     "name": "Pillow Boxes",
     "href": "/product/pillow-boxes/",
-    "img": "/custom-pillow-box-folding-cartons.webp"
+    "img": "/images/custom-pillow-box-folding-cartons.webp"
    },
    {
     "name": "Handle Boxes",
     "href": "/product/handle-boxes/",
-    "img": "/handle-boxes-folding-cartons.webp"
+    "img": "/images/handle-boxes-folding-cartons.webp"
    },
    {
     "name": "Gable Boxes",
     "href": "/product/gable-boxes/",
-    "img": "/gable-box-folding-cartons.webp"
+    "img": "/images/gable-box-folding-cartons.webp"
    },
    {
     "name": "Auto Lock Bottom Boxes",
     "href": "/product/auto-lock-bottom-boxes/",
-    "img": "/auto-lock-bottom-box-folding-cartons.webp"
+    "img": "/images/auto-lock-bottom-box-folding-cartons.webp"
    }
   ]
  },
@@ -30117,10 +30117,10 @@
   "metaDescription": "Custom vape boxes made from durable materials with child-resistant locks for better product protection. Order wholesale vape boxes with no minimums today!",
   "category": "CBD Boxes",
   "gallery": [
-   "/vape-boxes-cbd.webp",
-   "/custom-display-vape-box-cbd.webp",
-   "/custom-vape-boxes-cbd.webp",
-   "/drawer-vape-boxes-cbd.webp"
+   "/images/vape-boxes-cbd.webp",
+   "/images/custom-display-vape-box-cbd.webp",
+   "/images/custom-vape-boxes-cbd.webp",
+   "/images/drawer-vape-boxes-cbd.webp"
   ],
   "hero": {
    "body": [
@@ -30400,10 +30400,10 @@
   "metaDescription": "Custom watch boxes with protective interiors, luxury finishes, and logo printing at wholesale prices. Free design support & free shipping—Get a Quote Now!",
   "category": "Rigid Boxes",
   "gallery": [
-   "/drawer-watch-box-rigid.webp",
-   "/gift-watch-box-with-ribbion-rigid.webp",
-   "/rigid-watch-box-rigid.webp",
-   "/shoulder-neck-box-rigid.webp"
+   "/images/drawer-watch-box-rigid.webp",
+   "/images/gift-watch-box-with-ribbion-rigid.webp",
+   "/images/rigid-watch-box-rigid.webp",
+   "/images/shoulder-neck-box-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -30658,22 +30658,22 @@
    {
     "name": "Two Piece Rigid Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "Shoulder Neck Rigid Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    },
    {
     "name": "Collapsible Rigid Boxes",
     "href": "/product/collapsible-rigid-boxes/",
-    "img": "/collapsible-rigid-boxes-rigid.webp"
+    "img": "/images/collapsible-rigid-boxes-rigid.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    }
   ]
  },
@@ -30684,10 +30684,10 @@
   "metaDescription": "Window boxes made of high-quality materials to boost product visibility and shelf appeal. Order custom window boxes at wholesale prices with no MOQs!",
   "category": "Retail Boxes",
   "gallery": [
-   "/window-boxes-pic-retail.webp",
-   "/mailer-window-boxes-retail.webp",
-   "/cake-window-boxes-retail.webp",
-   "/drawer-window-boxes-retail.webp"
+   "/images/window-boxes-pic-retail.webp",
+   "/images/mailer-window-boxes-retail.webp",
+   "/images/cake-window-boxes-retail.webp",
+   "/images/drawer-window-boxes-retail.webp"
   ],
   "hero": {
    "body": [
@@ -30898,22 +30898,22 @@
    {
     "name": "Bath Bomb Boxes",
     "href": "/product/bath-bomb-boxes/",
-    "img": "/bath-bomb-cosmetic.webp"
+    "img": "/images/bath-bomb-cosmetic.webp"
    },
    {
     "name": "Candle Boxes",
     "href": "/candle-boxes/",
-    "img": "/custom-candle-mailer-box-candle.webp"
+    "img": "/images/custom-candle-mailer-box-candle.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    }
   ]
  },
@@ -30924,10 +30924,10 @@
   "metaDescription": "Die cut mylar bags for food, cosmetics, cannabis, and pharmaceutical products made of FDA-approved materials. Free design support & free shipping are available.",
   "category": "Mylar Bags",
   "gallery": [
-   "/gloss-die-cut-mylar-bag-mylar.webp",
-   "/holographic-die-cut-mylar-bags-mylar.webp",
-   "/printed-die-cut-mylar-bag-mylar.webp",
-   "/customized-die-cut-mylar-bag-mylar.webp"
+   "/images/gloss-die-cut-mylar-bag-mylar.webp",
+   "/images/holographic-die-cut-mylar-bags-mylar.webp",
+   "/images/printed-die-cut-mylar-bag-mylar.webp",
+   "/images/customized-die-cut-mylar-bag-mylar.webp"
   ],
   "hero": {
    "body": [
@@ -31186,10 +31186,10 @@
   "metaDescription": "Premium die cut boxes designed for product presentation and protection. Drawer, pillow, and display styles available in durable materials — Order Yours Today!",
   "category": "Gift Boxes",
   "gallery": [
-   "/die-cut-boxes-gift.webp",
-   "/custom-printed-die-cut-boxes-gift.webp",
-   "/gable-box-with-die-cut-gift.webp",
-   "/mailer-box-with-die-cut-gift.webp"
+   "/images/die-cut-boxes-gift.webp",
+   "/images/custom-printed-die-cut-boxes-gift.webp",
+   "/images/gable-box-with-die-cut-gift.webp",
+   "/images/mailer-box-with-die-cut-gift.webp"
   ],
   "hero": {
    "body": [
@@ -31459,22 +31459,22 @@
    {
     "name": "Ornament Boxes",
     "href": "/product/ornament-boxes/",
-    "img": "/ornament-boxes-2.webp"
+    "img": "/images/ornament-boxes-2.webp"
    },
    {
     "name": "Holographic Boxes",
     "href": "/product/holographic-boxes/",
-    "img": "/custom-holographic-box-gift.webp"
+    "img": "/images/custom-holographic-box-gift.webp"
    },
    {
     "name": "Foiling Boxes",
     "href": "/product/foiling-boxes/",
-    "img": "/gold-foiling-box-gift.webp"
+    "img": "/images/gold-foiling-box-gift.webp"
    },
    {
     "name": "Custom PR Boxes​",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  },
@@ -31485,10 +31485,10 @@
   "metaDescription": "Pack Legacy is a trusted custom donut boxes manufacturer in the USA. Order premium printed donut packaging with free design support, no MOQ, and fast shipping.",
   "category": "Bakery Boxes",
   "gallery": [
-   "/dount-boxes-bakery.webp",
-   "/custom-drawer-donut-box-bakery.webp",
-   "/custom-donut-box-with-window-bakery.webp",
-   "/donut-box-bakery.webp"
+   "/images/dount-boxes-bakery.webp",
+   "/images/custom-drawer-donut-box-bakery.webp",
+   "/images/custom-donut-box-with-window-bakery.webp",
+   "/images/donut-box-bakery.webp"
   ],
   "hero": {
    "body": [
@@ -31744,22 +31744,22 @@
    {
     "name": "Macaron Boxes",
     "href": "/product/macaron-boxes/",
-    "img": "/custom-drawer-macaron-box-bakery.webp"
+    "img": "/images/custom-drawer-macaron-box-bakery.webp"
    },
    {
     "name": "Pie Boxes",
     "href": "/product/pie-boxes/",
-    "img": "/pillow-pie-boxes-bakery.webp"
+    "img": "/images/pillow-pie-boxes-bakery.webp"
    },
    {
     "name": "Cupcake Boxes",
     "href": "/product/cupcake-boxes/",
-    "img": "/cupcake-boxes-bakery.webp"
+    "img": "/images/cupcake-boxes-bakery.webp"
    },
    {
     "name": "Cookie Boxes",
     "href": "/product/cookie-boxes/",
-    "img": "/cookie-boxes-bakery.webp"
+    "img": "/images/cookie-boxes-bakery.webp"
    }
   ]
  },
@@ -31770,10 +31770,10 @@
   "metaDescription": "Get double wall display lid that protects, showcases, and sells more products at wholesale prices! Free design support and free shipping are available—Order Yours Today!",
   "category": "Display Boxes",
   "gallery": [
-   "/custom-double-wall-display-lid-display.webp",
-   "/double-wall-display-lid-display.webp",
-   "/double-wall-display-lid-with-inserts-display.webp",
-   "/printed-double-wall-display-lid-display.webp"
+   "/images/custom-double-wall-display-lid-display.webp",
+   "/images/double-wall-display-lid-display.webp",
+   "/images/double-wall-display-lid-with-inserts-display.webp",
+   "/images/printed-double-wall-display-lid-display.webp"
   ],
   "hero": {
    "body": [
@@ -32024,22 +32024,22 @@
    {
     "name": "Perforated Boxes",
     "href": "/product/perforated-boxes/",
-    "img": "/custom-perforated-boxes-display.webp"
+    "img": "/images/custom-perforated-boxes-display.webp"
    },
    {
     "name": "Dispenser Boxes",
     "href": "/product/dispenser-boxes/",
-    "img": "/custom-dispenser-boxes-display.webp"
+    "img": "/images/custom-dispenser-boxes-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-display-boxes-1-display.webp"
+    "img": "/images/custom-pdq-display-boxes-1-display.webp"
    },
    {
     "name": "Pop-up Display Boxes",
     "href": "/product/pop-up-display-boxes/",
-    "img": "/cbd-pop-up-display-boxes-display.webp"
+    "img": "/images/cbd-pop-up-display-boxes-display.webp"
    }
   ]
  },
@@ -32050,10 +32050,10 @@
   "metaDescription": "Protect your products with custom EVA foam inserts from Pack Legacy. Precision-cut, durable, and fully customizable inserts for secure packaging and a premium presentation.",
   "category": "Packaging Inserts",
   "gallery": [
-   "/eva-foam-packaging-inserts.webp",
-   "/eva-foam-inserts-with-rigid-packaging-inserts.webp",
-   "/eva-foam-insert-packaging-packaging-inserts.webp",
-   "/custom-eva-foam-inserts-packaging-inserts.webp"
+   "/images/eva-foam-packaging-inserts.webp",
+   "/images/eva-foam-inserts-with-rigid-packaging-inserts.webp",
+   "/images/eva-foam-insert-packaging-packaging-inserts.webp",
+   "/images/custom-eva-foam-inserts-packaging-inserts.webp"
   ],
   "hero": {
    "body": [
@@ -32242,22 +32242,22 @@
    {
     "name": "Reverse Tuck End Boxes",
     "href": "/product/reverse-tuck-end-boxes/",
-    "img": "/reverse-tuck-end-box-2.webp"
+    "img": "/images/reverse-tuck-end-box-2.webp"
    },
    {
     "name": "Roll End Tuck Top Boxes",
     "href": "/product/roll-end-tuck-top-boxes/",
-    "img": "/roll-end-tuck-top-boxes-folding-cartons.webp"
+    "img": "/images/roll-end-tuck-top-boxes-folding-cartons.webp"
    },
    {
     "name": "123 Bottom Boxes",
     "href": "/product/123-bottom-boxes/",
-    "img": "/123-bottom-boxes-folding-cartons.webp"
+    "img": "/images/123-bottom-boxes-folding-cartons.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-boxe-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-boxe-folding-cartons.webp"
    }
   ]
  },
@@ -32268,10 +32268,10 @@
   "metaDescription": "Custom Handle Boxes crafted to match your brand. Choose custom sizes, premium printing, durable materials, and free design support with wholesale pricing.",
   "category": "Box By Styles",
   "gallery": [
-   "/handle-boxes-folding-cartons.webp",
-   "/handle-boxes2-folding-cartons.webp",
-   "/handle-boxes3-folding-cartons.webp",
-   "/handle-boxes4-folding-cartons.webp"
+   "/images/handle-boxes-folding-cartons.webp",
+   "/images/handle-boxes2-folding-cartons.webp",
+   "/images/handle-boxes3-folding-cartons.webp",
+   "/images/handle-boxes4-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -32501,22 +32501,22 @@
    {
     "name": "Reverse Tuck End Boxes",
     "href": "/product/reverse-tuck-end-boxes/",
-    "img": "/reverse-tuck-end-box-2.webp"
+    "img": "/images/reverse-tuck-end-box-2.webp"
    },
    {
     "name": "Roll End Tuck Top Boxes",
     "href": "/product/roll-end-tuck-top-boxes/",
-    "img": "/roll-end-tuck-top-box-folding-cartons.webp"
+    "img": "/images/roll-end-tuck-top-box-folding-cartons.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-box-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-box-folding-cartons.webp"
    },
    {
     "name": "123 Bottom Boxes",
     "href": "/product/123-bottom-boxes/",
-    "img": "/custom-123-bottom-box-folding-cartons.webp"
+    "img": "/images/custom-123-bottom-box-folding-cartons.webp"
    }
   ]
  },
@@ -32527,10 +32527,10 @@
   "metaDescription": "Promote your brand with custom match style rigid boxes featuring premium printing and durable construction. Enjoy free design support, free shipping, & wholesale pricing.",
   "category": "Rigid Boxes",
   "gallery": [
-   "/match-slide-box-rigid.webp",
-   "/printed-match-slide-box-rigid.webp",
-   "/match-slide-box-1-rigid.webp",
-   "/window-match-slide-box-rigid.webp"
+   "/images/match-slide-box-rigid.webp",
+   "/images/printed-match-slide-box-rigid.webp",
+   "/images/match-slide-box-1-rigid.webp",
+   "/images/window-match-slide-box-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -32749,22 +32749,22 @@
    {
     "name": "Shoulder Neck Rigid Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Collapsible Rigid Boxes",
     "href": "/product/collapsible-rigid-boxes/",
-    "img": "/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp"
+    "img": "/images/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    }
   ]
  },
@@ -32775,10 +32775,10 @@
   "metaDescription": "Order custom packaging card inserts with personalized messages, branding, promotions, and sustainable materials to create memorable unboxing experiences.",
   "category": "Packaging Inserts",
   "gallery": [
-   "/packaging-card-inserts-1-packaging-inserts.webp",
-   "/packaging-card-insert-packaging-inserts.webp",
-   "/custom-packaging-card-insert-packaging-inserts.webp",
-   "/card-inserts-packaging-inserts.webp"
+   "/images/packaging-card-inserts-1-packaging-inserts.webp",
+   "/images/packaging-card-insert-packaging-inserts.webp",
+   "/images/custom-packaging-card-insert-packaging-inserts.webp",
+   "/images/card-inserts-packaging-inserts.webp"
   ],
   "hero": {
    "body": [
@@ -32964,22 +32964,22 @@
    {
     "name": "Die Cut Inserts",
     "href": "/product/die-cut-inserts/",
-    "img": "/printed-die-cut-inserts-packaging-inserts.webp"
+    "img": "/images/printed-die-cut-inserts-packaging-inserts.webp"
    },
    {
     "name": "EVA Foam Inserts",
     "href": "/product/eva-foam-inserts/",
-    "img": "/eva-foam-packaging-inserts.webp"
+    "img": "/images/eva-foam-packaging-inserts.webp"
    },
    {
     "name": "Cardboard Inserts",
     "href": "/product/cardboard-inserts/",
-    "img": "/cardboard-inserts-packaging-inserts.webp"
+    "img": "/images/cardboard-inserts-packaging-inserts.webp"
    },
    {
     "name": "Straight Tuck End Boxes",
     "href": "/product/straight-tuck-end-boxes/",
-    "img": "/straight-tuck-end-boxe-folding-cartons.webp"
+    "img": "/images/straight-tuck-end-boxe-folding-cartons.webp"
    }
   ]
  },
@@ -32990,9 +32990,9 @@
   "metaDescription": "Reverse tuck end boxes with secure closure for cosmetics, pharmaceuticals, gifts, and promotional items. Wholesale pricing, no MOQ, and free shipping!",
   "category": "Folding Cartons",
   "gallery": [
-   "/reverse-tuck-end-box-2.webp",
-   "/custom-reverse-tuck-end-boxes-folding-cartons.webp",
-   "/reverse-tuck-end-boxes-folding-cartons.webp"
+   "/images/reverse-tuck-end-box-2.webp",
+   "/images/custom-reverse-tuck-end-boxes-folding-cartons.webp",
+   "/images/reverse-tuck-end-boxes-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -33266,22 +33266,22 @@
    {
     "name": "Pillow Boxes",
     "href": "/product/pillow-boxes/",
-    "img": "/custom-pillow-box-folding-cartons.webp"
+    "img": "/images/custom-pillow-box-folding-cartons.webp"
    },
    {
     "name": "Handle Boxes",
     "href": "/product/handle-boxes/",
-    "img": "/handle-boxes-folding-cartons.webp"
+    "img": "/images/handle-boxes-folding-cartons.webp"
    },
    {
     "name": "Gable Boxes",
     "href": "/product/gable-boxes/",
-    "img": "/gable-box-folding-cartons.webp"
+    "img": "/images/gable-box-folding-cartons.webp"
    },
    {
     "name": "Auto Lock Bottom Boxes",
     "href": "/product/auto-lock-bottom-boxes/",
-    "img": "/auto-lock-bottom-box-folding-cartons.webp"
+    "img": "/images/auto-lock-bottom-box-folding-cartons.webp"
    }
   ]
  },
@@ -33292,10 +33292,10 @@
   "metaDescription": "Get Roll End Tuck Top boxes; the durable, perfect packaging for retail and e-commerce products. Available in a wide range of sizes and logo printing.",
   "category": "Folding Cartons",
   "gallery": [
-   "/roll-end-tuck-top-box-folding-cartons.webp",
-   "/custom-roll-end-tuck-top-boxes-folding-cartons.webp",
-   "/roll-end-tuck-top-bo-folding-cartons.webp",
-   "/roll-end-tuck-top-boxes-folding-cartons.webp"
+   "/images/roll-end-tuck-top-box-folding-cartons.webp",
+   "/images/custom-roll-end-tuck-top-boxes-folding-cartons.webp",
+   "/images/roll-end-tuck-top-bo-folding-cartons.webp",
+   "/images/roll-end-tuck-top-boxes-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -33532,22 +33532,22 @@
    {
     "name": "Pillow Boxes",
     "href": "/product/pillow-boxes/",
-    "img": "/pillow-box-folding-cartons.webp"
+    "img": "/images/pillow-box-folding-cartons.webp"
    },
    {
     "name": "Handle Boxes",
     "href": "/product/handle-boxes/",
-    "img": "/handle-boxes-folding-cartons.webp"
+    "img": "/images/handle-boxes-folding-cartons.webp"
    },
    {
     "name": "Gable Boxes",
     "href": "/product/gable-boxes/",
-    "img": "/gable-box-folding-cartons.webp"
+    "img": "/images/gable-box-folding-cartons.webp"
    },
    {
     "name": "Auto Lock Bottom Boxes",
     "href": "/product/auto-lock-bottom-boxes/",
-    "img": "/auto-lock-bottom-box-folding-cartons.webp"
+    "img": "/images/auto-lock-bottom-box-folding-cartons.webp"
    }
   ]
  },
@@ -33558,10 +33558,10 @@
   "metaDescription": "Shelf ready boxes that help you unpack and display products in seconds. Order custom shelf ready boxes with no minimums and enjoy fast, free shipping!",
   "category": "Display Boxes",
   "gallery": [
-   "/shelf-ready-box-display.webp",
-   "/printed-shelf-ready-boxes-display.webp",
-   "/custom-shelf-ready-boxes-display.webp",
-   "/custom-shelf-ready-box-display.webp"
+   "/images/shelf-ready-box-display.webp",
+   "/images/printed-shelf-ready-boxes-display.webp",
+   "/images/custom-shelf-ready-boxes-display.webp",
+   "/images/custom-shelf-ready-box-display.webp"
   ],
   "hero": {
    "body": [
@@ -33805,22 +33805,22 @@
    {
     "name": "Perforated Boxes",
     "href": "/product/perforated-boxes/",
-    "img": "/custom-perforated-boxes-display.webp"
+    "img": "/images/custom-perforated-boxes-display.webp"
    },
    {
     "name": "Dispenser Boxes",
     "href": "/product/dispenser-boxes/",
-    "img": "/custom-dispenser-boxes-display.webp"
+    "img": "/images/custom-dispenser-boxes-display.webp"
    },
    {
     "name": "Display PDQ Boxes",
     "href": "/product/pdq-boxes/",
-    "img": "/custom-pdq-display-boxes-1-display.webp"
+    "img": "/images/custom-pdq-display-boxes-1-display.webp"
    },
    {
     "name": "Pop-up Display Boxes",
     "href": "/product/pop-up-display-boxes/",
-    "img": "/custom-pop-up-display-boxes-pic-display.webp"
+    "img": "/images/custom-pop-up-display-boxes-pic-display.webp"
    }
   ]
  },
@@ -33831,10 +33831,10 @@
   "metaDescription": "Order shoulder neck rigid boxes to elevate your product appearance. Available in custom sizes, shapes, colors, and more at affordable rates. Free shipping.",
   "category": "Rigid Boxes",
   "gallery": [
-   "/shoulder-neck-rigid-boxes-rigid.webp",
-   "/shoulder-neck-boxes-rigid.webp",
-   "/shoulder-neck-boxes-with-foam-insert-rigid.webp",
-   "/rigid-shoulder-neck-rigid.webp"
+   "/images/shoulder-neck-rigid-boxes-rigid.webp",
+   "/images/shoulder-neck-boxes-rigid.webp",
+   "/images/shoulder-neck-boxes-with-foam-insert-rigid.webp",
+   "/images/rigid-shoulder-neck-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -34093,22 +34093,22 @@
    {
     "name": "Two Piece Rigid Boxes",
     "href": "/product/two-piece-rigid-boxes/",
-    "img": "/custom-two-piece-rigid-box-rigid.webp"
+    "img": "/images/custom-two-piece-rigid-box-rigid.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Collapsible Rigid Boxes",
     "href": "/product/collapsible-rigid-boxes/",
-    "img": "/collapsible-rigid-boxes-rigid.webp"
+    "img": "/images/collapsible-rigid-boxes-rigid.webp"
    },
    {
     "name": "Candle Boxes",
     "href": "/candle-boxes/",
-    "img": "/two-piece-candle-boxes-candle.webp"
+    "img": "/images/two-piece-candle-boxes-candle.webp"
    }
   ]
  },
@@ -34119,10 +34119,10 @@
   "metaDescription": "Secure and stylish straight-tuck end boxes for retail. Custom sizes, eco-friendly kraft and cardboard options, and premium finishes (foil/UV). Order wholesale today!",
   "category": "Folding Cartons",
   "gallery": [
-   "/straight-tuck-end-box-folding-cartons.webp",
-   "/custom-straight-tuck-end-boxes-packaging-folding-cartons.webp",
-   "/straight-tuck-end-boxe-folding-cartons.webp",
-   "/straight-tuck-end-boxes-packaging-folding-cartons.webp"
+   "/images/straight-tuck-end-box-folding-cartons.webp",
+   "/images/custom-straight-tuck-end-boxes-packaging-folding-cartons.webp",
+   "/images/straight-tuck-end-boxe-folding-cartons.webp",
+   "/images/straight-tuck-end-boxes-packaging-folding-cartons.webp"
   ],
   "hero": {
    "body": [
@@ -34396,22 +34396,22 @@
    {
     "name": "Pillow Boxes",
     "href": "/product/pillow-boxes/",
-    "img": "/custom-pillow-box-folding-cartons.webp"
+    "img": "/images/custom-pillow-box-folding-cartons.webp"
    },
    {
     "name": "Handle Boxes",
     "href": "/product/handle-boxes/",
-    "img": "/handle-boxes-folding-cartons.webp"
+    "img": "/images/handle-boxes-folding-cartons.webp"
    },
    {
     "name": "Gable Boxes",
     "href": "/product/gable-boxes/",
-    "img": "/gable-box-folding-cartons.webp"
+    "img": "/images/gable-box-folding-cartons.webp"
    },
    {
     "name": "Auto Lock Bottom Boxes",
     "href": "/product/auto-lock-bottom-boxes/",
-    "img": "/auto-lock-bottom-box-folding-cartons.webp"
+    "img": "/images/auto-lock-bottom-box-folding-cartons.webp"
    }
   ]
  },
@@ -34422,10 +34422,10 @@
   "metaDescription": "Get tray and sleeve boxes made from high-quality materials in any size and logo printing. Order custom tray and sleeve boxes at wholesale prices and no MOQ!",
   "category": "Retail Boxes",
   "gallery": [
-   "/custom-sleeve-boxes-retail.webp",
-   "/tray-and-sleeve-box-retail.webp",
-   "/tray-and-sleeve-boxes-with-ribbion-retail.webp",
-   "/tray-and-sleeve-boxes-with-window-retail.webp"
+   "/images/custom-sleeve-boxes-retail.webp",
+   "/images/tray-and-sleeve-box-retail.webp",
+   "/images/tray-and-sleeve-boxes-with-ribbion-retail.webp",
+   "/images/tray-and-sleeve-boxes-with-window-retail.webp"
   ],
   "hero": {
    "body": [
@@ -34685,22 +34685,22 @@
    {
     "name": "Packaging Sleeves",
     "href": "/product/packaging-sleeves/",
-    "img": "/custom-packaging-sleeves1-retail.webp"
+    "img": "/images/custom-packaging-sleeves1-retail.webp"
    },
    {
     "name": "Playing Card Boxes",
     "href": "/product/playing-card-boxes/",
-    "img": "/playing-card-boxes-retail.webp"
+    "img": "/images/playing-card-boxes-retail.webp"
    },
    {
     "name": "Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-box1z-rigid.webp"
+    "img": "/images/rigid-drawer-box1z-rigid.webp"
    },
    {
     "name": "Game Boxes",
     "href": "/product/game-boxes/",
-    "img": "/game-boxes-retail.webp"
+    "img": "/images/game-boxes-retail.webp"
    }
   ]
  },
@@ -34711,10 +34711,10 @@
   "metaDescription": "Order custom two-piece boxes in any size and color at no minimum order quantity! Get premium two-piece rigid boxes delivered fast and with free shipping!",
   "category": "Rigid Boxes",
   "gallery": [
-   "/custom-two-piece-rigid-box-rigid.webp",
-   "/drawer-two-piece-rigid-box-rigid.webp",
-   "/shoulder-neck-two-piece-rigid-boxes-rigid.webp",
-   "/two-piece-rigid-boxes-rigid.webp"
+   "/images/custom-two-piece-rigid-box-rigid.webp",
+   "/images/drawer-two-piece-rigid-box-rigid.webp",
+   "/images/shoulder-neck-two-piece-rigid-boxes-rigid.webp",
+   "/images/two-piece-rigid-boxes-rigid.webp"
   ],
   "hero": {
    "body": [
@@ -34998,22 +34998,22 @@
    {
     "name": "Shoulder Neck Rigid Boxes",
     "href": "/product/shoulder-neck-rigid-boxes/",
-    "img": "/shoulder-neck-rigid-boxes-rigid.webp"
+    "img": "/images/shoulder-neck-rigid-boxes-rigid.webp"
    },
    {
     "name": "Rigid Drawer Boxes",
     "href": "/product/rigid-drawer-boxes/",
-    "img": "/rigid-drawer-boxes-rigid.webp"
+    "img": "/images/rigid-drawer-boxes-rigid.webp"
    },
    {
     "name": "Collapsible Rigid Boxes",
     "href": "/product/collapsible-rigid-boxes/",
-    "img": "/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp"
+    "img": "/images/collapsible-rigid-boxes-with-gift-ribbion-rigid.webp"
    },
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    }
   ]
  },
@@ -35024,10 +35024,10 @@
   "metaDescription": "Get white mailer boxes at wholesale prices and enjoy free shipping! Custom white mailer boxes from durable material, quick assembly, and with logo printing—Order Now!",
   "category": "Mailer Boxes",
   "gallery": [
-   "/white-mailer-mailer.webp",
-   "/small-white-mailer-box-mailer.webp",
-   "/custom-white-mailer-boxes-mailer.webp",
-   "/apparel-mailer-box-mailer.webp"
+   "/images/white-mailer-mailer.webp",
+   "/images/small-white-mailer-box-mailer.webp",
+   "/images/custom-white-mailer-boxes-mailer.webp",
+   "/images/apparel-mailer-box-mailer.webp"
   ],
   "hero": {
    "body": [
@@ -35264,22 +35264,22 @@
    {
     "name": "Magnetic Closure Boxes",
     "href": "/product/magnetic-closure-boxes/",
-    "img": "/magnetic-closure-boxes-2.webp"
+    "img": "/images/magnetic-closure-boxes-2.webp"
    },
    {
     "name": "Subscription Boxes",
     "href": "/product/subscription-boxes/",
-    "img": "/subscription-boxes-1-mailer.webp"
+    "img": "/images/subscription-boxes-1-mailer.webp"
    },
    {
     "name": "Book Boxes",
     "href": "/product/book-boxes/",
-    "img": "/bookstyle-box-rigid.webp"
+    "img": "/images/bookstyle-box-rigid.webp"
    },
    {
     "name": "PR Boxes",
     "href": "/product/pr-boxes/",
-    "img": "/mailer-pr-box-gift.webp"
+    "img": "/images/mailer-pr-box-gift.webp"
    }
   ]
  }

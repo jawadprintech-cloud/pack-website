@@ -32,9 +32,9 @@ export default function ReviewsSection() {
           <p>Real feedback from clients who have experienced our services first hand.</p>
         </div>
         <div className="h-review-logos">
-          <a {...reviewLinkProps("clutch")}><img src={"/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={40} loading="lazy" /></a>
-          <a {...reviewLinkProps("bark")}><img src={"/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={40} loading="lazy" /></a>
-          <a {...reviewLinkProps("trustpilot")}><img src={"/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={40} loading="lazy" /></a>
+          <a {...reviewLinkProps("clutch")}><img src={"/images/r-clutch.webp"} alt="Pack Legacy reviews on Clutch" height={40} loading="lazy" /></a>
+          <a {...reviewLinkProps("bark")}><img src={"/images/r-bark.webp"} alt="Pack Legacy reviews on Bark" height={40} loading="lazy" /></a>
+          <a {...reviewLinkProps("trustpilot")}><img src={"/images/r-trustpilot.png"} alt="Pack Legacy reviews on Trustpilot" height={40} loading="lazy" /></a>
         </div>
       </div>
       {/* Reviews scroll slowly from right to left and pause on hover. The list is drawn twice for a seamless loop;
@@ -49,9 +49,9 @@ export default function ReviewsSection() {
               <div className="h-review-top">
                 <Stars />
                 {r.src === "clutch" ? (
-                  <a {...reviewLinkProps("clutch")}><img src={"/r-clutch.webp"} alt="Read this review on Clutch" height={26} loading="lazy" /></a>
+                  <a {...reviewLinkProps("clutch")}><img src={"/images/r-clutch.webp"} alt="Read this review on Clutch" height={26} loading="lazy" /></a>
                 ) : (
-                  <img className="h-review-mark" src="/pack-legacy-logo-compact.svg" alt="Pack Legacy review" width={138} height={28} loading="lazy" />
+                  <img className="h-review-mark" src="/images/pack-legacy-logo-compact.svg" alt="Pack Legacy review" width={138} height={28} loading="lazy" />
                 )}
               </div>
               <blockquote>“{r.text}”</blockquote>

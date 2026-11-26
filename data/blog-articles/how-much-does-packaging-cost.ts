@@ -7,7 +7,7 @@ const article: Article = [
   { p: "Let’s explore primary, secondary, and tertiary packaging costs, dive into the main cost drivers, and practical tips to help your business manage expenses wisely." },
 
   { h2: "Primary Packaging Costs" },
-  { img: { src: "/primary-packaging-costs.webp", alt: "Primary Packaging Costs", width: 780, height: 520 } },
+  { img: { src: "/images/primary-packaging-costs.webp", alt: "Primary Packaging Costs", width: 780, height: 520 } },
   { p: "In marketing, there are [three main types of packaging](/blog/types-of-packaging/): primary, secondary, and tertiary." },
   { p: "Primary packaging is the first layer. It directly touches your product and keeps it safe, fresh, and appealing. It’s also the most visible to consumers, making it a powerful branding tool." },
   { h3: "PET Plastic Bottle (Beverages)" },
@@ -62,7 +62,7 @@ const article: Article = [
   } },
 
   { h2: "Secondary Packaging Costs" },
-  { img: { src: "/secondary-packaging-costs.webp", alt: "Secondary Packaging Costs", width: 780, height: 520 } },
+  { img: { src: "/images/secondary-packaging-costs.webp", alt: "Secondary Packaging Costs", width: 780, height: 520 } },
   { p: "Secondary packaging groups products together. It adds branding and retail appeal. It protects primary packaging during handling and shipping. We are talking about the well-designed [custom boxes](/custom-boxes/) that protect and promote your products." },
   { h3: "Folding Cartons" },
   { p: "[Folding cartons](/folding-cartons/) are paperboard boxes that fold flat until assembled. They are common in cosmetics, food, and pharmaceuticals." },
@@ -117,7 +117,7 @@ const article: Article = [
   } },
 
   { h2: "Tertiary Packaging Costs" },
-  { img: { src: "/tertiary-packaging-costs.webp", alt: "Tertiary Packaging Costs", width: 780, height: 520 } },
+  { img: { src: "/images/tertiary-packaging-costs.webp", alt: "Tertiary Packaging Costs", width: 780, height: 520 } },
   { p: "Tertiary packaging is for bulk handling and logistics. It ensures safe transport and storage." },
   { p: "For example:" },
   { ul: [

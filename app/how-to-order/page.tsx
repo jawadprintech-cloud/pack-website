@@ -15,7 +15,7 @@ const steps: OrderStep[] = [
   {
     id: "step-1",
     title: "Select The Desired Product",
-    image: `/1.-select-the-desired-product.webp`,
+    image: `/images/1.-select-the-desired-product.webp`,
     text: "There are two options to fill out the quote form: either click on the “Get a Quote” icon to place your order or select the desired product you want to order from us! You will see a quote form for your product. Fill it out with accurate information.",
     tags: ["Any box style", "Quote from any page"],
     link: { label: "Browse custom boxes", href: "/custom-boxes/" },
@@ -23,7 +23,7 @@ const steps: OrderStep[] = [
   {
     id: "step-2",
     title: "Measure Your Box Dimension",
-    image: `/2.-measure-your-box-dimension.webp`,
+    image: `/images/2.-measure-your-box-dimension.webp`,
     text: "The order placing starts with the exact dimensions you need for your box. You have to provide the following dimensions of your custom box: length, height/depth, and width. Plus, also select the measurement unit in which you have taken your measurements. You can check out our guide on box dimensions if you’re unsure how to measure your box size.",
     tags: ["Length × Width × Depth", "Inches, cm or mm"],
     tip: "Measure the inside of the box, and add a little room for inserts or tissue.",
@@ -32,14 +32,14 @@ const steps: OrderStep[] = [
   {
     id: "step-3",
     title: "Provide Your Details",
-    image: `/3.-provide-your-details.webp`,
+    image: `/images/3.-provide-your-details.webp`,
     text: "Please provide the following information accurately: your name, your email address, your phone number, and quantity for the boxes. Once you provide this information, our chat support agent will get in touch with you with a custom quote for your order.",
     tags: ["No minimum order", "Quick reply"],
   },
   {
     id: "step-4",
     title: "Provide Additional Information",
-    image: `/4.-provide-additional-information.webp`,
+    image: `/images/4.-provide-additional-information.webp`,
     text: "If you have any questions or additional details to share, please write them in the space provided below the measurement selection. You can share which box style, material, and coating options you need for your boxes. Providing this information will also help us with providing near-to-accurate pricing for your boxes.",
     tags: ["Material", "Coating", "Finishes", "Inserts"],
     link: { label: "Explore materials and finishes", href: "/materials/" },
@@ -47,7 +47,7 @@ const steps: OrderStep[] = [
   {
     id: "step-5",
     title: "Upload Your Artwork",
-    image: `/5.-upload-your-artwork.webp`,
+    image: `/images/5.-upload-your-artwork.webp`,
     text: "Now, the only thing left to do is to upload your artwork file, if you have any. Submit your artwork in the following file formats: TIFF, PDF, PSD, and AI (for vector files), and to print images, you can send them in PNG or JPEG formats. Once you have successfully filled out the quote form, you can submit it to get an instant cost-free quote for your order!",
     tags: ["AI", "PDF", "PSD", "TIFF", "PNG / JPEG"],
     tip: "Use CMYK color at 300 DPI or higher for the sharpest print.",

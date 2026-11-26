@@ -17,7 +17,7 @@ const article: Article = [
   { p: "Opening a rigid box feels special. The slow lift of a lid. The click of a magnet. The pull of a drawer. Each moment builds excitement." },
 
   { h2: "How Rigid Boxes Are Made (The Steps)" },
-  { img: { src: "/rigid-boxes-are-made.webp", alt: "Rigid Boxes Are Made", width: 780, height: 520 } },
+  { img: { src: "/images/rigid-boxes-are-made.webp", alt: "Rigid Boxes Are Made", width: 780, height: 520 } },
   { p: "Rigid boxes may look simple, but their creation is a careful blend of engineering and craftsmanship. Each step adds strength, precision, and beauty." },
   { h3: "Designing the Blueprint" },
   { p: "Every rigid box begins with a design. Packaging engineers and brand managers decide the dimensions, style, and purpose. They check product fit, choose board thickness, and plan where logos, colors, and finishes will appear." },
@@ -35,7 +35,7 @@ const article: Article = [
   { p: "The final stage is all about detail. Foil stamping adds metallic shine. Embossing and debossing create tactile appeal. Spot UV highlights logos or patterns. Interior printing adds surprise when the box is opened. Every detail is checked for perfection before shipping." },
 
   { h2: "Rigid Boxes vs. Folding Cartons vs. Corrugated Boxes" },
-  { img: { src: "/rigid-boxes-vs.-folding-cartons.webp", alt: "Rigid Boxes vs  Folding Cartons", width: 780, height: 520 } },
+  { img: { src: "/images/rigid-boxes-vs.-folding-cartons.webp", alt: "Rigid Boxes vs  Folding Cartons", width: 780, height: 520 } },
   { p: "Rigid boxes, folding cartons, and corrugated boxes each serve distinct roles as [packaging solutions](/) for different business needs." },
   { ul: [
     "Rigid boxes excel at presentation and luxury branding.",
@@ -56,7 +56,7 @@ const article: Article = [
   } },
 
   { h2: "Popular Types of Rigid Boxes" },
-  { img: { src: "/types-of-rigid-boxes.webp", alt: "Types of Rigid Boxes", width: 780, height: 520 } },
+  { img: { src: "/images/types-of-rigid-boxes.webp", alt: "Types of Rigid Boxes", width: 780, height: 520 } },
   { p: "Another customization perspective worth noting about rigid boxes is the availability of unique, luxury styles." },
   { p: "Some popular options include:" },
   { ul: [
@@ -125,27 +125,27 @@ const article: Article = [
   { ul: [
     "**Technology – Apple**",
   ] },
-  { img: { src: "/apple-iphone-18-pro-max.webp", alt: "Apple Iphone packaging", width: 780, height: 520 } },
+  { img: { src: "/images/apple-iphone-18-pro-max.webp", alt: "Apple Iphone packaging", width: 780, height: 520 } },
   { p: "Apple’s white rigid boxes are iconic. Every part fits perfectly. Unboxing feels like an event." },
   { ul: [
     "**Luxury Fashion – Louis Vuitton**",
   ] },
-  { img: { src: "/luxury-louis-viton-packaging.webp", alt: "Luxury Louis Viton Packaging", width: 780, height: 520 } },
+  { img: { src: "/images/luxury-louis-viton-packaging.webp", alt: "Luxury Louis Viton Packaging", width: 780, height: 520 } },
   { p: "Louis Vuitton’s saffron boxes with ribbons or magnets scream luxury. Many customers keep them for years." },
   { ul: [
     "**Cosmetics – Dior, Chanel, Estée Lauder**",
   ] },
-  { img: { src: "/dior-cosmetics.webp", alt: "Dior Cosmetics", width: 780, height: 520 } },
+  { img: { src: "/images/dior-cosmetics.webp", alt: "Dior Cosmetics", width: 780, height: 520 } },
   { p: "Cosmetic sets and limited editions use rigid packaging to create a “treat yourself” feeling." },
   { ul: [
     "**Jewelry & Watches – Cartier, Rolex**",
   ] },
-  { img: { src: "/cartier-jewelry-watches.webp", alt: "Cartier Jewelry & Watches", width: 780, height: 520 } },
+  { img: { src: "/images/cartier-jewelry-watches.webp", alt: "Cartier Jewelry & Watches", width: 780, height: 520 } },
   { p: "Rigid boxes elevate rings, necklaces, and watches, making them feel even more precious." },
   { ul: [
     "**Food & Beverage – Godiva, Moët & Chandon**",
   ] },
-  { img: { src: "/godiva-food-beverage.webp", alt: "Godiva Food & Beverage", width: 780, height: 520 } },
+  { img: { src: "/images/godiva-food-beverage.webp", alt: "Godiva Food & Beverage", width: 780, height: 520 } },
   { p: "Chocolates and champagne become luxury gifts in rigid packaging." },
 
   { h2: "Final Words" },

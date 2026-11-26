@@ -20,7 +20,7 @@ const article: Article = [
   ] },
 
   { h2: "How Does Spot UV Work?" },
-  { img: { src: "/how-does-spot-uv-wor.webp", alt: "How Does Spot UV Wor", width: 780, height: 520 } },
+  { img: { src: "/images/how-does-spot-uv-wor.webp", alt: "How Does Spot UV Wor", width: 780, height: 520 } },
   { p: "Spot UV printing uses ultraviolet light to cure a clear coating on selected areas of white card stock or color-printed paper products." },
   { p: "The UV light cures the varnish coating applied to printed material, producing a glossy finish that highlights any design element." },
   { p: "This coating is applied to specific areas of a printed product to enhance color, create a glossy sheen, and protect the surface from moisture and everyday wear." },
@@ -43,7 +43,7 @@ const article: Article = [
   ] },
 
   { h2: "Application That Goes Best With Spot UV" },
-  { img: { src: "/application-that-goes-best-with-spot-uv.webp", alt: "Application That Goes Best With Spot UV", width: 780, height: 520 } },
+  { img: { src: "/images/application-that-goes-best-with-spot-uv.webp", alt: "Application That Goes Best With Spot UV", width: 780, height: 520 } },
   { p: "There are various packaging applications that use Spot UV, including:" },
   { ul: [
     "Business Cards",
@@ -58,7 +58,7 @@ const article: Article = [
   { p: "This versatile technique works well with both thick and lightweight paper stocks. However, it is not recommended for extremely thin or delicate paper, as the material may not handle the coating process well." },
 
   { h2: "The Process of Spot UV" },
-  { img: { src: "/the-process-of-spot-uv.webp", alt: "The Process of Spot UV", width: 780, height: 520 } },
+  { img: { src: "/images/the-process-of-spot-uv.webp", alt: "The Process of Spot UV", width: 780, height: 520 } },
   { p: "First, identify the areas in the artwork file where you want to apply spot UV, with clear instructions." },
   { p: "The silk screen adds a clear UV coating to the areas you selected in the artwork for spot UV." },
   { p: "Ensure the mask file contains no gradients and that pixels are black and white. It should also contain no blur or shadow, keeping the artwork clean with sharp edges." },

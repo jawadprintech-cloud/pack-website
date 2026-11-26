@@ -20,7 +20,7 @@ const article: Article = [
   { p: "You can also combine debossing with printing or foil stamping when a design needs stronger contrast." },
 
   { h2: "The Process of Debossing" },
-  { img: { src: "/the-process-of-debossing.webp", alt: "The Process of Debossing", width: 780, height: 520 } },
+  { img: { src: "/images/the-process-of-debossing.webp", alt: "The Process of Debossing", width: 780, height: 520 } },
   { p: "The debossing process involves pressing a custom-made die into the material’s surface. Pressure, and sometimes heat, is applied to create a permanent recessed impression." },
   { p: "Here is how the process generally works:" },
   { h3: "1. Preparing the Artwork" },
@@ -54,7 +54,7 @@ const article: Article = [
   { p: "However, very small text or extremely detailed artwork may not always produce a clear debossed impression. Review the artwork before production." },
 
   { h2: "Embossing Or Debossing: Which One Is Better?" },
-  { img: { src: "/embossing-or-debossing.webp", alt: "Embossing Or Debossing", width: 780, height: 520 } },
+  { img: { src: "/images/embossing-or-debossing.webp", alt: "Embossing Or Debossing", width: 780, height: 520 } },
   { p: "Embossing and debossing are closely related techniques, but they create opposite effects." },
   { p: "Embossing raises the selected artwork above the surface, while debossing presses the artwork into the surface." },
   { p: "Neither option is automatically better. The right choice depends on the appearance you want to achieve." },

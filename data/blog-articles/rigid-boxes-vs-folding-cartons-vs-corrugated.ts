@@ -60,7 +60,7 @@ const article: Article = [
   } },
 
   { h2: "When Should You Choose a Rigid Box?" },
-  { img: { src: "/apple-packaging-rigid-boxes.webp", alt: "Apple Packaging Rigid Boxes", width: 780, height: 520 } },
+  { img: { src: "/images/apple-packaging-rigid-boxes.webp", alt: "Apple Packaging Rigid Boxes", width: 780, height: 520 } },
   { p: "If your brand’s perceived value is a big priority, rigid boxes are hard to beat. They say, “This product is special” before the customer even opens it." },
   { p: "Choose Rigid Boxes When:" },
   { ol: [
@@ -90,7 +90,7 @@ const article: Article = [
   { p: "[Rigid boxes](/rigid-boxes/) are perfect if you want to shout “luxury” and can justify the higher cost with your product price and brand positioning." },
 
   { h2: "When to Choose Folding Cartons?" },
-  { img: { src: "/custom-cosmetic-boxes.webp", alt: "Custom Cosmetic Boxes", width: 780, height: 520 } },
+  { img: { src: "/images/custom-cosmetic-boxes.webp", alt: "Custom Cosmetic Boxes", width: 780, height: 520 } },
   { ol: [
     "**You need attractive, cost-effective packaging for retail shelves.**",
   ] },
@@ -117,7 +117,7 @@ const article: Article = [
   { p: "Overall, folding cartons are a great choice when you are looking for an affordable, well-branded, and practical solution for products that go straight onto retail shelves." },
 
   { h2: "When Corrugated Boxes Are Your Best Friend?" },
-  { img: { src: "/custom-mailer-corrugated-boxes.webp", alt: "Custom Mailer Corrugated Boxes", width: 780, height: 520 } },
+  { img: { src: "/images/custom-mailer-corrugated-boxes.webp", alt: "Custom Mailer Corrugated Boxes", width: 780, height: 520 } },
   { p: "Corrugated boxes are known as the real workhorses of shipping and online deliveries. When your products have to travel far or deal with bumps along the way, corrugated packaging is almost always your safest bet." },
   { p: "Choose Corrugated Boxes When:" },
   { ol: [

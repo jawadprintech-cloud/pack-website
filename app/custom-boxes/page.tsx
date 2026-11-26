@@ -11,18 +11,18 @@ export const metadata: Metadata = withSeo("/custom-boxes/", {
 
 // Product cards, in display order. They link to category pages; Book Boxes is a single product.
 const categories = [
-  { name: "Custom Mailer Boxes", href: "/mailer-boxes/", img: "/cat-mailer.webp" },
-  { name: "Custom Folding Cartons", href: "/folding-cartons/", img: "/cat-folding.webp" },
-  { name: "Custom Rigid Boxes", href: "/rigid-boxes/", img: "/cat-rigid.webp" },
-  { name: "Custom Retail Boxes", href: "/retail-boxes/", img: "/retail-boxes-pic.webp" },
-  { name: "Custom Book Boxes", href: "/product/book-boxes/", img: "/cat-book.webp" },
-  { name: "Custom Gift Boxes", href: "/gift-boxes/", img: "/cat-gift.webp" },
-  { name: "Custom Jewelry Boxes", href: "/jewelry-boxes/", img: "/custom-jewelry-box.webp" },
-  { name: "Custom Cosmetics Boxes", href: "/cosmetic-boxes/", img: "/cat-cosmetic.webp" },
-  { name: "Custom Candle Boxes", href: "/candle-boxes/", img: "/candle-boxes-candle.webp" },
-  { name: "Custom Soap Boxes", href: "/soap-boxes/", img: "/custom-soap-boxes.webp" },
-  { name: "Custom CBD Boxes", href: "/cbd-boxes/", img: "/cat-cbd.webp" },
-  { name: "Custom Bakery Boxes", href: "/bakery-boxes/", img: "/cat-bakery.webp" },
+  { name: "Custom Mailer Boxes", href: "/mailer-boxes/", img: "/images/cat-mailer.webp" },
+  { name: "Custom Folding Cartons", href: "/folding-cartons/", img: "/images/cat-folding.webp" },
+  { name: "Custom Rigid Boxes", href: "/rigid-boxes/", img: "/images/cat-rigid.webp" },
+  { name: "Custom Retail Boxes", href: "/retail-boxes/", img: "/images/retail-boxes-pic.webp" },
+  { name: "Custom Book Boxes", href: "/product/book-boxes/", img: "/images/cat-book.webp" },
+  { name: "Custom Gift Boxes", href: "/gift-boxes/", img: "/images/cat-gift.webp" },
+  { name: "Custom Jewelry Boxes", href: "/jewelry-boxes/", img: "/images/custom-jewelry-box.webp" },
+  { name: "Custom Cosmetics Boxes", href: "/cosmetic-boxes/", img: "/images/cat-cosmetic.webp" },
+  { name: "Custom Candle Boxes", href: "/candle-boxes/", img: "/images/candle-boxes-candle.webp" },
+  { name: "Custom Soap Boxes", href: "/soap-boxes/", img: "/images/custom-soap-boxes.webp" },
+  { name: "Custom CBD Boxes", href: "/cbd-boxes/", img: "/images/cat-cbd.webp" },
+  { name: "Custom Bakery Boxes", href: "/bakery-boxes/", img: "/images/cat-bakery.webp" },
 ];
 
 // Copy from "Custom Boxes.pdf" (November 2026). `after` keeps every paragraph above the list.
