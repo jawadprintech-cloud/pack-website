@@ -20,8 +20,8 @@ const nextConfig = {
     "/mcp": ["./node_modules/sharp/**/*", "./node_modules/@img/**/*", "./node_modules/detect-libc/**/*", "./node_modules/semver/**/*"],
     "/api/packaging-tools": ["./node_modules/sharp/**/*", "./node_modules/@img/**/*", "./node_modules/detect-libc/**/*", "./node_modules/semver/**/*"],
   },
-  // The site lives at https://www.packlegacy.com. Vercel's domain settings send packlegacy.com (no www) there,
-  // so there is no host redirect here: one that sent www back to packlegacy.com would loop forever.
+  // The site lives at https://packlegacy.com (lib/site.ts). Send www to it in Vercel → Settings → Domains,
+  // not here: a host redirect here loops forever if Vercel's domain settings redirect the other way.
   async redirects() {
     return [
       ...saved,

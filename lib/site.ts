@@ -1,12 +1,12 @@
 // Site-wide SEO settings used by robots.txt, the sitemaps, llms.txt and structured data.
 //
 // Environment variables (Vercel → Project → Settings → Environment Variables):
-//   NEXT_PUBLIC_SITE_URL   the live domain, no trailing slash. Defaults to https://www.packlegacy.com
+//   NEXT_PUBLIC_SITE_URL   the live domain, no trailing slash. Defaults to https://packlegacy.com
 //   ALLOW_INDEXING         set to "true" on the live site to let search engines index it.
 //                          Anything else keeps every page noindex and robots.txt blocking crawlers.
 import { categories } from "@/data/categories";
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.packlegacy.com").replace(/\/+$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://packlegacy.com").replace(/\/+$/, "");
 export const INDEXABLE = process.env.ALLOW_INDEXING === "true";
 
 export const BUSINESS = {
