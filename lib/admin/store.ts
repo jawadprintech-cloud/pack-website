@@ -29,9 +29,39 @@ type GithubFile = { type?: string; encoding?: string; content?: string; size?: n
 type GithubTreeItem = { path: string; type: string; sha: string; size?: number };
 type GithubCommit = { sha: string; parents?: { sha: string }[]; commit?: { message?: string; author?: { date?: string } } };
 const apiRoot = "https://api.github.com";
-let treeCache: { key: string; expires: number; files: GithubTreeItem[] } | null = null;
+type Tree = { key: string; expires: number; files: GithubTreeItem[]; byPath: Map<string, GithubTreeItem> };
+let treeCache: Tree | null = null;
+let treeLoading: { key: string; promise: Promise<Tree> } | null = null;
+const TREE_TTL = 30_000;
+// Bumped after every save, so a file list that was downloading during the save is not kept.
+let treeGen = 0;
+const forgetTree = () => { treeGen++; treeCache = null; treeLoading = null; };
+
+// File contents by git blob sha. A sha always means the same bytes, so entries never go stale.
+const blobCache = new Map<string, Promise<Buffer>>();
+const BLOB_CACHE_MAX = 3000;
+const BLOB_CACHE_FILE_MAX = 2 * 1024 * 1024;
+
+// At most this many GitHub requests at once: fast, but under GitHub's limit on parallel requests.
+const MAX_PARALLEL = 8;
+let active = 0;
+const waiting: (() => void)[] = [];
+async function slot<T>(fn: () => Promise<T>): Promise<T> {
+  if (active >= MAX_PARALLEL) await new Promise<void>((resolve) => waiting.push(resolve)); // the slot is handed over
+  else active++;
+  try { return await fn(); }
+  finally {
+    const next = waiting.shift();
+    if (next) next();
+    else active--;
+  }
+}
 
 async function github<T>(endpoint: string, init: RequestInit = {}): Promise<T> {
+  return slot(() => githubNow<T>(endpoint, init));
+}
+
+async function githubNow<T>(endpoint: string, init: RequestInit): Promise<T> {
   const { token, owner, repo } = remoteConfig();
   const response = await fetch(`${apiRoot}/repos/${owner}/${repo}/${endpoint}`, {
     ...init,
@@ -61,25 +91,59 @@ async function remoteFile(rel: string, ref?: string): Promise<GithubFile | null>
   catch (e) { if (e instanceof AdminError && e.status === 404) return null; throw e; }
 }
 
-async function remoteBuffer(rel: string, ref?: string): Promise<Buffer> {
-  const file = await remoteFile(rel, ref);
-  if (!file || file.type !== "file") throw new AdminError("Repository file not found", 404);
-  if (file.content && file.encoding === "base64") return Buffer.from(file.content.replace(/\n/g, ""), "base64");
-  if (!file.sha) throw new AdminError("GitHub did not return file content", 502);
-  const blob = await github<{ content: string; encoding: string }>(`git/blobs/${file.sha}`);
+async function fetchBlob(sha: string): Promise<Buffer> {
+  const blob = await github<{ content: string; encoding: string }>(`git/blobs/${sha}`);
   if (blob.encoding !== "base64") throw new AdminError("GitHub returned an unsupported file format", 502);
   return Buffer.from(blob.content.replace(/\n/g, ""), "base64");
 }
 
-async function remoteTree(): Promise<GithubTreeItem[]> {
+function blob(sha: string, size = 0): Promise<Buffer> {
+  const hit = blobCache.get(sha);
+  if (hit) return hit;
+  const promise = fetchBlob(sha);
+  if (size > BLOB_CACHE_FILE_MAX) return promise;
+  if (blobCache.size >= BLOB_CACHE_MAX) blobCache.delete(blobCache.keys().next().value!);
+  blobCache.set(sha, promise);
+  promise.catch(() => blobCache.delete(sha));
+  return promise;
+}
+
+async function remoteBuffer(rel: string, ref?: string): Promise<Buffer> {
+  if (!ref) {
+    // Current version: find the file's sha in the (cached) tree and reuse its content if already loaded.
+    const item = (await remoteTree()).byPath.get(rel);
+    if (!item) throw new AdminError("Repository file not found", 404);
+    return blob(item.sha, item.size);
+  }
+  const file = await remoteFile(rel, ref);
+  if (!file || file.type !== "file") throw new AdminError("Repository file not found", 404);
+  if (file.content && file.encoding === "base64") return Buffer.from(file.content.replace(/\n/g, ""), "base64");
+  if (!file.sha) throw new AdminError("GitHub did not return file content", 502);
+  return blob(file.sha, file.size);
+}
+
+async function remoteTree(): Promise<Tree> {
   const { owner, repo, branch } = remoteConfig();
   const key = `${owner}/${repo}/${branch}`;
-  if (treeCache?.key === key && treeCache.expires > Date.now()) return treeCache.files;
-  const branchInfo = await github<{ commit: { commit: { tree: { sha: string } } } }>(`branches/${encodeURIComponent(branch)}`);
-  const treeSha = branchInfo.commit.commit.tree.sha;
-  const tree = await github<{ tree: GithubTreeItem[] }>(`git/trees/${treeSha}?recursive=1`);
-  treeCache = { key, expires: Date.now() + 15_000, files: tree.tree.filter((item) => item.type === "blob") };
-  return treeCache.files;
+  if (treeCache?.key === key && treeCache.expires > Date.now()) return treeCache;
+  // Requests that arrive together share one tree download.
+  if (treeLoading?.key === key) return treeLoading.promise;
+  const promise = (async () => {
+    const branchInfo = await github<{ commit: { commit: { tree: { sha: string } } } }>(`branches/${encodeURIComponent(branch)}`);
+    const treeSha = branchInfo.commit.commit.tree.sha;
+    const tree = await github<{ tree: GithubTreeItem[] }>(`git/trees/${treeSha}?recursive=1`);
+    const files = tree.tree.filter((item) => item.type === "blob");
+    return { key, expires: Date.now() + TREE_TTL, files, byPath: new Map(files.map((f) => [f.path, f])) };
+  })();
+  treeLoading = { key, promise };
+  const gen = treeGen;
+  try {
+    const tree = await promise;
+    if (gen === treeGen) treeCache = tree;
+    return tree;
+  } finally {
+    if (treeLoading?.promise === promise) treeLoading = null;
+  }
 }
 
 async function commitFile(rel: string, content: string | Buffer) {
@@ -95,7 +159,7 @@ async function commitFile(rel: string, content: string | Buffer) {
       ...(previous?.sha ? { sha: previous.sha } : {}),
     }),
   });
-  treeCache = null;
+  forgetTree();
 }
 
 export async function deleteFile(rel: string) {
@@ -107,7 +171,7 @@ export async function deleteFile(rel: string) {
       method: "DELETE",
       body: JSON.stringify({ message: `Pack Legacy admin delete: ${rel}`, sha: previous.sha, branch }),
     });
-    treeCache = null;
+    forgetTree();
     return;
   }
   await fs.unlink(inside(rel).abs);
@@ -116,7 +180,9 @@ export async function deleteFile(rel: string) {
 export const exists = async (abs: string) => {
   if (!remote()) return fs.access(abs).then(() => true, () => false);
   const rel = path.relative(ROOT, abs).split(path.sep).join("/");
-  return !!(await remoteFile(rel));
+  // A file, or a folder that has files in it.
+  const tree = await remoteTree();
+  return tree.byPath.has(rel) || tree.files.some((f) => f.path.startsWith(`${rel}/`));
 };
 
 export async function fileStat(abs: string) {
@@ -125,7 +191,7 @@ export async function fileStat(abs: string) {
     return { size: stat.size, mtimeMs: stat.mtimeMs };
   }
   const rel = path.relative(ROOT, abs).split(path.sep).join("/");
-  const item = (await remoteTree()).find((f) => f.path === rel);
+  const item = (await remoteTree()).byPath.get(rel);
   if (!item) throw new AdminError("File not found", 404);
   return { size: item.size || 0, mtimeMs: 0 };
 }
@@ -200,7 +266,7 @@ export async function readText(rel: string) {
 export async function walk(dir: string): Promise<string[]> {
   if (remote()) {
     const dirRel = path.relative(ROOT, dir).split(path.sep).join("/").replace(/\/$/, "");
-    return (await remoteTree())
+    return (await remoteTree()).files
       .filter((item) => !dirRel || item.path.startsWith(`${dirRel}/`))
       .map((item) => path.join(ROOT, ...item.path.split("/")));
   }

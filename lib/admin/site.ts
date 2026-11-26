@@ -38,31 +38,39 @@ const rawValue = (text: string, slug: string, key: string) => {
 
 export async function listPages() {
   const out: (PageInfo & { baseTitle: string; baseDescription: string; image?: string })[] = [];
-  for (const abs of await walk(path.join(ROOT, "app"))) {
-    const rel = path.relative(ROOT, abs).split(path.sep).join("/");
-    if (!rel.endsWith("/page.tsx") || rel.includes("[")) continue;
+  const pageFiles = (await walk(path.join(ROOT, "app")))
+    .map((abs) => path.relative(ROOT, abs).split(path.sep).join("/"))
+    .filter((rel) => rel.endsWith("/page.tsx") && !rel.includes("["));
+  // Every file is read at the same time (store.ts limits how many GitHub requests run at once).
+  const [texts, c, productsJson, posts, toolIndex, customJson] = await Promise.all([
+    Promise.all(pageFiles.map((rel) => readText(rel))),
+    readText(CATEGORIES),
+    readJson<{ slug: string; title: string; metaTitle: string; metaDescription: string; gallery: string[] }[]>(DATA_FILES.products),
+    listPosts(),
+    readText("data/toolkit/index.ts"),
+    readJson<{ slug: string; title: string; description: string; image: string }[]>(DATA_FILES.pages),
+  ]);
+  pageFiles.forEach((rel, i) => {
     const route = rel.slice(3, -"page.tsx".length);
-    const text = await readText(rel);
+    const text = texts[i];
     const cat = /industryMetadata\("([^"]+)"\)/.exec(text)?.[1];
     if (cat) {
-      const c = await readText(CATEGORIES);
       out.push({ path: route, kind: "category", slug: cat, title: rawValue(c, cat, "name"), baseTitle: rawValue(c, cat, "metaTitle"), baseDescription: rawValue(c, cat, "metaDescription") });
     } else {
       const m = src.readMetadata(rel, text);
       out.push({ path: route, kind: "page", slug: route, file: rel, title: route === "/" ? "Home" : m.title.split(" | ")[0] || route, baseTitle: m.title, baseDescription: m.description });
     }
-  }
-  const { data: products } = await readJson<{ slug: string; title: string; metaTitle: string; metaDescription: string; gallery: string[] }[]>(DATA_FILES.products);
+  });
+  const { data: products } = productsJson;
   for (const p of products) {
     const route = `/product/${p.slug}/`;
     if (out.some((x) => x.path === route)) continue;
     out.push({ path: route, kind: "product", slug: p.slug, title: p.title, baseTitle: p.metaTitle || `${p.title} | Pack Legacy`, baseDescription: p.metaDescription, image: p.gallery[0] });
   }
-  for (const p of await listPosts()) out.push({ path: `/blog/${p.slug}/`, kind: "post", slug: p.slug, title: p.title, baseTitle: `${p.title} | Pack Legacy`, baseDescription: p.excerpt, image: p.image });
-  const toolIndex = await readText("data/toolkit/index.ts");
+  for (const p of posts) out.push({ path: `/blog/${p.slug}/`, kind: "post", slug: p.slug, title: p.title, baseTitle: `${p.title} | Pack Legacy`, baseDescription: p.excerpt, image: p.image });
   for (const m of toolIndex.matchAll(/^ {2}"([^"]+)": \{ title: ("(?:[^"\\]|\\.)*"), description: ("(?:[^"\\]|\\.)*")/gm))
     out.push({ path: `/tools/${m[1]}/`, kind: "tool", slug: m[1], title: JSON.parse(m[2]).split(" | ")[0], baseTitle: JSON.parse(m[2]), baseDescription: JSON.parse(m[3]) });
-  const { data: custom } = await readJson<{ slug: string; title: string; description: string; image: string }[]>(DATA_FILES.pages);
+  const { data: custom } = customJson;
   for (const p of custom) out.push({ path: `/${p.slug}/`, kind: "custom", slug: p.slug, title: p.title, baseTitle: `${p.title} | Pack Legacy`, baseDescription: p.description, image: p.image });
   return out.sort((a, b) => a.path.localeCompare(b.path));
 }
@@ -87,15 +95,16 @@ async function resolveImport(from: string, spec: string) {
 async function filesOf(entry: string) {
   const skip = new Set([...SHELL, CATEGORIES, POSTS, OVERVIEWS, ARTICLES, "components/info/ArticleBody.tsx"]);
   const seen = new Set<string>();
-  const queue = [entry];
-  while (queue.length) {
-    const f = queue.shift()!;
-    if (seen.has(f) || skip.has(f)) continue;
-    seen.add(f);
-    for (const m of (await readText(f)).matchAll(/from\s+["']([^"']+)["']/g)) {
-      const r = await resolveImport(f, m[1]);
-      if (r) queue.push(r);
-    }
+  // Breadth first, one level of imports at a time; files in the same level are read together.
+  let level = [entry];
+  while (level.length) {
+    const fresh = [...new Set(level)].filter((f) => !seen.has(f) && !skip.has(f));
+    fresh.forEach((f) => seen.add(f));
+    const found = await Promise.all(fresh.map(async (f) => {
+      const specs = [...(await readText(f)).matchAll(/from\s+["']([^"']+)["']/g)].map((m) => m[1]);
+      return Promise.all(specs.map((s) => resolveImport(f, s)));
+    }));
+    level = found.flat().filter(Boolean);
   }
   return [...seen];
 }
@@ -332,13 +341,15 @@ export async function mediaInfo(rel: string) {
   const meta = /\.(webp|png|jpe?g|gif|avif|svg)$/i.test(rel) ? await sharp(await readBinary(abs)).metadata().catch(() => null) : null;
   const name = path.basename(rel);
   const keys = [name, encodeURIComponent(name)];
-  const used: string[] = [];
-  for (const dir of ["app", "components", "data", "lib", "styles"])
-    for (const f of await walk(path.join(ROOT, dir))) {
-      if (!/\.(tsx?|json|css)$/.test(f)) continue;
-      const t = await readText(path.relative(ROOT, f).split(path.sep).join("/"));
-      if (keys.some((k) => t.includes(k))) used.push(path.relative(ROOT, f).split(path.sep).join("/"));
-    }
+  const files = (await Promise.all(["app", "components", "data", "lib", "styles"].map((dir) => walk(path.join(ROOT, dir)))))
+    .flat()
+    .filter((f) => /\.(tsx?|json|css)$/.test(f))
+    .map((f) => path.relative(ROOT, f).split(path.sep).join("/"));
+  const hits = await Promise.all(files.map(async (rel) => {
+    const t = await readText(rel);
+    return keys.some((k) => t.includes(k));
+  }));
+  const used = files.filter((_, i) => hits[i]);
   return { width: meta?.width, height: meta?.height, used };
 }
 export async function upload(file: File, folder: string, replace: string, toWebp: boolean) {

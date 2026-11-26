@@ -25,7 +25,10 @@ const inTurn = <T>(fn: () => Promise<T>): Promise<T> => {
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const actions: Record<string, (b: any) => Promise<unknown>> = {
-  overview: async () => ({ pages: await site.seoList(), media: (await site.listMedia()).length, history: (await history()).slice(0, 8) }),
+  overview: async () => {
+    const [pages, media, versions] = await Promise.all([site.seoList(), site.listMedia(), history()]);
+    return { pages, media: media.length, history: versions.slice(0, 8) };
+  },
   pages: () => site.seoList(),
   content: (b) => site.content(b.kind, b.slug),
   saveContent: (b) => site.saveContent(b.file, b.hash, b.edits),
@@ -45,6 +48,9 @@ const actions: Record<string, (b: any) => Promise<unknown>> = {
   history: () => history(),
   restore: (b) => restore(b.time, b.file),
 };
+
+/** Actions that only read; they run straight away instead of waiting behind saves. */
+const READS = new Set(["overview", "pages", "content", "record", "redirects", "snippets", "media", "mediaInfo", "history"]);
 
 /** Log-in actions; each returns the session cookie to set. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -77,7 +83,8 @@ export async function POST(req: Request) {
       result = await inTurn(() => site.upload(file, String(form.get("folder") || ""), String(form.get("replace") || ""), form.get("webp") === "1"));
     } else {
       if (!Object.hasOwn(actions, body.action)) throw new AdminError("Unknown action");
-      result = await inTurn(() => actions[body.action](body));
+      // Only changes wait in line; reading never blocks another screen.
+      result = READS.has(body.action) ? await actions[body.action](body) : await inTurn(() => actions[body.action](body));
     }
     return Response.json({ ok: true, result: result ?? null });
   } catch (e) {
