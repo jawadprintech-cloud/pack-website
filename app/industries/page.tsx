@@ -161,7 +161,7 @@ export default function IndustriesPage() {
             </div>
             <div className="cb-cta-actions">
               <a className="cb-btn cb-btn-red" href="#quote">Get a Custom Quote</a>
-              <a className="cb-btn cb-btn-outline" href="/blog/">Explore More Blogs</a>
+              <a className="cb-btn cb-btn-outline" href="/shop/">Explore All Packaging</a>
             </div>
           </div>
         </section>
