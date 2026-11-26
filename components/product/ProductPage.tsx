@@ -7,6 +7,7 @@ import FaqCards from "@/components/FaqCards";
 import products from "@/data/products.json";
 import { categoryPageFor } from "@/data/categories";
 import { reviewLinkProps } from "@/lib/reviewProfiles";
+import { isBagHref } from "@/lib/moq";
 
 export type Block = { t: string; html?: string; items?: string[]; src?: string; alt?: string; head?: string[]; rows?: string[][] };
 export type Product = {
@@ -161,6 +162,7 @@ function renderDescription(blocks: Block[]) {
 export default function ProductPage({ product: p }: { product: Product }) {
   const cat = categoryOf(p);
   const name = p.title.replace(/^Custom\s+/, "");
+  const bag = isBagHref(`/product/${p.slug}/`) || /\bbags?\b/i.test(p.category); // bags have a minimum order
   const gallery = p.gallery.length ? p.gallery : [MB + "hero.webp"];
   const related = relatedFor(p);
   const takeaway = p.takeaway || p.metaDescription || p.intro[0]?.replace(/<[^>]+>/g, "") || "";
@@ -315,7 +317,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                 {p.specs.map(([k, v]) => (
                   <div key={k}><dt>{k}</dt><dd>{v}</dd></div>
                 ))}
-                <div><dt>Order quantity</dt><dd>No minimum order quantity</dd></div>
+                <div><dt>Order quantity</dt><dd>{bag ? "Low MOQ" : "No minimum order quantity"}</dd></div>
               </dl>
             </div>
           </div>
@@ -364,7 +366,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
                   <dt>Size</dt><dd>{spec(p, /dimension/i) || "Custom dimensions"}</dd>
                   <dt>Inserts</dt><dd>{spec(p, /insert/i) || "Available on request"}</dd>
                   <dt>Production</dt><dd>{spec(p, /production|turnaround/i) || "Confirm with your quote"}</dd>
-                  <dt>Minimum order</dt><dd>None</dd>
+                  <dt>Minimum order</dt><dd>{bag ? "Low MOQ" : "None"}</dd>
                 </dl>
               </div>
               <div className="help-aside">
@@ -399,7 +401,7 @@ export default function ProductPage({ product: p }: { product: Product }) {
               <h2>Good things come from working together.</h2>
             </div>
             <div className="partnership-grid">
-              <article><span>01 /</span><h3>{"No minimums.\nRoom to grow."}</h3><p>Order what your project needs, from a small launch to a larger run.</p></article>
+              <article><span>01 /</span><h3>{bag ? "Low MOQ.\nRoom to grow." : "No minimums.\nRoom to grow."}</h3><p>Order what your project needs, from a small launch to a larger run.</p></article>
               <article><span>02 /</span><h3>{"Your idea.\nOur design support."}</h3><p>Get free help with your artwork and packaging layout.</p></article>
               <article><span>03 /</span><h3>{"A fit that’s\nuniquely yours."}</h3><p>Choose custom sizes, printed wraps and finishes for your product.</p></article>
               <article><span>04 /</span><h3>{"Clear proof.\nConfident decisions."}</h3><p>Review your artwork proof before production.</p></article>

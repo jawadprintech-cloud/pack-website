@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import FaqCards from "@/components/FaqCards";
+import { moqLabel } from "@/lib/moq";
 import { QUOTE_ENDPOINT, submitQuote, thankYouUrl } from "@/lib/quote";
 import quoteTickerMarkup from "@/components/quote/quoteTicker";
 
@@ -168,7 +169,7 @@ export function FormatGrid() {
                 </span>
                 <span className="h-format-desc">{f.desc}</span>
                 <span className="h-format-chips">
-                  <span className="h-chip"><span className="h-chip-icon"><Layers /></span>No MOQ</span>
+                  <span className="h-chip"><span className="h-chip-icon"><Layers /></span>{moqLabel(f.href)}</span>
                   <span className="h-chip"><span className="h-chip-icon"><Layers /></span>Free Shipping</span>
                   <span className="h-badge">Instock</span>
                 </span>

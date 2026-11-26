@@ -4,6 +4,7 @@
 // Every category is in the HTML (inactive ones are hidden), so all products stay crawlable; the active tab is
 // reflected in the URL hash (/shop/#food). The search looks through every category.
 import { useEffect, useState, type ReactNode } from "react";
+import { moqLabel } from "@/lib/moq";
 
 type Card = { name: string; href: string; img: string };
 export type ShopTab = { id: string; tab: string; title: string; page?: string; cards: Card[] };
@@ -35,7 +36,7 @@ function Grid({ cards, sort }: { cards: Card[]; sort: Sort }) {
                 <span className="cb-badge">Instock</span>
               </span>
               <span className="cb-chips">
-                <span className="cb-chip"><span className="cb-chip-icon"><LayersIcon /></span>No MOQ</span>
+                <span className="cb-chip"><span className="cb-chip-icon"><LayersIcon /></span>{moqLabel(c.href)}</span>
                 <span className="cb-chip"><span className="cb-chip-icon"><LayersIcon /></span>Free Shipping</span>
               </span>
             </span>

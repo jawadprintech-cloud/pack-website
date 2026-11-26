@@ -2459,6 +2459,7 @@ export const categories: Record<string, CategoryData> = {
       ["Production", "8–12 business days; rush available"],
       ["Shipping", "Standard (Free Shipping) and Rush"],
     ],
+    moqLabel: "Low MOQ",
     faqs: [
       { q: "What materials are used to produce custom mylar bags?", a: "Our mylar bags are made of a high-performance polyester film that combines durability, barrier protection, and flexibility." },
       { q: "Are mylar bags food-safe and compliant?", a: "Yes, the materials we use are FDA-approved for direct food contact, and child-resistant options meet standards for cannabis packaging." },
