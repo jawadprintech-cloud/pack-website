@@ -352,6 +352,7 @@
 .plh .h-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 90px); align-items: center; }
 .plh .h-brands { align-items: start; }
 .plh .h-brands-copy { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; padding-top: 20px; font-size: 1.05rem; color: var(--h-ink); }
+.plh .h-brands-img { display: block; width: 100%; height: auto; margin-top: clamp(20px, 2.4vw, 32px); border-radius: 16px; object-fit: cover; }
 .plh .h-note { margin-top: 22px; padding: 2px 0 2px 16px; border-left: 3px solid var(--h-red); }
 .plh .h-note strong { color: var(--h-ink); }
 .plh .h-note p { margin-top: 4px; }

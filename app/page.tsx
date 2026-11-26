@@ -162,6 +162,14 @@ export default function HomePage() {
             <h2 className="h-display" id="h-brands-title">
               Custom Packaging for Every Stage of Your <em className="h-italic">Business</em>
             </h2>
+            <img
+              className="h-brands-img"
+              src="/images/custom-packaging-for-growing-brands.webp"
+              alt="Custom printed green mailer box with branded skincare products and kraft paper fill"
+              width={750}
+              height={499}
+              loading="lazy"
+            />
           </div>
           <div className="h-brands-copy">
             <p>
